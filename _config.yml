@@ -226,14 +226,14 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
+  GitHub: https://github.com/lihongzheshuai
   Twitter: twitter
   Weibo: weibo
 
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -281,11 +281,25 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
+links_title: Links
 #links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  酷壳: http://coolshell.cn/
+  酸菜鱼: http://www.07q.net/
+  私塾在线学习网: http://sishuok.com/
+  煮酒品茶: http://cwtea.blog.51cto.com
+  点滴技术博客: http://www.wangyuxiong.com/
+  思考者日记网·束洋洋: http://www.shuyangyang.com.cn/
+  开源视窗: http://www.oseye.net/
+  小弟子的网络之路: http://chenpengpeng.blog.51cto.com/
+  寄存心–移动开发: http://www.jicunxin.com/
+  Ticmy's Blog: http://www.ticmy.com/
+  中国程序员人才网: http://www.cxyrc.com/
+  图表秀-在线图表制作: http://www.tubiaoxiu.com/
+  IT热血青年: http://blog.itblood.com/
+  
+  
 
 
 # ---------------------------------------------------------------
@@ -701,3 +715,7 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+
+reward_comment: 谢谢支持
+wechatpay: /assets/onecoder/weixinpay.png
+alipay: /assets/onecoder/zhifubaopay.png
