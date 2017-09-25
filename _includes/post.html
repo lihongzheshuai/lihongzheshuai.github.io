@@ -12,5 +12,22 @@
     {% elsif site.duoshuo_shortname and site.duoshuo_share %}
       {% include _partials/share/duoshuo_share.html %}
     {% endif %}
+	  {% if page.comments %}
+  
+  <div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '{{page.url | prepend: site.url}}', // 可选。默认为 location.href
+  owner: 'lihongzheshuai',
+  repo: 'lihongzheshuai.github.io',
+  oauth: {
+    client_id: '5a8a0917a0b6864109ca',
+    client_secret: '01921d22fe174ef36259d5d9b302f86be720f283',
+  },
+})
+gitment.render('container')
+</script>
   </div>
 </div>
