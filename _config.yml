@@ -233,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /assets/images/avatar.jpg
+avatar: /assets/onecoder/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -716,6 +716,6 @@ images: assets/images
 # Theme version
 version: 5.1.1
 
-reward_comment: 谢谢支持
+reward_comment: Thanks a lot.
 wechatpay: /assets/onecoder/weixinpay.png
 alipay: /assets/onecoder/zhifubaopay.png
