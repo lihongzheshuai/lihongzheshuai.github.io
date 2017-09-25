@@ -19,6 +19,7 @@ Set<String> alphabet = Set.of("a", "b", "c");
 >
 See Creating Immutable Lists, Sets, and Maps in Java Platform, Standard Edition Java Core Libraries Developer's Guide. For API documentation, see Immutable Set Static Factory Methods, Immutable Map Static Factory Methods, and Immutable List Static Factory Methods.
 
+<!--break-->
 
 实际就是在Set、List、Map接口中增加了静态的of函数，快速构造不可变集合。使用样例如下：
 
