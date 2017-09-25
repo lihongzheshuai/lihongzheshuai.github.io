@@ -4,20 +4,21 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: OneCoder
 subtitle:
 description:
-author: John Doe
+author: LiHongZhe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: http://www.coderli.com
 baseurl:
-permalink: pretty
-
+permalink: /:title/
+github_username:  lihongzheshuai
+excerpt_separator: "<!--break-->"
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
@@ -78,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Jekyll, NexT, OneCoder, Java"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -433,7 +434,7 @@ changyan:
 #yandex_site_verification:
 
 # CNZZ count
-#cnzz_siteid:
+cnzz_siteid:4506267
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
@@ -488,8 +489,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  app_id: DDrFLaVPmPSKiXNMnTcmKO07-gzGzoHsz
+  app_key: 5kQM5NK9V8n9aFBO5rjl43TP
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
