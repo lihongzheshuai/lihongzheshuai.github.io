@@ -141,7 +141,7 @@ private E getPoolEntryBlocking(
 
 **httpcomponents-core**  
 [https://github.com/lihongzheshuai/httpcomponents-core](https://github.com/lihongzheshuai/httpcomponents-core)  
-**httpcomponents-client** 
+**httpcomponents-client**  
 [https://github.com/lihongzheshuai/httpcomponents-client](https://github.com/lihongzheshuai/httpcomponents-client)
 
 
