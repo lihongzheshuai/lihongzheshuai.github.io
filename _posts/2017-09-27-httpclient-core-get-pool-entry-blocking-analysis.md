@@ -23,7 +23,7 @@ thread_key: 1912
 
 Apache Httpcomponents-client是一个常用的Http客户端工具包，其底层通过socket绑定到指定目标，通过socket的io流发送和接受http协议相关信息。
 
-出于效率考虑，httpclient底层利用一个连接池将socket连接缓存起来便于复用。本次研究的代码，就是关于httpcomponents-core 从池中获取连接的逻辑判断部分。代码如下：
+出于效率考虑，httpclient底层利用一个连接池将socket连接缓存起来便于复用。本次研究的代码，就是关于httpcomponents-core 从池中获取连接的逻辑判断部分。代码如下（MyLogFactory部分是本人为研究自行添加的日志）：
 
 ```java
 private E getPoolEntryBlocking(
