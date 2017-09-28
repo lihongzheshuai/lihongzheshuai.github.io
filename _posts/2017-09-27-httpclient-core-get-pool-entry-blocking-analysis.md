@@ -11,6 +11,14 @@ thread_key: 1912
 
 <!--break-->
 
+# 问题背景
+
+邮件发送线程阻塞，jstack dump发现如下问题：
+
+![](/images/post/httpcomponents-core-get-pool-entry/jstack-dump.png) 
+
+可见，阻塞发生在Httpcomponents-client内部。于是准备调研一下。
+
 # Httpcomponents-client连接池
 
 Apache Httpcomponents-client是一个常用的Http客户端工具包，其底层通过socket绑定到指定目标，通过socket的io流发送和接受http协议相关信息。
@@ -133,7 +141,13 @@ private E getPoolEntryBlocking(
 
 # 流程分析
 
-![](/images/post/httpcomponents-core-get-pool-entry/httpcore-getPoolEntryBlocking.png)    
+![](/images/post/httpcomponents-core-get-pool-entry/httpcore-getPoolEntryBlocking.png)  
+
+# 问题分析
+
+通过源码阅读，我们已经大概了解的问题发生的过程。由于我们有3个线程同时发送邮件（不好的设计），而该3个线程需要访问同一个route去获取相关信息，而每个route默认的pool count是2。因此，当出现问题连接没有释放的时候，就会出现等待情况。而我们又没有设计等待超时，就会一直等待。
+
+下一步，我准备调研一下，连接释放的逻辑，确定下未释放的原因。
 
 # 关于源码学习
 
