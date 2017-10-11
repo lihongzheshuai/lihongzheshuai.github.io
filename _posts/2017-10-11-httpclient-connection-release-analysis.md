@@ -11,6 +11,8 @@ thread_key: 1913
 
 上篇([Httpcomponents-core 从池中获取连接代码解析](http://www.coderli.com/httpclient-core-get-pool-entry-blocking-analysis/))研究中，我们知道，Httpcomponents-client底层维护了一个socket连接池，对于同一个地址，默认只可以建立2个连接。如果连接不及时释放，就会造成连接池中无可用的连接获取，从而导致请求等待（阻塞）。因此，我们需要关注连接池释放的逻辑。
 
+<!--break-->
+
 ## 释放方式
 
 一个比较常见的方式就通过**EntityUtils**类，比如**EntityUtils.consume**，源码如下：
