@@ -13,6 +13,8 @@ Determine whether an integer is a palindrome. Do this without extra space.
 
 即返回一个数是否是回数。例如：1，1221，12321是回数，负数不是回数。题目特别提醒，不要使用额外的空间，即不要考虑转换成String来处理。
 
+<!--break-->
+
 # Java 实现
 
 ``` java

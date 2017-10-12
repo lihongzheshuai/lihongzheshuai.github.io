@@ -19,6 +19,8 @@ The input is assumed to be a 32-bit signed integer. Your function should return 
 
 即返回一个数的逆序数。
 
+<!--break-->
+
 # Java 实现
 
 ``` java
