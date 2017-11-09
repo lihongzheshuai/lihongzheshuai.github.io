@@ -1,5 +1,5 @@
 ---
-title: LeetCodeClimbing Stairs
+title: LeetCode Climbing Stairs
 tags: [LeetCode,Java]
 date: 2017-11-09 09:48:24 +0800
 comments: true
