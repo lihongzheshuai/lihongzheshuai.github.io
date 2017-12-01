@@ -9,7 +9,8 @@ author: onecode
 学习TensorFlow过程中读的一篇文章，索性就翻译出来，虽然收获感觉不是很大。
 
 原文地址：How TensorFlow Works
-https://github.com/nfmcclure/tensorflow_cookbook/blob/master/01_Introduction/01_How_TensorFlow_Works/01_How_TensorFlow_Works.ipynb
+
+[https://github.com/nfmcclure/tensorflow_cookbook/blob/master/01_Introduction/01_How_TensorFlow_Works/01_How_TensorFlow_Works.ipynb](https://github.com/nfmcclure/tensorflow_cookbook/blob/master/01_Introduction/01_How_TensorFlow_Works/01_How_TensorFlow_Works.ipynb)
 
 <!--break-->
 
@@ -84,3 +85,4 @@ session = tf.Session(graph=graph) session.run(…)
 
 总而言之，TensorFlow上的算法是被设计成可循环的。我们定义这种循环为计算图。（1）通过占位符传递数据，（2）计算计算图的输出，（3）通过损耗函数比较预期和实际输出的差距，（4）参考后台的自动迭代修改模型变量的值，最后（5）重复该过程直到达到结束条件。
 
+![](/images/post/how-tensorflow-work/image.png)
