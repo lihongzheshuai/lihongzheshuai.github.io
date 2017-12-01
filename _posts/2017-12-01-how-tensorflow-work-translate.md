@@ -38,13 +38,18 @@ TensorFlow目前兼容三大主流操作系统（Windows、Linux和Mac）。本�
 2、转换并标准化数据
 
 原始数据通常都不处在TensorFlow需要的正确的维度或类型下。因此，在使用前需要进行转换。大多数算法还会需要标准化数据，我们也会在此时做这些事情。TensorFlow中有内置的函数可以帮助我们标准化数据。
+
+```python
 data = tf.nn.batch_norm_with_global_normalization(...)
+```
 
 3、设置算法参数
 
 我们算法通常会含有一组需要我们在程序中设置的参数。例如，迭代的次数，学习的速率或是其他我们选择的确定的参数。最好是一起初始化这些参数以便用户可以轻易的发现他们。
 
+```python
 learning_rate = 0.01 iterations = 1000
+```
 
 4、初始化变量和占位符
 
@@ -54,24 +59,36 @@ TensorFlow依赖于我们告诉它什么可以修改什么不可以修改。Tens
 
 在有了数据、初始化了变量和占位符之后，我们需要定义模型。这可以通过构造计算图来实现。我们告诉TensorFlow需要在变量和占位符上执行什么操作以达到模型的预期。
 
+```python
 y_pred = tf.add(tf.mul(x_input, weight_matrix), b_matrix)
 [ ] 
+```
+
 6、声明损耗函数
 
 定义模型后，我们必须评估输出。因此，我们需要声明损耗函数。损耗函数可以告诉我们预期结果和实际结果之间的差距。第二张第五部分会介绍不同类型的损耗函数。
 
+```python
 loss = tf.reduce_mean(tf.square(y_actual – y_pred))
+```
 
 7、 初始化并训练模型
 
 现在我们一切就绪，我们创建了一个实例或图并且通过占位符传入数据，然后让TensorFlow改变变量的值以更好的预测和训练数据。这里有一个初始化计算图的方式。
+
+```python
 with tf.Session(graph=graph) as session: 
 ... 
 session.run(...) 
 ...
+```
+
 
 注意，我们也可以通过下面方式初始化图
+
+```python
 session = tf.Session(graph=graph) session.run(…)
+```
 
 8、（可选）评价模型
 当我们构建并训练模型之后，我们需要通过输入新的数据来评价模型在某些特殊场景下的运行情况。
