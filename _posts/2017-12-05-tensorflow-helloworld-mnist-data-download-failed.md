@@ -42,7 +42,7 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 ![正常][3]
 
 
-  [1]: /images/post/tensorflow-mnist/error.jpg
-  [2]: /images/post/tensorflow-mnist/url.jpg
-  [3]: /images/post/tensorflow-mnist/success.jpg
+  [1]: /images/post/tensorflow-mnist-data/error.jpg
+  [2]: /images/post/tensorflow-mnist-data/url.jpg
+  [3]: /images/post/tensorflow-mnist-data/success.jpg
 
