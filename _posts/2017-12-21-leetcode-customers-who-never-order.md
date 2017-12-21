@@ -1,5 +1,5 @@
 ---
-title: Customers Who Never Order
+title: LeetCode Customers Who Never Order
 tags: [LeetCode,SQL]
 date: 2017-12-21 09:55:24 +0800
 comments: true
