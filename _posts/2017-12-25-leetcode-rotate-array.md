@@ -25,8 +25,6 @@ Could you do it in-place with O(1) extra space?
 
 # Python3
 
-## 解法一
-
 ``` python
 # Rotate an array of n elements to the right by k steps.
 #
