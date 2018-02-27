@@ -3543,7 +3543,7 @@ var Gitment = function () {
                 if (!issues.length) return Promise.reject(_constants.NOT_INITIALIZED_ERROR);
                 _this7.state.meta = issues[0];
                 return issues[0];
-            }
+            })
         }
         _this7.state.meta = issues[0];
         return issues[0];
