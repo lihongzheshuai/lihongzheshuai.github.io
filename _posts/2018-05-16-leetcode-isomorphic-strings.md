@@ -43,6 +43,8 @@ You may assume both s and t have the same length.
 
 所有出现的字符都必须用另一个字符替换，同时保留字符的顺序。两个字符不能映射到同一个字符上，但字符可以映射自己本身。
 
+<!--break-->
+
 **示例 1:**
 
 ```
