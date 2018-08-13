@@ -9,6 +9,8 @@ author: onecode
 
 想搞懂的太多，却始终没搞明白。先看一个用Netty编写的NIO Server的样例。
 
+<!--break-->
+
 ```java
 package com.coderli.nettylab.guide;
 
