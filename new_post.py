@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os
 
 posts_dir = "_posts"
