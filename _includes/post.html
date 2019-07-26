@@ -16,18 +16,14 @@
   </div>
   <div id="container"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="/assets/js/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  id: '{{page.url}}', // 可选。默认为 location.href
-  owner: 'lihongzheshuai',
-  repo: 'lihongzheshuai.github.io',
-  oauth: {
-    client_id: '5a8a0917a0b6864109ca',
-    client_secret: '01921d22fe174ef36259d5d9b302f86be720f283',
-  },
-})
-gitment.render('container')
-</script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+ <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'DDrFLaVPmPSKiXNMnTcmKO07-gzGzoHsz',
+            appKey: '5kQM5NK9V8n9aFBO5rjl43TP'
+        })
+    </script>
 {% endif %}
 </div>
