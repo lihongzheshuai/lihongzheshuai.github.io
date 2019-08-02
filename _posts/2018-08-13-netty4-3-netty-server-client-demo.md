@@ -1,5 +1,5 @@
 ---
-title: Netty4自学笔记 (3) - Netty NIO Server & Client 样例说明
+title: Netty4自学笔记 (3) - Netty NIO Server和Client 样例说明
 tags: [Netty,NIO]
 date: 2018-08-13 16:41:24 +0800
 comments: true
