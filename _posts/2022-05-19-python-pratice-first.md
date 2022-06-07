@@ -1,6 +1,6 @@
 ---
 title: 2022-05-19 python练习
-tags: [日记]
+tags: [python]
 date: 2022-05-19 22:56:24 +0800
 comments: false
 author: onecode
