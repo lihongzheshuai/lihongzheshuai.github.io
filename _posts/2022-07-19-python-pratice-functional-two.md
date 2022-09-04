@@ -2,7 +2,7 @@
 title: 2022-07-19 python练习-函数式编程（二）
 tags: [python]
 date: 2022-07-19 22:09:24 +0800
-comments: false
+comments: true
 author: onecode
 ---
 
