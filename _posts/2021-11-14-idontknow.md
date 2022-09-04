@@ -2,7 +2,7 @@
 title: 2021-11-14 - 累了
 tags: [日记]
 date: 2021-11-14 23:41:24 +0800
-comments: false
+comments: true
 author: onecode
 ---
 2021年都要结束了，上一篇文章得时候疫情好像刚刚开始，现在又是新的一轮。
