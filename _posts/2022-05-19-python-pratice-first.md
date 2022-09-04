@@ -2,7 +2,7 @@
 title: 2022-05-19 python练习
 tags: [python]
 date: 2022-05-19 22:56:24 +0800
-comments: false
+comments: true
 author: onecode
 ---
 
