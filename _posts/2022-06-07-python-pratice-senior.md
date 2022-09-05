@@ -1,5 +1,5 @@
 ---
-title: 2022-06-07 python练习-高级特性
+title: python练习-高级特性
 tags: [python]
 date: 2022-06-07 20:18:24 +0800
 comments: true
