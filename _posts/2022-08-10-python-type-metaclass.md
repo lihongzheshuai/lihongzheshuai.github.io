@@ -1,5 +1,5 @@
 ---
-title: 2022-08-10 Python练习-type 和 metaClass
+title: Python练习-type 和 metaClass
 tags: [python]
 date: 2022-08-10 20:20:24 +0800
 comments: true
