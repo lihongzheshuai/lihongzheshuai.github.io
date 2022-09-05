@@ -5,6 +5,8 @@ date: 2022-07-19 22:09:24 +0800
 comments: true
 author: onecode
 ---
+本部门练习Python函数式编程，第二部分。
+<!--more-->
 
 ``` python
 # 1. 返回函数、闭包
