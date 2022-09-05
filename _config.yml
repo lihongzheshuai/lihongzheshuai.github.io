@@ -387,7 +387,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics:c38895d905174718ae7d95e42ce528c7
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -448,7 +448,7 @@ changyan:
 #yandex_site_verification:
 
 # CNZZ count
-cnzz_siteid: 4506267
+# cnzz_siteid: 4506267
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
