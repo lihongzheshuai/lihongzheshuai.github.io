@@ -1,5 +1,5 @@
 ---
-title: 2022-06-20 python练习-函数式编程（一）
+title: python练习-函数式编程（一）
 tags: [python]
 date: 2022-06-20 23:00:24 +0800
 comments: true
