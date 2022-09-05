@@ -1,5 +1,5 @@
 ---
-title: 2022-08-08 Python练习-定制类和枚举
+title: Python练习-定制类和枚举
 tags: [python]
 date: 2022-08-08 20:20:24 +0800
 comments: true
