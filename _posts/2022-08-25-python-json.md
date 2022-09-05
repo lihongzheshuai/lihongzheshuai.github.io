@@ -6,7 +6,7 @@ comments: true
 author: onecode
 ---
 本部门学习Python的json转换操作。跟之前学的通过bytes的序列化接口非常类似。只是在类转换的时候略有不同。
-<!--more-->
+
 # 一、dict对象转换
 对于dict对象，可直接进行通过json.dumps/json.dump接口转换字符串或保存到文件中。
 ```python
@@ -16,6 +16,7 @@ json_file_path = os.path.join(pwd, "resources", "json_demo")
 with open(json_file_path, "w") as jfile:
     json.dump(d, jfile)
 ```
+<!--more-->
 输出为：
 ```
 {"name": "Bob", "age": 18}
