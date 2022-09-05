@@ -18,7 +18,7 @@ url: http://www.coderli.com
 baseurl:
 permalink: /:title/
 github_username:  lihongzheshuai
-excerpt_separator: "<!--break-->"
+excerpt_separator: "<!--more-->"
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
