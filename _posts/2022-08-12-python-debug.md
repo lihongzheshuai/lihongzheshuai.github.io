@@ -195,7 +195,7 @@ def fact(n):
     return n * fact(n - 1)
  ```
  直接运行获得错误信息如下：
- <pre>
+```
  Error
 **********************************************************************
 File "C:\Users/lihongzhe/PycharmProjects/pyforwork/demo\testDocs.py", line 50, in fact
@@ -210,9 +210,9 @@ Exception raised:
       File "C:\Users/lihongzhe/PycharmProjects/pyforwork/demo\testDocs.py", line 54, in fact
         raise ValueError()
     ValueError
- </pre>
+```
  
-  <pre>
+```
  Failure
 <Click to see difference>
 
@@ -224,7 +224,7 @@ Expected:
     ?
 Got:
     3628800
- </pre>
+```
  根据错误信息，修改注释代码如下：
  ```python
  def fact(n):
