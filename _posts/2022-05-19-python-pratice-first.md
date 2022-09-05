@@ -1,5 +1,5 @@
 ---
-title: 2022-05-19 python练习
+title: python练习-Hello World
 tags: [python]
 date: 2022-05-19 22:56:24 +0800
 comments: true
