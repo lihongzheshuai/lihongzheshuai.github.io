@@ -89,7 +89,11 @@ Traceback (most recent call last):
     return int(s)
 ValueError: invalid literal for int() with base 10: ' 7.6'
 </pre>
+
+
 可以看到，错误是因为用int()函数对非整数进行了强转，因此改为float()即可。改后输出如下：
+
+
 <pre>
 100 + 200 + 345 = 645.0
 99 + 88 + 7.6 = 194.6 
