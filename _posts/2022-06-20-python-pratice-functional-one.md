@@ -5,6 +5,8 @@ date: 2022-06-20 23:00:24 +0800
 comments: true
 author: onecode
 ---
+本部分练习Python函数式编程。练习高阶函数、map、reduce等常用函数。
+<!--more-->
 
 ``` python
 # 1. 高阶函数
