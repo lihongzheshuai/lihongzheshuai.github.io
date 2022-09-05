@@ -1,5 +1,5 @@
 ---
-title: 2022-08-01 Python练习-高级面向对象
+title: 2022-08-07 Python练习-高级面向对象
 tags: [python]
 date: 2022-08-07 20:20:24 +0800
 comments: true
