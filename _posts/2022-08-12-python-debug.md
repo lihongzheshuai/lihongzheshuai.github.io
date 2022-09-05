@@ -13,7 +13,7 @@ pdb调试/pdb.settrace()
 unittest单元测试等。
 样例代码如下：
 <!--more-->
-···python
+```python
 # 程序调试
 # 1.用断言
 import pdb
