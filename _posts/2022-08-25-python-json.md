@@ -21,7 +21,7 @@ with open(json_file_path, "w") as jfile:
 {"name": "Bob", "age": 18}
 ```
 文件内内容为：
-![json文件内容图片](/images/python-json/2022-09-05_14-46-20-python-json-demo-1.png "Json文件内容")
+![json文件内容图片](/images/post/2022-09-05_14-46-20-python-json-demo-1.png "Json文件内容")
 
 同样，从json或文件转换为json对象代码如下：
 ```python
