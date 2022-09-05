@@ -6,7 +6,7 @@ comments: true
 author: onecode
 ---
 本部分练习Python高级面向对象内容，主要学习__slots__和@property相关用法，详见代码：
-
+<!--more-->
 ```python
 # 1. 使用__slots__，限制允许动态绑定到实例上的属性或方法
 from types import MethodType
@@ -16,7 +16,7 @@ class Student():
     # 使用__slot__ 限制绑定属性，只允许绑定如下属性或者方法。
     __slots__ = ("age", "set_age")
     pass
-<!--more-->
+
 
 # 给实例绑定属性，对其他实例无效
 stu1 = Student()
