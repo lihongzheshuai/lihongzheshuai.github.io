@@ -77,7 +77,7 @@ def main():
 main()
 ```
 上述代码中，最后的练习部分，异常堆栈输出为：
-<pre>
+```
 Traceback (most recent call last):
   File "C:\Users\lihongzhe\PycharmProjects\pyforwork\demo\errorHandling.py", line 63, in <module>
     main()
@@ -88,13 +88,13 @@ Traceback (most recent call last):
   File "C:\Users\lihongzhe\PycharmProjects\pyforwork\demo\errorHandling.py", line 47, in str2num
     return int(s)
 ValueError: invalid literal for int() with base 10: ' 7.6'
-</pre>
+```
 
 
 可以看到，错误是因为用int()函数对非整数进行了强转，因此改为float()即可。改后输出如下：
 
 
-<pre>
+```
 100 + 200 + 345 = 645.0
 99 + 88 + 7.6 = 194.6 
-</pre>
+```
