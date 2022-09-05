@@ -51,8 +51,8 @@ my_stu.study("Python")
 ```
 输出如下：
 <!--more-->
-<pre>
+```
 <class '__main__.Student'>
 Hello: Coder
 OneCoder is studying Python
-</pre>
+```
