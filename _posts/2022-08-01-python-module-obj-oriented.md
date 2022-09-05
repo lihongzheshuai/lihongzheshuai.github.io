@@ -1,5 +1,5 @@
 ---
-title: 2022-08-01 Python练习-模块和初级面像对象
+title: Python练习-模块和初级面像对象
 tags: [python]
 date: 2022-08-01 20:20:24 +0800
 comments: true
