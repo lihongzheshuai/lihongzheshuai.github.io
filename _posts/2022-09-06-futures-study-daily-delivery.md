@@ -1,7 +1,7 @@
 ---
 title: 期货业务学习-每日选择交割
 tags: [期货]
-date: 2022-09-06 22:07:24 +0800
+date: 2022-09-07 08:02:24 +0800
 comments: true
 author: onecode
 ---
@@ -25,10 +25,7 @@ author: onecode
 
 1. 卖方申报交割
 
-```
-flowchart LR
-    卖方客户 --> 卖方会员\n&lt交割月第一个交易日至最后交易日前一个交易日每天11:30前&gt --> 交易所
-```
+![卖方申报交割流程](/images/post/futures-study/futures-daily-delivery-seller-apply-2022-09-07.png)
 
 
 
@@ -38,10 +35,8 @@ flowchart LR
 
 2. 买房申报意向
 
-```
-flowchart LR
-    买方客户\n&lt在交割月第一个交易日至最后一个交易日前一交易日闭市前&gt --> 交易所
-```
+![买方申报交割流程](/images/post/futures-study/futures-daily-delivery-buyer-apply-2022-09-07.png)
+
 持有交割月单向买持仓用户，在交割月第一个交易日至最后一个交易日前一交易日闭市前，向交易所申报交割意向。可申报两个交割意向。
 
 3. 交割配对
@@ -55,13 +50,7 @@ flowchart LR
 配对日后的第2个交易日是交收日。生猪和鸡蛋的具体交收流程可查阅相关业务细则。
 
 附：生猪标仓交割流程主要环节：
-```
-flowchart LR
-    注销仓单 --> 规定到达日&lt货主应在标仓注销日后第2个自然日到达厂库提货&gt --> 清洗消毒and质量检验 --> 装车完成交收
-```
+![生猪标准仓单交割主要流程](/images/post/futures-study/futures-daily-delivery-warehouse-2022-09-07.png)
 
 生猪车板交割流程主要环节：
-```
-flowchart LR
-    规定到达日&lt货主应在标仓注销日后第2个自然日到达指定车板交割场所&gt --> 清洗消毒and质量检验 --> 装车完成交收
-```
+![车板交割主要流程](/images/post/futures-study/futures-daily-delivery-truck-2022-09-07.png)
