@@ -25,7 +25,7 @@ author: onecode
 
 1. 卖方申报交割
 
-![卖方申报交割流程](/images/post/futures-study/futures-daily-delivery-seller-apply-2022-09-07.png)
+![卖方申报交割流程](/images/post/futures-study/futures-daily-delivery-seller-apply-2022-09-07.png "卖方申报交割流程")
 
 
 
@@ -35,7 +35,7 @@ author: onecode
 
 2. 买房申报意向
 
-![买方申报交割流程](/images/post/futures-study/futures-daily-delivery-buyer-apply-2022-09-07.png)
+![买方申报交割流程](/images/post/futures-study/futures-daily-delivery-buyer-apply-2022-09-07.png "买方申报交割流程")
 
 持有交割月单向买持仓用户，在交割月第一个交易日至最后一个交易日前一交易日闭市前，向交易所申报交割意向。可申报两个交割意向。
 
@@ -50,7 +50,7 @@ author: onecode
 配对日后的第2个交易日是交收日。生猪和鸡蛋的具体交收流程可查阅相关业务细则。
 
 附：生猪标仓交割流程主要环节：
-![生猪标准仓单交割主要流程](/images/post/futures-study/futures-daily-delivery-warehouse-2022-09-07.png)
+![生猪标准仓单交割主要流程](/images/post/futures-study/futures-daily-delivery-warehouse-2022-09-07.png "生猪标准仓单交割主要流程")
 
 生猪车板交割流程主要环节：
-![车板交割主要流程](/images/post/futures-study/futures-daily-delivery-truck-2022-09-07.png)
+![生猪车板交割主要流程](/images/post/futures-study/futures-daily-delivery-truck-2022-09-07.png "生猪车板交割主要流程")
