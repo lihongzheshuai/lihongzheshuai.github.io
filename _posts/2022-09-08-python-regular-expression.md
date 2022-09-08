@@ -1,5 +1,5 @@
 ---
-title: Python练习-正贼表达式
+title: Python练习-正则表达式
 tags: [python]
 date: 2022-09-08 13:20:24 +0800
 comments: true
