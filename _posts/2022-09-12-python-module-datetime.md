@@ -25,10 +25,10 @@ print(type(date))
 <!--more-->
 
 输出如下
-> 2022-09-12 22:02:09.479743
-> <class 'datetime.datetime'>
-> 2022-09-09 18:53:22
-> <class 'datetime.datetime'>
+> 2022-09-12 22:02:09.479743  
+> <class 'datetime.datetime'>  
+> 2022-09-09 18:53:22  
+> <class 'datetime.datetime'>  
 
 通过datetime对象可以直接获取到时间戳，注意Python的时间戳是精确到秒的，Java、JS等的时间戳都是精确到毫秒
 ```python
@@ -42,9 +42,9 @@ print(datetime.fromtimestamp(tm))
 print(datetime.utcfromtimestamp(tm))
 ```
 输出如下：
-> 1662720802.0
-> 2022-09-09 18:53:22
-> 2022-09-09 10:53:22
+> 1662720802.0  
+> 2022-09-09 18:53:22  
+> 2022-09-09 10:53:22  
 
 跟Java等一样，Python这类以开发效率著称的语言，自然会提供通过字符串转换为datetime的操作
 ```python
@@ -58,8 +58,8 @@ tm_str = date.strftime("%b-%d %a %H:%M:%S")
 print("Timestamp string is:", tm_str)
 ```
 输出：
-> 2022-09-12 14:46:34
-> Timestamp string is: Sep-09 Fri 18:53:22
+> 2022-09-12 14:46:34  
+> Timestamp string is: Sep-09 Fri 18:53:22  
 
 具体字符串格式代码可参考：[https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior](https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior)
 
@@ -82,11 +82,11 @@ ty_dt = bj_dt.astimezone(timezone(timedelta(hours=9)))
 print(ty_dt)
 ```
 输出
-> UTC+08:00
-> 2022-09-09 18:53:22+08:00
-> 2022-09-12 14:02:09.484005+00:00
-> 2022-09-12 22:02:09.484005+08:00
-> 2022-09-12 23:02:09.484005+09:00
+> UTC+08:00  
+> 2022-09-09 18:53:22+08:00  
+> 2022-09-12 14:02:09.484005+00:00  
+> 2022-09-12 22:02:09.484005+08:00  
+> 2022-09-12 23:02:09.484005+09:00  
 
 最后做个练习：
 > 练习
