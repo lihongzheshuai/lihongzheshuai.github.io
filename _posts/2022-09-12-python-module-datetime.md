@@ -5,7 +5,7 @@ date: 2022-09-12 22:10:24 +0800
 comments: true
 author: onecode
 ---
-本部门学习Python常用内置模块datetime。通过datetime模块，我们可以很方便的操作日期、时间戳已经时区转换等操作。
+本部分学习Python常用内置模块datetime。通过datetime模块，我们可以很方便的操作日期、时间戳已经时区转换等操作。
 
 构建datetime对象
 ```python
