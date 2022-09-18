@@ -44,7 +44,7 @@ print(b_code)
 print(base64.b64encode(b'i\xb7\x1d\xfb\xef\xff'))
 ```
 输出
-> b'abcd++//'
+> b'abcd++//'  
 > b'abcd--__'
 
 由于=号也有可能在Cookie，URL中造成歧义，因此也有的base64编码将=号去掉。因为Base64是把3个字节变为4个字节，所以，Base64编码的长度永远是4的倍数，因此，需要加上=把Base64字符串的长度变为4的倍数，就可以正常解码了。
