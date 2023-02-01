@@ -13,6 +13,7 @@ author: onecoder
 
 2023年，祝自己好运，心想事成。
 
+<!--more-->
 
 ```python
 import tkinter as tk
