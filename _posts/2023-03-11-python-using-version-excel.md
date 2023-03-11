@@ -8,6 +8,8 @@ author: onecoder
 
 最新工作很忙，需要做一个整体项目和版本排期的大表。幸亏之前学了一点Python，尝试用Python处理数学，生成所需要表格。主要用到了pandas、xlsxwriter等工具包。代码并不具备什么通用性，可能写的也很啰嗦，不过好在也算用Python为自己做了一项实用的工作。下面代码中，一些工作信息隐去了。
 
+<!--more-->
+
 ```python
 from datetime import datetime
 
