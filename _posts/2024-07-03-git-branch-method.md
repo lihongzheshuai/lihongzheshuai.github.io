@@ -1,13 +1,13 @@
 ---
 layout: post
-title: git分支管理基本原理
+title: Git分支管理基本原理
 date: 2024-07-03 13:38 +0800
 author: onecoder
 comments: true
 tags: [svn,git]
 thread_key: 202407031338
 ---
-上文已讨论过[svn分支管理的基本原理](https://www.coderli.com/svn-branch-method/)，本文将继续探讨git分支管理的基本原理，以便后续进行进一步的理解和对比：
+上文已讨论过[svn分支管理的基本原理](https://www.coderli.com/svn-branch-method/)，本文将继续探讨Git分支管理的基本原理，以便后续进行进一步的理解和对比：
 <!--more-->
 
 Git 的分支创建原理与 SVN 有很大的不同。Git 的分支是轻量级指针，指向特定的提交对象。以下是 Git 创建分支的基本原理和详细步骤：
