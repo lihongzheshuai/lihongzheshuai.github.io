@@ -10,6 +10,7 @@ thread_key: 202407031834
 在Oracle官网下载Java Development Kit (JDK)安装包时，针对 Windows 操作系统，除zip压缩包外，安装包通常有两种格式：.exe 和 .msi。
 ![jdk-installer](/images/post/jdk-installer/jdk-installer.png)
 这两种安装包在使用体验和功能上有一些区别。下面详细解释它们的区别：
+<!--more-->
 # .exe 安装包
 1. 安装过程:
     - .exe 安装包通常会提供一个向导式的安装界面，用户需要通过点击“下一步”按钮逐步完成安装。
