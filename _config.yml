@@ -250,6 +250,7 @@ toc:
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
+  max_items: 100
 
 
 # Creative Commons 4.0 International License.
