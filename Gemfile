@@ -9,4 +9,3 @@ gem "jekyll-feed"
 gem "jekyll-paginate"
 gem 'jekyll-toc'
 gem 'jekyll-read-time'
-gem 'jekyll-word-count'
