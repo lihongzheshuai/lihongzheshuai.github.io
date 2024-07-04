@@ -3,4 +3,4 @@ _site
 .jekyll-metadata
 .vercel
 .jekyll-cache
-.Gemfile.lock
+Gemfile.lock
