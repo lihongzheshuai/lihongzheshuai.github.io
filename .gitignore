@@ -2,3 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 .vercel
+.jekyll-cache
+.Gemfile.lock
