@@ -75,8 +75,6 @@ plugins:
  - jekyll-seo-tag
  - jekyll-paginate
  - jekyll-toc
- - jekyll-word-count
- - jekyll-read-time
 
 # ---------------------------------------------------------------
 # Site Information Settings
