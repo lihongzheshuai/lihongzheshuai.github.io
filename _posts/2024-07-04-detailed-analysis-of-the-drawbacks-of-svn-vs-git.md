@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 详解SVN与Git相比存在的弊端
+title: 详解SVN与Git相比存在的不足
 date: 2024-07-04 09:42 +0800
 author: onecoder
 comments: true
@@ -10,12 +10,12 @@ thread_key: 202407040942
 截至目前，我们已既从整理梳理的SVN和Git在设计理念上的差异，也重点对二者的存储原理和分支管理理念的差异进行深入分析。这些差异也直接造成了SVN和Git在分支合并、冲突解决、历史记录管理以及网络依赖等方面功能的显著区别，也彰显了Git的强大之处，因此最后我们详细总结分析，也算做个阶段性的学习小结：
 <!--more-->
 
-# 一、分支合并
+# 一、分支合并场景
 在没有冲突的情况下，SVN 的分支合并比 Git 繁琐，主要体现在以下几个方面：
 ## （一）SVN分支合并问题梳理
 ### 1. 版本范围的指定
 在 SVN 中，合并操作需要手动指定要合并的版本范围。每次合并都需要明确指出从哪个版本开始到哪个版本结束，而 Git 则自动处理这些细节。
-#### SVN 示例
+
 假设我们有一个分支 feature1，需要将其合并回 trunk。
 首先，我们需要找到 feature1 分支从 trunk 分离的起始版本，然后找到 feature1 分支的最新版本。
 ```bash
@@ -29,7 +29,7 @@ svn commit -m "Merge feature1 into trunk"
 ```
 ### 2. 合并记录的管理
 在 SVN 中，合并操作需要手动管理合并记录，以避免重复合并。SVN 1.5 及以上版本引入了合并信息（mergeinfo）属性，但在实际操作中，管理这些属性仍然比较复杂和繁琐。
-#### SVN 示例
+
 在合并时，SVN 会尝试更新合并信息属性：
 ```bash
 svn propget svn:mergeinfo .
@@ -37,7 +37,7 @@ svn propget svn:mergeinfo .
 需要确保这些属性正确更新，防止重复合并和冲突。
 ### 3. 手动处理合并后的提交
 在 SVN 中，合并操作完成后，需要手动提交合并结果。Git 则在合并时自动处理这些提交。
-#### SVN 示例
+
 合并后，需要手动检查并提交：
 ```bash
 svn status
@@ -45,7 +45,7 @@ svn commit -m "Merge feature1 into trunk"
 ```
 ### 4. 操作的复杂性和步骤多
 在 SVN 中，合并操作涉及多个步骤，每一步都需要与服务器进行通信，这增加了操作的复杂性和时间成本。
-#### SVN 示例
+
 完整的合并过程包括：
 1. 检出目标分支（例如 trunk）：
     ```bash
@@ -91,7 +91,7 @@ svn commit -m "Merge feature1 into trunk"
    
 这些因素使得 SVN 的分支合并操作比 Git 更加繁琐和复杂。
 
-# 二、冲突解决
+# 二、冲突解决场景
 在冲突解决方面，Git 比 SVN的优势主要体现在两个方面：一是某些场景下可能SVN会提示冲突但Git可以自动解决合并；二是在同样解决冲突的情况下Git提供更强大而便利的工具。
 
 ## （一）SVN与Git冲突不一致的场景
@@ -102,7 +102,6 @@ svn commit -m "Merge feature1 into trunk"
 #### 场景描述
 两个分支对同一个文件的不同部分进行了修改。
 
-#### 示例
 假设我们有一个文件 file.txt，初始内容如下：
 ```plaintext
 Line 1
@@ -142,7 +141,6 @@ git merge feature
 #### 场景描述
 一个分支对文件进行了重命名，另一个分支对同一个文件进行了内容修改。
 
-#### 示例
 假设我们有一个文件 file.txt，初始内容如下：
 ```plaintext
 Initial content
@@ -175,7 +173,6 @@ git merge feature
 #### 场景描述
 一个分支将文件移动到新的目录，另一个分支对同一个文件进行了内容修改。
 
-#### 示例
 假设我们有一个文件 file.txt，初始内容如下：
 ```plaintext
 Initial content
@@ -209,7 +206,6 @@ git merge feature
 #### 场景描述
 一个分支对项目的目录结构进行了修改，另一个分支对某些文件进行了修改。
 
-#### 示例
 假设我们有一个项目目录结构如下：
 ```plaintext
 /project
@@ -250,7 +246,6 @@ Git 在冲突解决方面比 SVN 更强大，主要体现在以下几个方面�
 #### Git 的三方合并算法
 Git 使用三方合并算法（Three-way Merge），这是处理冲突的关键技术。三方合并算法利用三个点：两个分支的最新提交和它们的共同祖先提交。通过比较这三个点，Git 可以更准确地检测冲突并合并更改。
 
-#### 示例
 假设有以下提交历史：
 ```plaintext
 A---B---C (main)
@@ -264,7 +259,6 @@ A---B---C (main)
 #### Git 的冲突标记
 当发生冲突时，Git 会在冲突文件中插入冲突标记，清晰地显示冲突的具体位置和内容。用户可以直接在冲突文件中查看和编辑冲突部分。
 
-#### 示例
 假设在 main 和 feature 中对同一个文件 file.txt 进行了不同的修改，合并时发生冲突。Git 会在 file.txt 中插入冲突标记：
 ```plaintext
 <<<<<<< HEAD
@@ -280,7 +274,6 @@ A---B---C (main)
 #### Git 的 git mergetool
 Git 提供了 git mergetool 命令，可以集成多种图形化冲突解决工具，如 KDiff3、Meld、P4Merge 等。这些工具提供图形界面，帮助用户直观地查看和解决冲突。
 
-#### 示例
 当发生冲突时，使用 git mergetool 启动冲突解决工具：
 ```plaintext
 git mergetool
@@ -292,7 +285,6 @@ git mergetool
 #### Git 的自动化合并
 Git 能够自动检测并合并大部分更改，减少手动操作。当两个分支没有冲突时，Git 会自动合并这些更改，不需要用户干预。
 
-#### 示例
 ```plaintext
 git checkout main
 git merge feature
@@ -304,7 +296,6 @@ Git 提供多种合并策略，帮助用户根据具体情况选择最合适的�
 - --squash：将所有合并的提交压缩成一个提交。
 - --no-ff：禁止快速前进合并，确保生成一个合并提交。
   
-#### 示例
 ```plaintext
 git merge --squash feature
 git commit -m "Squashed merge of feature"
@@ -318,7 +309,6 @@ git merge --no-ff feature
 #### Git 的合并日志
 Git 的 git log 命令提供详细的合并日志，帮助用户理解和追踪合并过程中的变化。用户可以使用 --merge 选项查看合并相关的日志：
 
-#### 示例
 ```plaintext
 git log --merge
 ```
@@ -329,7 +319,6 @@ git log --merge
 #### Git 的重做和撤销功能
 Git 提供了方便的重做和撤销功能，如 git reset、git revert 和 git cherry-pick，帮助用户在解决冲突过程中进行调整和修正。
 
-#### 示例
 ```plaintext
 # 重置到上一个提交，撤销合并
 git reset --hard HEAD~1
