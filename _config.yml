@@ -21,6 +21,12 @@ baseurl:
 permalink: /:title/
 github_username:  lihongzheshuai
 excerpt_separator: "<!--more-->"
+
+#QQ Group
+qq:
+  add_group_url: https://qm.qq.com/q/bveoRTWURG
+  group_qr_code: /images/qrcode_javagroup.jpg
+
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
