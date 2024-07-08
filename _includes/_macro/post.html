@@ -327,12 +327,16 @@
       </script>
         {% if site.qq.add_group_url %}
         <div><a href="{{site.qq.add_group_url}}" style="font-size: larger; font-weight: bold; color: #4a6de7;">交流探讨，加入群聊【Java学习交流(982860385)】</a></div>
-        {% endif  %}
+        {% endif %}
         {{ post.content }}
       {% endif  %}
     </div>
     <div style="margin:20px auto;text-align: center;">
-      {% if is_index == nil or is_index == false and site.qq.add_group_url %}
+      {% if site.wechat.pub_qr_code and (is_index == nil or is_index == false) %}
+        dddd
+        <img src="{{site.wechat.pub_qr_code}}" style="height: 400px;"/>
+      {% endif %}
+      {% if site.qq.add_group_url and (is_index == nil or is_index == false) %}
         <img src="{{site.qq.group_qr_code}}" style="width: 300px;height: 400px;"/>
         <a href="{{site.qq.add_group_url}}" style="font-size: large; font-weight: bold; color: #4a6de7;">加入群聊【Java学习交流(982860385)】</a>
       {% endif %}
