@@ -76,4 +76,5 @@ thread_key: 1014
 
 好吧，从技术上讲，可以，我相信他可以。事实上，早期的实现者想用**high-endian**和**low-endian**两种模式保存**Unicode**字符码，不论哪种方式都是他们特定的CPU最快的处理方式。呵呵，夜以继日，现在就有了两种保存**Unicode**的方式。	
 
-未完待续&hellip;&hellip;
+
+续：[**OneCoder翻译 每个程序员必知的知识，UniCode和字符集(下)**](https://www.coderli.com/translate-unicode-encoding-parttwo/)
