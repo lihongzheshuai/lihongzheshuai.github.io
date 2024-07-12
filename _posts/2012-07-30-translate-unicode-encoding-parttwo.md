@@ -73,4 +73,4 @@ thread_key: 1020
 
 这篇文章已经好长了。(<a href="http://www.coderli.com/" target="\_blank">OneCoder</a>注：确实太长了，累吐血了。) 我不可能面面俱到的介绍关于字符编码和 **Unicode**的一切，但是，我仅希望，如果你读到了这里，你可以拥有足够知识去开发程序了。用抗生素治病，而不要用水蛭和符咒了，剩下的，就靠你自己了，孩子。
 
-<a href="http://www.coderli.com/" target="\_blank">OneCoder</a>注：头一次翻译，感觉翻译的很生硬，错误也再所那面，望多多指教。</div>
+<a href="http://www.coderli.com/" target="\_blank">OneCoder</a>注：头一次翻译，感觉翻译的很生硬，错误也再所那面，望多多指教。
