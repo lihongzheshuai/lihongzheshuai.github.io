@@ -25,10 +25,10 @@ excerpt_separator: "<!--more-->"
 #QQ Group
 qq:
   add_group_url: https://qm.qq.com/q/bveoRTWURG
-  group_qr_code: /images/qrcode_javagroup.jpg
+  # group_qr_code: /images/qrcode_javagroup.jpg
 
-# wechat:
-  # pub_qr_code: /images/qrcode_for_pub.png
+wechat:
+  pub_qr_code: /images/wechat_pub_code.png
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
