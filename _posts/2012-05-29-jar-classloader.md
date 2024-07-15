@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java文件读取 jar包内文件读取。
+title: Java文件读取 jar包内文件读取
 date: 2012-05-29 22:12 +0800
 author: onecoder
 comments: true
