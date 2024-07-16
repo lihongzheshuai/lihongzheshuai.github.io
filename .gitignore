@@ -4,3 +4,5 @@ _site
 .vercel
 .jekyll-cache
 Gemfile.lock
+urls.txt
+push_post.py
