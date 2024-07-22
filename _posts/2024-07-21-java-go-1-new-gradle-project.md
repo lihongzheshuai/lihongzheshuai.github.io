@@ -75,7 +75,7 @@ The org.gradle.api.plugins.Convention type has been deprecated. This is schedule
  (Run with --stacktrace to get the full stack trace of this deprecation warning.)
 ```
 
-这里意思时说，org.gradle.api.plugins.Convention 类型在 Gradle 9.0 中即将被移除，因此你需要更新构建脚本，以避免使用已弃用的 API。在Gradle 9.0版本中 Convention API 将替换为新的 Extension API。而且问题出在HelloWorldMain_main__1.gradle这个文件的第27行。
+这里意思时说，org.gradle.api.plugins.Convention 类型在 Gradle 9.0 中即将被移除，因此你需要更新构建脚本，以避免使用已弃用的 API。在Gradle 9.0版本中 Convention API 将替换为新的 Extension API。而且问题出在HelloWorldMain_main__1.gradle这个文件的第27行。按路径找到自动生成的这个脚本文件:
 
 ```kotlin
     def gradlePath = ':'
@@ -139,7 +139,21 @@ args 'all'
     }
 ```
 
-果然发现了convention相关的代码。
+果然在27行发现了废弃的convention相关代码：
 
+```groovy
+ if(projectPath == gradlePath && project?.convention?.findPlugin(JavaPluginConvention)) {
+```
 
-可是，我的配置文件中目前都是初始化配置，并没有查到关于project.convention.xx的相关配置。根据信息，继续通过--stacktrace查看更信息的信息。
+出于强迫着，就这个问题，我也搜索了很久。我虽然知道这个脚本是自动生成的，不过也试图看看有没有办法配置自动生成的配置，目前尚未找到解决方案，大胆猜测，随着Gradle升级到9.0版本，自动生成脚本的程序也应该随之修改吧。
+
+暂且忽略该警告，我们就初步完成了一个通过Gradle配置的项目的初始化。通过IDEA中的Git插件，配置远端地址后，将初始化代码推送到Github上。
+
+![提交到github](../images/post/java-go-1-new-gradle-project/share-to-git.png)
+
+至此，第一步启动工作就算暂且完成了。这里其实遗留了很多细小但我觉得相对有趣的点准备下一步细细研究分享，如：
+1. 初始化项目中有很很多配置文件，每个配置文件的定位和作用是什么？
+2. 对于这类项目的协作，在.gitignore中究竟配置哪些路径和文件？为什么？比如目前我还将.idea文件夹中的文件按默认配置纳入git版本管理，是否应该这样？
+3. 起步阶段，通过Gradle编译的项目应该执行的task有哪些？
+
+问题很多，慢慢研究。一起起步吧。
