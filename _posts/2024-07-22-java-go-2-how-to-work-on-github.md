@@ -4,7 +4,7 @@ title: 一起学Java(2)-如何利用Github进行项目代码fork和协作同步
 date: 2024-07-22 22:07 +0800
 author: onecoder
 comments: true
-tags: [java,git]
+tags: [java,git,一起学Java]
 ---
 在第一步中（[一起学Java(1)-新建一个Gradle管理的Java项目](https://www.coderli.com/java-go-1-new-gradle-project/)）我们已经完成了项目的创建并托管到了Github上。现在自然要首先解决同学们如何下载代码和进行代码同步更新和联系的问题。这就涉及到Git的fork理念和协作模式的问题。具体介绍如下。
 <!--more-->
