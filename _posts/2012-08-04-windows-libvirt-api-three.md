@@ -44,7 +44,7 @@ qemu://10.4.54.10(因为默认就是走tls的)
 
 2. 解压下载的工具。通过命令行进入**\bin**目录(或者将该**bin**目录配置到环境变量的**path**即可在任意路径访问)：
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKLekN/GyTui.jpg)
+![](/images/oldposts/GyTui.jpg)
 
 3. 首先为你的证书生成私钥：
 
@@ -54,7 +54,7 @@ qemu://10.4.54.10(因为默认就是走tls的)
 certtool --generate-privkey > cakey.pem
 ```
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKLfpd/15v6oh.jpg)
+![](/images/oldposts/15v6oh.jpg)
 
 然后，为你证书进行自签名。
 
@@ -70,18 +70,18 @@ certtool --generate-self-signed --load-privkey cakey.pem   --template ca.info --
 
 先在当前路径下创建一个叫**ca.info**的文件，里面写上如上第一段内容，
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKKEiy/dcm8W.jpg)
+![](/images/oldposts/dcm8W.jpg)
 
 然后执行第二段引用所示命令：
 	
-![](http://onecoder.qiniudn.com/gnutls-bat-console.jpg)	
+![](/images/oldposts/gnutls-bat-console.jpg)	
 报错。这下头疼了。。笔者翻箱倒柜，翻江倒海找了一通。。实在没有找到答案。。。考虑到证书的制作过程中没有与机器相关的信息，所以，决定求助笔者非常不熟悉的**linux**。掏出**putty**，登录，重新执行上面第一个命令。生成私钥：
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKLA1S/nT1dV.jpg)
+![](/images/oldposts/nT1dV.jpg)
 
 然后同样按照上面的方式进行签名，果然轻松成功！	
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKLP2I/cMkws.jpg)
+![](/images/oldposts/cMkws.jpg)
 
 此时已经可以删除**ca.info**文件了。继续生成证书，接下来开始生成服务端私钥：
 
@@ -89,7 +89,7 @@ certtool --generate-self-signed --load-privkey cakey.pem   --template ca.info --
 certtool --generate-privkey > serverkey.pem
 ```
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKLA1S/nT1dV.jpg)
+![](/images/oldposts/nT1dV.jpg)
 
 然后签名：
 
@@ -113,7 +113,7 @@ signingkey
 
 如果不知道主机名，用ip当然也是可以的。那么你的访问就是通过IP访问了。：）	
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKM6NF/Obxaz.jpg)
+![](/images/oldposts/Obxaz.jpg)
 
 成功。
 
@@ -168,7 +168,7 @@ cp clientcert.pem /etc/pki/libvirt/clientcert.pem
 
 至此，需要的证书已经都准备好了。证书有了，服务端也部署了。但是**windows**的客户端不知道该部署到什么地方？因为网上的说明给出的都是**linux**文件路径，没说**windows**下的情况。不过笔者相信**libvirt**的错误日志：）于是：
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKMmeC/mDDtR.jpg)
+![](/images/oldposts/mDDtR.jpg)
 
 怎么样，位置有了吧。赶紧拷贝过去试试。</p>
 
@@ -245,7 +245,7 @@ cp clientcert.pem /etc/pki/libvirt/clientcert.pem
 
 再访问一下，成功~
 
-![](http://onecoder.qiniudn.com/8wuliao/CalKKYOd/5WsWD.jpg)
+![](/images/oldposts/5WsWD.jpg)
 
 补充说明一下关于动态链接文件的问题:
 

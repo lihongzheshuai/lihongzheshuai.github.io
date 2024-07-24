@@ -25,8 +25,8 @@ thread_key: 985
 -Djava.net.preferIPv4Stack=true
 ```
 
-![](http://onecoder.qiniudn.com/8wuliao/C8umXXGs/11FR3Q.jpg)
+![](/images/oldposts/11FR3Q.jpg)
 
 问题解决，不过后来笔者有考虑了一下，这样一个一个设置太麻烦了，不如来个全局的，于是笔者在使用的jre上，设置了全局参数。一劳永逸了。：）
 
-![](http://onecoder.qiniudn.com/8wuliao/C8umXV3c/6g8sc.jpg)
+![](/images/oldposts/6g8sc.jpg)

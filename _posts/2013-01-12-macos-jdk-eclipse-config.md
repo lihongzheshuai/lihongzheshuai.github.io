@@ -11,7 +11,7 @@ thread_key: 1280
 
 其实Java开发环境无非就是安装JDK，安装IDE，配置环境变量。JDK自然从官网下载Mac版的，IDE，<a href="http://www.coderli.com">OneCoder</a>也从Eclipse的官网下载了。安装也是一键安装和解压即可。而且发现JDK安装后，在命令行运行java -version和javac -version直接会识别出你刚才安装的版本是无需配置的。
 
-![](http://onecoder.qiniudn.com/8wuliao/CyOUVsXx/11JWWn.jpg)
+![](/images/oldposts/11JWWn.jpg)
 
 直接通过eclpse.app启动Eclipse Juno(4.2) 居然报错，寻找Java6版本。但是通过&ldquo;替身&rdquo;eclipse启动是可以启动的。虽然可用，不过OneCoder还是想解决这个问题。
 <blockquote>

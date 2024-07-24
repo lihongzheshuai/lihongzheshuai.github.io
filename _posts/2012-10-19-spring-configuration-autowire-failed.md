@@ -116,7 +116,7 @@ public class DefaultAppConfig {
 
 启动Tomcat，报错：
 <p style="text-align: center; ">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/ClRKP144/q1Viq.jpg" style="height: 130px; width: 640px; " /></p>
+	<img alt="" src="/images/oldposts/q1Viq.jpg" style="height: 130px; width: 640px; " /></p>
 
 空指针异常，显然是DataSourceConfig没有注入进来，更换@Inject注解，问题依旧。
 <div>
@@ -162,7 +162,7 @@ public class DefaultAppConfig {
 
 启动Tomcat，报错：
 <div style="text-align: center; ">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/ClRLd5qZ/V2Mqu.jpg" style="width: 640px; height: 108px; " /></div>
+	<img alt="" src="/images/oldposts/V2Mqu.jpg" style="width: 640px; height: 108px; " /></div>
 
 <a href="http://www.coderli.com">OneCoder</a>在各个Bean的方法上加断点调试，发现dataSource也是null，看来还是没注入进来导致的。也许这两个场景是一个问题，先解决没注入的问题看看吧。
 	

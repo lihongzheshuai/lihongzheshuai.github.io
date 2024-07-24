@@ -77,17 +77,17 @@ public class ConcurrencySelectorOpen {
 
 同样，通过**Process Explorer**去观察端口占用情况，开始跟酷壳大哥的观察到的效果一样。当不启动**Server**端，也就是不实际跟**Server**端建立链接的时候，3次**selector open**，占用了6个端口。
 
-![](http://onecoder.qiniudn.com/8wuliao/CcLVlU9W/7FrMP.jpg)
+![](/images/oldposts/7FrMP.jpg)
 
 当启动Server端，进行绑定的时候，占用了9个端口
 
-![](http://onecoder.qiniudn.com/8wuliao/CcLVm0dr/BI25e.jpg)
+![](/images/oldposts/BI25e.jpg)
 
 其实，多的三个，就是实际绑定的**8000**端口。其余就是酷壳大哥说的内部**Loop**链接。也就是说，对于我们实际场景，一次链接需要的端口数是3个。操作系统的端口数和资源当然有有限的，也就是说当我们增大这个链接的时候，错误必然会发生了。<a href="http://www.coderli.com">OneCoder</a>尝试一下3000次的场景，并没有出现错误，不过这么下去出错肯定是必然的。
 
 再看看服务端的情况
 
-![](http://onecoder.qiniudn.com/8wuliao/CcLVmpqk/IE40R.jpg)
+![](/images/oldposts/IE40R.jpg)
 
 这个还是直接通过**Selector**连接的时候的服务端的情况，除了两个内部回环端口以外，都是通过监听的**8000**的端口与外界通信，所以，服务端不会有端口限制的问题。不过，也可以看到，如果对链接不控制，服务端也维持大量的连接耗费系统资源！所以，良好的编码是多么的重要。
 
@@ -95,14 +95,14 @@ public class ConcurrencySelectorOpen {
 
 看看测试结果，
 
-![](http://onecoder.qiniudn.com/8wuliao/CcLVmPCQ/pg6Ed.jpg)
+![](/images/oldposts/pg6Ed.jpg)
 
 同样连接后还是占用9个端口。如果手动调用了**channle.close()**方法，则会释放与**8000**链接的端口，也就是变成6个端口占用。
 增大连续连接数到10000。
 
 首先没有报错，在每次**close channel**情况下，客户端端口占用情况如图（服务端情况类似）。
 
-![](http://onecoder.qiniudn.com/8wuliao/CcMcO5AL/9Fqan.jpg)
+![](/images/oldposts/9Fqan.jpg)
 
 可见，并没有像**selector**那样无限的增加下去。这正是**Netty**中**worker**的巨大作用，帮我们管理这些琐碎的链接。具体分析，我们留待下章，您也可以自己研究一下。(<a href="http://www.coderli.com">**OneCoder**</a>注：如果没关闭**channel**，会发现对8000端口的占用，会迅速增加。系统会很卡。)
 

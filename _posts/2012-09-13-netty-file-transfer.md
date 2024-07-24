@@ -101,11 +101,11 @@ public class FileClientHandler extends SimpleChannelHandler {
 
 待发送的文件1.txt内容如下：
 
-<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CgmVXxiw/2OWBx.jpg" style="height: 401px; width: 630px; " />
+<img alt="" src="/images/oldposts/2OWBx.jpg" style="height: 401px; width: 630px; " />
 
 运行上述代码，接受到的文件2.txt结果：
 
-<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CgmVX4XA/L4ywi.jpg" style="width: 630px; " />
+<img alt="" src="/images/oldposts/L4ywi.jpg" style="width: 630px; " />
 
 完全一模一样。成功！
 

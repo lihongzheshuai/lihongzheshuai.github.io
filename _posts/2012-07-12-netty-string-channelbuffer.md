@@ -12,7 +12,7 @@ thread_key: 922
 
 ### ChannelBuffer
 
-![](http://onecoder.qiniudn.com/8wuliao/C6PXEavo/CT0dH.jpg)
+![](/images/oldposts/CT0dH.jpg)
 
 Netty中的消息传递，都必须以字节的形式，以**ChannelBuffer**为载体传递。简单的说，就是你想直接写个字符串过去，对不起，抛异常。虽然，**Netty**定义的**writer**的接口参数是**Object**的，这可能也是会给新上手的朋友容易造成误会的地方。**Netty**源码中，是这样判断的：
 

@@ -22,7 +22,7 @@ thread_key: 1286
 <p>
 	<strong>MySQL Cluster构成</strong></p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CzorQ2zk/PrQHF.jpg" style="width: 583px; height: 372px;" /></p>
+	<img alt="" src="/images/oldposts/PrQHF.jpg" style="width: 583px; height: 372px;" /></p>
 <blockquote>
 	<p>
 		Each MySQL Cluster host computer must have the correct executable programs installed. A host running an SQL node must have installed on it a MySQL Server binary (mysqld). Management nodes require the management server daemon (ndb_mgmd); data nodes require the data node daemon (ndbd or ndbmtd). It is not necessary to install the MySQL Server binary on management node hosts and data node hosts. It is recommended that you also install the management client (ndb_mgm) on the management server host.</p>
@@ -38,7 +38,7 @@ thread_key: 1286
 <p>
 	先部署data和SQL节点， 下载MysQL Cluster压缩包 ，通过putty自带的pscp工具，拷贝到各个节点linux虚拟机中。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CzorR45j/MxanW.jpg" /></p>
+	<img alt="" src="/images/oldposts/MxanW.jpg" /></p>
 <p>
 	解压。</p>
 <p>
@@ -64,6 +64,7 @@ IndexMemory=18M   # How much memory to allocate for index storage
                   # this example Cluster setup.
 
 [ndb_mgmd]
+
 # Management process options:
 hostname=10.4.44.203           # Hostname or IP address of MGM node
 datadir=/var/lib/mysql-cluster  # Directory for MGM node log files
@@ -111,7 +112,7 @@ shell&gt; bin&gt;mysqld
 <pre class="brush:shell;first-line:1;pad-line-numbers:true;highlight:null;collapse:false;">
 ndb_mgm&gt;show.</pre>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CzorQJMm/5ZH0A.jpg" /></p>
+	<img alt="" src="/images/oldposts/5ZH0A.jpg" /></p>
 <p>
 	部署成功。</p>
 <p>

@@ -53,10 +53,10 @@ thread_key: 1131
 
 然后选择你要编译的工程，**右键**->**maven build**... 命令如下图：
 
-![](http://onecoder.qiniudn.com/8wuliao/Cf41VrLm/ogPHi.jpg)
+![](/images/oldposts/ogPHi.jpg)
 
 然后Run一下：
 
-![](http://onecoder.qiniudn.com/8wuliao/Cf41W0YZ/HaQ6M.jpg)
+![](/images/oldposts/HaQ6M.jpg)
 
 一个可执行的脚本文件就生成好了。**startup.bat**是**windows**下的，**startup.sh**是**linux**下的。具体参数，可以参考我上面给出的配置，也可以自己研究一下插件的配置。

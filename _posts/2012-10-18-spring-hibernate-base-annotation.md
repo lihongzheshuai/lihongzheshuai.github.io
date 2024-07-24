@@ -113,7 +113,7 @@ response.getWriter().write("name: " + users.get(0).getName() + "; email: " + use
 ```
 
 <p style="text-align: center; ">
-		<img alt="" src="http://onecoder.qiniudn.com/8wuliao/ClHs5jT9/115Gdw.jpg" /></p>
+		<img alt="" src="/images/oldposts/115Gdw.jpg" /></p>
 
 启动服务，一切OK。
 

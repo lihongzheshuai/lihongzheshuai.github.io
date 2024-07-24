@@ -16,7 +16,7 @@ thread_key: 1027
 栈中的数据都是以栈帧（**Stack Frame**）的格式存在，栈帧是一个内存区块，是一个数据集，是一个有关方法(**Method**)和运行期数据的数据集，当一个方法A被调用时就产生了一个栈帧F1，并被压入到栈中，A方法又调用了B方法，于是产生栈帧F2也被压入栈，执行完毕后，先弹出F2栈帧，再弹出F1栈帧，遵循“先进后出”原则。
 那栈帧中到底存在着什么数据呢？栈帧中主要保存3类数据：本地变量（**Local Variables**），包括输入参数和输出参数以及方法内的变量；栈操作（**Operand Stack**），记录出栈、入栈的操作；栈帧数据（**Frame Data**），包括类文件、方法等等。光说比较枯燥，我们画个图来理解一下Java栈，如下图所示：
 
-![](http://onecoder.qiniudn.com/8wuliao/Ca8hLjNR/sXecH.jpg)
+![](/images/oldposts/sXecH.jpg)
 
 图示在一个栈中有两个栈帧，栈帧2是最先被调用的方法，先入栈，然后方法2又调用了方法1，栈帧1处于栈顶的位置，栈帧2处于栈底，执行完毕后，依次弹出栈帧1和栈帧2，线程结束，栈释放。
 
@@ -82,7 +82,7 @@ at sun.nio.cs.UTF_8.updatePositions(UTF_8.java:77)
 
 发现确实有明显的变化。再增大一倍试试。
 
-![](http://onecoder.qiniudn.com/8wuliao/Ca8hLQnZ/xIGTl.jpg)
+![](/images/oldposts/xIGTl.jpg)
 
 
 > 

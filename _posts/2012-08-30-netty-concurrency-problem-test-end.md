@@ -73,7 +73,7 @@ thread_key: 1116
 
 启动多个客户端，效果如图：
 
-![](http://onecoder.qiniudn.com/8wuliao/CehmeXcf/4hFcy.jpg)
+![](/images/oldposts/4hFcy.jpg)
 
 <div>果然，在单个进程数量控制合理的情况下，服务端可以处理所有请求，不会出现链接拒绝的情况。总连接数轻松达到4，5k。（ <a href="http://www.coderli.com/">OneCoder</a> 注：以前超过1000都容易出错。这里只是测试到以前完全没有办法支持的情形，并没有测试最大压力值。）</div>
 <div></div>

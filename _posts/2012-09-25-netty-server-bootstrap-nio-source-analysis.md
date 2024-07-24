@@ -11,7 +11,7 @@ thread_key: 1150
 
 所以，这次<a href="http://www.coderli.com">OneCoder</a>花了几天时间，仔细梳理了一下**Netty**的源码，总结了一下**ServerBootStrap**的启动和任务处理流程，基本涵盖了Netty的关键架构。<a href="http://www.coderli.com">OneCoder</a>总结了一张流程图：
 
-![](http://onecoder.qiniudn.com/8wuliao/Ci6qURH0/aGtVD.jpg)
+![](/images/oldposts/aGtVD.jpg)
 
 该图是<a href="http://www.coderli.com">OneCoder</a>通过阅读Netty源码，逐渐记录下来的。基本可以说明**Netty**服务的启动流程。这里在具体讲解一下。
 

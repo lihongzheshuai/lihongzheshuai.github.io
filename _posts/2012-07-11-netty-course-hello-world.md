@@ -10,7 +10,7 @@ thread_key: 907
 ---
 先啰嗦两句，如果你还不知道Netty是做什么的能做什么。那可以先简单的搜索了解一下。我只能说Netty是一个NIO的框架，可以用于开发分布式的Java程序。具体能做什么，各位可以尽量发挥想象。技术，是服务于人而不是局限住人的。
 
-Netty的简介和下载可参考：[开源Java高性能NIO框架推荐](http://www.coderli.com/archives/opensource-netty-intro/)。注意，此时的最新版已经为3.5.2.Final。
+Netty的简介和下载可参考：[开源Java高性能NIO框架推荐](http://www.coderli.com/opensource-netty-intro/)。注意，此时的最新版已经为3.5.2.Final。
 	
 如果你已经万事具备，那么我们先从一段代码开始。程序员们习惯的上手第一步，自然是"Hello world";，不过Netty官网的例子却偏偏抛弃了"Hello world"。那我们就自己写一个最简单的"Hello world"的例子，作为上手。
 

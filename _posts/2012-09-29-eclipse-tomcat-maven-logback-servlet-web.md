@@ -114,7 +114,7 @@ logback的简要配置：
 <p>
 	扔到src/main/resources下。</p>
 <p style="text-align: center; ">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CiG3ZN9z/9wt4N.jpg" /></p>
+	<img alt="" src="/images/oldposts/9wt4N.jpg" /></p>
 <p>
 	&nbsp;</p>
 <div>
@@ -153,12 +153,12 @@ public class FirstServlet extends HttpServlet {
 运行一下？等等。我们知道一个web工程运行时依赖的jar包是需要放到WEB-INF/lib下的，这里明显看到lib下空的，并且我们的jar包是通过Maven管理的，难道要手动拷贝过去吗？<a href="http://www.coderli.com">OneCoder</a>以前还真干过这样的啥事，甚至还自己开发了脚本，做所谓的&ldquo;一键自动化&rdquo;工作。其实Eclipse里已经帮你做好了。在工程的Properties配置项里的Deployment Assembly配置里，配好Maven的依赖和部署即可，如图：
 
 <div style="text-align: center; ">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CiG3YOTp/e1swU.jpg" /></div>
+	<img alt="" src="/images/oldposts/e1swU.jpg" /></div>
 
 <div>
 	此时再运行一下，log正常输出，说明jar依赖过来了，一切都ok了。</div>
 <div style="text-align: center; ">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CiG3ZnD4/ddymn.jpg" /></div>
+	<img alt="" src="/images/oldposts/ddymn.jpg" /></div>
 <div>
 	剩下的就是你想用什么框架就引入什么了。<a href="http://www.coderli.com">OneCoder</a>会一遍配置，一遍简要的说明一下。</div>
 

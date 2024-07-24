@@ -66,9 +66,9 @@ public String substring(int beginIndex, int endIndex) {
 
 以"**Netty** 教程"这个搜索词为例：
 
-![](http://onecoder.qiniudn.com/8wuliao/CcW1CkNN/hcrs8.jpg)
+![](/images/oldposts/hcrs8.jpg)
 
-![](http://onecoder.qiniudn.com/8wuliao/CcW1BPpA/pqpG6.jpg)
+![](/images/oldposts/pqpG6.jpg)
 
 同样的<a href="http://www.coderli.com">**OneCoder**</a>原创的文章，百度排名靠前的确实被采集站恶意采集的转载文章，而非原创文章。这对于你获取原始的准确的信息是有很大影响的。
 

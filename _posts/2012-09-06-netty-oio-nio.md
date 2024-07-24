@@ -15,16 +15,16 @@ thread_key: 1133
 
 ```java
 ServerBootstrap bootstrap = new ServerBootstrap(
-				new OioServerSocketChannelFactory(
-						Executors.newCachedThreadPool(),
-						Executors.newFixedThreadPool(4)));
+    new OioServerSocketChannelFactory(
+      Executors.newCachedThreadPool(),
+      Executors.newFixedThreadPool(4)));
 ```
 
 ```java
 ServerBootstrap bootstrap = new ServerBootstrap(
-				new NioServerSocketChannelFactory(
-						Executors.newCachedThreadPool(),
-						Executors.newFixedThreadPool(4)));
+    new NioServerSocketChannelFactory(
+      Executors.newCachedThreadPool(),
+      Executors.newFixedThreadPool(4)));
 ```
 
 这就是Netty框架为我们做的贡献。
@@ -35,21 +35,21 @@ ServerBootstrap bootstrap = new ServerBootstrap(
 
 8个Client连接：
 
-<img class="aligncenter" src="http://onecoder.qiniudn.com/8wuliao/CfmGyFg7/EL2ZO.jpg" alt="" width="656" height="199" />
+<img class="aligncenter" src="/images/oldposts/EL2ZO.jpg" alt="" width="656" height="199" />
 
 NIOServer的线程情况：
 
-<img src="http://onecoder.qiniudn.com/8wuliao/CfmGycm3/3WIAC.jpg" alt="" />
+<img src="/images/oldposts/3WIAC.jpg" alt="" />
 
 并且8个Client的请求都正常处理了。
 
 对于OIO来说，如果你对worker池没有控制，那么支持8个client需要8个worker，8个线程，这也就是传统OIO并发数受限的原因，如图：
 
-<img style="height: 221px; width: 640px;" src="http://onecoder.qiniudn.com/8wuliao/CfmGyOBT/lLEys.jpg" alt="" />
+<img style="height: 221px; width: 640px;" src="/images/oldposts/lLEys.jpg" alt="" />
 
 当OIO使用FixedThreadPool的时候：
 
-<img style="width: 640px; height: 163px;" src="http://onecoder.qiniudn.com/8wuliao/CfmGyUPF/fdIHa.jpg" alt="" />
+<img style="width: 640px; height: 163px;" src="/images/oldposts/fdIHa.jpg" alt="" />
 
 只能处理头四个client的请求，他的被堵塞了。
 
@@ -58,7 +58,7 @@ NIOServer的线程情况：
 > Hello action.: 34<br>
 > Hello action.: 35<br>
 > Hello action.: 36<br>
-> Hello action.: 37<br> 
+> Hello action.: 37<br>
 > Hello action.: 38<br>
 > Hello action.: 39<br>
 > Hello action.: 40<br>

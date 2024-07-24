@@ -12,7 +12,7 @@ thread_key: 1296
 <p>
 	从部署图就可知道，对数据库的请求操作发生在SQL节点上。为了达到试验效果，这里又追加了一个sql节点。现在集群环境如下：</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CzOIV6rt/6Gr6u.jpg" style="width: 632px; height: 209px;" /></p>
+	<img alt="" src="/images/oldposts/6Gr6u.jpg" style="width: 632px; height: 209px;" /></p>
 <p>
 	在追加的过程中，发现MySQL Cluster对启动顺序要求严格，在没考虑热部署方案的情况下，必须停止了所有节点，重新按照management-&gt;data-&gt;sql的顺序启动节点。</p>
 <p>
@@ -27,7 +27,7 @@ create table bigdata_cluster(id int primary key, name varchar(20)) engine=ndbclu
 <pre class="brush:sql;first-line:1;pad-line-numbers:true;highlight:null;collapse:false;">
 show tables;</pre>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CzOIV3eN/1S4y1.jpg" style="width: 635px; height: 400px;" /></p>
+	<img alt="" src="/images/oldposts/1S4y1.jpg" style="width: 635px; height: 400px;" /></p>
 <p>
 	发现已经可以同步查询了。其实本来底层data节点对上层就是透明的，自然可以查到。多sql节点，就可以起到负载均衡的效果。</p>
 <p>
@@ -154,7 +154,7 @@ ndb_mgm&gt; all report memoryusage
 <p>
 	命令查看使用情况，</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CzOIUMfw/P9btE.jpg" style="width: 533px; height: 90px;" /></p>
+	<img alt="" src="/images/oldposts/P9btE.jpg" style="width: 533px; height: 90px;" /></p>
 <p>
 	似乎恢复了正常。再向新表写入数据，成功。</p>
 <p>
