@@ -4,7 +4,7 @@ title: Java 利用ASM读取变量值(Field value)问题研究
 date: 2012-05-29 23:30 +0800
 author: onecoder
 comments: true
-tags: [asm, field value, spring-asm,java ]
+tags: [asm, Spring,Java]
 thread_key: 150
 ---
 最近在学习Spring源码的过程中，遇到了spring-asm工程的重新打包的问题，于是突然就想研究一下asm这个开源字节码操作工具。秉承我的一贯风格，想到啥就立马学啥。 对于开源产品，我的一贯风格就是通过其官方提供的源码版本管理地址(svn/git等)，直接下载最新代码，构建Java工程，直接通过工程依赖的方式研究学习。（你说这样跟依赖jar包并且绑定源码比有啥好处？ 一般情况下差不多，最多就是，我可以随时更新代码，可以本地随意修改代码等等呵呵。个人喜好。）
