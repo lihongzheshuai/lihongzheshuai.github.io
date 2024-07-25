@@ -11,11 +11,11 @@ thread_key: 1329
 	龙年完成的Amoeba环境初步搭建工作，蛇年开始进行读写分离和负载均衡的验证工作。先祝大家蛇年一切顺利。上回的工作我们只是完成Amoeba框架的引入，但是并不满足读写分离场景的要求，因为最基本的，SQL节点只有一个。<br />
 	所以，我们首先需要添加一个SQL节点，具体操作不再赘述。添加，重启后，MySQL Clluster集群环境如下。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEsph23l/vx9AH.jpg" style="width: 634px; height: 215px;" /></p>
+	<img alt="" src="/images/oldposts/vx9AH.jpg" style="width: 634px; height: 215px;" /></p>
 <p>
 	修改Amoeba的环境配置dbServers.xml，增加一个dbServer节点10.4.44.200。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEspfUY3/guAe1.jpg" style="width: 630px; height: 397px;" /></p>
+	<img alt="" src="/images/oldposts/guAe1.jpg" style="width: 630px; height: 397px;" /></p>
 <p>
 	重启Amoeba服务使配置生效。</p>
 <p>
@@ -23,11 +23,11 @@ thread_key: 1329
 <p>
 	通过测试发现，通过访问Amoeba服务，确实完成对了SQL层的负载均衡，观察虚拟机的网络指标，发现两个SQL节点的网络负载比较平均。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEsp3q8V/NcP23.jpg" style="width: 461px; height: 273px;" /></p>
+	<img alt="" src="/images/oldposts/NcP23.jpg" style="width: 461px; height: 273px;" /></p>
 <p style="text-align: center;">
 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SQL200的网络负载</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEspgcZ9/XUfES.jpg" style="width: 450px; height: 271px;" /></p>
+	<img alt="" src="/images/oldposts/XUfES.jpg" style="width: 450px; height: 271px;" /></p>
 <p style="text-align: center;">
 	SQL201相同时刻的网络负载情况</p>
 <p>

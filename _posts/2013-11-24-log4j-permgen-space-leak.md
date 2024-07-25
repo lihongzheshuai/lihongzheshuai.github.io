@@ -101,11 +101,11 @@ private URL[] getURLS() throws MalformedURLException {
 <p>
 	从代码可见，在自定义的100个Classloader里，我们只是通过反射调用了LogFactory里的getLog方法，对于该方法返回的实例，并没有保存。所以没有引用，可正常回收。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DkUewQvK/cmW9X.jpg" style="width: 640px; height: 444px;" /></p>
+	<img alt="" src="/images/oldposts/cmW9X.jpg" style="width: 640px; height: 444px;" /></p>
 <p>
 	通过内存dump查看，可以发现，内存中没有commmon logging相关的类，说明PermGen区正常回收了。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DkUevtC2/qnzyM.jpg" style="width: 640px; height: 444px;" /></p>
+	<img alt="" src="/images/oldposts/qnzyM.jpg" style="width: 640px; height: 444px;" /></p>
 <p>
 	场景二、持有引用</p>
 <p>
@@ -194,11 +194,11 @@ private URL[] getURLS() throws MalformedURLException {
 <p>
 	在外部增加一个list存放内部反射出来的对象，并保证list对象被引用。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DkUevfFG/efY2T.jpg" style="width: 640px; height: 444px;" /></p>
+	<img alt="" src="/images/oldposts/efY2T.jpg" style="width: 640px; height: 444px;" /></p>
 <p>
 	这次可看到PermGen不会被释放，观察dump内存</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DkUewutG/X95mE.jpg" style="width: 640px; height: 444px;" /></p>
+	<img alt="" src="/images/oldposts/X95mE.jpg" style="width: 640px; height: 444px;" /></p>
 <p>
 	<br />
 	有大量的commons logging类没有释放。即出现内存泄漏。</p>

@@ -25,7 +25,7 @@ thread_key: 1484
 	下载最新版3.4.5：http://zookeeper.apache.org/releases.html#download<br />
 	解压，在conf下增加配置文件zoo.cfg，可参考zoo-sample.cfg的配置修改，主要修改dataDir路径位置</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/D53mXBUn/FRU4s.jpg" /></p>
+	<img alt="" src="/images/oldposts/FRU4s.jpg" /></p>
 <p>
 	启动zookeeper：</p>
 <pre class="brush:shell;first-line:1;pad-line-numbers:true;highlight:null;collapse:false;">
@@ -49,7 +49,7 @@ shell/>./configure
 ```
 
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/D53mXk3d/13ZgiQ.jpg" /></p>
+	<img alt="" src="/images/oldposts/13ZgiQ.jpg" /></p>
 <p>
 	<br />
 	遇到uuid-dev的错误，说明需要安装uuid包：<br />

@@ -125,7 +125,7 @@ void transposeMatrix(sparse_matrix *smatrix, sparse_matrix *transposeMatrix) {
 ```
 
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CIxaHJAH/a7iq6.jpg" style="width: 640px; height: 336px;" /></p>
+	<img alt="" src="/images/oldposts/a7iq6.jpg" style="width: 640px; height: 336px;" /></p>
 <p>
 	可以看到，相对于传统的使用二维数据的方式存储矩阵，该存储方式对于稀疏矩阵来说，无疑节省了大量空间。&nbsp; 但是对于矩阵的打印和转置来说，从数据量级看浪费了时间。所以，此种表示方式适用于矩阵中非零元素少的稀疏矩阵。尤其当矩阵中非零元素数量为cols * rows时，转置的时间复杂性为O(rows * cols * cols)。用时间换空间。</p>
 <p>
@@ -233,7 +233,7 @@ void storeValue(sparse_matrix *resultMatrix, int row, int col, int value, int *i
 <p>
 	没有做太多错误边界的判断。计算结果：</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CIxaHHOr/uv1CO.jpg" style="width: 300px; height: 211px;" /></p>
+	<img alt="" src="/images/oldposts/uv1CO.jpg" style="width: 300px; height: 211px;" /></p>
 <p>
 	初学乍练，如果有错误还望大家指出。这个乘法，OneCoder着实写了好久。算法的时间复杂度为：O(bColNum * aValueNum + aRowNum * bValueNum)。相对于传统的二维数组表示矩阵的计算来说，实现逻辑复杂好多。传统方式的时间复杂度为：O(aRowNum * aColNum * bColNum)。</p>
 

@@ -16,12 +16,12 @@ thread_key: 1391
 		Many of the latest generation of web, cloud, social and mobile applications require fast operations against simple Key/Value pairs. At the same time, they must retain the ability to run complex queries against the same data, as well as ensure the data is protected with ACID guarantees. With the new NoSQL API for InnoDB, developers have all the benefits of a transactional RDBMS, coupled with the performance capabilities of Key/Value store.<br />
 		MySQL 5.6 provides simple, key-value interaction with InnoDB data via the familiar Memcached API. Implemented via a new Memcached daemon plug-in to mysqld, the new Memcached protocol is mapped directly to the native InnoDB API and enables developers to use existing Memcached clients to bypass the expense of query parsing and go directly to InnoDB data for lookups and transactional compliant updates. The API makes it possible to re-use standard Memcached libraries and clients, while extending Memcached functionality by integrating a persistent, crash-safe, transactional database back-end. The implementation is shown here:</p>
 	<p style="text-align: center;">
-		<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CHKnlm4k/GMpCU.jpg" style="width: 450px;" /></p>
+		<img alt="" src="/images/oldposts/GMpCU.jpg" style="width: 450px;" /></p>
 	<p>
 		<br />
 		So does this option provide a performance benefit over SQL? Internal performance benchmarks using a customized Java application and test harness show some very promising results with a 9X improvement in overall throughput for SET/INSERT operations:</p>
 	<p style="text-align: center;">
-		<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CHKnoXTt/qV8us.jpg" style="width: 450px; height: 242px;" /></p>
+		<img alt="" src="/images/oldposts/qV8us.jpg" style="width: 450px; height: 242px;" /></p>
 </blockquote>
 <p>
 	首先部署Server端的Memcache plugin集成环境。目前支持的系统为Linux, Solaris, and OS X，不支持windows。文档地址：http://dev.mysql.com/doc/refman/5.6/en/innodb-memcached-setup.html</p>
@@ -34,21 +34,21 @@ yum install libevent</pre>
 <p>
 	然后，安装libmemcached所需要的表</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CHKnjim7/ow22U.jpg" style="width: 640px; height: 194px;" /></p>
+	<img alt="" src="/images/oldposts/ow22U.jpg" style="width: 640px; height: 194px;" /></p>
 <p>
 	将插件设置成随服务启动而启动的守护插件</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CHKnjKRO/10cCK6.jpg" style="width: 640px; height: 69px;" /></p>
+	<img alt="" src="/images/oldposts/10cCK6.jpg" style="width: 640px; height: 69px;" /></p>
 <p>
 	重启MySQL服务，安装完成。默认访问端口为11211。</p>
 <p>
 	下面来验证一下安装，简单的可以采用telnet的方式发送memcached命令</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CHKnjtGC/135s1P.jpg" style="width: 640px; height: 109px;" /></p>
+	<img alt="" src="/images/oldposts/135s1P.jpg" style="width: 640px; height: 109px;" /></p>
 <p>
 	然后通过sql，在demo_test表中查询数据：</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CHKnjL0f/ka3rd.jpg" style="width: 481px; height: 92px;" /></p>
+	<img alt="" src="/images/oldposts/ka3rd.jpg" style="width: 481px; height: 92px;" /></p>
 <p>
 	再通过Java代码操作一下，我们采用xmemcached作为client api。官方地址：https://code.google.com/p/xmemcached。Maven依赖：</p>
 

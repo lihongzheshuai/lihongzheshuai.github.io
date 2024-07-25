@@ -39,7 +39,7 @@ bin>postgres -D data
 
 如果需要远程连接访问该数据库，需要修改**pg_hba.conf**文件，给指定的主机和ip开发访问权限。其实影响访问的还有**postgresql.conf**中的配置，不过默认是开放了权限的。
 
-<img alt="" src="http://onecoder.qiniudn.com/8wuliao/D6i7xGHJ/KjsPD.jpg" style="width: 630px; height: 461px;" />
+<img alt="" src="/images/oldposts/KjsPD.jpg" style="width: 630px; height: 461px;" />
 
 启动后可通过
 
@@ -49,5 +49,5 @@ bin>postgres -D data
 
 客户端连接到数据库，查看数据库信息。具体命令可通过help查看。
 
-<img alt="" src="http://onecoder.qiniudn.com/8wuliao/D6i7wR1G/Z650t.jpg" style="width: 630px; height: 459px;" />
+<img alt="" src="/images/oldposts/Z650t.jpg" style="width: 630px; height: 459px;" />
 

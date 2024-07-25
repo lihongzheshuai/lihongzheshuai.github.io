@@ -18,7 +18,7 @@ thread_key: 1397
 <p>
 	Linux系统的open files数已经修改。当然仍然报错。ulimit -a命令，可查看当前系统限制情况</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CIeAZiCc/nlHDT.jpg" style="width: 392px; height: 259px;" /></p>
+	<img alt="" src="/images/oldposts/nlHDT.jpg" style="width: 392px; height: 259px;" /></p>
 <p>
 	<strong>max user processes = 1024</strong></p>
 <br />

@@ -20,7 +20,7 @@ thread_key: 1418
 <p>
 	一个好的展现MySQL各个组件如何协同工作的图会帮助你更好的理解MySQL。图1-1展示了MySQL的逻辑架构。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CJNaSO8g/8IgJ7.jpg" style="width: 227px; height: 346px;" /></p>
+	<img alt="" src="/images/oldposts/8IgJ7.jpg" style="width: 227px; height: 346px;" /></p>
 <p style="text-align: center;">
 	图1-1</p>
 <p>

@@ -41,7 +41,7 @@ thread_key: 1414
 <p>
 	我们就在Eclipse中尝试gradle，通过configure-&gt;convert to gradle project，将工程变为Gradle管理的工程。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CIS3KSBi/OqHZL.jpg" style="width: 630px; height: 139px;" /></p>
+	<img alt="" src="/images/oldposts/OqHZL.jpg" style="width: 630px; height: 139px;" /></p>
 <p>
 	然后编写build.gradle配置文件。</p>
 <p>

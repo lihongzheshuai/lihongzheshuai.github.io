@@ -43,11 +43,11 @@ thread_key: 1302
 <p>
 	可见效率还是很快。当前数据分布情况如下：</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CAtAHU1A/bilwC.jpg" style="width: 620px; height: 90px;" /></p>
+	<img alt="" src="/images/oldposts/bilwC.jpg" style="width: 620px; height: 90px;" /></p>
 <p>
 	现在，再添加一个数据节点。步骤略，主要就是修改配置文件，按顺序重启即可。不过在重启Data Node时候需要耐心等待成功。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CAtAIi6Q/q7QBH.jpg" style="width: 656px; height: 252px;" /></p>
+	<img alt="" src="/images/oldposts/q7QBH.jpg" style="width: 656px; height: 252px;" /></p>
 <p>
 	通过</p>
 
@@ -58,7 +58,7 @@ ndb_mgm>all report memory
 <p>
 	查看内存占用：</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CAtAHHFC/RnNDp.jpg" style="width: 630px; height: 123px;" /></p>
+	<img alt="" src="/images/oldposts/RnNDp.jpg" style="width: 630px; height: 123px;" /></p>
 <p>
 	发现数据并没有均匀分配。此时再通过代码查询记录，看看耗时情况。耗时还是24ms左右。没有明显变化。不过，这里我们还是想让数据均匀分配的。先测试再写入100w数据。会不会分别存储。测试显示，数据还是集中在原来的节点保存。插入效率基本与原来一致。</p>
 <p>
@@ -94,7 +94,7 @@ shell>ndbd --initial-start --foreground
 	参数的值，默认是1200。不过我并没有采用，因为重启挺坎坷，根据网上的一些讨论分析，减少了每次写入的数量，到10w。目前来看，稳定许多，尚未出现错误。<br />
 	关闭一个节点，验证集群的高可用性。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CAtAIQuE/10h06U.jpg" style="width: 630px; height: 215px;" /></p>
+	<img alt="" src="/images/oldposts/10h06U.jpg" style="width: 630px; height: 215px;" /></p>
 <p>
 	再次调用查询接口。正常返回数据。</p>
 <p>

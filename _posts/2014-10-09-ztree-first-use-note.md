@@ -76,7 +76,7 @@ var setting = {    };
           });
 ```
 
-<img class="aligncenter" src="http://onecoder.qiniudn.com/standard-data-zTree.png" alt="" width="225" height="369" />
+<img class="aligncenter" src="/images/oldposts/standard-data-zTree.png" alt="" width="225" height="369" />
 
 这里我们使用的是标准的JSON数据格式。而且所有数据都是预先加载好的。在我们的场景中，一般是需要逐层通过ajax懒加载的。在zTree中，只需要在setting中进行适当的配置即可。代码如下：
 

@@ -10,7 +10,7 @@ thread_key: 1659
 <h1>
 	shurnim-storage</h1>
 <p>
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DLPii2Jx/rEBO.jpg" style="width: 180px; height: 180px;" /></p>
+	<img alt="" src="/images/oldposts/rEBO.jpg" style="width: 180px; height: 180px;" /></p>
 <h3>
 	背景介绍</h3>
 <p>

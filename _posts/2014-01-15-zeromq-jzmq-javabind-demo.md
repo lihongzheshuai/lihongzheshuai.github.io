@@ -14,7 +14,7 @@ thread_key: 1622
 <div>
 	1、请求-响应模式</div>
 <div style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DsNVlVf9/u01Cb.jpg" /></div>
+	<img alt="" src="/images/oldposts/u01Cb.jpg" /></div>
 
 
 ```java
@@ -111,7 +111,7 @@ public class RequestClient extends JZMQBase {
 	2、Publish-subscribe</div>
 
 <div style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DsNVlspt/Sg75e.jpg" /></div>
+	<img alt="" src="/images/oldposts/Sg75e.jpg" /></div>
 
 ```java
 package com.coderli.zeromq.pubsub;
@@ -259,7 +259,7 @@ public class SubscriberTwo extends JZMQBase{
 <div>
 	想象一下这样的场景，如果需要统计各个机器的日志，我们需要将统计任务分发到各个节点机器上，最后收集统计结果，做一个汇总。PipeLine比较适合于这种场景，他的结构图，如图3所示。</div>
 <div style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DsNVl5to/WRcmX.jpg" /></div>
+	<img alt="" src="/images/oldposts/WRcmX.jpg" /></div>
 
 ```java
 package com.coderli.zeromq.pipeline;

@@ -12,7 +12,7 @@ thread_key: 1821
 <p>
 	官方文档地址：<a href="http://docs.spring.io/spring-batch/trunk/reference/html/index.html">http://docs.spring.io/spring-batch/trunk/reference/html/index.html</a></p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/three-layer.png" />&nbsp; &nbsp;&nbsp;</p>
+	<img alt="" src="/images/oldposts/three-layer.png" />&nbsp; &nbsp;&nbsp;</p>
 <p>
 	层次架构如上图。分三层：应用层，核心层，基础设施层。应用层包括所有的batch任务和用户开发的代码。核心层包括在运行期运行一个任务所需要的类，例如：JobLauncher，Job和Step的实现。应用和核心层都在基础设施层之上，基础设施层包括通用的读写器(readers and writers)以及如RetryTemplate等服务。</p>
 <p>
@@ -21,7 +21,7 @@ thread_key: 1821
 	<br />
 	<em>Job</em></p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/job.png" /></p>
+	<img alt="" src="/images/oldposts/job.png" /></p>
 <p>
 	Job是Step的容器，用来定义和配置整个任务的信息：</p>
 <ul>
@@ -49,7 +49,7 @@ thread_key: 1821
 <p>
 	<em>JobParameters</em></p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/jobParameters.png" /></p>
+	<img alt="" src="/images/oldposts/jobParameters.png" /></p>
 <p>
 	Job运行的参数。。似乎没什么好解释的。</p>
 <p>
@@ -101,7 +101,7 @@ public interface JobLauncher {
 <p>
 	Item Reader、 Item Writer、Item Processor</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/itemReader-writer-processor.png" /></p>
+	<img alt="" src="/images/oldposts/itemReader-writer-processor.png" /></p>
 <p>
 	分别用于读、写和转换业务数据。转换即是进行数据模型的转换。</p>
 <p>

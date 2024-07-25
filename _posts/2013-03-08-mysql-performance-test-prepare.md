@@ -54,7 +54,7 @@ thread_key: 1382
 <p>
 	工具方面，首选考察的自然是MySQL自带的测试工具mysqlslap。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CHbYuVoc/GwZBc.jpg" style="width: 640px; height: 536px;" /></p>
+	<img alt="" src="/images/oldposts/GwZBc.jpg" style="width: 640px; height: 536px;" /></p>
 <pre class="brush:shell;first-line:1;pad-line-numbers:true;highlight:null;collapse:false;">
 ./mysqlslap -a --concurrency=50,100 --number-of-queries 1000 --iterations=5 --engine=myisam,innodb --debug-info -uroot -proot
 
@@ -74,7 +74,7 @@ thread_key: 1382
 <p>
 	当然你也可以通过-q指定你想要测试的sql脚本，测试结束后，mysqlslap会给出你测试的相关数据。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CHbYvANB/jSd7F.jpg" style="width: 640px; height: 126px;" /></p>
+	<img alt="" src="/images/oldposts/jSd7F.jpg" style="width: 640px; height: 126px;" /></p>
 <p>
 	关于mysqlslap的更多参数可参考：<a href="http://dev.mysql.com/doc/refman/5.1/en/mysqlslap.html">http://dev.mysql.com/doc/refman/5.1/en/mysqlslap.html</a><br />
 	从目前来看上手还是比较容易的。通过执行的query数量和时间，很容易计算出tps和qps等指标。</p>

@@ -22,17 +22,17 @@ thread_key: 1337
 <p>
 	然后连接205Amoeba服务端写入数据，分别直接206，207，208节点查询数据，均可查到，并且与通过Amoeba节点查询出的数据是相同的。可见数据是自动同步的。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEJ8GOdg/vG5R4.jpg" style="width: 473px; height: 160px;" /><br />
+	<img alt="" src="/images/oldposts/vG5R4.jpg" style="width: 473px; height: 160px;" /><br />
 	&nbsp;&nbsp; 通过208查询效果，（205，206，207节点查询效果均相同）</p>
 <p>
 	&nbsp;</p>
 <p>
 	通过Amoeba查询数据，可以看到只有配置的读节点有网络传输，写节点的网络是风平浪静的。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEJ8GzOd/KyLOd.jpg" /><br />
+	<img alt="" src="/images/oldposts/KyLOd.jpg" /><br />
 	206写</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEJ8V2SK/e1ntA.jpg" /></p>
+	<img alt="" src="/images/oldposts/e1ntA.jpg" /></p>
 <p style="text-align: center;">
 	<span style="text-align: center;">208 读节点</span></p>
 <p>

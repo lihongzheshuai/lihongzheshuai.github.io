@@ -18,7 +18,7 @@ thread_key: 1467
 	依次分别运行driver包里的startDriver.bat和node包里的startNode.bat启动driver和node<br />
 	&nbsp;</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CZYYlUkw/143a0G.jpg" style="width: 630px; height: 817px;" /></p>
+	<img alt="" src="/images/oldposts/143a0G.jpg" style="width: 630px; height: 817px;" /></p>
 <p>
 	然后，开发jppf应用，JPPF在application-template包中提供了任务模版，只需参照文档稍作修改即可：</p>
 
@@ -67,6 +67,6 @@ thread_key: 1467
 <p>
 	admin-ui中还提供了对节点状态和资源占用，任务信息等监控，总体来说上手很快，很好用：</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CZYYj63X/mGMq3.jpg" style="height: 312px; width: 630px;" /><br />
+	<img alt="" src="/images/oldposts/mGMq3.jpg" style="height: 312px; width: 630px;" /><br />
 	&nbsp;</p>
 

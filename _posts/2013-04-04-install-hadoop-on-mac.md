@@ -25,7 +25,7 @@ cat ~/.ssh/onecoder_rsa.pub &gt;&gt; ~/.ssh/authorized_keys
 <p>
 	打开Mac OS的远程访问选项。系统设置 -》 共享 -》 远程登录</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CLgPDyHo/WtDn1.jpg" style="width: 585px; height: 480px;" /></p>
+	<img alt="" src="/images/oldposts/WtDn1.jpg" style="width: 585px; height: 480px;" /></p>
 <p>
 	4、配置namenode和datanode hdfs本地路径<br />
 	在hdfs-site.xml中配置</p>
@@ -64,9 +64,9 @@ hadoop namenode (datanode、jobtracker、tasktracker)
 	13/04/04 15:52:18 INFO http.HttpServer: Jetty bound to port 50070<br />
 	当然，这些地址你可以已经烂熟于胸了。通过浏览器进入web监控页面查看。可以看到一切就绪。Hadoop环境部署完成。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CLgPE8yh/jBW5l.jpg" style="width: 640px; height: 376px;" /></p>
+	<img alt="" src="/images/oldposts/jBW5l.jpg" style="width: 640px; height: 376px;" /></p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CLgPEgoW/P4PgL.jpg" /></p>
+	<img alt="" src="/images/oldposts/P4PgL.jpg" /></p>
 <p>
 	<br />
 	其他。<br />

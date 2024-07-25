@@ -118,5 +118,5 @@ InputStream is = new FileInputStream("/Users/apple/git/onecoder-java/onecoder-sh
 <p class="p1">
 	亲测spring3.2.2+Hessian4.0.7可用。文件内容保存完整。</p>
 <p class="p1" style="text-align: center;">
-	&nbsp; &nbsp;&nbsp;<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CZ9e0enj/K9Jh4.jpg" style="width: 630px; height: 516px;" /></p>
+	&nbsp; &nbsp;&nbsp;<img alt="" src="/images/oldposts/K9Jh4.jpg" style="width: 630px; height: 516px;" /></p>
 

@@ -12,7 +12,7 @@ thread_key: 1471
 <p>
 	JPPF中类的加载采用的是分布式类加载技术。这样既可在Node节点运行在node上并不存在的类。也就是类可以仅在用户的Client端存在。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/D0mg0KyR/VBX3g.jpg" /></p>
+	<img alt="" src="/images/oldposts/VBX3g.jpg" /></p>
 <p>
 	如图，JPPF的class loader大致分三层。<br />
 	<strong>System class loader</strong>是由JVM控制的加载器，用于启动node节点。在大多数JVM中是，该loader是java.net.URLClassloader的实例。<br />
@@ -23,7 +23,7 @@ thread_key: 1471
 <p>
 	Java的classloader是先从parent loader开始加载的饿，下图展示了node节点加载类的过程</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/D0mfZAHZ/DW9Uf.jpg" /></p>
+	<img alt="" src="/images/oldposts/DW9Uf.jpg" /></p>
 <p>
 	&nbsp;</p>
 <p>
@@ -34,7 +34,7 @@ thread_key: 1471
 <p>
 	每个Server也有唯一的UUID标识，这样就可以实现链式类加载：</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/D0mfSpKb/cpCrB.jpg" style="height: 154px; width: 630px;" /></p>
+	<img alt="" src="/images/oldposts/cpCrB.jpg" style="height: 154px; width: 630px;" /></p>
 <p>
 	需要注意的是，在这种情况下，node节点仍然只持有一个server classloader，仅连接跟它直接关联的server。</p>
 <p>

@@ -27,7 +27,7 @@ $&gt;amoeba
 <p>
 	显然是JVM参数的问题。用vim编辑amoeba启动文件。修改其中的：</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CCk9MVIb/kGelo.jpg" style="width: 643px; height: 322px;" /></p>
+	<img alt="" src="/images/oldposts/kGelo.jpg" style="width: 643px; height: 322px;" /></p>
 <p>
 	将图中选中行的DEFAULT_OPTS=&quot;-server ...&quot;最后的 -Xss128k, 改为512k即可。验证通过。继续配置Amoeba。</p>
 <p>
@@ -51,17 +51,17 @@ $&gt;amoeba
 <p>
 	修改dbServers.xml中的关于数据库链接的配置(一目了然)。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CCk9L1zW/pCKNR.jpg" style="width: 630px; height: 425px;" /></p>
+	<img alt="" src="/images/oldposts/pCKNR.jpg" style="width: 630px; height: 425px;" /></p>
 <p>
 	然后确认MySQL Cluster运行正常，再启动 Amoeba。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CCk9MsK9/6HIYI.jpg" style="width: 630px; height: 143px;" /></p>
+	<img alt="" src="/images/oldposts/6HIYI.jpg" style="width: 630px; height: 143px;" /></p>
 <p>
 	通过MySQL命令直接连接205进行测试。成功访问。</p>
 <p>
 	这里其实OneCoder遇到一个挺巧的问题，就是我环境中的server1暂时不好用，我仅仅配置了server2。可以启动，但是客户端连接就总报拒绝访问。几番检查，才在amoeba.xml中发现了一个默认节点的设置。还配置的server1，改成server2终于好用了。</p>
 <p>
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CCk9NoRT/DfQ07.jpg" style="width: 630px; height: 239px;" />、</p>
+	<img alt="" src="/images/oldposts/DfQ07.jpg" style="width: 630px; height: 239px;" />、</p>
 <p>
 	可以看到服务的version已经是mysql-amoeba-proxy了。并且通过show databases命令也可以正常列出数据库列表了。</p>
 

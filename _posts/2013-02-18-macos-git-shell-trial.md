@@ -17,13 +17,13 @@ $&gt;git
 <p>
 	即可验证是否安装成功。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEjPGfLj/1470vC.jpg" style="height: 628px; width: 630px;" /></p>
+	<img alt="" src="/images/oldposts/1470vC.jpg" style="height: 628px; width: 630px;" /></p>
 <p>
 	根据Git设计理念，我们先创建一个本地库。进入想要创建Git仓库的目录。</p>
 <pre class="brush:shell;first-line:1;pad-line-numbers:true;highlight:null;collapse:false;">
 $&gt;git init</pre>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEjPGJH7/9Dz6Z.jpg" style="width: 630px; height: 39px;" /></p>
+	<img alt="" src="/images/oldposts/9Dz6Z.jpg" style="width: 630px; height: 39px;" /></p>
 <p>
 	然后像Git仓库中添加文件，利用git add命令。git add支持各种模糊匹配模式，将当前目标下的所有文件添加如git仓库执行。</p>
 <pre class="brush:shell;first-line:1;pad-line-numbers:true;highlight:null;collapse:false;">
@@ -44,7 +44,7 @@ $&gt;git status
 <p>
 	命令便可以查看到变化的文件。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEjPHJVh/PcJyh.jpg" style="width: 630px; height: 182px;" /></p>
+	<img alt="" src="/images/oldposts/PcJyh.jpg" style="width: 630px; height: 182px;" /></p>
 <p>
 	上图在文件修改后，已经执行<strong>git add &lt;file&gt;</strong>命令后的效果，再次<strong>git commit</strong>即可提交修改。</p>
 <p>
@@ -61,7 +61,7 @@ $&gt;git push
 <p>
 	即可将本地代码推送到远端。</p>
 <p style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/CEjPH9Tv/Hvd09.jpg" style="width: 630px; height: 206px;" /></p>
+	<img alt="" src="/images/oldposts/Hvd09.jpg" style="width: 630px; height: 206px;" /></p>
 <p>
 	此时如果需要异地同步下载代码，只需要<strong>git pull</strong>到本地即可。<strong>git pull</strong>本身就是集成了下载和merge两个命令，即会自动和你本地的代码合并的。如果只下载不合并的话，则可使用<strong>git fetch</strong>命令。</p>
 <p>

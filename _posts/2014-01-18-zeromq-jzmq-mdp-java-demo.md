@@ -12,7 +12,7 @@ thread_key: 1624
 <div>
 	&nbsp;</div>
 <div style="text-align: center;">
-	<img alt="" src="http://onecoder.qiniudn.com/8wuliao/DtceMQG4/Gdysx.jpg" /></div>
+	<img alt="" src="/images/oldposts/Gdysx.jpg" /></div>
 <div>
 	&nbsp;</div>
 <div>

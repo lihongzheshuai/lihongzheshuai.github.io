@@ -36,7 +36,7 @@ thread_key: 1862
 
 还是来个图表示一下：
 
-<img class="aligncenter" src="http://onecoder.qiniudn.com/cdn/proxy-uml.png?imageView2/2/w/740/q/85|watermark/2/text/d3d3LmNvZGVybGkuY29t/font/5b6u6L2v6ZuF6buR/fontsize/300/fill/IzM3QUMxNw==/dissolve/85/gravity/SouthEast/dx/10/dy/10" alt="" width="384" height="206" />
+<img class="aligncenter" src="/images/oldposts/proxy-uml.png" alt="" width="384" height="206" />
 
 这里设想了一个简单的卖房子的场景。在没有代理的情况下，房子的拥有者想要卖房子，需要自己发布信息，带买家看房，办理交接手续等事情。这时候房主发现这样太麻烦了。于是他请来了代理HouseProxy，代理负责除必须房主参加的办理手续之外的所有事情。
 这正是代理模式应用场景中的：智能指引，指当调用真实的对象时，代理处理另外的一些事情。

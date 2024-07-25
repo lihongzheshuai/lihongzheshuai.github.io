@@ -47,11 +47,12 @@ GoF《设计模式》中说道：动态的给一个对象添加一些额外的�
 
 为了加深自己的理解，先手动画一幅图：
 
-<img class="aligncenter" src="http://onecoder.qiniudn.com/decorator-uml.png?imageView2/2/w/740/q/85|watermark/2/text/d3d3LmNvZGVybGkuY29t/font/5b6u6L2v6ZuF6buR/fontsize/300/fill/IzM3QUMxNw==/dissolve/85/gravity/SouthEast/dx/10/dy/10" alt="" width="644" height="258" />
+<img class="aligncenter" src="/images/oldposts/decorator-uml.png" alt="" width="644" height="258" />
 其中ReviewChineseDecorator和ReviewEnglishDecorator就是两个装饰器。装饰的是ReviewImpl。这里设想的是这样的场景，一个人想要进行复习(ReviewImpl.doReview())，本来只有一些特定内容要复习。结果，后来又增加的中文和英文的复习任务。这个时候，如果不应用设计模式，那么就要修改doReview的代码，增加英语和语文复习的内容。这自然范围了开闭原则。当然你也可以采用继承，增加子类，但是这又违反了合成复用原则。而且，那种在调用者一端构造一堆子类实例然后调用的方式，又显得不够优雅。于是，装饰模式来了。
 
 装饰器与被装饰者实现同一个接口，并持有被装饰着实例，从而可以动态的为被装饰着添加功能。代码如下：
-{% highlight java %}
+
+```java
 /**
 * Created by OneCoder on 2014/11/12.
 */
@@ -98,11 +99,11 @@ public class DecoratorMain {
     }
 
 }
-{% endhighlight %}
+```
 调用者的代码是不是看起来特别的熟悉，我们在使用Java中的各种流的时候，经常遇到这种代码：
-{% highlight java %}
+```java
 InputStream input = new DataInputStream(new BufferedInputStream(new FileInputStream("C:/test.exe")));
-{% endhighlight %}
+```
 这就是典型的装饰模式。
 
 其实网上关于各种设计模式的介绍导出都是，有很多其实讲的都很清楚。这里OneCoder只是为了自己能加深印象，深入理解，自己讲给自己听的而已。

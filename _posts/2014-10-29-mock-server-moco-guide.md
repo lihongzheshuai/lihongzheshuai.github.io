@@ -14,7 +14,7 @@ Moco服务端就是一个独立的jar包。通过命令(针对0.9.2版本)：
 <blockquote>java -jar moco-runner-&lt;version&gt;-standalone.jar start -p 12306 -c ***.json</blockquote>
 即可启动服务。其中12306是任意指定的端口号。foo.json是需要加载的配置文件名。&lt;version&gt; 是你下载的Moco的版本号，当前最新版为0.9.2。
 
-<img class="aligncenter" src="http://onecoder.qiniudn.com/start-moco.png" alt="" width="674" height="437" />
+<img class="aligncenter" src="/images/oldposts/start-moco.png" alt="" width="674" height="437" />
 
 上图中，启动信息之外的信息，是通过浏览器访问地址:http://localhost:12306后，控制台输出的信息。此时的配置文件如下：
 <blockquote>
