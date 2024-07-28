@@ -23,7 +23,7 @@ $blue-bright  : #87daff;
 $blue         : #0684bd;
 $blue-deep    : #262a30;
 $orange       : #fc6423;
-$code-font-color: rgb(252, 100, 35)
+$code-font-color: rgb(252, 100, 35);
 
 
 // Scaffolding
@@ -147,6 +147,7 @@ $code-font-size                 : if(type-of(jekyll-config('font.codes.size')) =
 $code-border-radius             : 3px;
 $code-foreground                : $code-font-color;
 $code-background                : $gainsboro;
+$code-font-weight               : bolder;
 
 
 
