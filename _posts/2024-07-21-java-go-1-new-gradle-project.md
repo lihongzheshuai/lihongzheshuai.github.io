@@ -5,6 +5,7 @@ date: 2024-07-21 16:38 +0800
 author: onecoder
 comments: true
 tags: [Java,Gradle,一起学Java]
+categories: [Java,Gradle,一起学Java]
 ---
 一时兴起，也为了便于跟大家同步学习进展和分享样例代码，遂决定创建一个全新的Java项目，并通过Github与大家分享。本文就是记录该项目的创建过程以及其中的一些知识要点（如Gradle等）。为了紧跟技术潮流和提高操作效率，本项目通过IDEA直接创建，用Gradle进行配置管理和用Git进行版本管理，并托管到Github上。Github地址为：[https://github.com/lihongzheshuai/java-all-in-one](https://github.com/lihongzheshuai/java-all-in-one)。
 

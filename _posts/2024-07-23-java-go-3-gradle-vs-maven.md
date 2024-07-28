@@ -5,6 +5,7 @@ date: 2024-07-23 22:44 +0800
 author: onecoder
 comments: true
 tags: [Java,Gradle,Maven, 一起学Java]
+categories: [Java,Gradle,Maven, 一起学Java]
 ---
 在第一步创建的项目（java-all-in-one）项目里，我们提到了使用Gradle作为项目构建工具。看到这里，不知道你是否有疑惑，什么是项目构建工具。Java项目常用构建工具有哪些？都有什么特点？
 

@@ -4,7 +4,7 @@ title: Java NIO框架Netty教程（一） - Hello Netty
 date: 2012-07-11 12:34
 author: onecoder
 comments: true
-categories: [Netty, Netty, 分布式, 教程]
+categories: [Netty, 分布式, 教程]
 tags: [Netty,NIO]
 thread_key: 907
 ---
