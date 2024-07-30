@@ -213,7 +213,7 @@ font:
   codes:
     external: true
     family:
-    size:
+    size: 16px
 
 
 
