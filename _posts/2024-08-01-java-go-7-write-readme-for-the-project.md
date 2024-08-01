@@ -46,7 +46,7 @@ README文件的内容理论上当然是随心所欲的，不过如果从严谨�
 对于我们的java-all-in-one项目而言，我手动在项目的根目录创建一个`README.MD`文件，通过IDEA内置的MarkDown编辑器，编写内容如下内容，你可以通过` git pull`下载更新代码同步项目内容。
 
 ```markdown
-# Java-ALl-In-One项目
+# Java-All-In-One项目
 
 ## 目录
 - [项目简介](#项目简介)
@@ -74,5 +74,9 @@ README文件的内容理论上当然是随心所欲的，不过如果从严谨�
 - QQ频道(Java开发者乐园): [点击链接加入腾讯频道【Java开发者乐园】](https://pd.qq.com/s/dzb1xn6cd)
 
 ```
+
+上传到Github后，效果如图：
+
+![本项目Readme](/images/post/java-go-7/java-all-readme_2024-08-01_22-10-27.png)
 
 以上，希望通过今天的学习，你能了解什么是README文件、什么是MarkDown以及如何动手编写一个属于你项目的README文件。
