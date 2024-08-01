@@ -7,86 +7,35 @@ comments: true
 tags: [Markdown]
 thread_key: 1653
 ---
-<p>
-	了解一个项目，恐怕首先都是通过其Readme文件了解信息。如果你以为Readme文件都是随便写写的那你就错了。github，oschina git gitcafe的代码托管平台上的项目的Readme.MD文件都是有其特有的语法的。称之为Markdown语法。基本规则如下：</p>
-<blockquote>
-	<p>
-		Markdown 语法速查表<br />
-		1 标题与文字格式<br />
-		标题<br />
-		# 这是 H1 &lt;一级标题&gt;<br />
-		## 这是 H2 &lt;二级标题&gt;<br />
-		###### 这是 H6 &lt;六级标题&gt;<br />
-		文字格式<br />
-		**这是文字粗体格式**<br />
-		*这是文字斜体格式*<br />
-		~~在文字上添加删除线~~<br />
-		2 列表<br />
-		无序列表<br />
-		* 项目1<br />
-		* 项目2<br />
-		* 项目3<br />
-		有序列表<br />
-		1. 项目1<br />
-		2. 项目2<br />
-		3. 项目3<br />
-		&nbsp;&nbsp; * 项目1<br />
-		&nbsp;&nbsp; * 项目2<br />
-		3 其它<br />
-		图片<br />
-		![图片名称](http://gitcafe.com/image.png)<br />
-		链接<br />
-		[链接名称](http://gitcafe.com)<br />
-		引用<br />
-		&gt; 第一行引用文字<br />
-		&gt; 第二行引用文字<br />
-		水平线<br />
-		***<br />
-		代码<br />
-		`&lt;hello world&gt;`<br />
-		代码块高亮<br />
-		```ruby<br />
-		&nbsp; def add(a, b)<br />
-		&nbsp; &nbsp; return a + b<br />
-		&nbsp; end<br />
-		```<br />
-		表格<br />
-		&nbsp; 表头&nbsp; | 表头<br />
-		&nbsp; ------------- | -------------<br />
-		&nbsp;单元格内容&nbsp; | 单元格内容<br />
-		&nbsp;单元格内容l&nbsp; | 单元格内容</p>
-</blockquote>
-<p>
-	如果直接记语法，那似乎困难了些。这里OneCoder推荐两个Markdown的编辑器。</p>
-<p>
-	在线编辑器：stackedit<br />
-	网址：<a href="https://stackedit.io/">https://stackedit.io/</a></p>
-<p>
-	Mac下离线编辑器Mou<br />
-	下载地址：<a href="http://mouapp.com/">http://mouapp.com/</a></p>
-<p style="text-align: center;">
-	<img alt="" src="/images/oldposts/RFZ89.jpg" style="width: 700px; height: 501px;" /></p>
-<p>
-	<br />
-	OneCoder这里使用的是后者为自己的shurnim-storage项目写Readme。至于这个项目是什么，见Readme文档，OneCoder也会在另外的博文做一些补充说明。成品Readme如下：</p>
 
-<blockquote>
+了解一个项目，恐怕首先都是通过其Readme文件了解信息。如果你以为Readme文件都是随便写写的那你就错了。github，oschina git gitcafe的代码托管平台上的项目的Readme.MD文件都是有其特有的语法的。称之为Markdown语法。语法规则详见：[Markdown 官方教程](https://markdown.com.cn/basic-syntax/)
+
+
+如果直接记语法，那似乎困难了些。这里OneCoder推荐两个Markdown的编辑器。
+
+在线编辑器stackedit网址：[https://stackedit.io/](https://stackedit.io/)
+
+Mac下离线编辑器Mou下载地址：[http://mouapp.com/](http://mouapp.com/)
+
+![Mou](/images/oldposts/RFZ89.jpg)
+
+OneCoder这里使用的是后者为自己的shurnim-storage项目写Readme。至于这个项目是什么，见Readme文档，OneCoder也会在另外的博文做一些补充说明。成品Readme如下：
+
+```markdown
 # shurnim-storage
-
-![Shurnim icon](http://pic.yupoo.com/8wuliao/DLPii2Jx/rEBO.jpg)
 
 ## 目录
 - [shurnim-storage](#shurnim-storage)
-	- [目录](#目录)
-	- [背景介绍](#背景介绍)
-	- [项目介绍](#项目介绍)
-	- [使用说明](#使用说明)
-		- [获取代码](#获取代码)
-		- [开发插件](#开发插件)
-		- [使用*ShurnimStorage*接口](#使用shurnimstorage接口)
-			- [接口介绍](#接口介绍)
-			- [使用样例](#使用样例)
-	- [其他](#其他)
+ - [目录](#目录)
+ - [背景介绍](#背景介绍)
+ - [项目介绍](#项目介绍)
+ - [使用说明](#使用说明)
+  - [获取代码](#获取代码)
+  - [开发插件](#开发插件)
+  - [使用*ShurnimStorage*接口](#使用shurnimstorage接口)
+   - [接口介绍](#接口介绍)
+   - [使用样例](#使用样例)
+ - [其他](#其他)
 
 <a name="背景介绍"></a>
 ## 背景介绍
@@ -121,35 +70,35 @@ OSChina上的会持续更新。
 
 * maven
 
-	1. 加入OSC仓库
-	
-				<repositories>
-            		<repository>
-            			<id>nexus</id>
-            			<name>local private nexus</name>
-            			<url>http://maven.oschina.net/content/groups/public/</url>
-            			<releases>
-            				<enabled>true</enabled>
-            			</releases>
-            			<snapshots>
-            				<enabled>false</enabled>
-            			</snapshots>
-            		</repository>
-            	</repositories>
+ 1. 加入OSC仓库
+ 
+    <repositories>
+              <repository>
+               <id>nexus</id>
+               <name>local private nexus</name>
+               <url>http://maven.oschina.net/content/groups/public/</url>
+               <releases>
+                <enabled>true</enabled>
+               </releases>
+               <snapshots>
+                <enabled>false</enabled>
+               </snapshots>
+              </repository>
+             </repositories>
 
-	2. 加入依赖
-	
-			<dependency>
-			  <groupId>com.coderli</groupId>
-			  <artifactId>shurnim-storage</artifactId>
- 			  <version>0.1-alpha</version>
-			</dependency>
+ 2. 加入依赖
+ 
+   <dependency>
+     <groupId>com.coderli</groupId>
+     <artifactId>shurnim-storage</artifactId>
+      <version>0.1-alpha</version>
+   </dependency>
 * Gradle 编译Jar
 
 在项目目录执行
-	
-	gradle jar
-	
+ 
+ gradle jar
+ 
 <a name="开发插件"></a>
 ### 开发插件
 
@@ -174,68 +123,68 @@ import com.coderli.shurnim.storage.plugin.model.Resource;
  */
 public interface PluginAPI {
 
-	/**
-	 * 初始化接口
-	 * 
-	 * @author OneCoder
-	 * @date 2014年5月19日 下午10:47:40
-	 */
-	void init();
+ /**
+  * 初始化接口
+  * 
+  * @author OneCoder
+  * @date 2014年5月19日 下午10:47:40
+  */
+ void init();
 
-	/**
-	 * 获取子资源列表
-	 * 
-	 * @param parentPath
-	 * @return
-	 * @author OneCoder
-	 * @date 2014年4月24日 下午11:29:14
-	 */
-	List<Resource> getChildResources(String parentPath);
+ /**
+  * 获取子资源列表
+  * 
+  * @param parentPath
+  * @return
+  * @author OneCoder
+  * @date 2014年4月24日 下午11:29:14
+  */
+ List<Resource> getChildResources(String parentPath);
 
-	/**
-	 * 下载特定的资源
-	 * 
-	 * @param parentPath
-	 *            目录路径
-	 * @param name
-	 *            资源名称
-	 * @param storePath
-	 *            下载资源保存路径
-	 * @return
-	 * @author OneCoder
-	 * @date 2014年4月24日 下午11:30:19
-	 */
-	Resource downloadResource(String parentPath, String name, String storePath);
+ /**
+  * 下载特定的资源
+  * 
+  * @param parentPath
+  *            目录路径
+  * @param name
+  *            资源名称
+  * @param storePath
+  *            下载资源保存路径
+  * @return
+  * @author OneCoder
+  * @date 2014年4月24日 下午11:30:19
+  */
+ Resource downloadResource(String parentPath, String name, String storePath);
 
-	/**
-	 * 创建文件夹
-	 * 
-	 * @param path
-	 *            文件夹路径
-	 * @param auto
-	 *            是否自动创建父目录
-	 * @return
-	 * @author OneCoder
-	 * @date 2014年5月15日 下午10:10:04
-	 */
-	boolean mkdir(String path, boolean auto);
+ /**
+  * 创建文件夹
+  * 
+  * @param path
+  *            文件夹路径
+  * @param auto
+  *            是否自动创建父目录
+  * @return
+  * @author OneCoder
+  * @date 2014年5月15日 下午10:10:04
+  */
+ boolean mkdir(String path, boolean auto);
 
-	/**
-	 * 上传资源
-	 * 
-	 * @param parentPath
-	 *            父目录路径
-	 * @param name
-	 *            资源名称
-	 * @param uploadFile
-	 *            待上传的本地文件
-	 * @return
-	 * @author OneCoder
-	 * @date 2014年5月15日 下午10:40:13
-	 */
-	boolean uploadResource(String parentPath, String name, File uploadFile);
+ /**
+  * 上传资源
+  * 
+  * @param parentPath
+  *            父目录路径
+  * @param name
+  *            资源名称
+  * @param uploadFile
+  *            待上传的本地文件
+  * @return
+  * @author OneCoder
+  * @date 2014年5月15日 下午10:40:13
+  */
+ boolean uploadResource(String parentPath, String name, File uploadFile);
 }
-```
+\```
 
 目前插件的接口列表仅为同步资源设计，如果想要支持更多操作(如删除，查找等)，可扩展该接口定义。<br/><br/>
 接口中，所有的参数和返回值均为*shurnim-storage*框架中定义的通用模型。因此，您在开发插件过程中需要将特定SDK中的模型转换成接口中提供的模型。<br/><br/>
@@ -255,163 +204,163 @@ import com.coderli.shurnim.storage.upyun.api.UpYun;
 
 public class UpYunPlugin extends AbstractPluginAPI {
 
-	private UpYun upyun;
-	private String username;
-	private String password;
-	private String bucketName;
+ private UpYun upyun;
+ private String username;
+ private String password;
+ private String bucketName;
 
-	public UpYun getUpyun() {
-		return upyun;
-	}
+ public UpYun getUpyun() {
+  return upyun;
+ }
 
-	public void setUpyun(UpYun upyun) {
-		this.upyun = upyun;
-	}
+ public void setUpyun(UpYun upyun) {
+  this.upyun = upyun;
+ }
 
-	public String getUsername() {
-		return username;
-	}
+ public String getUsername() {
+  return username;
+ }
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+ public void setUsername(String username) {
+  this.username = username;
+ }
 
-	public String getPassword() {
-		return password;
-	}
+ public String getPassword() {
+  return password;
+ }
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
+ public void setPassword(String password) {
+  this.password = password;
+ }
 
-	public String getBucketName() {
-		return bucketName;
-	}
+ public String getBucketName() {
+  return bucketName;
+ }
 
-	public void setBucketName(String bucketName) {
-		this.bucketName = bucketName;
-	}
+ public void setBucketName(String bucketName) {
+  this.bucketName = bucketName;
+ }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * com.coderli.shurnim.storage.plugin.PluginAPI#getChildResources(java.lang
-	 * .String)
-	 */
-	@Override
-	public List<Resource> getChildResources(String parentPath) {
-		return null;
-	}
+ /*
+  * (non-Javadoc)
+  * 
+  * @see
+  * com.coderli.shurnim.storage.plugin.PluginAPI#getChildResources(java.lang
+  * .String)
+  */
+ @Override
+ public List<Resource> getChildResources(String parentPath) {
+  return null;
+ }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * com.coderli.shurnim.storage.plugin.PluginAPI#downloadResource(java.lang
-	 * .String, java.lang.String, java.lang.String)
-	 */
-	@Override
-	public Resource downloadResource(String parentPath, String name,
-			String storePath) {
-		File storeFile = new File(storePath);
-//		if (!storeFile.exists()) {
-//			try {
-//				storeFile.createNewFile();
-//			} catch (IOException e) {
-//				e.printStackTrace();
-//			}
-//		}
-		String filePath = getFullPath(parentPath, name);
-		upyun.readDir("/api");
-		if (upyun.readFile(filePath, storeFile)) {
-			Resource result = new Resource();
-			result.setName(name);
-			result.setPath(parentPath);
-			result.setType(Type.FILE);
-			result.setLocalFile(storeFile);
-			return result;
-		}
-		return null;
-	}
+ /*
+  * (non-Javadoc)
+  * 
+  * @see
+  * com.coderli.shurnim.storage.plugin.PluginAPI#downloadResource(java.lang
+  * .String, java.lang.String, java.lang.String)
+  */
+ @Override
+ public Resource downloadResource(String parentPath, String name,
+   String storePath) {
+  File storeFile = new File(storePath);
+//  if (!storeFile.exists()) {
+//   try {
+//    storeFile.createNewFile();
+//   } catch (IOException e) {
+//    e.printStackTrace();
+//   }
+//  }
+  String filePath = getFullPath(parentPath, name);
+  upyun.readDir("/api");
+  if (upyun.readFile(filePath, storeFile)) {
+   Resource result = new Resource();
+   result.setName(name);
+   result.setPath(parentPath);
+   result.setType(Type.FILE);
+   result.setLocalFile(storeFile);
+   return result;
+  }
+  return null;
+ }
 
-	String getFullPath(String parentPath, String name) {
-		if (!parentPath.endsWith(File.separator)) {
-			parentPath = parentPath + File.separator;
-		}
-		return parentPath + name;
-	}
+ String getFullPath(String parentPath, String name) {
+  if (!parentPath.endsWith(File.separator)) {
+   parentPath = parentPath + File.separator;
+  }
+  return parentPath + name;
+ }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.coderli.shurnim.storage.plugin.PluginAPI#mkdir(java.lang.String,
-	 * boolean)
-	 */
-	@Override
-	public boolean mkdir(String path, boolean auto) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+ /*
+  * (non-Javadoc)
+  * 
+  * @see com.coderli.shurnim.storage.plugin.PluginAPI#mkdir(java.lang.String,
+  * boolean)
+  */
+ @Override
+ public boolean mkdir(String path, boolean auto) {
+  // TODO Auto-generated method stub
+  return false;
+ }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * com.coderli.shurnim.storage.plugin.PluginAPI#uploadResource(java.lang
-	 * .String, java.lang.String, java.io.File)
-	 */
-	@Override
-	public boolean uploadResource(String parentPath, String name,
-			File uploadFile) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+ /*
+  * (non-Javadoc)
+  * 
+  * @see
+  * com.coderli.shurnim.storage.plugin.PluginAPI#uploadResource(java.lang
+  * .String, java.lang.String, java.io.File)
+  */
+ @Override
+ public boolean uploadResource(String parentPath, String name,
+   File uploadFile) {
+  // TODO Auto-generated method stub
+  return false;
+ }
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.coderli.shurnim.storage.plugin.AbstractPluginAPI#init()
-	 */
-	@Override
-	public void init() {
-		upyun = new UpYun(bucketName, username, password);
-	}
+ /*
+  * (non-Javadoc)
+  * 
+  * @see com.coderli.shurnim.storage.plugin.AbstractPluginAPI#init()
+  */
+ @Override
+ public void init() {
+  upyun = new UpYun(bucketName, username, password);
+ }
 
 }
-```
+\```
 
 
 2. 编写插件配置文件
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
-	<id>qiniu</id>
-	<name>七牛云存储</name>
-	<api>
-		<className>com.coderli.shurnim.storage.qiniu.QiniuPlugin</className>
-		<params>
-			<param name="access_key" displayName="ACCESS_KEY">EjREKHI_GFXbQzyrKdVhhXrIRyj3fRC1s9UmZPZO
-			</param>
-			<param name="secret_key" displayName="SECRET_KEY">88NofFWUvkfJ6T6rGRxlDSZOQxWkIxY2IsFIXJLX
-			</param>
-			<param name="bucketName" displayName="空间名">onecoder
-			</param>
-		</params>
-	</api>
+ <id>qiniu</id>
+ <name>七牛云存储</name>
+ <api>
+  <className>com.coderli.shurnim.storage.qiniu.QiniuPlugin</className>
+  <params>
+   <param name="access_key" displayName="ACCESS_KEY">EjREKHI_GFXbQzyrKdVhhXrIRyj3fRC1s9UmZPZO
+   </param>
+   <param name="secret_key" displayName="SECRET_KEY">88NofFWUvkfJ6T6rGRxlDSZOQxWkIxY2IsFIXJLX
+   </param>
+   <param name="bucketName" displayName="空间名">onecoder
+   </param>
+  </params>
+ </api>
 </plugin>
-```
+\```
    * **id** 为该插件在*shurnim-storage*框架下的唯一标识，不可重复，必填。
     * **name** 为显示值，为UI开发提供可供显示的有语义的值。
     * **className** 为插件接口实现类的完整路径。必填
     * **params/param** 为插件需要用户配置的参数列表。其中
-    	* *name* 代表参数名，需要与接口实现类中的参数名严格一致，且必须有相应的set方法的格式要求严格，即set+首字母大写的参数名。例如:setAccess_key(String arg); 目前只支持*String*类型的参数。
-    	* *displayName* 为参数显示名，同样是为了UI开发的考虑，方便用户开发出可根据参数列表动态显示的UI界面。
-    	* 参数的值可以直接配置在配置文件中，也可以在运行期动态赋值。直接配置值，对于直接使用后端接口来说较为方便。对于UI开发来说，运行期动态赋值更为合理。<br/></br>
+     * *name* 代表参数名，需要与接口实现类中的参数名严格一致，且必须有相应的set方法的格式要求严格，即set+首字母大写的参数名。例如:setAccess_key(String arg); 目前只支持*String*类型的参数。
+     * *displayName* 为参数显示名，同样是为了UI开发的考虑，方便用户开发出可根据参数列表动态显示的UI界面。
+     * 参数的值可以直接配置在配置文件中，也可以在运行期动态赋值。直接配置值，对于直接使用后端接口来说较为方便。对于UI开发来说，运行期动态赋值更为合理。<br/></br>
 
-	在使用源码工程时，插件配置文件统一放置在工程的*plugins*目录下。你也可以统一放置在任何位置。此时，在构造后端接口实例时，需要告知接口该位置。
-	
+ 在使用源码工程时，插件配置文件统一放置在工程的*plugins*目录下。你也可以统一放置在任何位置。此时，在构造后端接口实例时，需要告知接口该位置。
+ 
 <a name="使用ShurnimStorage接口"></a>
 ### 使用*ShurnimStorage*接口
 
@@ -447,59 +396,59 @@ import com.coderli.shurnim.storage.plugin.model.Resource;
  */
 public interface ShurnimStorage {
 
-	/**
-	 * 获取当前支持的插件列表<br>
-	 * 没有支持的插件的时候可能返回null
-	 * 
-	 * @return
-	 * @author OneCoder
-	 * @date 2014年5月7日 下午8:53:25
-	 */
-	List<Plugin> getSupportedPlugins();
+ /**
+  * 获取当前支持的插件列表<br>
+  * 没有支持的插件的时候可能返回null
+  * 
+  * @return
+  * @author OneCoder
+  * @date 2014年5月7日 下午8:53:25
+  */
+ List<Plugin> getSupportedPlugins();
 
-	/**
-	 * 给指定的插件的对应参数赋值<br>
-	 * 此处赋值会覆盖配置文件中的默认值
-	 * 
-	 * @param pluginId
-	 *            插件ID
-	 * @param paramsKV
-	 *            参数键值对
-	 * @author OneCoder
-	 * @date 2014年5月9日 上午12:41:53
-	 */
-	void setParamValues(String pluginId, Map<String, String> paramsKV);
+ /**
+  * 给指定的插件的对应参数赋值<br>
+  * 此处赋值会覆盖配置文件中的默认值
+  * 
+  * @param pluginId
+  *            插件ID
+  * @param paramsKV
+  *            参数键值对
+  * @author OneCoder
+  * @date 2014年5月9日 上午12:41:53
+  */
+ void setParamValues(String pluginId, Map<String, String> paramsKV);
 
-	/**
-	 * 获取插件对应目录下的资源列表
-	 * 
-	 * @param pluginId
-	 *            插件ID
-	 * @param path
-	 *            指定路径
-	 * @return
-	 * @author OneCoder
-	 * @date 2014年5月11日 上午8:52:00
-	 */
-	List<Resource> getResources(String pluginId, String path);
+ /**
+  * 获取插件对应目录下的资源列表
+  * 
+  * @param pluginId
+  *            插件ID
+  * @param path
+  *            指定路径
+  * @return
+  * @author OneCoder
+  * @date 2014年5月11日 上午8:52:00
+  */
+ List<Resource> getResources(String pluginId, String path);
 
-	/**
-	 * 同步资源
-	 * 
-	 * @param fromPluginId
-	 *            待同步的插件Id
-	 * @param toPluginIds
-	 *            目标插件Id
-	 * @param resource
-	 *            待同步的资源
-	 * @return 同步结果
-	 * @author OneCoder
-	 * @date 2014年5月11日 上午11:41:24
-	 */
-	boolean sycnResource(String fromPluginId, String toPluginId,
-				Resource resource) throws Exception;
+ /**
+  * 同步资源
+  * 
+  * @param fromPluginId
+  *            待同步的插件Id
+  * @param toPluginIds
+  *            目标插件Id
+  * @param resource
+  *            待同步的资源
+  * @return 同步结果
+  * @author OneCoder
+  * @date 2014年5月11日 上午11:41:24
+  */
+ boolean sycnResource(String fromPluginId, String toPluginId,
+    Resource resource) throws Exception;
 }
-```      
+\```      
 
 当前接口实际仅包含了获取资源列表*getResources*和同步资源*sycnResource*功能，*getSupportedPlugins*和*setParamValues*实际为辅助接口，在UI开发时较为有用。<br/><br/>
 同样，您也可以扩展开发该接口增加更多的您喜欢的特性。例如，同时删除给定存储上的文件。当然，这需要插件接口的配合支持。<br/><br/>
@@ -510,7 +459,6 @@ public interface ShurnimStorage {
 
 <a name="使用样例"></a>
 #### 使用样例
-
 ```java        
 package com.coderli.shurnim.test.shurnimstorage;
 
@@ -533,29 +481,29 @@ import com.coderli.shurnim.storage.plugin.model.Resource.Type;
  */
 public class ShurnimStorageTest {
 
-	private static ShurnimStorage shurnim;
+ private static ShurnimStorage shurnim;
 
-	@BeforeClass
-	public static void init() {
-		shurnim = new DefaultShurnimStorageImpl(
-				"/Users/apple/git/shurnim-storage-for-UPYUN/plugins");
-	}
+ @BeforeClass
+ public static void init() {
+  shurnim = new DefaultShurnimStorageImpl(
+    "/Users/apple/git/shurnim-storage-for-UPYUN/plugins");
+ }
 
-	@Test
-	public void testSycnResource() {
-		Resource syncResource = new Resource();
-		syncResource.setPath("/api");
-		syncResource.setName("api.html");
-		syncResource.setType(Type.FILE);
-		try {
-			Assert.assertTrue(shurnim.sycnResource("upyun", "qiniu",
-					syncResource));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+ @Test
+ public void testSycnResource() {
+  Resource syncResource = new Resource();
+  syncResource.setPath("/api");
+  syncResource.setName("api.html");
+  syncResource.setType(Type.FILE);
+  try {
+   Assert.assertTrue(shurnim.sycnResource("upyun", "qiniu",
+     syncResource));
+  } catch (Exception e) {
+   e.printStackTrace();
+  }
+ }
 }
-```
+\```
 <a name="其他"></a>
 ## 其他
 
@@ -564,10 +512,7 @@ public class ShurnimStorageTest {
 * Email: <wushikezuo@gmail.com>
 * QQ:57959968
 * Blog:[OneCoder](http://www.coderli.com)
-
-</blockquote>
+```
 
 效果预览：
-<p style="text-align: center;">
-	<img alt="" src="/images/oldposts/YRDQc.jpg" style="width: 700px; height: 436px;" /></p>
-
+![preview](/images/oldposts/YRDQc.jpg)
