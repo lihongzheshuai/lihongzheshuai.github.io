@@ -7,7 +7,7 @@ comments: true
 tags: [Java,Git,一起学Java]
 categories: [Java,Git,一起学Java]
 ---
-在现代软件开发中，README文件是任何项目中不可或缺的一部分。它不仅为用户提供了项目的基本信息，还指导开发者如何使用、安装和贡献代码。其实，早在2014年的文章[为项目编写Readme.MD文件](https://www.coderli.com/write-readme-for-your-project/)中，我就提到过关于README的事情。今天为了我们的项目，旧事重提也为让大家再get一个知识点，我们再来说说这个README文件。
+在现代软件开发中，README文件是任何项目中不可或缺的一部分。它不仅为用户提供了项目的基本信息，还指导开发者如何使用、安装和贡献代码。其实，早在2014年的文章[*《为项目编写Readme.MD文件》*](https://www.coderli.com/write-readme-for-your-project/)中，我就提到过关于README的事情。今天为了我们的项目，旧事重提也为让大家再get一个知识点，我们再来说说这个README文件。
 
 <!--more-->
 
@@ -15,7 +15,7 @@ categories: [Java,Git,一起学Java]
 
 README文件是一种包含项目基本信息的文档，通常放置在项目的根目录下。它的主要目的是向用户和开发者提供有关项目的详细信息，包括项目的目的、功能、安装和使用方法、贡献指南以及许可证信息。通过阅读README文件，用户可以快速了解项目的基本情况，并知道如何使用和参与项目。
 
-README文件是一种在GitHub以及其他代码托管平台（如Gitee、GitCode等）上广泛使用的约定。通常以Markdown（.md）格式编写。Markdown格式的优势在于它简单易学，并且能够很好地展示格式化的文本。（语法规则详见：[Markdown 官方教程](https://markdown.com.cn/basic-syntax/)）。GitHub等代码托管平台会自动渲染README文件，使其在项目主页上美观地显示出来。如图所示：
+README文件是一种在GitHub以及其他代码托管平台（如Gitee、GitCode等）上广泛使用的约定。通常以Markdown（.md）格式编写。Markdown格式的优势在于它简单易学，并且能够很好地展示格式化的文本。（语法规则详见：[*《Markdown 官方教程》*](https://markdown.com.cn/basic-syntax/)）。GitHub等代码托管平台会自动渲染README文件，使其在项目主页上美观地显示出来。如图所示：
 
 ![README示意图](/images/post/java-go-7/readme-preview_2024-08-01_21-15-25.png)
 
