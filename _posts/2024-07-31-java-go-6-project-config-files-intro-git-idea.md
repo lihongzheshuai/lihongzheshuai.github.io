@@ -68,11 +68,11 @@ bin/
 .DS_Store
 ```
 
-### `.gitignore` 文件的位置
+### **.gitignore** 文件的位置
 
 `.gitignore` 文件通常位于Git仓库的根目录，也可以放在子目录中，子目录中的`.gitignore`文件只对其所在目录及子目录生效。`.gitignore` 文件的忽略规则是递归的，即父目录中的规则会影响子目录中的文件，除非子目录中有自己的 `.gitignore` 文件。
 
-### `.gitignore` 文件的基本语法
+### **.gitignore** 文件的基本语法
 
 - 空行或以 `#` 开头的行会被视为注释。
 - 可以使用通配符 `*`、`?` 和 `[]` 来匹配文件名。
@@ -138,7 +138,7 @@ bin/
 3. **任务配置**：存储在 IDEA 中运行 Gradle 任务的配置，可以直接从 IDE 运行特定的 Gradle 任务。
 4. **其他特定设置**：包括 Gradle 相关的 VM 选项、堆内存设置等。
 
-### 以下是本项目 `gradle.xml` 文件内容：
+以下是本项目 `gradle.xml` 文件内容：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -221,12 +221,6 @@ bin/
 ### jarRepositories.xml 文件（本地文件，仓库里没有）
 
 `jarRepositories.xml` 是 IntelliJ IDEA 项目中用于定义项目使用的 JAR 文件库（repository）配置的文件。它帮助 IntelliJ IDEA 识别项目中使用的 JAR 文件库的位置和相关设置。这在使用 IntelliJ IDEA 进行依赖管理时特别有用，
-
-### `jarRepositories.xml` 的作用
-
-- **定义仓库**：列出项目依赖的所有 JAR 文件库以及它们的位置（例如本地路径、Maven 中央仓库、其他远程仓库等）。
-- **仓库设置**：包括仓库名称、类型、URL、认证信息等。
-- **管理依赖**：帮助 IntelliJ IDEA 解析和管理项目依赖。
 
 我本地文件内容如下：
 
