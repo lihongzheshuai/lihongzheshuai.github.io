@@ -7,7 +7,7 @@ comments: true
 tags: [Java,Git,一起学Java]
 categories: [Java,Git,一起学Java]
 ---
-我们的[java-all-in-one](https://www.coderli.com/java-go-1-new-gradle-project/)项目的第一个PR比我预想的来的早了很多。感谢来自QQ群(982860385)友(插播广告，欢迎大家加入[Java技术交流群982860385](https://qm.qq.com/q/Mrj1HGLl2E))交流和PR。今天就介绍一下这次PR和项目调整的主要内容。
+我们的[***java-all-in-one***](https://www.coderli.com/java-go-1-new-gradle-project/)项目的第一个PR比我预想的来的早了很多。感谢来自我的QQ群友(插播广告，欢迎大家加入[***Java技术交流群982860385***](https://qm.qq.com/q/Mrj1HGLl2E))的PR。今天就介绍一下这次PR和项目调整的主要内容。
 
 <!--more-->
 
