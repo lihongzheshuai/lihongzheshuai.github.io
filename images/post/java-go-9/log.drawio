@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="RBU1weKgcttLdKfycTTq" name="第 1 页">
+        <mxGraphModel dx="392" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;rounded=1;shadow=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="应用程序" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;rounded=1;shadow=0;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="日志接口层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;fontColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="日志实现层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Java日志框架设计思想" style="swimlane;startSize=23;swimlaneLine=1;shadow=0;swimlaneFillColor=none;gradientColor=none;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="60" width="220" height="430" as="geometry">
+                        <mxRectangle x="70" y="60" width="160" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&lt;font color=&quot;#660000&quot;&gt;www.coderli.com&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="14" vertex="1">
+                    <mxGeometry x="110" y="390" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="jWrs0-nDZhhyeESxBXH_" name="第 2 页">
+        <mxGraphModel dx="392" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-1" value="" style="edgeStyle=none;html=1;rounded=1;shadow=0;" parent="1" source="jTjAMBMgJzl0kXzECKJ_-2" target="jTjAMBMgJzl0kXzECKJ_-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-2" value="应用程序" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-3" value="" style="edgeStyle=none;html=1;rounded=1;shadow=0;" parent="1" source="jTjAMBMgJzl0kXzECKJ_-4" target="jTjAMBMgJzl0kXzECKJ_-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-4" value="日志接口层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;fontColor=#000000;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-13" value="" style="edgeStyle=none;html=1;shadow=0;" parent="1" source="jTjAMBMgJzl0kXzECKJ_-5" target="jTjAMBMgJzl0kXzECKJ_-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-5" value="日志接口桥接层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-6" value="Java日志框架设计思想" style="swimlane;startSize=23;swimlaneLine=1;shadow=0;swimlaneFillColor=none;gradientColor=none;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="60" width="220" height="550" as="geometry">
+                        <mxRectangle x="70" y="60" width="160" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-12" value="日志实现层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;shadow=0;" parent="jTjAMBMgJzl0kXzECKJ_-6" vertex="1">
+                    <mxGeometry x="50" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jTjAMBMgJzl0kXzECKJ_-7" value="&lt;font color=&quot;#660000&quot;&gt;www.coderli.com&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="jTjAMBMgJzl0kXzECKJ_-6" vertex="1">
+                    <mxGeometry x="110" y="520" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
