@@ -343,8 +343,8 @@ post_wordcount:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: /images/wechat-qrcode.png
-  description: 欢迎订阅我的微信公众号，精选好文，内嵌文心智能体“Java菜鸟助教”
+  qcode: /images/qrcode_javagroup.jpg
+  description: 欢迎加入本站QQ交流群，一起交流探讨，共同进步。
 
 # Declare license on posts
 post_copyright:
