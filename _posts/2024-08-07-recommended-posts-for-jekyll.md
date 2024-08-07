@@ -110,7 +110,6 @@ record size limit.
 插件不行，就手写一个吧，简单搜索发现也不复杂。Jekyll网站是基于Liquid模板语言，核心代码如下：
 
 {% raw %}
-
 ```Liquid
 <h2>相关文章</h2>
   <ul>
@@ -124,7 +123,6 @@ record size limit.
     {% endfor %}
   </ul>
 ```
-
 {% endraw %}
 
 逻辑就是根据文章上打的tag，将tag相同的文章（排除当前文章）放到一起，然后输出到一个列表中。列表的多少通过limit控制，这里设置的是6个。
@@ -132,10 +130,10 @@ record size limit.
 将上述放到文章页合适位置，即可实现相关文章的效果。当然为了便于管理，推荐你将其封装成一个小的模板页，然后通过include引入到合适的位置。例如，将代码放入post-recommended.html页，然后引入：
 
 {% raw %}
-
 ```Liquid
  {% include _macro/post-recommended.html %}
 ```
+{% endraw %}
 
 最终效果如下：
 
