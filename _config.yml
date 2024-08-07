@@ -83,6 +83,7 @@ plugins:
  - jekyll-seo-tag
  - jekyll-paginate
  - jekyll-toc
+ - jekyll-algolia
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -352,7 +353,11 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-
+# Post Recommended
+algolia:
+  application_id: VPZWP0WQUN
+  api_key: e31a4c006b211b11dfffebee8f3064bb
+  index_name: OneCoder
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
