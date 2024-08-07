@@ -11,11 +11,11 @@ categories: [Jekyll]
 
 <!--more-->
 
-# 一、插件方案
+## 一、插件方案
 
 搜索Jekyll**相关文章**功能插件，最常见下面几种：
 
-## jekyll-related-posts
+### jekyll-related-posts
 
 Gem安装时报错如下：
 
@@ -32,7 +32,7 @@ So, because Gemfile depends on jekyll-related-posts >= 0,
 
 该插件只支持jekyll 3.x版本，我目前使用的是4.3.3版本，不兼容，放弃。
 
-## jekyll-advanced-search 和 jekyll-recommend
+### jekyll-advanced-search 和 jekyll-recommend
 
 Gem安装时报错如下：
 
@@ -52,15 +52,15 @@ https://rubygems.org/ or installed locally.
 
 根本找不到相应插件，怀疑是不是AI编出来骗我的，放弃。
 
-## jekyll-algolia
+### jekyll-algolia
 
 这个折腾时间最漫长。先说一下Algolia， [Algolia](https://www.algolia.com/)是一个功能强大的搜索即服务（Search as a Service）平台，它提供了快速、可靠和高度可定制的搜索功能。Algolia 主要用于网站和应用程序中的搜索和发现功能。该方案即是利用该服务能力，未网站增加相关搜索功能（具体效果未见到）。
 
-### 1. 注册Algolia
+#### 1. 注册Algolia
 
 登录网站注册即可，不赘述，注册后你会得到你`Application ID`、`Search API Key`和`Write API Key`，用于后续接口调用，保管好。但显然他是一个收费服务，具体收费点没研究。
 
-### 2. 安装Algolia插件
+#### 2. 安装Algolia插件
 
 插件官方地址为[https://github.com/algolia/jekyll-algolia?tab=readme-ov-file](https://github.com/algolia/jekyll-algolia?tab=readme-ov-file)，是的他已经废弃了，并且官方描述也是支持Jekyll3.x版本，不过并没有说不支持4.x版本，所以我继续试试。（仅为好奇，废弃的东西我也不打算继续使用）
 
@@ -105,9 +105,11 @@ record size limit.
 
 解决办法自然是有，但真的无力再折腾下去了，毕竟插件都废弃了。如果你的文章没有超过10Kb限制，可能你已经成功了。
 
-# 二、自编码方案
+## 二、自编码方案
 
 插件不行，就手写一个吧，简单搜索发现也不复杂。Jekyll网站是基于Liquid模板语言，核心代码如下：
+
+{% raw %}
 
 ```Liquid
 <h2>相关文章</h2>
@@ -123,9 +125,13 @@ record size limit.
   </ul>
 ```
 
+{% endraw %}
+
 逻辑就是根据文章上打的tag，将tag相同的文章（排除当前文章）放到一起，然后输出到一个列表中。列表的多少通过limit控制，这里设置的是6个。
 
 将上述放到文章页合适位置，即可实现相关文章的效果。当然为了便于管理，推荐你将其封装成一个小的模板页，然后通过include引入到合适的位置。例如，将代码放入post-recommended.html页，然后引入：
+
+{% raw %}
 
 ```Liquid
  {% include _macro/post-recommended.html %}
