@@ -83,7 +83,6 @@ plugins:
  - jekyll-seo-tag
  - jekyll-paginate
  - jekyll-toc
- - jekyll-algolia
 
 # ---------------------------------------------------------------
 # Site Information Settings
