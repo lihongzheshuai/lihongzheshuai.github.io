@@ -1,10 +1,9 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-# gem 'github-pages', group: :jekyll_plugins
-#gem 'jekyll-admin', group: :jekyll_plugins
-gem "jekyll","~>4.3.3"
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
-gem "jekyll-feed"
-gem "jekyll-paginate"
-gem 'jekyll-toc'
+source "https://rubygems.org"
+
+gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
+
+group :test do
+  gem "html-proofer", "~> 5.0"
+end
