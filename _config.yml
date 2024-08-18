@@ -120,7 +120,7 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: lihongzheshuai/lihongzheshuai.github.io # <gh-username>/<repo>
-    repo_id: lihongzheshuai.github.io
+    repo_id: MDEwOlJlcG9zaXRvcnkyNzA2ODAyMQ==
     category:
     category_id:
     mapping: # optional, default to 'pathname'
