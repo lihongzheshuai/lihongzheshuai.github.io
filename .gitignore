@@ -2,6 +2,7 @@
 .bundle
 vendor
 Gemfile.lock
+<<<<<<< HEAD
 
 # Jekyll cache
 .jekyll-cache
@@ -27,3 +28,10 @@ _sass/dist
 assets/js/dist
 
 .vercel/
+=======
+urls.txt
+push_post.py
+package.json
+package-lock.json
+node_modules/
+>>>>>>> c332869 (delete node_modules)
