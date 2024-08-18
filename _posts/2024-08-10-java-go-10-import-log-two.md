@@ -57,7 +57,9 @@ SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ```
 
-这个信息的意思是，`SLF4J` 没有找到实际的日志实现库，因此它将默认使用一个“无操作”的日志实现，即不会输出任何日志信息。因为，前面我们已经提到`SLF4J`只是一个日志接口层框架，想要运行它需要引入一个日志实现层框架来提供具体的日志实现。常见在上篇[一起学Java(9)-为项目引入Log框架](https://www.coderli.com/java-go-9-import-log-one/)已经分析过了，不再赘述，这里我们先直接选用同一个作者，无缝衔接`Logback`作为日志实现层，后续我们在体验`Log4j 2`的实现方式。当前`Logback`最新稳定版位d。
+这个信息的意思是，`SLF4J` 没有找到实际的日志实现库，因此它将默认使用一个“无操作”的日志实现，即不会输出任何日志信息。因为，前面我们已经提到`SLF4J`只是一个日志接口层框架，想要运行它需要引入一个日志实现层框架来提供具体的日志实现。常见在上篇[一起学Java(9)-为项目引入Log框架](https://www.coderli.com/java-go-9-import-log-one/)已经分析过了，不再赘述，这里我们先直接选用同一个作者，无缝衔接`Logback`作为日志实现层，后续我们在体验`Log4j 2`的实现方式。当前`Logback`最新稳定版为**1.5.6**。
+
+## 二、引入Logback
 
 修改`build.gradle.kts`中的依赖引入部分
 
