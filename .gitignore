@@ -2,36 +2,10 @@
 .bundle
 vendor
 Gemfile.lock
-<<<<<<< HEAD
-
-# Jekyll cache
-.jekyll-cache
-.jekyll-metadata
-_site
-
-# RubyGems
-*.gem
-
-# NPM dependencies
-node_modules
-package-lock.json
-package.json
-
-# IDE configurations
-.idea
-.vscode
-!.vscode/settings.json
-!.vscode/extensions.json
-
-# Misc
-_sass/dist
-assets/js/dist
-
-.vercel/
-=======
 urls.txt
 push_post.py
 package.json
 package-lock.json
 node_modules/
->>>>>>> c332869 (delete node_modules)
+.vercel/
+_site/
