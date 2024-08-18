@@ -48,7 +48,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: EQxpnRQ0t7ULCtknIN_oBRlo8FXtZsL-OaiUcI50_wU # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -61,7 +61,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-5L9P03RR0R # fill in your Google Analytics ID
   goatcounter:
     id: onecoder # fill in your GoatCounter ID
   umami:
@@ -75,7 +75,7 @@ analytics:
 
 # Pageviews settings
 pageviews:
-  provider: "goatcounter" # now only supports 'goatcounter'
+  provider: 'goatcounter' # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /images/onecoder/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -132,10 +132,12 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
+    enabled: true # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development | production]
+    env: production # [development | production]
+
+environment: production
 
 pwa:
   enabled: true # the option for PWA feature (installable)
