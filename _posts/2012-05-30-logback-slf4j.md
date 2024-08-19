@@ -5,7 +5,7 @@ date: 2012-05-30 19:43 +0800
 author: onecoder
 comments: true
 tags: [Logback, SLF4J]
-categories: [Java技术研究]
+categories: [Java技术研究,Log]
 thread_key: 162
 ---
 最近看到slf4j+logback的日志方案，并且介绍说，与log4j出自同一作者且做了不少优化，所以决定从commons-logging+log4j切换过来。

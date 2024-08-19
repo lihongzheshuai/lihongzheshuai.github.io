@@ -5,7 +5,7 @@ date: 2012-06-02 12:42 +0800
 author: onecoder
 comments: true
 tags: [Spring]
-categories: [Java技术研究]
+categories: [Java技术研究,Spring]
 thread_key: 238
 ---
 Spring已经将源码从svn迁移到了git。所以，首先需要安装git环境。我使用的是Windows下的TortoiseGit，带图形界面，比较直观。

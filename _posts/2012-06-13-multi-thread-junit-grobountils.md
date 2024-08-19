@@ -5,7 +5,7 @@ date: 2012-06-13 13:17 +0800
 author: onecoder
 comments: true
 tags: [Groboutils, JUnit]
-categories: [Java技术研究]
+categories: [Java技术研究,JUnit]
 thread_key: 439
 ---
 

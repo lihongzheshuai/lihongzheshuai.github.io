@@ -5,7 +5,7 @@ date: 2012-07-27 12:52 +0800
 author: onecoder
 comments: true
 tags: [Netty]
-categories: [Java技术研究]
+categories: [Java技术研究,Netty]
 thread_key: 1002
 ---
 如果您一直关注**OneCoder**，我们之前有两篇文章介绍关于Netty消息连续收发的问题。( <a href="http://www.coderli.com/netty-message-receive-count-mismatch/" target="\_blank">《Java NIO框架Netty教程（五）- 消息收发次数不匹配的问题 》</a>、<a href="http://www.coderli.com/netty-message-receive-count-mismatch-two/" target="\_blank">《 Java NIO框架Netty教程(七)-再谈收发信息次数问题 》</a>)。如果您经常的"怀疑"和思考，我们刚介绍过了**Object**的传递，您是否好奇，在Object传递中是否会有这样的问题？如果**Object**流的字节截断错乱，那肯定是会出错的。**Netty**一定不会这么傻的，那么**Netty**是怎么做的呢？

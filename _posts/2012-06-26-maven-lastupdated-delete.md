@@ -5,7 +5,7 @@ date: 2012-06-26 21:43 +0800
 author: onecoder
 comments: true
 tags: [Maven]
-categories: [Java技术研究]
+categories: [Java技术研究,Maven]
 thread_key: 695
 ---
 

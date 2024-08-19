@@ -5,7 +5,7 @@ date: 2012-10-22 10:51 +0800
 author: onecoder
 comments: true
 tags: [JUnit]
-categories: [Java技术研究]
+categories: [Java技术研究,Spring]
 thread_key: 1196
 ---
 JUnit单元测试用例中使用Spring框架，之前我的使用方式很直接。

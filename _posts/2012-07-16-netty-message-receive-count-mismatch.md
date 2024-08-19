@@ -5,7 +5,7 @@ date: 2012-07-16 19:52 +0800
 author: onecoder
 comments: true
 tags: [Netty]
-categories: [Java技术研究]
+categories: [Java技术研究,Netty]
 thread_key: 958
 ---
 周末是最好的学习时间，不过这周末收房子，可想而知事情自然也不会少。这段时间的周末，可能很少有时间学习了。见缝插针吧。

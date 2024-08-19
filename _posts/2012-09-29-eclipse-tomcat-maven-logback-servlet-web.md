@@ -5,7 +5,7 @@ date: 2012-09-29 09:16 +0800
 author: onecoder
 comments: true
 tags: [Java]
-categories: [Java技术研究]
+categories: [Java技术研究,Eclipse]
 thread_key: 1161
 ---
 <a href="http://www.coderli.com">OneCoder</a>准备自己慢慢写点东西，把离散的知识点汇总一下。给出的版本没什么特别的含义，只是<a href="http://www.coderli.com">OneCoder</a>目前使用的环境而已。

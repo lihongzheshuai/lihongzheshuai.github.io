@@ -5,7 +5,7 @@ date: 2012-07-25 20:56 +0800
 author: onecoder
 comments: true
 tags: [Java]
-categories: [Java技术研究]
+categories: [Java技术研究,JDK]
 thread_key: 994
 ---
 今天在梳理项目里一些老的代码逻辑和结构的时候，发现了一段观察者的代码。脑海里同时浮现出这样一个故事……

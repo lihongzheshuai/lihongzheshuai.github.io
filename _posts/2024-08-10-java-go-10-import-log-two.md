@@ -5,7 +5,7 @@ date: 2024-08-10 22:04 +0800
 author: onecoder
 comments: true
 tags: [Java,Log,SLF4J,一起学Java]
-categories: [Java,Log,SLF4J,一起学Java]
+categories: [一起学Java系列,Log]
 ---
 在上一节[***一起学Java(9)-为项目引入Log框架(Log篇一-框架演进和设计逻辑***](https://www.coderli.com/java-go-9-import-log-one/)中，我们已经理清了Java日志框架的演进过程、设计思想和核心框架。从这节开始，进入实战研究环节。
 

@@ -5,7 +5,7 @@ date: 2012-06-02 21:46 +0800
 author: onecoder
 comments: true
 tags: [Eclipse, Javadoc, Java]
-categories: [Java技术研究]
+categories: [Java技术研究,Eclipse]
 thread_key: 268
 ---
 项目中对于注释和代码规范的要求往往是毕比较严格的，如果全靠手动完成效率低，还难以保证保证的规范。幸好Eclipse给我们提供了自定义代码模版的功能。

@@ -5,7 +5,7 @@ date: 2012-09-17 22:01 +0800
 author: onecoder
 comments: true
 tags: [Restlet]
-categories: [Java技术研究]
+categories: [Java技术研究,Restlet]
 thread_key: 1143
 ---
 今天<a href="http://www.coderli.com">OneCoder</a>遇到一个不大不小的问题。用Restlet开启了一个rest服务，并且在这个服务内部还会访问其他的rest服务，结果遇到404的错误。但是通过浏览器直接访问却可以访问，通过测试用例直接访问也可以，只有在间接通过restlet访问的时候出现这个问题。仔细观察控制台信息，发现如下信息：

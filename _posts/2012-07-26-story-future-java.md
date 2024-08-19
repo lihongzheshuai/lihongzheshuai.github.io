@@ -5,7 +5,7 @@ date: 2012-07-26 21:41 +0800
 author: onecoder
 comments: true
 tags: [Java]
-categories: [Java技术研究]
+categories: [Java技术研究,JDK]
 thread_key: 999
 ---
 还是梳理代码，频频到**Future**这个字眼，很自然的让我想到了未来。

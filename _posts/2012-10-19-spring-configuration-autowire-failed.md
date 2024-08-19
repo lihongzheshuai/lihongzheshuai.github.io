@@ -5,7 +5,7 @@ date: 2012-10-19 16:15 +0800
 author: onecoder
 comments: true
 tags: [Spring]
-categories: [Java技术研究]
+categories: [Java技术研究,Spring]
 thread_key: 1193
 ---
 在上回介绍Spring3.1+Hibernate4.1.7基于注解配置的时候(<a href="http://www.coderli.com/spring-hibernate-base-annotation">《SpringMVC3.1+Hibernate4.1.7完全基于注解配置(零配置文件)》</a>)说过，在修改配置方式的时候遇到过不少问题。这里介绍一下。

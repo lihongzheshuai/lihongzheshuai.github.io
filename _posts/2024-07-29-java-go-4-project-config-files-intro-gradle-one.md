@@ -5,7 +5,7 @@ date: 2024-07-29 11:10 +0800
 author: onecoder
 comments: true
 tags: [Java,Gradle,一起学Java]
-categories: [Java,Gradle,一起学Java]
+categories: [一起学Java系列,Gradle]
 ---
 将思绪拉回[java-all-in-one](https://www.coderli.com/java-go-1-new-gradle-project/)项目，如果你[fork并下载了代码](https://github.com/lihongzheshuai/java-all-in-one)，你会看到在项目中除了HelloWorldMain代码外，还存在很多文件。如果你并不了解他们的作用并有足够的好奇心，那你应该想要知道他们的作用。带着好奇，今天我也来研究一下，先从Gradle相关的开始。
 

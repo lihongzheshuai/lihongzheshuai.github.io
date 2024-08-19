@@ -5,7 +5,7 @@ date: 2012-09-06 22:46 +0800
 author: onecoder
 comments: true
 tags: [Netty]
-categories: [Java技术研究]
+categories: [Java技术研究,Netty]
 thread_key: 1133
 ---
 <a href="http://www.coderli.com">OneCoder</a>这个周末搬家，并且新家目前还没有网络，本周的翻译的任务尚未完成，下周一起补上，先上一篇OIO和NIO对比的小研究。

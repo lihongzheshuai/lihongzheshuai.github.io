@@ -5,7 +5,7 @@ date: 2012-07-24 22:48 +0800
 author: onecoder
 comments: true
 tags: [Netty]
-categories: [Java技术研究]
+categories: [Java技术研究,Netty]
 thread_key: 990
 ---
 看到题目，有的同学可能会想，上回不是说过<a href="http://www.coderli.com/netty-object-transmit/" target="\_blank">对象传递</a>了吗？是的，只是在<a href="http://www.coderli.com/netty-object-transmit/" target="\_blank">《Java NIO框架Netty教程(八)-Object对象传递》</a>中，我们只是介绍如何使用**Netty**提供的编/解码工具，完成对象的序列化。这节是想告诉你**Netty**具体是怎么做的，也许有的同学想自己完成序列化呢？况且，对象的序列化，随处可用：）

@@ -5,7 +5,7 @@ date: 2012-10-10 15:51 +0800
 author: onecoder
 comments: true
 tags: [Java]
-categories: [Java技术研究]
+categories: [Java技术研究,JDK]
 thread_key: 1170
 ---
 <p>

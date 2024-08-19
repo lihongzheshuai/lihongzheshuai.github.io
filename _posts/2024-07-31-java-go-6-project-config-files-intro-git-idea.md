@@ -5,7 +5,7 @@ date: 2024-07-31 13:01 +0800
 author: onecoder
 comments: true
 tags: [Java,Gradle,Git,一起学Java]
-categories: [Java,Git,Gralde,一起学Java]
+categories: [一起学Java系列,Git]
 ---
 前两篇文章（《[一起学Java(4)-java-all-in-one协作项目相关文件研究（Gradle篇-上）](https://www.coderli.com/java-go-4-project-config-files-intro-gradle-one/)》和《[一起学Java(5)-java-all-in-one协作项目相关文件研究（Gradle篇-下））](https://www.coderli.com/java-go-4-project-config-files-intro-gradle-two/)》）我们已经完成了对项目中Gradle相关文件的研究，按照计划我们继续研究项目的其他配置文件，主要是Git和IDEA自身两类。
 

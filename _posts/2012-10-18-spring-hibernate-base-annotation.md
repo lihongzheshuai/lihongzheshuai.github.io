@@ -5,7 +5,7 @@ date: 2012-10-18 13:58 +0800
 author: onecoder
 comments: true
 tags: [Spring,Hibernate]
-categories: [Java技术研究]
+categories: [Java技术研究,Spring]
 thread_key: 1187
 ---
 其实这篇文章应该是上篇<a href="http://www.coderli.com/springmvc-servlet3-code-bases-configuration">《Servlet3.0下基于注解的SpringMVC3.1配置-完全零配置文件》</a>的续篇，因为上篇只介绍到web工程和Spring(包括MVC)的零配置，相对于传统的SSH来说，相当于SS零配置了。那么S和H的结合如果零配置文件呢。

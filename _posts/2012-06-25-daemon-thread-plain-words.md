@@ -5,7 +5,7 @@ date: 2012-06-25 22:47
 author: onecoder
 comments: true
 tags: [Java]
-categories: [Java技术研究]
+categories: [Java技术研究,JDK]
 thread_key: 686
 ---
 关于"白话", 偶然想到的词。目的就是用简洁，明快的语言来告诉您，我所知道的一切。

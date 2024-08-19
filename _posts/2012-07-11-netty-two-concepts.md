@@ -5,7 +5,7 @@ date: 2012-07-11 22:38 +0800
 author: onecoder
 comments: true
 tags: [Netty]
-categories: [Java技术研究]
+categories: [Java技术研究,Netty]
 thread_key: 913
 ---
 

@@ -5,7 +5,7 @@ date: 2013-03-19 22:07 +0800
 author: onecoder
 comments: true
 tags: [Gradle]
-categories: [Java技术研究]
+categories: [Java技术研究,Gradle]
 thread_key: 1414
 ---
 <p>

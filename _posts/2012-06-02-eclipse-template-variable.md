@@ -5,7 +5,7 @@ date: 2012-06-02 18:08 +0800
 author: onecoder
 comments: true
 tags: [Eclipse]
-categories: [Java技术研究]
+categories: [Java技术研究,Eclipse]
 thread_key: 258
 ---
 Eclipse的代码注释模板很丰富，如：user、year、date、time等等，请参考附件。 尽管模板变量如此之多，但是对于复杂多边的实际项目而言，还是不够用，怎么办？自己增加新的呗！ Eclipse配置界面都不支持定制自己的注释模板变量，没办法，改Eclipse源码。 具体怎么改，好像无头苍蝇，百度和谷歌了2天，还是无果，在边搜边摸索的过程中才知道需要修改如下两个架包对应的源码

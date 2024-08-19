@@ -5,7 +5,7 @@ date: 2012-08-20 22:02 +0800
 author: onecoder
 comments: true
 tags: [Netty]
-categories: [Java技术研究]
+categories: [Java技术研究,Netty]
 thread_key: 1087
 ---
 写在前面：对**Netty**并发问题的测试和解决完全超出了我的预期，想说的东西越来越多。所以才出现这个中篇，也就是说，一定会有下篇。至于问题点的发现，<a href="http://www.coderli.com">OneCoder</a>也在努力验证中。

@@ -5,7 +5,7 @@ date: 2012-06-11 20:07 +0800
 author: onecoder
 comments: true
 tags: [Maven]
-categories: [Java技术研究]
+categories: [Java技术研究,Maven]
 thread_key: 412
 ---
 最近需要用Maven打包工程，却不想遇到乱码问题。在Eclipse中通过Maven Plugin执行install 命令报错如下：	
