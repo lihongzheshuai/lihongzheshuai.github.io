@@ -1,11 +1,11 @@
-_site
-.sass-cache
-.jekyll-metadata
-.vercel
-.jekyll-cache
+# Bundler cache
+.bundle
+vendor
 Gemfile.lock
 urls.txt
 push_post.py
 package.json
 package-lock.json
 node_modules/
+.vercel/
+_site/
