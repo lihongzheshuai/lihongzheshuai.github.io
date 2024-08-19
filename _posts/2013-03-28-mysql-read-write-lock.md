@@ -4,7 +4,7 @@ title: 《High Performance MySQL》概译 读/写锁
 date: 2013-03-28 21:31 +0800
 author: onecoder
 comments: true
-tags: [翻译，MySQL]
+tags: [翻译,MySQL]
 categories: [知识扩展]
 thread_key: 1425
 ---

@@ -4,7 +4,7 @@ title: 《HighPerformance MySQL》概译 死锁
 date: 2013-04-06 22:31 +0800
 author: onecoder
 comments: true
-tags: [翻译，MySQL]
+tags: [翻译,MySQL]
 categories: [知识扩展]
 thread_key: 1447
 ---
