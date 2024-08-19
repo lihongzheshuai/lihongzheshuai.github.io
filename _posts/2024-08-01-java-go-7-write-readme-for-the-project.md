@@ -5,7 +5,7 @@ date: 2024-08-01 20:01 +0800
 author: onecoder
 comments: true
 tags: [Java,Git,一起学Java]
-categories: [一起学Java系列,Githun]
+categories: [一起学Java系列,Github]
 ---
 在现代软件开发中，README文件是任何项目中不可或缺的一部分。它不仅为用户提供了项目的基本信息，还指导开发者如何使用、安装和贡献代码。其实，早在2014年的文章[*《为项目编写Readme.MD文件》*](https://www.coderli.com/write-readme-for-your-project/)中，我就提到过关于README的事情。今天为了我们的项目，旧事重提也为让大家再get一个知识点，我们再来说说这个README文件。
 
