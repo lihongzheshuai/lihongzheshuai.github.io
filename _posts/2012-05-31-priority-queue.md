@@ -4,7 +4,8 @@ title: 优先级队列 - Java实现
 date: 2012-05-31 22:45 +0800
 author: onecoder
 comments: true
-categories: [Java, 排序, 算法导论]
+tags: [Java, 排序, 算法]
+categories: [算法学习]
 thread_key: 221
 ---
 优先级队列，是堆数据结构的典型应用。优先级队列的一个典型应用，就是排队任务的有限调度，当一个任务结束后，优先执行当前优先级最高的任务。队列一个任务是，调用INSERT方法。

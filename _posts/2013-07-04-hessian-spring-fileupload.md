@@ -5,6 +5,7 @@ date: 2013-07-04 22:00 +0800
 author: onecoder
 comments: true
 tags: [Spring]
+categories: [Java技术研究]
 thread_key: 1465
 ---
 <p>

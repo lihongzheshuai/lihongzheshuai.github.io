@@ -5,6 +5,7 @@ date: 2013-02-18 21:42 +0800
 author: onecoder
 comments: true
 tags: [MySQL]
+categories: [知识扩展]
 thread_key: 1329
 ---
 <p>

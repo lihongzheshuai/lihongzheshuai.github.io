@@ -5,6 +5,7 @@ date: 2013-09-21 21:36 +0800
 author: onecoder
 comments: true
 tags: [Gradle]
+categories: [Java技术研究]
 thread_key: 1509
 ---
 7.1 Java插件

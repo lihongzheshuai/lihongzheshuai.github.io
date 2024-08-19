@@ -5,6 +5,7 @@ date: 2013-11-17 21:51 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 1540
 ---
 最近很多人问我有没有Netty4的Hello World样例，很早之前知道Netty要出4，当时只知道4的包名完全边了，因为Netty从JBoss中独立出来了，并采用了新的netty.io的域名，但是没想到代码也有这么大的调整。

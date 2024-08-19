@@ -5,6 +5,7 @@ date: 2012-07-18 21:19 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 967
 ---
 看到标题，您可能觉得，这跟**Netty**有什么关系呢？确实，如果你完全是使用**Netty**的，那么可能你可以完全不需要了解**Selector**。但是，不得不提的是，**Netty**底层关于**NIO**的实现也是基于Java的**Selector**的，是对**Selector**的封装。所以，我个人认为理解好**Selector**对于使用和理解**Netty**都是很多有帮助的。当然，如果您确实不关心这些，只想会用**Netty**就可以了。那么下文，您可以略过：）

@@ -5,6 +5,7 @@ date: 2012-07-13 22:10 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 936
 ---
 在<a href="http://www.coderli.com/netty-string-channelbuffer/" target="\_blank">字符串消息收发</a>中提到。**ChannelBuffer**是**Netty**中非常重要的概念。所有消息的收发都依赖于这个**Buffer**。我们通过**Netty**的官方的文档来了解一下，基于流的消息传递机制。

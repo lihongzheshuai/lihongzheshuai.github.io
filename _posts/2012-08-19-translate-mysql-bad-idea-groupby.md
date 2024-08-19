@@ -5,6 +5,7 @@ date: 2012-08-19 22:37 +0800
 author: onecoder
 comments: true
 tags: [MySQL]
+categories: [翻译, 知识扩展]
 thread_key: 1084
 ---
 <a href="http://www.coderli.com">**OneCoder**</a>最近打算坚持每周左右至少翻译一篇技术文章，不管是从学习技术和学习英语的角度，对自己都会是一个提高。水平有限，如果您觉得翻译太过粗糙，甚至错误，还望不吝指出，<a href="http://www.coderli.com">**OneCoder**</a>必将虚心接受，努力学习改进。

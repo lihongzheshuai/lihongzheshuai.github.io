@@ -4,8 +4,8 @@ title: Java NIO框架Netty教程（一） - Hello Netty
 date: 2012-07-11 12:34
 author: onecoder
 comments: true
-categories: [Netty, 分布式, 教程]
-tags: [Netty,NIO]
+tags: [Netty]
+categories: [Java技术研究]
 thread_key: 907
 ---
 先啰嗦两句，如果你还不知道Netty是做什么的能做什么。那可以先简单的搜索了解一下。我只能说Netty是一个NIO的框架，可以用于开发分布式的Java程序。具体能做什么，各位可以尽量发挥想象。技术，是服务于人而不是局限住人的。

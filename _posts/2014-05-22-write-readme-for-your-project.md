@@ -5,6 +5,7 @@ date: 2014-05-22 00:27 +0800
 author: onecoder
 comments: true
 tags: [Markdown]
+categories: [知识扩展]
 thread_key: 1653
 ---
 

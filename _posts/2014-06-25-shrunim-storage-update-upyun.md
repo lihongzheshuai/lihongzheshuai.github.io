@@ -4,7 +4,8 @@ title: 关于Shurnim-storage项目更新和喜获奖
 date: 2014-06-25 20:52 +0800
 author: onecoder
 comments: true
-tags: [日记]
+tags: [随笔]
+categories: [随笔]
 thread_key: 1768
 ---
 <p>

@@ -5,6 +5,7 @@ date: 2012-07-23 16:43 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 982
 ---
 说了这么多废话，才提到对象的传输，不知道您是不是已经不耐烦了。一个系统内部的消息传递，没有对象传递是不太现实的。下面就来说说，怎么传递对象。

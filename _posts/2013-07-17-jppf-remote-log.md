@@ -5,6 +5,7 @@ date: 2013-07-17 20:43 +0800
 author: onecoder
 comments: true
 tags: [JPPF]
+categories: [Java技术研究]
 thread_key: 1476
 ---
 <p>

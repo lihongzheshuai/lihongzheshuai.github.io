@@ -5,6 +5,7 @@ date: 2012-08-01 21:15 +0800
 author: onecoder
 comments: true
 tags: [Eclipse]
+categories: [知识扩展]
 thread_key: 1024
 ---
 动手来为你的**Eclipse**增加一个能显示当前**Eclipse**使用的**JVM**配置的工具条吧。简单的很。

@@ -5,6 +5,7 @@ date: 2012-09-04 23:02 +0800
 author: onecoder
 comments: true
 tags: [Maven]
+categories: [Java技术研究]
 thread_key: 1131
 ---
 其实是一个很简单的技巧，就是利用**Maven**的**appassembler-maven-plugin**插件，就可以实现自动打包可运行的脚本，还可以跨平台。（Windows/linux）

@@ -5,6 +5,7 @@ date: 2012-06-19 22:17
 author: onecoder
 comments: true
 tags: [Libvirt]
+categories: [Java技术研究]
 thread_key: 613
 ---
  <a href="http://libvirt.org/" target="\_blank">**Libvirt**</a>是一个优秀的虚拟化环境管理的工具包。核心用c实现，不过提供了不同语言的调用API。官网的简介如下：

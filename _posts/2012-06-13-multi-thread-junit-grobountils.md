@@ -4,7 +4,8 @@ title: 教你快速写出多线程Junit单元测试用例 - GroboUtils
 date: 2012-06-13 13:17 +0800
 author: onecoder
 comments: true
-tags: [groboutils, junit]
+tags: [Groboutils, JUnit]
+categories: [Java技术研究]
 thread_key: 439
 ---
 

@@ -5,6 +5,7 @@ date: 2014-04-02 23:55 +0800
 author: onecoder
 comments: true
 tags: [XML]
+categories: [知识扩展]
 thread_key: 1633
 ---
 <p>

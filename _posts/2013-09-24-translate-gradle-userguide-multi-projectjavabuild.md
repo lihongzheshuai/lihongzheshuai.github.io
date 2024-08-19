@@ -4,7 +4,8 @@ title: 《Gradle user guide》翻译 — 7.3 多工程Java构建
 date: 2013-09-24 22:38 +0800
 author: onecoder
 comments: true
-tags: [Gradle]
+tags: [Gradle, 翻译]
+categories: [Java技术研究]
 thread_key: 1517
 ---
 现在我们来看一个典型的多项目构建的例子。下面是工程的布局：

@@ -5,6 +5,7 @@ date: 2012-09-28 15:13 +0800
 author: onecoder
 comments: true
 tags: [Tomcat]
+categories: [知识扩展]
 thread_key: 1158
 ---
 本来<a href="http://www.coderli.com">OneCoder</a>是在一遍搭建一个J2EE的开发环境，一遍记录过程以跟大家分享。没想到这个过程中，遇到了很多细节的错误，考虑到如果和原来的主线任务文章混在一起，有点让人不知所措的感觉，所以<a href="http://www.coderli.com">OneCoder</a>决定把这些问题的解决过程单独记录下来，以跟大家分享。

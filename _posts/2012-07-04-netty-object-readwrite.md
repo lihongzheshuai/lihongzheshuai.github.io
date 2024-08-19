@@ -5,6 +5,7 @@ date: 2012-07-04 12:53 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 838
 ---
 使用Netty开发分布式框架，对象的传输是基本的需求。但是，在开发中却总遇到服务端接受不到客户端的对象发送数据。遂动手解决。

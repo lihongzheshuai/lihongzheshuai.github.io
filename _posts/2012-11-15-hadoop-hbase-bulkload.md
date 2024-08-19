@@ -5,6 +5,7 @@ date: 2012-11-15 20:00 +0800
 author: onecoder
 comments: true
 tags: [HBase]
+categories: [大数据]
 thread_key: 1221
 ---
 <a href="http://onecoder">OneCoder</a>只是一个初学者，记录的只是自己的一个过程。不足之处还望指导。

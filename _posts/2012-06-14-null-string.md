@@ -5,6 +5,7 @@ date: 2012-06-14 21:13 +0800
 author: onecoder
 comments: true
 tags: [Java]
+categories: [Java技术研究]
 thread_key: 474
 ---
 今天在我的一个qq群里有人问了这样一个问题。

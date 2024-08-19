@@ -5,6 +5,7 @@ date: 2014-02-26 23:50 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 1630
 ---
 <div>

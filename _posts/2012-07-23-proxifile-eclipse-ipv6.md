@@ -5,6 +5,7 @@ date: 2012-07-23 21:33 +0800
 author: onecoder
 comments: true
 tags: [Eclipse]
+categories: [知识扩展]
 thread_key: 985
 ---
 这是一个在比较特殊情况下才会发生的问题。不过却在笔者的身上发生了，既然如此，那就记录一下，也许还有其他朋友也会碰到。

@@ -4,7 +4,8 @@ title: 合并排序 - Java实现
 date: 2012-05-31 22:35 +0800
 author: onecoder
 comments: true
-tags: [Java, 排序, 算法导论]
+tags: [Java, 排序, 算法]
+categories: [算法学习]
 thread_key: 218
 ---
 ```java

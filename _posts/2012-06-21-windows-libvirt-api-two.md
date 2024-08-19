@@ -5,6 +5,7 @@ date: 2012-06-21 23:05 +0800
 author: onecoder
 comments: true
 tags: [Libvirt]
+categories: [Java技术研究]
 thread_key: 624
 ---
 介绍完<a href="http://www.coderli.com/windows-libvirt-one" target="/_blank">libvirt Java API的部署工作</a>，接下来我们就介绍一下接口的使用和代码样例。

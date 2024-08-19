@@ -5,6 +5,7 @@ date: 2012-09-13 12:53 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 1140
 ---
 如果您持续关注<a href="http://www.coderli.com">OneCoder</a>，您可能会问，在<a href="http://www.coderli.com/netty-oio-nio">《Java NIO框架Netty教程(十四)- Netty中OIO模型(对比NIO)》</a>中不是说下节介绍的是，**NIO**和**OIO**中的**worker**处理方式吗。这个一定会有的，只是在研究的过程中，<a href="http://www.coderli.com">OneCoder</a>发现了之前遗留的文件传输的代码，所以决定先完成它。

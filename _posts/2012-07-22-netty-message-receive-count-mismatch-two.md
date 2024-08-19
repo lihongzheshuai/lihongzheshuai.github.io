@@ -5,6 +5,7 @@ date: 2012-07-22 13:42 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 976
 ---
 在<a href="http://www.coderli.com/netty-message-receive-count-mismatch/" target="\_blank">《Java NIO框架Netty教程（五）- 消息收发次数不匹配的问题》</a>里我们试图分析一个消息收发次数不匹配的问题。当时笔者还是心存疑惑的。所以决定先学习一下Java NIO的<a href="http://www.coderli.com/netty-nio-selector/" target="\_blank">Selector</a>机制。

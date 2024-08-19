@@ -5,6 +5,7 @@ date: 2013-10-29 11:14 +0800
 author: onecoder
 comments: true
 tags: [Flume]
+categories: [大数据]
 thread_key: 1533
 ---
 最近需要利用flume来做收集远端日志，所以学习一些flume最基本的用法。这里仅作记录。

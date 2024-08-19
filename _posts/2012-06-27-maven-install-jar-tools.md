@@ -5,6 +5,7 @@ date: 2012-06-27 21:51 +0800
 author: onecoder
 comments: true
 tags: [Maven]
+categories: [Java技术研究]
 thread_key: 700
 ---
 **Maven** 批量安装本地 Jar文件到本地Maven库小程序。根据自己的需求临时开发完成。

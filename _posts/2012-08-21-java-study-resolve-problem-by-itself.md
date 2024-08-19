@@ -5,6 +5,7 @@ date: 2012-08-21 23:03 +0800
 author: onecoder
 comments: true
 tags: [Java]
+categories: [Java技术研究]
 thread_key: 1093
 ---
 今天群里(Java Coder群：91513074)的朋友，问我该如何看帮助文档，或者说在遇到问题的时候如何解决。希望我能介绍一下我的方法。

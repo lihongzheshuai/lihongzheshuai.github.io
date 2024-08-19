@@ -4,7 +4,8 @@ title: Logback控制台输出类名行号带链接的Pattern配置
 date: 2012-06-14 23:28 +0800
 author: onecoder
 comments: true
-tags: [logback]
+tags: [Logback]
+categories: [Java技术研究]
 thread_key: 476
 ---
 从**log4j**切换到**logback**会发现，原来在log4j使用的日志格式 ***%l*** 的功能不见了。Eclipse控制台的输出，不再带有可快速进入的链接了。

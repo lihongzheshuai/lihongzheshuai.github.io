@@ -4,7 +4,8 @@ title: 《Gradle user guide》原创翻译 — 第六章 构建脚本基础
 date: 2013-09-21 08:48 +0800
 author: onecoder
 comments: true
-tags: [Gradle]
+tags: [Gradle, 翻译]
+categories: [Java技术研究]
 thread_key: 1506
 ---
 

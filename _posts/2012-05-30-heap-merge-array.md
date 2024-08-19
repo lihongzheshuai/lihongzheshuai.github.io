@@ -4,7 +4,8 @@ title: 利用堆合并数组- Java实现
 date: 2012-05-30 22:07 +0800
 author: onecoder
 comments: true
-tags: [Java, Java 排序, 算法导论]
+tags: [Java, 排序, 算法]
+categories: [算法学习]
 thread_key: 178
 ---
 ```java

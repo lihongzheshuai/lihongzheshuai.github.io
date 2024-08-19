@@ -4,7 +4,8 @@ title: slf4j+log4j2 控制台输出错误解决
 date: 2013-10-17 20:12 +0800
 author: onecoder
 comments: true
-tags: [Log4j]
+tags: [Log4j,SLF4J]
+categories: [Java技术研究]
 thread_key: 1530
 ---
 <blockquote>

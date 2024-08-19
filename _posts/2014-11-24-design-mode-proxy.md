@@ -4,7 +4,8 @@ title: 乱学设计模式——代理模式
 date: 2014-11-24 18:33
 author: onecoder
 comments: true
-tags: [decorator, proxy, 设计模式]
+tags: [Java, 设计模式]
+categories: [设计模式]
 thread_key: 1862
 ---
 在乱学装饰模式的时候给出了一篇参考文章，是对比装饰模式和代理模式的。自然，这就是OneCoder现在需要理解的问题。

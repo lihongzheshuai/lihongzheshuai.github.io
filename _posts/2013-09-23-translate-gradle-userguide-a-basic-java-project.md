@@ -4,7 +4,8 @@ title: 《Gradle user guide》翻译 — 7.2 一个基本的Java项目
 date: 2013-09-23 10:42 +0800
 author: onecoder
 comments: true
-tags: [Gradle]
+tags: [Gradle, 翻译]
+categories: [Java技术研究]
 thread_key: 1513
 ---
 7.2 一个基本的Java项目

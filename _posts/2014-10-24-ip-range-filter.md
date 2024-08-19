@@ -5,6 +5,7 @@ date: 2014-10-24 10:44
 author: onecoder
 comments: true
 tags: [Java]
+categories: [Java技术研究]
 thread_key: 1841
 ---
 项目里要求实现在项目上线前社内测试团地可以正常访问系统，而外部访问用户看到的是系统尚未开放的页面。

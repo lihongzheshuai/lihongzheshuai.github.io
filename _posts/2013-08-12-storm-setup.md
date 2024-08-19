@@ -5,6 +5,7 @@ date: 2013-08-12 17:48 +0800
 author: onecoder
 comments: true
 tags: [Storm]
+categories: [大数据]
 thread_key: 1484
 ---
 <p>

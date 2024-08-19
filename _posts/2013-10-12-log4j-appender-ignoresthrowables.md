@@ -5,6 +5,7 @@ date: 2013-10-12 22:53 +0800
 author: onecoder
 comments: true
 tags: [Log4j]
+categories: [Java技术研究]
 thread_key: 1524
 ---
 在项目中需要自定义实现一个log4j的appender。根据log中MDC里的信息，构造日志存储的目录结构。自定义实现log4j appender的方法已经介绍过了。主要是覆盖AppenderSkeleton中的appender方法。

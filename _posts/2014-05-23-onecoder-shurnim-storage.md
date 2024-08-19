@@ -4,7 +4,8 @@ title: OneCoder的shurnim-storage项目
 date: 2014-05-23 00:03 +0800
 author: onecoder
 comments: true
-tags: [日记]
+tags: [随笔]
+categories: [随笔]
 thread_key: 1659
 ---
 <h1>

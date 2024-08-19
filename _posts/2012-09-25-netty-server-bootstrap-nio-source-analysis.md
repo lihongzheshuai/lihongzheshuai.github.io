@@ -5,6 +5,7 @@ date: 2012-09-25 13:42 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 1150
 ---
 有一段事件没有更新文章了，各种原因都有吧。搬家的琐事，搬家后的安逸呵呵。不过，<a href="http://www.coderli.com">OneCoder</a>明白，绝不能放松。对于Netty的学习，也该稍微深入一点了。

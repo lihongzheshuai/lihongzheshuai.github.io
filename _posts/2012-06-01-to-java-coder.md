@@ -4,7 +4,8 @@ title: 写给同路的Java Coder们
 date: 2012-06-01 12:23 +0800
 author: onecoder
 comments: true
-categories: [coder, Java, 随笔]
+tags: [Java]
+categories: [随笔]
 thread_key: 225
 ---
 写在前面：一年前的某一天，在coder前面加上苦逼二字，聊以自嘲。却不曾想***苦逼***二字如今与IT如影随形。突觉感慨连连，遂成此杂文，记录心情。

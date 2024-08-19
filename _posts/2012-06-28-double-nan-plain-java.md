@@ -5,6 +5,7 @@ date: 2012-06-28 12:49 +0800
 author: onecoder
 comments: true
 tags: [Java]
+categories: [Java技术研究]
 thread_key: 704
 ---
 今天处理一个关于Double.NaN的异常。

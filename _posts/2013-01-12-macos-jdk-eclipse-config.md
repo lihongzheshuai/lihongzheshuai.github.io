@@ -5,6 +5,7 @@ date: 2013-01-12 20:04 +0800
 author: onecoder
 comments: true
 tags: [Java]
+categories: [Java技术研究]
 thread_key: 1280
 ---
 <a href="http://www.coderli.com">OneCoder</a>最近入手一台Mac Pro。其实这个话题本来没什么可写的。但是考虑确实自己开始是不知道的，哪怕是一丁点的收获，也应该记录下来。

@@ -5,6 +5,7 @@ date: 2012-06-09 20:21 +0800
 author: onecoder
 comments: true
 tags: [Spring]
+categories: [Java技术研究]
 thread_key: 348
 ---
 了解完了FileSystemXmlApplicationContext构造函数，我们来看看路径解析的问题。

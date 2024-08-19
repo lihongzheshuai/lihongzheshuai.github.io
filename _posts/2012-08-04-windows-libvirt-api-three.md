@@ -5,6 +5,7 @@ date: 2012-08-04 23:39 +0800
 author: onecoder
 comments: true
 tags: [Libvirt]
+categories: [Java技术研究]
 thread_key: 1041
 ---
 突兀的出来一个**libvirt**的教程三，您可能会觉得奇怪，其实这是**OneCoder**以前写的一个小系列教程，原来发在**51cto**的博客上，前两篇已经发了过来，考虑到完整性，就把第三篇也发过来。前两篇地址：

@@ -5,6 +5,7 @@ date: 2013-04-27 21:09 +0800
 author: onecoder
 comments: true
 tags: [Hadoop]
+categories: [大数据]
 thread_key: 1461
 ---
 <p>

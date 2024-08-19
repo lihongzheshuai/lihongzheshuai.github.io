@@ -5,6 +5,7 @@ date: 2013-12-03 22:26
 author: onecoder
 tags: true
 tags: [Restlet]
+categories: [Java技术研究]
 thread_key: 1562
 ---
 <a href="http://www.coderli.com">OneCoder</a>使用Restlet最新版2.1.4开发样例，却一直抛出异常：

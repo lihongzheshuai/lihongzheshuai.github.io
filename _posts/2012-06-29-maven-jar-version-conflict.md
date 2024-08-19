@@ -5,6 +5,7 @@ date: 2012-06-29 21:42 +0800
 author: onecoder
 comments: true
 tags: [Maven]
+categories: [Java技术研究]
 thread_key: 716
 ---
 今天遇到一个小问题。在使用**apache-commons-codec**包进行编码/解码的时候，用到了**Base64**类的**decodeBase64(String base64String)**方法，这个方法在**1.4**版中才提供。而我们的工程中对codec存在两个间接的依赖，一个依赖**1.2**版本，一个依赖1.4版本，打包后，只有1.2版本，所以会报找不到该方法的错误。

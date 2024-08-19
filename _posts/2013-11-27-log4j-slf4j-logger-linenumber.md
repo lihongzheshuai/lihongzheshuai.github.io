@@ -4,7 +4,8 @@ title: log4j日志封装说明—slf4j对于log4j的日志封装-正确获取调
 date: 2013-11-27 12:54 +0800
 author: onecoder
 comments: true
-tags: [Log4j]
+tags: [Log4j,SLF$J]
+categories: [Java技术研究]
 thread_key: 1558
 ---
 <p>

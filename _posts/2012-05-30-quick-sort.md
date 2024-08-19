@@ -4,7 +4,8 @@ title: 快速排序 - Java实现
 date: 2012-05-30 21:47 +0800
 author: onecoder
 comments: true
-tags: [Java, 排序, 快速排序, 算法导论]
+tags: [Java, 排序, 算法]
+categories: [算法学习]
 thread_key: 173
 ---
 ```java

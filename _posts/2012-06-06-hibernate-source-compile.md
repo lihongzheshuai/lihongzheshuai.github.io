@@ -5,6 +5,7 @@ date: 2012-06-06 23:27 +0800
 author: onecoder
 comments: true
 tags: [Hibernate]
+categories: [Java技术研究]
 thread_key: 320
 ---
 废话不多说，直接进入主题。首先是下载源码，跟spring一样，hibernate也采用git管理。

@@ -5,6 +5,7 @@ date: 2013-04-03 20:46 +0800
 author: onecoder
 comments: true
 tags: [HBase]
+categories: [大数据]
 thread_key: 1440
 ---
 <p>

@@ -4,7 +4,8 @@ title: SpringTest框架JUnit单元测试用例获取ApplicationContext实例的�
 date: 2012-10-22 10:51 +0800
 author: onecoder
 comments: true
-tags: [Junit]
+tags: [JUnit]
+categories: [Java技术研究]
 thread_key: 1196
 ---
 JUnit单元测试用例中使用Spring框架，之前我的使用方式很直接。

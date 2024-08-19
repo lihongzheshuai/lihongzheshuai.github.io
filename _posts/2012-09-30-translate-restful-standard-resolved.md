@@ -5,6 +5,7 @@ date: 2012-09-30 08:56 +0800
 author: onecoder
 comments: true
 tags: [Restful]
+categories: [知识扩展]
 thread_key: 1164
 ---
 <a href="http://www.coder.com">OneCoder</a>最近一直在使用Restful API，最近正好看到一篇自定义restful接口规范的&ldquo;抛砖引玉&rdquo;得的文章，索性翻译一下，与大家分享。

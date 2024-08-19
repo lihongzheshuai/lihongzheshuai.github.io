@@ -5,9 +5,11 @@ date: 2012-07-13 22:37 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 944
 ---
 ### OneCoder原创系列
+
 - <a href="http://www.coderli.com/netty-course-hello-world/" target="\_blank">Java NIO框架Netty教程（一） - Hello Netty</a>
 - <a href="http://www.coderli.com/netty-two-concepts/" rel="bookmark" target="\_blank">Java NIO框架Netty教程（二） - 白话概念</a>
 - <a href="http://www.coderli.com/netty-string-channelbuffer/" target="\_blank">Java NIO框架Netty教程（三）- 字符串消息收发</a>

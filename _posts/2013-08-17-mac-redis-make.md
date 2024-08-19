@@ -5,6 +5,7 @@ date: 2013-08-17 15:16
 author: onecoder
 comments: true
 tags: [Redis]
+categories: [知识扩展]
 thread_key: 1486
 ---
 部署一个Redis作为缓存进行验证，记录部署过程。

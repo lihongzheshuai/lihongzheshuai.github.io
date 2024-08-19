@@ -5,6 +5,7 @@ date: 2012-06-05 11:55 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 305
 ---
 作为一个Java程序员，多方面的知识储备是相当重要的。面对各种的情况，都有自己的解决方案也是一种能力的体现。Java优秀的开源项目很多，除了传统的SSH，作为一个Java程序员，你应该知道的更多：）

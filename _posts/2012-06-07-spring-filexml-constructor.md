@@ -5,6 +5,7 @@ date: 2012-06-07 12:32 +0800
 author: onecoder
 comments: true
 tags: [Spring]
+categories: [Java技术研究]
 thread_key: 331
 ---
 宅男Coder，没有其他爱好，闲暇之余抱着瞻仰的心态去阅读一下Spring的源码，期许能收获一支半解。要学习Spring的源码，第一步自然是下载和编译Spring的源码，这个我在之前的博文中已经发表过了。具体可参考:<a href="http://www.coderli.com/springframework-source-compile/" target="_blank">《SpringFramework源码下载和编译教程》</a>

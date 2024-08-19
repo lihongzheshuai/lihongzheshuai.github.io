@@ -4,7 +4,8 @@ title: Spring Framework 4.0 迁移指南 （官方文档翻译）
 date: 2013-12-14 12:46 +0800
 author: onecoder
 comments: true
-tags: [Spring]
+tags: [Spring, 翻译]
+categories: [Java技术研究]
 thread_key: 1578
 ---
 看到Spring Framework4.0发布的消息，看了下new future，<a href="http://www.coderli.com">OneCoder</a>很喜欢spring这种追&ldquo;时髦&rdquo;的风格，groovy脚本配置和Java8都支持了。顺便就翻译了一下官方的迁移指南。对一般使用来说，迁移没什么难度。替换依赖基本就可以了。

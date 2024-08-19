@@ -5,6 +5,7 @@ date: 2012-11-12 14:26 +0800
 author: onecoder
 comments: true
 tags: [Java]
+categories: [Java技术研究]
 thread_key: 1217
 ---
 在一个下雨的夜晚，我在思考Java中内存管理的问题，以及Java集合对内存使用的效率情况。我做了一个简单的实验，测试在16G内存条件下，Java的Map可以插入多少对象。

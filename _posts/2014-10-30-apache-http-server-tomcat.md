@@ -4,7 +4,8 @@ title: Windows下 Apache Http Server+ Tomcat 整合配置
 date: 2014-10-30 16:07
 author: onecoder
 comments: true
-tags: [tomcat]
+tags: [Tomcat]
+categories: [知识扩展]
 thread_key: 1846
 ---
 可能网上已经有很多教程，这里只是记录OneCoder自己的搭建过程。

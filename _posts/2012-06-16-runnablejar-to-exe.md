@@ -5,6 +5,7 @@ date: 2012-06-16 11:51 +0800
 author: onecoder
 comments: true
 tags: [Java]
+categories: [Java技术研究]
 thread_key: 499
 ---
 发现很多人问如何把Jar转成exe程序。可能是想双击运行和随处运行。其实这个并不难，我就简单总结几种方法，供大家参考，关键还是要知其所以然。

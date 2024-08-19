@@ -4,7 +4,8 @@ title: 《HighPerformance MySQL》概译 事务
 date: 2013-04-01 21:40 +0800
 author: onecoder
 comments: true
-tags: [MySQL]
+tags: [翻译，MySQL]
+categories: [知识扩展]
 thread_key: 1433
 ---
 <p>

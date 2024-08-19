@@ -5,6 +5,7 @@ date: 2014-10-21 16:50 +0800
 author: onecoder
 comments: true
 tags: [jQuery]
+categories: [知识扩展]
 thread_key: 1839
 ---
 项目里用到了jQuery template这个插件，对我来说也算新鲜，学习记录一下。

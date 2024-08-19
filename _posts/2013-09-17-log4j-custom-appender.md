@@ -5,6 +5,7 @@ date: 2013-09-17 20:17 +0800
 author: onecoder
 comments: true
 tags: [Log4j]
+categories: [Java技术研究]
 thread_key: 1497
 ---
 

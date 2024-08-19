@@ -5,6 +5,7 @@ date: 2012-07-08 22:20 +0800
 author: onecoder
 comments: true
 tags: [杂文]
+categories: [随笔]
 thread_key: 874
 ---
 转眼间工作两年有余。这两年多，很充实，收获很多。感谢一切帮助我的人。

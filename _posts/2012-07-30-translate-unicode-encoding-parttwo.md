@@ -5,6 +5,7 @@ date: 2012-07-30 15:01 +0800
 author: onecoder
 comments: true
 tags: [Unicode]
+categories: [翻译, 知识扩展]
 thread_key: 1020
 ---
 接上篇：《<a href="http://www.coderli.com/translate-unicode-encoding-partone/" target="_blank">《OneCoder翻译 每个程序员必知的知识，UniCode和字符集(上)》</a>

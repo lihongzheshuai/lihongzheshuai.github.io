@@ -4,7 +4,8 @@ title: 选择排序 - Java实现
 date: 2012-05-30 23:00 +0800
 author: onecoder
 comments: true
-tags: [Java, Java 排序, 算法导论]
+tags: [Java, 排序, 算法]
+categories: [算法学习]
 thread_key: 184
 ---
 ```java

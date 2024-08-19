@@ -5,6 +5,7 @@ date: 2012-07-04 11:37 +0800
 author: onecoder
 comments: true
 tags: [Java]
+categories: [Java技术研究]
 thread_key: 835
 ---
 今天有人提出了代码中一个的**NullPointException**问题。这类问题，很好解决，找到所在行，一看便知。

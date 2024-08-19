@@ -4,7 +4,8 @@ title: High Performance MySQL 翻译 第一章 MySQL架构和历史 - 逻辑架�
 date: 2013-03-25 23:11 +0800
 author: onecoder
 comments: true
-tags: [High performance mysql]
+tags: [翻译，MySQL]
+categories: [知识扩展]
 thread_key: 1418
 ---
 <p>

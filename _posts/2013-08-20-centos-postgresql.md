@@ -5,6 +5,7 @@ date: 2013-08-20 21:05 +0800
 author: onecoder
 comments: true
 tags: [PostgreSQL]
+categories: [知识扩展]
 thread_key: 1489
 ---
 MySQL License收费的问题越来越现实了。PostgreSQL成了最好的替代方案。

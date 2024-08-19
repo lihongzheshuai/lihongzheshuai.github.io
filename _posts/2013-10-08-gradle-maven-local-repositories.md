@@ -5,6 +5,7 @@ date: 2013-10-08 21:20 +0800
 author: onecoder
 comments: true
 tags: [Gradle]
+categories: [Java技术研究]
 thread_key: 1520
 ---
 从Maven切换到Gradle，原有的几G的本地缓存库当然想继续使用。在用户手册中找到了答案。在50.6.3章节。

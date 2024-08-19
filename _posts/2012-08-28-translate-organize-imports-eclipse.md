@@ -5,6 +5,7 @@ date: 2012-08-28 20:45 +0800
 author: onecoder
 comments: true
 tags: [Eclipse]
+categories: [翻译, 知识扩展]
 thread_key: 1111
 ---
 今天，我学到了一个在Eclipse中管理引用的小技巧。当然，你可以在单个文件中用Ctrl+shift+O去移除未使用的引用。但是，如果你想移除很多类的无用的引用你该如何去做，比如移除整个包下的类？

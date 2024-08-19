@@ -4,7 +4,8 @@ title: 《HighPerformance MySQL》概译 锁的粒度
 date: 2013-03-30 14:20 +0800
 author: onecoder
 comments: true
-tags: [MySQL]
+tags: [翻译，MySQL]
+categories: [知识扩展]
 thread_key: 1430
 ---
 <p>

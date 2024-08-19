@@ -5,6 +5,7 @@ date: 2013-12-16 13:05 +0800
 author: onecoder
 comments: true
 tags: [Restlet]
+categories: [Java技术研究]
 thread_key: 1581
 ---
 <p>

@@ -5,6 +5,7 @@ date: 2012-05-29 22:12 +0800
 author: onecoder
 comments: true
 tags: [classloader, jar, Java]
+categories: [Java技术研究]
 thread_key: 134
 ---
 

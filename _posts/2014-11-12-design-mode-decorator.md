@@ -4,7 +4,8 @@ title: 乱学设计模式——装饰模式
 date: 2014-11-12 18:25
 author: onecoder
 comments: true
-tags: [decorator, Java, 装饰模式, 设计模式]
+tags: [Java, 设计模式]
+categories: [设计模式]
 thread_key: 1854
 ---
 码农写码3，4年，设计模式用了不少，但又有一种在乱用的感觉。要么叫不出名字，要么感觉摸不到其精髓。其实所谓Java中的23种设计模式，OneCoder之前也乱乱的看过几遍，但是至今感觉也没有什么深刻的领悟。

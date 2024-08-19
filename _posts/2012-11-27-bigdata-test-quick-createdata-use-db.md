@@ -5,6 +5,7 @@ date: 2012-11-27 17:19 +0800
 author: onecoder
 comments: true
 tags: [Hive]
+categories: [大数据]
 thread_key: 1251
 ---
 这也是<a href="http://www.coderli.com">OneCoder</a>在数据测试过程中遇到的问题，不一定有多少普试性，但是也许可以解决你的问题。

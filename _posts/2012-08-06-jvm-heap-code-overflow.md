@@ -5,6 +5,7 @@ date: 2012-08-06 12:19 +0800
 author: onecoder
 comments: true
 tags: [JVM]
+categories: [Java技术研究]
 thread_key: 1043
 ---
 在Java虚拟机中，堆（**Heap**）是可供各条线程共享的运行时内存区域，也是供所有类实例和数组对象分配内存的区域。

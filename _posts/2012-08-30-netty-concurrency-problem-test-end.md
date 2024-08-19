@@ -5,6 +5,7 @@ date: 2012-08-30 21:47 +0800
 author: onecoder
 comments: true
 tags: [Netty]
+categories: [Java技术研究]
 thread_key: 1116
 ---
 在上节(<a href="http://www.coderli.com/netty-concurrency-problem-test-two" target="\_blank">《Java NIO框架Netty教程(十二)-并发访问测试(中)》</a>)，我们从各个角度对**Netty**并发的场景进行了测试。这节，我们将重点关注上节最后提到的问题。在多线程并发访问的情况下，会出现

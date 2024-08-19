@@ -5,6 +5,7 @@ date: 2014-01-10 21:04 +0800
 author: onecoder
 comments: true
 tags: [ZeroMQ]
+categories: [Java技术研究]
 thread_key: 1616
 ---
 <p>

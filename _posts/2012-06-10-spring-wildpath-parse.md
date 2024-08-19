@@ -5,6 +5,7 @@ date: 2012-06-10 21:07 +0800
 author: onecoder
 comments: true
 tags: [Spring]
+categories: [Java技术研究]
 thread_key: 359
 ---
 继续前文<a href="http://www.coderli.com/spring-filesystem-filepath-parse/" target="_blank">《[原创] Spring源码学习-FileSystemXmlApplicationContext路径格式及解析方式》</a>的问题。

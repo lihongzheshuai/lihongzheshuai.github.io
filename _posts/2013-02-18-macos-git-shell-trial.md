@@ -4,7 +4,8 @@ title: MacOS下纯shell模式Github使用简介
 date: 2013-02-18 09:30 +0800
 author: onecoder
 comments: true
-tags: [git]
+tags: [Git]
+categories: [知识扩展]
 thread_key: 1326
 ---
 <p>

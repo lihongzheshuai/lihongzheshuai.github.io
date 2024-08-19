@@ -4,7 +4,8 @@ title: Spring集成Hibernate注解配置 无hibernate.cfg.xml文件，自动生�
 date: 2014-05-09 13:59 +0800
 author: onecoder
 comments: true
-tags: [Spring]
+tags: [Spring,Hibernate]
+categories: [Java技术研究]
 thread_key: 1643
 ---
 <p>

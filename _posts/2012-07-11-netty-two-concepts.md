@@ -4,7 +4,8 @@ title: Java NIO框架Netty教程（二） - 白话概念
 date: 2012-07-11 22:38 +0800
 author: onecoder
 comments: true
-tags: [Java,Netty,NIO]
+tags: [Netty]
+categories: [Java技术研究]
 thread_key: 913
 ---
 

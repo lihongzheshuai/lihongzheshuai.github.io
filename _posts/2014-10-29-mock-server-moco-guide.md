@@ -5,6 +5,7 @@ date: 2014-10-29 12:04 +0800
 author: onecoder
 comments: true
 tags: [Moco]
+categories: [知识扩展]
 thread_key: 1843
 ---
 项目里需要使用Mock Server(Mock Server是做什么的，您可以Google一下)，这也是我个人比较喜欢的做法。这里我们选择的是Moco，OneCoder其实也没用过，所以就先学习一下。
