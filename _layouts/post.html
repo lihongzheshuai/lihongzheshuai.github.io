@@ -3,6 +3,7 @@ layout: default
 refactor: true
 panel_includes:
   - toc
+  - custom/custom-post-google-ads-sidebar
 tail_includes:
   - related-posts
   - post-nav
@@ -96,8 +97,13 @@ tail_includes:
   </header>
 
   <div class="content">
+    <!-- by OneCoder -->
+    {% include custom/custom-post-content-before.html lang=lang %}
     {{ content }}
+    <!-- by OneCoder -->
+    {% include custom/custom-post-content-after.html lang=lang %}
   </div>
+
 
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
