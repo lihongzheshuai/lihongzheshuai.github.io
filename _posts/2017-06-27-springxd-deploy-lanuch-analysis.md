@@ -1,7 +1,8 @@
 ---
 layout: post
 title: SpringXD 任务、启动消息通信代码流程分析
-tags: [SpringXD]
+tags: [Spring]
+categories: [Java技术研究]
 date: 2017-06-27 10:29:18 +0800
 comments: true
 author: onecoder

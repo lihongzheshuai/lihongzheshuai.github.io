@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 镜像博客站点解决百度Spider无法爬取Github Pages问题
-tags: [github,spider,百度]
+tags: [Github Pages, Spider]
+categories: [知识扩展]
 date: 2016-04-07 23:09:33 +0800
 comments: true
 thread_key: 1887

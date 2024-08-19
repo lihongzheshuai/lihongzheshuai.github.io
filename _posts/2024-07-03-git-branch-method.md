@@ -4,7 +4,8 @@ title: Git分支管理基本原理
 date: 2024-07-03 13:38 +0800
 author: onecoder
 comments: true
-tags: [svn,git]
+tags: [SVN,Git]
+categories: [知识扩展]
 thread_key: 202407031338
 ---
 上文已讨论过[svn分支管理的基本原理](https://www.coderli.com/svn-branch-method/)，本文将继续探讨Git分支管理的基本原理，以便后续进行进一步的理解和对比：

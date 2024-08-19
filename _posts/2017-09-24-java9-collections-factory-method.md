@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Java9 Collections工厂函数特性说明
-tags: [Java9]
+tags: [Java]
+categories: [Java技术研究]
 date: 2017-09-24 23:25:57 +0800
 comments: true
 author: onecoder

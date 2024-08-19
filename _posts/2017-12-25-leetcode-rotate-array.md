@@ -1,6 +1,7 @@
 ---
 title: LeetCode Rotate Array
 tags: [LeetCode, Python]
+categories: [算法学习]
 date: 2017-12-25 17:07:24 +0800
 comments: true
 author: onecode

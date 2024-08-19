@@ -1,6 +1,7 @@
 ---
 title: python练习-高级特性
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-06-07 20:18:24 +0800
 comments: true
 author: onecode

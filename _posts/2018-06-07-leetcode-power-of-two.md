@@ -1,6 +1,7 @@
 ---
 title: LeetCode Power of Two
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2018-06-07 16:42:24 +0800
 comments: true
 author: onecode

@@ -1,6 +1,7 @@
 ---
 title: LeetCode  Implement strStr()
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-10-29 21:42:24 +0800
 comments: true
 author: onecoder

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Thymeleaf 3 迁移指南
-tags: [thymeleaf 3]
+tags: [Thymeleaf]
+categories: [知识扩展]
 date: 2016-04-04 14:54:46 +0800
 comments: true
 thread_key: 1886

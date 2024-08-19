@@ -4,7 +4,8 @@ title: 给Java初学者-Java程序员必备知识体系和成长路径建议
 date: 2024-07-06 12:32 +0800
 author: onecoder
 comments: true
-tags: [svn,git,Java]
+tags: [Java]
+categories: [随笔]
 thread_key: 202407061232
 ---
 经常遇到各种新人在学习Java过程中遇到迷茫、学习路线不清、发展路径不明的情况，最长听到的一个问题就是，我学完了基础语法我该学什么呢？下面我就结合我的一些粗浅经验给新手一些基本的建议。

@@ -1,6 +1,7 @@
 ---
 title: LeetCode Pascal's Triangle II
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2017-12-05 11:11:24 +0800
 comments: true
 author: onecode

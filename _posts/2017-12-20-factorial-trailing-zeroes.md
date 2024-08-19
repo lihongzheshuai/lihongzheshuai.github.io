@@ -1,6 +1,7 @@
 ---
 title: LeetCode Factorial Trailing Zeroes
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2017-12-20 15:11:24 +0800
 comments: true
 author: onecode

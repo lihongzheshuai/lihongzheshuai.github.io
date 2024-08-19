@@ -1,6 +1,7 @@
 ---
 title: Python练习-常用内建模块contextlib
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-11-04 22:20:24 +0800
 comments: true
 author: onecoder

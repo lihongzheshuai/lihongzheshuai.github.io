@@ -1,6 +1,7 @@
 ---
 title: LeetCode Convert Sorted Array to Binary Search Tree
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-11-23 16:38:24 +0800
 comments: true
 author: onecode

@@ -1,6 +1,7 @@
 ---
 title: TensorFlow's Hello World Mnist数据集下载错误问题解决 
 tags: [TensorFlow, Python]
+categories: [知识扩展]
 date: 2017-12-05 16:56:24 +0800
 comments: true
 author: onecode

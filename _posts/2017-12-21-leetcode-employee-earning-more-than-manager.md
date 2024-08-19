@@ -1,6 +1,7 @@
 ---
 title: LeetCode Employees Earning More Than Their Managers
 tags: [LeetCode,SQL]
+categories: [算法学习]
 date: 2017-12-21 09:33:24 +0800
 comments: true
 author: onecode

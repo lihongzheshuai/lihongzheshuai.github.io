@@ -1,6 +1,7 @@
 ---
 title: LeetCode Intersection of Two Linked List
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2017-12-15 10:45:24 +0800
 comments: true
 author: onecode

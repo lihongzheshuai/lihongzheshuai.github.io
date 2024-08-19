@@ -1,7 +1,8 @@
 ---
 layout: post
 title: On Yarn模式下 Spring Flo for SpringXD UI部署
-tags: [SpringXD]
+tags: [Spring]
+categories: [Java技术研究]
 date: 2016-11-10 11:16:33 +0800
 comments: true
 author: onecoder

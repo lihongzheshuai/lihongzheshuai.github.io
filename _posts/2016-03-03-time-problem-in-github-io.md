@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Github时区问题 新文章无法显示
-tags: [github,time,jekyll]
+tags: [Github Pages,Jekyll]
+categories: [知识扩展]
 date: 2016-03-03 13:30:36 +0800
 comments: true
 thread_key: 1878

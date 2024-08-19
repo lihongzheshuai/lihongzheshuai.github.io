@@ -2,6 +2,7 @@
 layout: post
 title: 事无巨细 HBase-1.2.1 集群搭建
 tags: [HBase]
+categories: [大数据]
 date: 2016-04-29 11:12:57 +0800
 comments: true
 thread_key: 1894

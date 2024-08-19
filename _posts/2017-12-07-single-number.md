@@ -1,6 +1,7 @@
 ---
 title: LeetCode Single Number
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2017-12-07 10:01:24 +0800
 comments: true
 author: onecode

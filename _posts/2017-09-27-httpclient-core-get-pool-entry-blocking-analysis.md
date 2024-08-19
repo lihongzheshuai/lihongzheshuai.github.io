@@ -2,6 +2,7 @@
 layout: post
 title: Httpcomponents-core 从池中获取连接代码解析
 tags: [HttpClient,Java]
+categories: [Java技术研究]
 date: 2017-09-27 20:18:24 +0800
 comments: true
 author: onecoder

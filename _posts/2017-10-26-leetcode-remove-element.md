@@ -1,6 +1,7 @@
 ---
 title: LeetCode Remove Element
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-10-26 13:47:24 +0800
 comments: true
 author: onecoder

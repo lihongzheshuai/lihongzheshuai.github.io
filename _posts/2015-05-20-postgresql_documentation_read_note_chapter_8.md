@@ -3,16 +3,15 @@ layout: post
 title: "Postgresql 9.4 文档阅读笔记-第八章 数据类型"
 modified:
 categories: 
-excerpt: 记录阅读中在意的点, 给自己一点积累。
-tags: [postgresql, documentation, note]
-image:
-  feature:
+tags: [PostgreSQL]
+categories: [知识扩展]
 thread_key: 1865
 date: 2015-05-20T14:35:02+08:00
 ---
 
 **numeric** - 可以存储非常大数据，并且可存储高精度数据。numeric（precision, scale）例如：23.5141 precision=6, scale=4
 可存储NaN值，代表not-a-number。在Postgresql中NaN和NaN数值是相等的，并且大于其他任何值。
+<!-- more -->
 
 **serial** - 用于自增字段。相当于：
 CREATE SEQUENCE tablename_colname_seq; CREATE TABLE tablename (

@@ -2,6 +2,7 @@
 layout: post
 title: Scala学习笔记 - 函数
 tags: [Scala]
+categories: [知识扩展]
 date: 2016-09-21 16:36:32 +0800
 comments: true
 author: onecoder

@@ -1,6 +1,7 @@
 ---
 title: LeetCode Excel Sheet Column Title
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2017-12-18 10:02:24 +0800
 comments: true
 author: onecode

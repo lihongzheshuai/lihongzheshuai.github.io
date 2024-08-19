@@ -2,11 +2,9 @@
 layout: post
 title: "LeetCode[Algorithms] Longest Substring Without Repeating Characters"
 modified:
-categories:
 excerpt: LeetCode [Longest Substring Without Repeating Characters] by OneCoder
-tags: [leetcode, algorithms, Longest Substring Without Repeating Characters]
-image:
-  feature:
+tags: [算法,LeetCode]
+categories: [算法学习]
 thread_key: 1869
 date: 2015-09-06T10:14:45
 ---

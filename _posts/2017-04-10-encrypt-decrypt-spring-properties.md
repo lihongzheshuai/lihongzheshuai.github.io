@@ -2,6 +2,7 @@
 layout: post
 title: Spring .properties配置文件加密
 tags: [Spring]
+categories: [Java技术研究]
 date: 2017-04-10 15:56:26 +0800
 comments: true
 author: onecoder

@@ -2,6 +2,7 @@
 layout: post
 title: 事无巨细 Hadoop2.6.4 环境搭建步骤详解
 tags: [Hadoop]
+categories: [大数据]
 date: 2016-04-20 16:44:22 +0800
 comments: true
 thread_key: 1890

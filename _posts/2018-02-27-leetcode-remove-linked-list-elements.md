@@ -1,6 +1,7 @@
 ---
 title: LeetCode Remove Linked List Elements
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2018-02-27 16:05:24 +0800
 comments: true
 author: onecode

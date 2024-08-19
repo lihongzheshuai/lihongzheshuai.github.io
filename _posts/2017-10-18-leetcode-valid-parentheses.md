@@ -1,6 +1,7 @@
 ---
 title: LeetCode Valid Parentheses
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-10-18 12:59:24 +0800
 comments: true
 author: onecoder

@@ -4,9 +4,8 @@ title: "Postgresql 9.4 文档阅读笔记-第十一章 索引"
 modified:
 categories: 
 excerpt: 记录阅读中在意的点, 给自己一点积累。
-tags: [postgresql, documentation, index]
-image:
-  feature:
+tags: [PostgreSQL]
+categories: [知识扩展]
 thread_key: 1866
 date: 2015-06-03T22:28:45+08:00
 ---
@@ -14,6 +13,7 @@ date: 2015-06-03T22:28:45+08:00
 
 **B-tree** - 适合处理等值和范围查询。支持的操作符： <, <=, =, >=, >, in, between， is null, is not null。 like和~ 操作支持从前匹配，如：foo% 、^foo。 
 B-tree也可用于获取排序后的数据，虽然效率上与一般情况无太大差异。
+<!-- more -->
 
 **hash** - 只适用于相等比较。不过，由于hash索引没有保存在WAL日志中，数据出错后需要重建，并且索引不支持流和文件复制，因此一般不推荐使用。
 

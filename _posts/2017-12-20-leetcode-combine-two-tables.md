@@ -1,6 +1,7 @@
 ---
 title: LeetCode Combine Two Tables
 tags: [LeetCode,SQL]
+categories: [算法学习]
 date: 2017-12-20 17:01:24 +0800
 comments: true
 author: onecode

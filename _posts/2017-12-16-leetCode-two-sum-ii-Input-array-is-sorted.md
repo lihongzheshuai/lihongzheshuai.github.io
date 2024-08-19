@@ -1,6 +1,7 @@
 ---
 title: LeetCode Two Sum II - Input array is sorted
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2017-12-16 13:24:24 +0800
 comments: true
 author: onecode

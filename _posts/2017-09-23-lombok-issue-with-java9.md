@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Lombok与Java9兼容性问题
-tags: [Java9]
+tags: [Java,Lombok]
+categories: [Java技术研究]
 date: 2017-09-23 17:00:35 +0800
 comments: true
 author: onecoder

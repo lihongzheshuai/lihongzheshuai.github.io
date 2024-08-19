@@ -4,7 +4,8 @@ title: 详解SVN与Git相比存在的不足
 date: 2024-07-04 09:42 +0800
 author: onecoder
 comments: true
-tags: [svn,git]
+tags: [SVN,Git]
+categories: [知识扩展]
 thread_key: 202407040942
 ---
 截至目前，我们已既从整理梳理的SVN和Git在设计理念上的差异，也重点对二者的存储原理和分支管理理念的差异进行深入分析。这些差异也直接造成了SVN和Git在分支合并、冲突解决、历史记录管理以及网络依赖等方面功能的显著区别，也彰显了Git的强大之处，因此最后我们详细总结分析，也算做个阶段性的学习小结：

@@ -1,6 +1,7 @@
 ---
 title: Python练习-常用内建模块itertools
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-10-20 22:20:24 +0800
 comments: true
 author: onecoder

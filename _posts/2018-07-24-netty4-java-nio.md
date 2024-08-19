@@ -1,6 +1,7 @@
 ---
 title: Netty4自学笔记 (2) - Java NIO
-tags: [Netty,BIO]
+tags: [Netty]
+categories: [Java技术研究]
 date: 2018-07-24 13:28:24 +0800
 comments: true
 author: onecode

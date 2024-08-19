@@ -1,6 +1,7 @@
 ---
 title: LeetCode Minimum Depth of Binary Tree
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2017-11-27 16:28:24 +0800
 comments: true
 author: onecode

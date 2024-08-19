@@ -3,9 +3,8 @@ layout: post
 title: "MacPorts 迁移至 EI Capitan"
 date: 2016-02-19 13:58:12 +0800
 comments: true
-tags: [macports,EI Capitan]
-image:
-  feature: 
+tags: [Mac]
+categories: [知识扩展]
 thread_key: 1872
 ---
 老版本的MacPorts在EI Capitan下有兼容性问题。今天运行报错如下：

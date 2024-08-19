@@ -5,6 +5,7 @@ date: 2024-07-20 22:57 +0800
 author: onecoder
 comments: true
 tags: [Java,String]
+categories: [Java技术研究]
 ---
 经常听到有同学讨论，在Java中String判断值相等应该用equals()而不能用==，并且分析的信誓旦旦。那么真相真的是这样么？==就完全不能用么？Java内部的原理究竟是如何呢？这需要理解它们背后的原理。下面是详细的原理分析：
 <!--more-->

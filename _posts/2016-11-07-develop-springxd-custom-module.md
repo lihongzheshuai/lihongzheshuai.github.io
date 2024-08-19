@@ -1,7 +1,8 @@
 ---
 layout: post
 title: SpringXD 自定义Job模块开发
-tags: [SpringXD]
+tags: [Spring]
+categories: [Java技术研究]
 date: 2016-11-07 13:33:12 +0800
 comments: true
 author: onecoder

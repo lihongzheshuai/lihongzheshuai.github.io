@@ -1,6 +1,7 @@
 ---
 title: python练习-函数式编程（二）
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-07-19 22:09:24 +0800
 comments: true
 author: onecode

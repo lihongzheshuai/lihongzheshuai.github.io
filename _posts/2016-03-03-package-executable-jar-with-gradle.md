@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Gradle打包可执行Jar
-tags: [gradle,executable,jar,plugins]
+tags: [Gradle]
+categories: [Java技术研究]
 date: 2016-03-03 09:24:56 +0800
 comments: true
 thread_key: 1877

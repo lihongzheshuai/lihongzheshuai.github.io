@@ -2,11 +2,9 @@
 layout: post
 title: "LeetCode[Algorithms] Two Sum"
 modified:
-categories:
 excerpt: LeetCode [Two Sum] by OneCoder
-tags: [leetcode, algorithms, two sum]
-image:
-  feature:
+tags: [算法,LeetCode]
+categories: [算法学习]
 thread_key: 1867
 date: 2015-09-06T09:35:45
 ---

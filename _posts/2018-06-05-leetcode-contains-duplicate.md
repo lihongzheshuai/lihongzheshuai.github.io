@@ -1,6 +1,7 @@
 ---
 title: LeetCode Contains Duplicate
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2018-06-05 11:03:24 +0800
 comments: true
 author: onecode

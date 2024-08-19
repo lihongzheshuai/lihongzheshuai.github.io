@@ -1,6 +1,7 @@
 ---
 title: LeetCode Isomorphic Strings
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2018-05-17 23:18:24 +0800
 comments: true
 author: onecode

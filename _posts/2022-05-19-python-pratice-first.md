@@ -1,6 +1,7 @@
 ---
 title: python练习-Hello World
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-05-19 22:56:24 +0800
 comments: true
 author: onecode

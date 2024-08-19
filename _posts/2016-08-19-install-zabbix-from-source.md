@@ -2,6 +2,7 @@
 layout: post
 title: Zabbix源码编译安装
 tags: [Zabbix]
+categories: [知识扩展]
 date: 2016-08-19 13:36:24 +0800
 comments: true
 author: onecoder

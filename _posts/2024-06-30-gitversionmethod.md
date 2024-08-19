@@ -4,7 +4,8 @@ title: Git版本管理基本原理
 date: 2024-06-30 10:22 +0800
 author: onecoder
 comments: true
-tags: [svn,git]
+tags: [SVN,Git]
+categories: [知识扩展]
 thread_key: 202406301022
 ---
 上文已经研究分析了SVN增量式版本管理的基本原理，今天再进一步研究分析下Git快照式存储的基本原理：

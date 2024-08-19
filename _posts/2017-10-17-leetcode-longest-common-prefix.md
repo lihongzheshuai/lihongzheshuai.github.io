@@ -2,6 +2,7 @@
 title: LeetCode Longest Common Prefix
 layout: post
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-10-17 13:25:24 +0800
 comments: true
 author: onecoder

@@ -1,6 +1,7 @@
 ---
 title: Python瞎学瞎用
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2023-02-01 23:00:24 +0800
 comments: true
 author: onecoder

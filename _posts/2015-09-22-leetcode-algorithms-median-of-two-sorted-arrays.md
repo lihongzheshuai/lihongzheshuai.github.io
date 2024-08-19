@@ -2,11 +2,9 @@
 layout: post
 title: "LeetCode[Algorithms] Median of Two Sorted Arrays"
 modified:
-categories:
 excerpt: LeetCode [Median of Two Sorted Arrays] by OneCoder
-tags: [leetcode, algorithms, Median of Two Sorted Arrays]
-image:
-  feature:
+tags: [算法,LeetCode]
+categories: [算法学习]
 thread_key: 1868
 date: 2015-09-22T11:54:45
 ---

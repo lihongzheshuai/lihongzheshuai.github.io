@@ -1,6 +1,7 @@
 ---
 title: Python练习-分布式任务
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-09-06 08:07:24 +0800
 comments: true
 author: onecode

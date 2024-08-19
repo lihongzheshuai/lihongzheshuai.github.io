@@ -2,6 +2,7 @@
 layout: post
 title: LeetCode  Palindrome Number
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-10-12 13:38:24 +0800
 comments: true
 author: onecoder

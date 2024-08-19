@@ -1,6 +1,7 @@
 ---
 title: Python练习-IO操作 StringIO、BytesIO
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-08-21 20:20:24 +0800
 comments: true
 author: onecode

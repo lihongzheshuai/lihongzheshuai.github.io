@@ -1,6 +1,7 @@
 ---
 title: LeetCode Delete Duplicate Emails
 tags: [LeetCode,SQL]
+categories: [算法学习]
 date: 2017-12-29 13:42:24 +0800
 comments: true
 author: onecode

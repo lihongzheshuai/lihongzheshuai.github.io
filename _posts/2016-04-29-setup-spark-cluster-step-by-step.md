@@ -2,6 +2,7 @@
 layout: post
 title: 事无巨细 Spark 1.6.1 集群环境搭建
 tags: [Spark]
+categories: [大数据]
 date: 2016-04-29 10:42:32 +0800
 comments: true
 thread_key: 1893

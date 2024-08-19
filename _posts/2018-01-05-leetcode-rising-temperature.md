@@ -1,6 +1,7 @@
 ---
 title: LeetCode Rising Temperature
 tags: [LeetCode,SQL]
+categories: [算法学习]
 date: 2018-1-5 13:41:24 +0800
 comments: true
 author: onecode

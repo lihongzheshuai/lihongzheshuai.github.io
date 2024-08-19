@@ -1,7 +1,8 @@
 ---
 layout: post
 title: SpringXD on yarn 使用Container工作组
-tags: [SpringXD]
+tags: [Spring]
+categories: [Java技术研究]
 date: 2016-12-01 15:56:57 +0800
 comments: true
 author: onecoder

@@ -2,6 +2,7 @@
 layout: post
 title: Mybatis-PageHelper Reentrantlock锁使用问题
 tags: [Mybatis]
+categories: [Java技术研究]
 date: 2016-04-12 22:48:42 +0800
 comments: true
 thread_key: 1888

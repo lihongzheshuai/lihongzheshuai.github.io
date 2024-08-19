@@ -1,6 +1,7 @@
 ---
 title: LeetCode Symmetric Tree
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-11-14 10:12:24 +0800
 comments: true
 author: onecode

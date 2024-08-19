@@ -1,6 +1,7 @@
 ---
 title: Python实战-生成版本排期Excel
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2023-03-11 21:13:24 +0800
 comments: true
 author: onecoder

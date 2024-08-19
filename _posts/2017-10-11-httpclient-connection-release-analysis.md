@@ -2,6 +2,7 @@
 layout: post
 title: Httpcomponents-client 连接释放逻辑源码研究
 tags: [HttpClient,Java]
+categories: [Java技术研究]
 date: 2017-10-11 12:59:24 +0800
 comments: true
 author: onecoder

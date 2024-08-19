@@ -4,7 +4,8 @@ title: 2024年主流使用的JDK版本及其核心特性介绍
 date: 2024-07-07 22:32 +0800
 author: onecoder
 comments: true
-tags: [jdk,Java]
+tags: [JDK,Java]
+categories: [Java技术研究]
 thread_key: 202407072232
 ---
 在群里交流的时候，经常遇到不同同学使用的JDK版本五花八门，并且很多不知道其使用版本的特点。作为Java开发者，理解不同JDK版本的核心特性和优势不仅能提高我们的开发效率，还能帮助我们更好地选择适合自己项目的版本。

@@ -1,6 +1,7 @@
 ---
 title: LeetCode Sqrt X
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-11-08 15:57:24 +0800
 comments: true
 author: onecode

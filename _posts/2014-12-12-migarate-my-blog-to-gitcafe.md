@@ -4,8 +4,6 @@ title: "博客从wordpress迁移到Github.io、GitCafe"
 modified:
 tags: [Jekyll, Github Pages]
 categories: [随笔]
-image:
-  feature:
 thread_key: 1863
 date: 2014-12-12T15:18:51+08:00
 ---

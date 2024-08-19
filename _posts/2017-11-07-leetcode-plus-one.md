@@ -1,6 +1,7 @@
 ---
 title: LeetCode Plus One
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-11-07 13:21:24 +0800
 comments: true
 author: onecode

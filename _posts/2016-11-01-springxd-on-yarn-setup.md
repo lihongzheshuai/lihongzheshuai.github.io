@@ -1,7 +1,8 @@
 ---
 layout: post
 title: SpirngXD on YARN模式部署说明
-tags: [SpringXD]
+tags: [Spring]
+categories: [Java技术研究]
 date: 2016-11-01 10:39:42 +0800
 comments: true
 author: onecoder

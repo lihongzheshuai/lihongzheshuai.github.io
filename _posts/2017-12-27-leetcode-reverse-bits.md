@@ -1,6 +1,7 @@
 ---
 title: LeetCode Reverse Bits
 tags: [LeetCode, Python]
+categories: [算法学习]
 date: 2017-12-27 09:21:24 +0800
 comments: true
 author: onecode

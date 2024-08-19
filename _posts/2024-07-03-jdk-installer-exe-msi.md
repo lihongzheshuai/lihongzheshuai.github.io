@@ -4,7 +4,8 @@ title: JDK安装包.exe和.msi差异
 date: 2024-07-03 18:34 +0800
 author: onecoder
 comments: true
-tags: [Java,jdk,exe,msi]
+tags: [Java,JDK]
+categories: [知识扩展]
 thread_key: 202407031834
 ---
 在Oracle官网下载Java Development Kit (JDK)安装包时，针对 Windows 操作系统，除zip压缩包外，安装包通常有两种格式：.exe 和 .msi。

@@ -2,6 +2,7 @@
 layout: post
 title: 事无巨细 Hive1.2.1 Hiveserver搭建详解
 tags: [Hive]
+categories: [大数据]
 date: 2016-04-27 19:30:18 +0800
 comments: true
 thread_key: 1891

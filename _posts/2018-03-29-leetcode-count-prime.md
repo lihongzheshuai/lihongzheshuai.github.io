@@ -1,6 +1,7 @@
 ---
 title: LeetCode Count Primes
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2018-03-29 23:26:24 +0800
 comments: true
 author: onecode

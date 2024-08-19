@@ -4,7 +4,8 @@ title: 给Java初学者-Java环境变量的本质和配置方法（Windows、Lin
 date: 2024-07-12 10:57 +0800
 author: onecoder
 comments: true
-tags: [Java,windows,linux]
+tags: [Java,Windows,Linux,Mac]
+categories: [Java技术研究]
 thread_key: 202407121058
 ---
 经常遇到初学者问到关于Java环境变量配置的问题，基本围绕在集中情况：（1）环境变量要配哪些；（2）2024年了还需不需要配；（3）为啥我这个没配、那个没配也好用。会不会有什么影响。今天我就展开讲讲关于Java环境变量的定位和本质。

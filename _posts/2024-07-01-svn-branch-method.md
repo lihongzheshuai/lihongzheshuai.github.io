@@ -4,7 +4,8 @@ title: SVN分支管理基本原理
 date: 2024-07-01 14:40 +0800
 author: onecoder
 comments: true
-tags: [svn,git]
+tags: [SVN,Git]
+categories: [知识扩展]
 thread_key: 202407011441
 ---
 学习完svn和git的版本管理理念上的差异后，自然的我们再进一步对比svn和git在分支管理上的原理差异，这种差异正是由二者版本管理理念和存储方式差异造成的，今天我们先研究一下svn的分支管理原理：

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 事无巨细 Apache Kafka 0.9.0.1 集群环境搭建
-tags: [kafka]
+tags: [Kafka]
+categories: [大数据]
 date: 2016-04-29 09:30:57 +0800
 comments: true
 thread_key: 1892

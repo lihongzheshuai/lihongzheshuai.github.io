@@ -1,6 +1,7 @@
 ---
 title: LeetCode Happy Number
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2018-02-26 16:02:24 +0800
 comments: true
 author: onecode

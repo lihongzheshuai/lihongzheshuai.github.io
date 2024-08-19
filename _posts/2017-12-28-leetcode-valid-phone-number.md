@@ -1,6 +1,7 @@
 ---
 title: LeetCode Valid Phone Number
 tags: [LeetCode, Bash]
+categories: [算法学习]
 date: 2017-12-28 17:26:24 +0800
 comments: true
 author: onecode

@@ -1,6 +1,7 @@
 ---
 title: LeetCode Merge Two Sorted Lists
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-10-19 14:49:24 +0800
 comments: true
 author: onecoder

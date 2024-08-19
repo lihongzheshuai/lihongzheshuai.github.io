@@ -2,6 +2,7 @@
 layout: post
 title: CentOS下vsftpd服务配置说明
 tags: [Linux]
+categories: [知识扩展]
 date: 2016-08-05 09:52:27 +0800
 comments: true
 author: onecoder

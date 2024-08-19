@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Docker下搭建DNS服务器dnsmasq
-tags: [docker]
+tags: [Docker]
+categories: [知识扩展]
 date: 2016-04-15 14:52:42 +0800
 comments: true
 thread_key: 1889

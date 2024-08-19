@@ -1,7 +1,8 @@
 ---
 layout: post
 title: SpringXD分布式模式部署
-tags: [SpringXD]
+tags: [Spring]
+categories: [Java技术研究]
 date: 2016-10-21 15:11:51 +0800
 comments: true
 author: onecoder

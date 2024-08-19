@@ -1,6 +1,7 @@
 ---
 title: Netty4自学笔记 (3) - Netty NIO Server和Client 样例说明
-tags: [Netty,NIO]
+tags: [Netty]
+categories: [Java技术研究]
 date: 2018-08-13 16:41:24 +0800
 comments: true
 author: onecode

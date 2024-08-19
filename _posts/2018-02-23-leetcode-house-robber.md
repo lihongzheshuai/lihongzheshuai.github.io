@@ -1,6 +1,7 @@
 ---
 title: LeetCode House Robber
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2018-02-23 17:26:24 +0800
 comments: true
 author: onecode

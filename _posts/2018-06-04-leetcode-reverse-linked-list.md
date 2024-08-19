@@ -1,6 +1,7 @@
 ---
 title: LeetCode Reverse Linked List
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2018-06-04 23:29:24 +0800
 comments: true
 author: onecode

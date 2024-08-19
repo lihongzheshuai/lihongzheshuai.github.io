@@ -1,6 +1,7 @@
 ---
 title: Python练习-常用内建模块hashlib
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-10-07 21:40:24 +0800
 comments: true
 author: onecode

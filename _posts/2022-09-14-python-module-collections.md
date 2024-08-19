@@ -1,6 +1,7 @@
 ---
 title: Python练习-常用内建模块collections
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-09-14 22:30:24 +0800
 comments: true
 author: onecode

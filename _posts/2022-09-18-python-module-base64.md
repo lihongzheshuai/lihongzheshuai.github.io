@@ -1,6 +1,7 @@
 ---
 title: Python练习-常用内建模块base64
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-09-18 22:00:24 +0800
 comments: true
 author: onecode

@@ -4,7 +4,8 @@ title: SVN版本管理基本原理
 date: 2024-06-29 15:01 +0800
 author: onecoder
 comments: true
-tags: [svn,git]
+tags: [SVN,Git]
+categories: [知识扩展]
 thread_key: 202406291501
 ---
 之前在做svn和git差异分析的时候提到二者的数据存储模型有差异，svn增量(差异)存储，git快照存储。为了进一步搞清这里的差异，我分别对svn和git的存储原理进行了学习和梳理，总结如下：

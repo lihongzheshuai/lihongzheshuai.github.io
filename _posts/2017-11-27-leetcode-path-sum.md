@@ -1,6 +1,7 @@
 ---
 title: LeetCode Path Sum
 tags: [LeetCode,Python]
+categories: [算法学习]
 date: 2017-11-27 17:10:24 +0800
 comments: true
 author: onecode

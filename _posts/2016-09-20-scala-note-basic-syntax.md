@@ -2,6 +2,7 @@
 layout: post
 title: Scala学习笔记-基础语法
 tags: [Scala]
+categories: [知识扩展]
 date: 2016-09-20 16:30:10 +0800
 comments: true
 author: onecoder

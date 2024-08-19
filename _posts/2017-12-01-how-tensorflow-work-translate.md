@@ -1,6 +1,7 @@
 ---
 title: 【翻译】 TensorFlow如何工作
-tags: [TensorFlow]
+tags: [TensorFlow,翻译]
+categories: [知识扩展]
 date: 2017-12-01 11:24:24 +0800
 comments: true
 author: onecode

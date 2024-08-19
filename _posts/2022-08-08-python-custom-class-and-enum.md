@@ -1,6 +1,7 @@
 ---
 title: Python练习-定制类和枚举
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-08-08 20:20:24 +0800
 comments: true
 author: onecode

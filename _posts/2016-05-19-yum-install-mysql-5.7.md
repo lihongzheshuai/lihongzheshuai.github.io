@@ -2,6 +2,7 @@
 layout: post
 title: yum安装MySQL5.7
 tags: [MySQL]
+categories: [知识扩展]
 date: 2016-05-19 20:20:35 +0800
 comments: true
 thread_key: 1895

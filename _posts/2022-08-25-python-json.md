@@ -1,6 +1,7 @@
 ---
 title: Python练习-json操作
-tags: [python]
+tags: [Python]
+categories: [Python技术研究]
 date: 2022-08-25 20:20:24 +0800
 comments: true
 author: onecode

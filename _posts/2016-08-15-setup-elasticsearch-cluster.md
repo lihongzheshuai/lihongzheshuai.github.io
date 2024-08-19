@@ -2,6 +2,7 @@
 layout: post
 title: Elasticsearch 集群部署说明
 tags: [Elasticsearch]
+categories: [大数据]
 date: 2016-08-15 17:29:49 +0800
 comments: true
 thread_key: 1897

@@ -1,6 +1,7 @@
 ---
 title: LeetCode  Remove Duplicates from Sorted Array
 tags: [LeetCode,Java]
+categories: [算法学习]
 date: 2017-10-22 22:47:24 +0800
 comments: true
 author: onecoder
