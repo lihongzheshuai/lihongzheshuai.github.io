@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 一起学Java(8)-项目的第一个PR和将IDE相关文件移除版本控制
+title: 一起学Java(8)-[起步篇]教你如何进行本项目的PR和将IDE相关文件移除版本控制
 date: 2024-08-04 20:01 +0800
 author: onecoder
 comments: true
 tags: [Java,Git,一起学Java]
-categories: [一起学Java系列,Github]
+categories: [一起学Java系列,（1）起步搭建篇]
 ---
 我们的[***java-all-in-one***](https://www.coderli.com/java-go-1-new-gradle-project/)项目的第一个PR比我预想的来的早了很多。感谢来自我的QQ群友(插播广告，欢迎大家加入[***Java技术交流群982860385***](https://qm.qq.com/q/Mrj1HGLl2E))的PR。今天就介绍一下这次PR和项目调整的主要内容。
 

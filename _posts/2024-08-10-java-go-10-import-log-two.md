@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 一起学Java(10)-为项目引入Log框架(Log篇二-引入SLF4J接口层框架)
+title: 一起学Java(10)-[日志篇]教你为本项目引入SLF4J接口层框架
 date: 2024-08-10 22:04 +0800
 author: onecoder
 comments: true
 tags: [Java,Log,SLF4J,一起学Java]
-categories: [一起学Java系列,Log]
+categories: [一起学Java系列,（2）引入日志篇]
 ---
 在上一节[***一起学Java(9)-为项目引入Log框架(Log篇一-框架演进和设计逻辑***](https://www.coderli.com/java-go-9-import-log-one/)中，我们已经理清了Java日志框架的演进过程、设计思想和核心框架。从这节开始，进入实战研究环节。
 

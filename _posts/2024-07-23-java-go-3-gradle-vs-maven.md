@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 一起学Java(3)-Java项目构建工具Gradle和Maven场景定位和优缺点对比
+title: 一起学Java(3)-[起步篇]教你详细掌握Java构建工具Gradle和Maven定位和优缺点对比
 date: 2024-07-23 22:44 +0800
 author: onecoder
 comments: true
 tags: [Java,Gradle,Maven, 一起学Java]
-categories: [一起学Java系列,Gradle]
+categories: [一起学Java系列,（1）起步搭建篇]
 ---
 在第一步创建的项目（java-all-in-one）项目里，我们提到了使用Gradle作为项目构建工具。看到这里，不知道你是否有疑惑，什么是项目构建工具。Java项目常用构建工具有哪些？都有什么特点？
 

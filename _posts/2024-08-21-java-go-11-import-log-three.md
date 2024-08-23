@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 一起学Java(11)-为项目引入Log框架(Log篇三-SLF4J源码解析，Logger接口实现类加载原理)
+title: 一起学Java(11)-[日志篇]教你分析SLF4J源码，掌握Logger接口实现类加载原理
 date: 2024-08-21 22:04 +0800
 author: onecoder
 comments: true
 tags: [Java,Log,SLF4J,一起学Java]
-categories: [一起学Java系列,Log]
+categories: [一起学Java系列,（2）引入日志篇]
 ---
 最近各种事情很忙，今天继续。在第十篇([***一起学Java(10)-为项目引入Log框架(Log篇二-引入SLF4J接口层框架)***](https://www.coderli.com/java-go-9-import-log-one/))中，我们为项目([https://github.com/lihongzheshuai/java-all-in-one](https://github.com/lihongzheshuai/java-all-in-one))引入了`SLF4J`和`Logback`框架，按计划通过阅读源码研究下`SLF4J`的实现原理。
 

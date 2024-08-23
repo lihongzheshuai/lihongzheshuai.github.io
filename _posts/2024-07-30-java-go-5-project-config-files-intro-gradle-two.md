@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 一起学Java(5)-java-all-in-one协作项目相关文件研究（Gradle篇-下）
+title: 一起学Java(5)-[起步篇]教你掌握本协作项目中的Gralde相关配置文件（下）
 date: 2024-07-30 17:01 +0800
 author: onecoder
 comments: true
 tags: [Java,Gradle,一起学Java]
-categories: [一起学Java系列,Gradle]
+categories: [一起学Java系列,（1）起步搭建篇]
 ---
 接上篇《[一起学Java(4)-java-all-in-one协作项目相关文件研究（Gradle篇-上）](https://www.coderli.com/java-go-4-project-config-files-intro-gradle-one/)》，本文继续研究项目中Gradle相关文件。
 
