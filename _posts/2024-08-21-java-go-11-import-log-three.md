@@ -3,6 +3,9 @@ layout: post
 title: 一起学Java(11)-[日志篇]教你分析SLF4J源码，掌握Logger接口实现类加载原理
 date: 2024-08-21 22:04 +0800
 author: onecoder
+image:
+  path: /images/previews/java-log.png
+  alt: Log篇
 comments: true
 tags: [Java,Log,SLF4J,一起学Java]
 categories: [一起学Java系列,（2）引入日志篇]
@@ -55,6 +58,7 @@ subprojects {
 刷新项目后，依赖对应的源码即下载并帮定完成。点击进入第三方包的代码后，会直接显示源码而不是反编译的结果。可读性更强。
 
 ![刷新Gradle项目](/images/post/java-go-11/idea-gradle-refresh.png)
+_IDEA中如何刷新Gradle项目_
 
 ## 二、源码解读SLF4J如何寻找Log实现层框架
 
