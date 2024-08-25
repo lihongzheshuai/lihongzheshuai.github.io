@@ -4,6 +4,7 @@ title: 一起学Java(9)-[日志篇]教你掌握Java日志框架的演进和设�
 date: 2024-08-05 17:52 +0800
 author: onecoder
 comments: true
+image: /images/previews/concrete-bindings.png
 tags: [Java,Log,一起学Java]
 categories: [一起学Java系列,（2）引入日志篇]
 ---

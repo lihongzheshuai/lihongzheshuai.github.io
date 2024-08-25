@@ -3,7 +3,7 @@ layout: post
 title: 一起学Java(11)-[日志篇]教你分析SLF4J源码，掌握Logger接口实现类加载原理
 date: 2024-08-21 22:04 +0800
 author: onecoder
-image: /images/previews/java-log.png
+image: /images/previews/concrete-bindings.png
 comments: true
 tags: [Java,Log,SLF4J,一起学Java]
 categories: [一起学Java系列,（2）引入日志篇]
