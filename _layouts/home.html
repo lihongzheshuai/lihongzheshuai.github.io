@@ -108,6 +108,10 @@ panel_includes:
         </div>
       </a>
     </article>
+    {% if loop.index == 1 %}
+    <!-- 这是第一次循环 -->
+    {% include custom/custom-info-google-ads.html }
+    {% else %}
   {% endfor %}
 </div>
 <!-- #post-list -->
