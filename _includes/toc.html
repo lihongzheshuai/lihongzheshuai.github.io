@@ -9,20 +9,6 @@
   <section id="toc-wrapper" class="d-none ps-0 pe-4">
     <h2 class="panel-heading ps-3 mb-2">{{- site.data.locales[include.lang].panel.toc -}}</h2>
     <nav id="toc"></nav>
+    {% include custom/custom-post-google-ads-sidebar.html %}
   </section>
-  <!-- Google ads in post sidebar --> 
-<div style="margin-top: 10px;">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7615326632728696"
-       crossorigin="anonymous"></script>
-  <!-- all-site -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-7615326632728696"
-       data-ad-slot="6734143049"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-  </div>
 {% endif %}
