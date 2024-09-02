@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一起学Java(12)-[日志篇]教你分析SLF4J源码，掌握SLF4J如何与Logback无缝集成的原理
-date: 2024-08-29 12:43 +0800
+date: 2024-09-02 08:00 +0800
 author: onecoder
 image: /images/post/java-go-12/logback-provider.png
 comments: true
