@@ -60,6 +60,7 @@ _IDEA中如何刷新Gradle项目_
 
 ## 二、源码解读SLF4J如何寻找Log实现层框架
 
+{% include custom/custom-post-content-inner.html %}
 
 上文中([***一起学Java(10)-为项目引入Log框架(Log篇二-引入SLF4J接口层框架)***](https://www.coderli.com/java-go-9-import-log-one/))，在未引入Logback应用层框架的时候，打印日志时控制台输出：
 
@@ -96,6 +97,8 @@ public class LogMain {
 即通过`org.slf4j.LoggerFactory`获取`org.slf4j.Logger`接口对应的实现类。
 
 ### org.slf4j.LoggerFactory 实现代码
+
+{% include custom/custom-post-content-inner.html %}
 
 `org.slf4j.LoggerFactory`中依次调用：
 
@@ -286,4 +289,4 @@ getServiceLoader中通过Java中的`java.util.ServiceLoader`去寻找实现类
 
 当前情况下，classpath下自然找不到这些文件。`providerList`为空所以在`bind`函数中输出了之前我们关注警告信息。
 
-下一篇我们再继续研究引入Logback框架的情况，估计已经猜出大半了。
+下一篇我们再继续研究引入Logback框架的情况，估计你已经猜出大半了。
