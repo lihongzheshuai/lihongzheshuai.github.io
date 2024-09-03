@@ -1,7 +1,6 @@
 # Custom
 urls.txt
 push_post.py
-.github\workflows\pages-deploy.yml
 
 # Bundler cache
 .bundle
@@ -33,3 +32,4 @@ package-lock.json
 _sass/dist
 assets/js/dist
 .vercel
+.github/workflows/pages-deploy.yml
