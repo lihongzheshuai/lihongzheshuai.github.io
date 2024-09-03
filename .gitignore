@@ -1,6 +1,7 @@
 # Custom
 urls.txt
 push_post.py
+.github\workflows\pages-deploy.yml
 
 # Bundler cache
 .bundle
