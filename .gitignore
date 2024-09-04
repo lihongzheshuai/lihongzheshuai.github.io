@@ -20,6 +20,7 @@ _site
 # NPM dependencies
 node_modules
 package-lock.json
+package.json
 
 # IDE configurations
 .idea
@@ -30,6 +31,6 @@ package-lock.json
 
 # Misc
 _sass/dist
-assets/js/dist
+_javascript/
 .vercel
 .github/workflows/pages-deploy.yml
