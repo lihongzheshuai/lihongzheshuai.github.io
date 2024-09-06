@@ -30,6 +30,7 @@ package.json
 !.vscode/tasks.json
 
 # Misc
+_sass/dist
 _javascript/
 .vercel
 .github/workflows/pages-deploy.yml
