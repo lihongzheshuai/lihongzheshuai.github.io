@@ -8,7 +8,7 @@ tags: [Java]
 categories: [Java技术研究,随笔]
 thread_key: 1093
 ---
-今天群里(Java Coder群：91513074)的朋友，问我该如何看帮助文档，或者说在遇到问题的时候如何解决。希望我能介绍一下我的方法。
+今天群里([Java爱好者群:982860385](https://qm.qq.com/q/hEQJ0IEp4))的朋友，问我该如何看帮助文档，或者说在遇到问题的时候如何解决。希望我能介绍一下我的方法。
 
 这个<a href="http://www.coderli.com">**OneCoder**</a>其实没有资格高谈阔论，只能说说个人的习惯和方式。自学和自我解决问题确实是一项非常非常重要的能力，远比你现在所会的知识重要的多的多，因为，你未知的永远的无穷的。
 
@@ -63,7 +63,7 @@ public String substring(int beginIndex, int endIndex) {
 
 # 关于搜索引擎的使用
 
-解决问题最好的办法，当然是去网上搜索。这里<a href="http://www.coderli.com">**OneCoder**</a>必须要说的是，对于开发人员来说，**百度**确实不是一个好的搜索引擎，搜索出来的东西相关性和有效性都十分有限。这里，<a href="http://www.coderli.com">**OneCoder**</a>必须大力的推荐**Google**。真的不在一个层次上。你可能会说，**Google**总是被墙。这个，<a href="http://www.coderli.com">**OneCoder**</a>采用了不太通用的做法，那就是常年购买了一个**ssh**的代理，专门用于访问google。呵呵：）其实，解决**google**问题的方法网上还有很多，你也可以去搜索一下。我们可以简单对比一下两个搜索引擎的搜索效果。
+解决问题最好的办法，当然是去网上搜索。这里<a href="http://www.coderli.com">**OneCoder**</a>必须要说的是，对于开发人员来说，**百度**确实不是一个好的搜索引擎，搜索出来的东西相关性和有效性都十分有限。这里，<a href="http://www.coderli.com">**OneCoder**</a>必须大力的推荐**Google**。真的不在一个层次上。你可能会说，**Google**总是被墙。这个只能自己想办法了。我们可以简单对比一下两个搜索引擎的搜索效果。
 
 以"**Netty** 教程"这个搜索词为例：
 
@@ -71,7 +71,7 @@ public String substring(int beginIndex, int endIndex) {
 
 ![](/images/oldposts/pqpG6.jpg)
 
-同样的<a href="http://www.coderli.com">**OneCoder**</a>原创的文章，百度排名靠前的确实被采集站恶意采集的转载文章，而非原创文章。这对于你获取原始的准确的信息是有很大影响的。
+同样的<a href="http://www.coderli.com">**OneCoder**</a>原创的文章，百度排名靠前的却是被采集站恶意采集的转载文章，而非原创文章。这对于你获取原始的准确的信息是有很大影响的。
 
 至于相关性、信息的前沿性等方面的对比，<a href="http://www.coderli.com">OneCoder</a>由于一时找不到合适的例子，暂时不做图例。但是，随着你慢慢的使用，你会逐渐发现二者的区别。比如，在你搜索一些前沿性的课题的时候，或者一些罕见的错误的时候。**Google**往往能给出你有价值的参考信息。
 
