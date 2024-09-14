@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一起学Java(6)-[起步篇]教你掌握本协作项目中Gie和IDEA相关配置文件
+title: 一起学Java(6)-[起步篇]教你掌握本协作项目中Git和IDEA相关配置文件
 date: 2024-07-31 13:01 +0800
 author: onecoder
 comments: true
