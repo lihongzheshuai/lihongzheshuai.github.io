@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 一起学Java(13)-[日志篇]教你分析SLF4J和Log4j2源码，掌握SLF4J与Log4j2无缝集成原理
-date: 2024-09-04 08:00 +0800
+date: 2024-09-14 19:00 +0800
 author: onecoder
-image: /images/post/java-go-13/log4j2-slf4j2-provider.png
+image: /images/post/java-go-13/log4j2-slf4j2-provider-relation.svg
 comments: true
 tags: [Java, Log, SLF4J, 一起学Java]
 categories: [一起学Java系列,（2）引入日志篇]
@@ -166,10 +166,40 @@ public interface LocationAwareLogger extends Logger
     }
 ```
 
-最后，一张图总结一下桥接包的原理，就分析到这了。
+一张图总结一下桥接包的关系原理：
 
+![log4j2-slf4j2-provider](/images/post/java-go-13/log4j2-slf4j2-provider-relation.svg)
 
+## Log4j2原生API用法
 
+作为扩展和对比，试验一下原生使用Log4j2 API的用法。
+
+```java
+package com.coderli.one.log;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+/**
+ * 本类用于研究Log4j2原生日志接口使用方式
+ * @author OneCoder
+ * @Blog https://www.coderli.com
+ * @source https://github.com/lihongzheshuai/java-all-in-one
+ */
+public class Log4jLogMain {
+
+    public static void main(String[] args) {
+        Logger logger = LogManager.getLogger(Log4jLogMain.class);
+        logger.info("This is a log from log4j-api.");
+    }
+
+}
+```
+
+即在通过log4j-api包中的`LogManager`获取到`Logger`实例进行日志记录。
+
+> 原生使用log4j-api的代码也已上传至[github：https://github.com/lihongzheshuai/java-all-in-one](https://github.com/lihongzheshuai/java-all-in-one)，有兴趣的可以参考。考虑到未来可能使用Logback框架，因此这部分代码放在分支feature-log-log4j2中。
+{: .prompt-warning }
 
 
 
