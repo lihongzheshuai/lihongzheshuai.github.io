@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一起学Java(13)-[日志篇]教你分析SLF4J和Log4j2源码，掌握SLF4J与Log4j2无缝集成原理
+title: 一起学Java(13)-[日志篇]教你分析SLF4J和Log4j2源码，掌握SLF4J与Log4j2桥接集成原理
 date: 2024-09-14 19:00 +0800
 author: onecoder
 image: /images/post/java-go-13/log4j2-slf4j2-provider-relation.svg
