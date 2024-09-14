@@ -170,7 +170,7 @@ public interface LocationAwareLogger extends Logger
 
 ![log4j2-slf4j2-provider](/images/post/java-go-13/log4j2-slf4j2-provider-relation.svg)
 
-## Log4j2原生API用法
+## 三、Log4j2原生API用法
 
 作为扩展和对比，试验一下原生使用Log4j2 API的用法。
 
@@ -200,14 +200,3 @@ public class Log4jLogMain {
 
 > 原生使用log4j-api的代码也已上传至[github：https://github.com/lihongzheshuai/java-all-in-one](https://github.com/lihongzheshuai/java-all-in-one)，有兴趣的可以参考。考虑到未来可能使用Logback框架，因此这部分代码放在分支feature-log-log4j2中。
 {: .prompt-warning }
-
-
-
-
-
-
-
-
-
-
-
