@@ -198,5 +198,5 @@ public class Log4jLogMain {
 
 即在通过log4j-api包中的`LogManager`获取到`Logger`实例进行日志记录。
 
-> 原生使用log4j-api的代码也已上传至[github：https://github.com/lihongzheshuai/java-all-in-one](https://github.com/lihongzheshuai/java-all-in-one)，有兴趣的可以参考。考虑到未来可能使用Logback框架，因此这部分代码放在分支feature-log-log4j2中。
+> 原生使用log4j-api的代码也已上传至[github：https://github.com/lihongzheshuai/java-all-in-one](https://github.com/lihongzheshuai/java-all-in-one)，有兴趣的可以参考。考虑到未来可能使用Logback框架，因此这部分代码放在分支feature-log中。
 {: .prompt-warning }
