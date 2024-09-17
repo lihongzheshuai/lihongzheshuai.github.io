@@ -337,8 +337,8 @@ sup {
 
   img {
     height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+    -o-object-fit: fill;
+    object-fit: fill;
 
     @extend %rounded;
 

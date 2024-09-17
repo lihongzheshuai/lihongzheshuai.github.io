@@ -24,7 +24,7 @@ package.json
 
 # IDE configurations
 .idea
-.vscode/*
+.vscode/
 !.vscode/extensions.json
 !.vscode/tasks.json
 
