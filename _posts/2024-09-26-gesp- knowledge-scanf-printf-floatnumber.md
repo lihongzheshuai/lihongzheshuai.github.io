@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++知识点研究，scanf/printf浮点数格式化到底是%lf还是%f
+title: 【GESP】C++一级知识点研究，scanf/printf浮点数格式化到底是%lf还是%f
 date: 2024-09-26 22:00 +0800
 author: OneCoder
 image: /images/post/gesp/gesp-1.png
