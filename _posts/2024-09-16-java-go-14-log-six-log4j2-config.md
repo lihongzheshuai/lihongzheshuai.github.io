@@ -8,7 +8,7 @@ comments: true
 tags: [Java, Log, SLF4J, 一起学Java]
 categories: [一起学Java系列,（2）引入日志篇]
 ---
-研究完`SLF4J`和`Logback`这种无缝集成的方式([一起学Java(12)-[日志篇]教你分析SLF4J源码，掌握SLF4J如何与Logback无缝集成的原理](https://www.coderli.com/java-go-12-import-log-four-logback/))，继续研究`Log4j2`和`SLF4J`这种需要桥接集成的方式。
+掌握了Log4j2与SLF4J的集成原理([一起学Java(12)-[日志篇]教你分析SLF4J源码，掌握SLF4J如何与Logback无缝集成的原理](https://www.coderli.com/java-go-12-import-log-four-logback/))，继续研究`Log4j2`和`SLF4J`这种需要桥接集成的方式。
 
 <!--more-->
 
