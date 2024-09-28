@@ -1,10 +1,10 @@
 ---
 layout: post
-title: log4j 控制台和文件输出乱码问题解决
+title: Log4J 控制台和文件输出乱码问题解决
 date: 2012-07-05 23:10 +0800
 author: onecoder
 comments: true
-tags: [Log4j]
+tags: [Log]
 categories: [Java技术研究,Log]
 thread_key: 843
 ---
@@ -14,7 +14,7 @@ thread_key: 843
 今天遇到一个小问题，log4j输出到文件乱码，控制台正常。显然是编码问题导致。Google一搜，几乎一水的说：
 
 > 项目中**log4j**在英文版linux下输出中文日志为乱码。由于**log4j**配置文件中没有设置编码格式(encoding)，所以log4j就使用系统默认编码。导致乱码。解决方法是设置编码格式**UTF-8**,方法为：
-> 
+
 ```properties
 log4j.appender.syslog.encoding=UTF-8
 ```
@@ -39,6 +39,6 @@ log4j.appender.syslog.encoding=UTF-8
 
 你可能要问了，那控制台的匹配在哪里？Eclipse控制台也有是编码的，而且，不仅仅是有，你还可以为每个执行的程序，设置独立的编码。
 
-![](/images/post/log4j-console/console-config.png)
+![Log4j Console Configuration](/images/post/log4j-console/console-config.png)
 
 自然，这里的编码匹配了，也就不会乱码了。
