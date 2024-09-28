@@ -346,3 +346,7 @@ public class CommonPatternLogger {
 ```
 
 至此，一个项目的Log框架，基本就搭建完成了。
+
+---
+
+所有代码已上传至：[***https://github.com/lihongzheshuai/java-all-in-one***](https://github.com/lihongzheshuai/java-all-in-one)
