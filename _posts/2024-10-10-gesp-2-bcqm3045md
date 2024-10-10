@@ -1,0 +1,60 @@
+---
+layout: post
+math: true
+title: 【GESP】C++二级练习BCQM3045，打印ASCII码
+date: 2024-10-10 12:00 +0800
+author: OneCoder
+comments: true
+tags: [GESP, C++]
+categories: [GESP, 二级]
+---
+还是跟ASCII码有关的二级题目，输出字符对应的ASCII码数字
+
+<!--more-->
+
+## BCQM3045
+
+### 题目要求
+
+#### 描述
+
+>输入一个除空格以外的可见字符，输出其ASCII码。
+
+#### 输入
+
+>一个除空格以外的可见字符。
+
+#### 输出
+
+>一个十进制整数，即该字符的ASCII码。
+
+#### 输入样例
+
+>A
+
+#### 输出样例
+
+>65
+
+---
+
+### 题目分析
+
+根据ASCII规则，只需要把输入的`char`类型变量，强转成`int`类型，直接输出即可。
+
+#### 代码参考
+
+```cpp
+#include <iostream>
+using namespace std;
+int main() {
+    char a;
+    cin >> a;
+    cout << (int)a;
+    return 0;
+}
+```
+
+---
+
+所有代码已上传至Github：[***https://github.com/lihongzheshuai/yummy-code***](https://github.com/lihongzheshuai/yummy-code)
