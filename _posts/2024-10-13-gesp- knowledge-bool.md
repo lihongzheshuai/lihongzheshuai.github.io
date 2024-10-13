@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【GESP】C++一级知识点研究，布尔(bool)型变量
-date: 2024-10-13 22:00 +0800
+date: 2024-10-13 10:00 +0800
 author: OneCoder
 comments: true
 tags: [GESP, C++]
