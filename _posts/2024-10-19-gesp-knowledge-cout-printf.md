@@ -111,7 +111,7 @@ int main() {
               << " 秒" << std::endl;
     return 0;
 
-    测量 cout 的性能
+    // 测量 cout 的性能
     auto start = std::chrono::high_resolution_clock::now();
     for (int i = 0; i < iterations; ++i) {
         std::cout << i << std::endl;
@@ -121,7 +121,7 @@ int main() {
               << std::chrono::duration<double>(end - start).count()
               << " 秒" << std::endl;
 
-                  // 测量 cout 的性能
+    // 测量 cout 的性能
     auto start = std::chrono::high_resolution_clock::now();
     for (int i = 0; i < iterations; ++i) {
         std::cout << i << "\n";
