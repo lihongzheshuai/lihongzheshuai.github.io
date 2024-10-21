@@ -66,6 +66,14 @@ MinGW-w64的官网地址为：<https://www.mingw-w64.org/>，选择MinGW-W64-bui
 
 ![MinGW-W64-builds](/images/post/gesp/mingw-w64-builds-13.2.0.png)
 
+具体根据操作系统选择，Windows系统可以选择[x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev0](https://github.com/niXman/mingw-builds-binaries/releases/download/13.2.0-rt_v11-rev0/x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev0.7z)版本，即：
+
+- 64 位 MinGW 编译器工具链（x86_64 架构）。
+- 使用 GCC 13.2.0 版本。
+- 面向 Windows 平台，使用 SEH 异常处理机制。
+- 采用 UCRT 运行时库。(ucrt 是现代 Windows 系统上推荐使用的 CRT 版本，适用于大多数新的开发场景，而 msvcrt 则主要用于维护旧项目或兼容性需求场景。)
+- 这是该工具链的 v11 运行时版本的初始修订版。
+
 下载完成后，解压缩文件到一个合适的位置，例如 `C:\mingw64`。
 
 接下来，我们需要安装配置 Dev-C++，下载并安装官方提供的Dev-C++ 5.11版本。(下载地址：[https://logserviceccf.oss-cn-hangzhou.aliyuncs.com/Dev-Cpp%205.11%20TDM-GCC%204.9.2.exe](https://logserviceccf.oss-cn-hangzhou.aliyuncs.com/Dev-Cpp%205.11%20TDM-GCC%204.9.2.exe))，然后配置g++13.2.0编译器。
