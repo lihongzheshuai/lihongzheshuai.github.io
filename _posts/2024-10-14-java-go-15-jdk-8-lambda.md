@@ -58,7 +58,7 @@ Lambda 表达式只能用于实现**函数式接口**。函数式接口是只有
 package com.coderli.one.jdk8;
 
 @FunctionalInterface
-public interface LambdaInterfaceDemo {
+public interface LambdaFunctionalInterfaceDemo {
     void doSomething();
 }
 ```
