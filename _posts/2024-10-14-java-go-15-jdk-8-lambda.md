@@ -48,9 +48,9 @@ Lambda 表达式的语法形式如下：
 
 ### 3. **Lambda 表达式的用法**
 
-#### (1) **函数式接口**
+#### (1) **函数式接口-无参数**
 
-Lambda 表达式只能用于实现**函数式接口**。函数式接口是只有一个抽象方法的接口，可以通过 `@FunctionalInterface` 注解显式声明一个接口为函数式接口。
+Lambda 表达式只能用于实现**函数式接口**。函数式接口是**只有一个抽象方法**的接口，可以通过 `@FunctionalInterface` 注解显式声明一个接口为函数式接口。
 
 **示例：**
 
@@ -63,11 +63,20 @@ public interface LambdaFunctionalInterfaceDemo {
 }
 ```
 
-在这个例子中，`MyFunctionalInterface` 是一个函数式接口，它只有一个抽象方法 `doSomething`，因此可以使用 Lambda 表达式来实现它。
+在这个例子中，`MyFunctionalInterface` 是一个函数式接口，它只有一个抽象方法 `doSomething`，因此可以使用 Lambda 表达式来实现它。如：
 
-#### (2) **Lambda 表达式示例**
+```java
+LambdaFunctionalInterfaceDemo lambdaDemo = () -> System.out.println("Do something.");
+lambdaDemo.doSomething();
+```
 
-1. **无参数，无返回值的 Lambda 表达式**
+运行结果
+
+```console
+Do something.
+```
+
+再例如：
 
 ```java
 Runnable r = () -> System.out.println("Running in a separate thread");
@@ -85,39 +94,29 @@ Runnable r = new Runnable() {
 };
 ```
 
-1. **带参数的 Lambda 表达式**
+#### (2) **函数式接口-有参数**
+
+接口定义如下
 
 ```java
-MyFunctionalInterface f = (name) -> System.out.println("Hello, " + name);
-f.doSomething("Alice");
+package com.coderli.one.jdk8;
+
+public interface LambdaInterfaceDemo {
+    void doSomething(String name);
+}
 ```
 
-等同于：
+Lambda实现
 
 ```java
-MyFunctionalInterface f = new MyFunctionalInterface() {
-    @Override
-    public void doSomething(String name) {
-        System.out.println("Hello, " + name);
-    }
-};
+LambdaInterfaceDemo lambdaInterfaceImpl = (name) -> System.out.println("LambdaInterface: " + name);
+lambdaInterfaceImpl.doSomething("Lambda Demo");
 ```
 
-1. **带返回值的 Lambda 表达式**
+运行结果：
 
-```java
-Comparator<Integer> comparator = (a, b) -> a.compareTo(b);
-```
-
-等同于：
-
-```java
-Comparator<Integer> comparator = new Comparator<Integer>() {
-    @Override
-    public int compare(Integer a, Integer b) {
-        return a.compareTo(b);
-    }
-};
+```console
+LambdaInterface: Lambda Demo
 ```
 
 #### (3) **在集合中的应用**
