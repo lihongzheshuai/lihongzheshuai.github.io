@@ -55,7 +55,7 @@ Lambda 表达式只能用于实现**函数式接口**。函数式接口是**只�
 **示例：**
 
 ```java
-package com.coderli.one.jdk8;
+package com.coderli.one.jdk8.lambda;
 
 @FunctionalInterface
 public interface LambdaFunctionalInterfaceDemo {
@@ -99,7 +99,7 @@ Runnable r = new Runnable() {
 接口定义如下
 
 ```java
-package com.coderli.one.jdk8;
+package com.coderli.one.jdk8.lambda;
 
 public interface LambdaInterfaceDemo {
     void doSomething(String name);
