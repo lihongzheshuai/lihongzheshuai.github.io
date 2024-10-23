@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 一起学Java(15)-[JDK篇]教你了解Java8特性，Lambda表达式学习
-date: 2024-10-16 22:00 +0800
+title: 一起学Java(15)-[JDK篇]教你了解Java8特性，学习Lambda表达式
+date: 2024-10-23 22:00 +0800
 author: onecoder
 comments: true
 tags: [Java, JDK, 一起学Java]
@@ -119,6 +119,8 @@ lambdaInterfaceImpl.doSomething("Lambda Demo");
 LambdaInterface: Lambda Demo
 ```
 
+{% include custom/custom-post-content-inner.html %}
+
 #### (3) **在集合中的应用**
 
 Lambda 表达式和集合的组合通常通过 `Stream API` 来操作集合数据。这大大简化了对集合的过滤、映射和归约操作。
@@ -183,6 +185,10 @@ Lambda 表达式的原理基于**匿名类**的优化，但它并不直接生成
 - **设计定位**：Lambda 表达式用于简化函数式接口的实现，减少样板代码，支持行为参数化。
 - **原理**：通过动态方法调用，Lambda 表达式避免了传统匿名类的性能开销，并通过目标类型推断实现了灵活性。
 - **用法**：常用于集合操作、事件处理等场景，通过简化的语法使代码更具可读性和可维护性。
+
+---
+
+以上只能算对Lambda表达式的一个简单介绍。Lambda表达式作为Java 8引入的重要特性，其应用范围非常广泛，涉及的内容也相当丰富。在实际开发中，我们还需要深入理解Lambda表达式的更多细节，如变量捕获、方法引用的不同形式、与Stream API的结合使用等。同时，合理使用Lambda表达式可以大大提高代码的简洁性和可读性，但过度使用也可能导致代码难以理解。因此，在实际应用中，我们需要权衡代码的简洁性和可读性，选择最适合的方式来使用Lambda表达式。
 
 ---
 
