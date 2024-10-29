@@ -7,7 +7,7 @@ comments: true
 tags: [Java, 单元测试, 一起学Java]
 categories: [一起学Java系列,（4）测试篇]
 ---
-在上一篇文章中，我们介绍了什么是单元测试，单元测试的特点以及Java主要的单元测试框架。其中提到，JUnit是Java世界中最广泛使用且最具影响力的单元测试框架。本文将重点介绍JUnit框架，特别是其最新版本JUnit 5的特性，以及与JUnit 4的主要区别。
+在上一篇文章中([***《一起学Java(16)-[测试篇]教你知道什么是单元测试，单元测试的特点以及Java主要的单元测试框架》***](https://www.coderli.com/java-go-16-test-unittest-intro/))，我们介绍了什么是单元测试，单元测试的特点以及Java主要的单元测试框架。其中提到，JUnit是Java世界中最广泛使用且最具影响力的单元测试框架。本文将重点介绍JUnit框架，特别是其最新版本JUnit 5的特性，以及与JUnit 4的主要区别。
 
 通过本文，你将了解到：
 
