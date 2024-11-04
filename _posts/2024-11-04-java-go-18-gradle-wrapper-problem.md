@@ -170,13 +170,15 @@ if "%OS%"=="Windows_NT" endlocal
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %*
 ```
 
-替换后，再次运行gradlew build命令验证，一切恢复正常了。如此看来，应该是IntelliJ初始化Gradle Wrapper项目时，相关文件内容生成除了点问题，具体原因位置。为了避免其他差异，我用命令
+替换后，再次运行gradlew build命令验证，一切恢复正常了。如此看来，应该是IntelliJ初始化Gradle Wrapper项目时，相关文件内容生成除了点问题，具体原因未知。为了避免其他差异，我用命令
 
 ```bat
 gradlew.bat wrapper
 ```
 
-将我的项目重新初始化了一遍，暂结束这个话题。
+将我的项目重新初始化了一遍，`gradlew.bat`、`gradlew`、`gradle\wrapper\gradle-wrapper.properties`以及`gradle\wrapper\gradle-wrapper.jar`都重新生成了，仔细对比发现其实`gradlew.bat`文件差异还是挺大的。
+
+好在问题解决了，暂结束这个话题。
 
 ---
 
