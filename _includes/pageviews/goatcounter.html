@@ -9,7 +9,7 @@
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
-        const count = data.count.replace(/\s/g, '')  + 1000;
+        const count = data.count.replace(/\s/g, '')  + '0';
         pv.innerText = new Intl.NumberFormat().format(count);
       })
       .catch((error) => {
