@@ -161,7 +161,7 @@ public class CalculatorTest {
 The automatic loading of test framework implementation dependencies has been deprecated. This is scheduled to be removed in Gradle 9.0. Declare the desired test framework directly on the test suite or explicitly declare the test framework implementation dependencies on the test's runtime classpath. Consult the upgrading guide for further information: https://docs.gradle.org/8.10.2/userguide/upgrading_version_8.html#test_framework_implementation_dependencies
 ```
 
-上述错误信息的是指，在Gradle 9.0中，自动加载测试框架实现依赖项的功能将被移除。为避免此问题，请直接在测试套件中声明所需的测试框架，或者在测试的运行时类路径上明确声明测试框架实现依赖项。更多信息请参考升级指南：[https://docs.gradle.org/8.10.2/userguide/upgrading_version_8.html#test_framework_implementation_dependencies](https://docs.gradle.org/8.10.2/userguide/upgrading_version_8.html#test_framework_implementation_dependencies)
+上述错误信息的是指，在Gradle 9.0中，自动加载测试框架实现依赖项的功能将被移除。为避免此问题，请直接在测试套件中声明所需的测试框架，或者在测试的运行时类路径上明确声明测试框架实现依赖项。更多信息请参考[升级指南](https://docs.gradle.org/8.10.2/userguide/upgrading_version_8.html#test_framework_implementation_dependencies)
 
 为解决次问题，在`one-test`的`build.gradle.kts`文件中配置指定的JUnit Platform
 
