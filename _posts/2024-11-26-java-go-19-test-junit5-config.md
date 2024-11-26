@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一起学Java(19)-[测试篇]教你通过Gradle引入配置JUnit5
+title: 一起学Java(19)-[测试篇]教你通过Gradle配置和使用JUnit5
 date: 2024-11-26 12:00 +0800
 author: onecoder
 comments: true
