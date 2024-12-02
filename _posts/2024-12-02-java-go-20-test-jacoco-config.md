@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一起学Java(20)-[测试篇]教你通过Gradle配置和使用JaCoCo
+title: 一起学Java(20)-[测试篇]教你通过Gradle配置和使用JaCoCo单元测试覆盖率检查工具
 date: 2024-12-02 11:30 +0800
 author: onecoder
 comments: true
