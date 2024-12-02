@@ -69,6 +69,8 @@ gradlew jacocoTestReport
 - 根据配置，在运行`jacocoTestReport`任务前，会先运行`test` 任务执行所有的单元测试。
 - `jacocoTestReport` 任务生成代码覆盖率报告。
 
+{% include custom/custom-post-content-inner.html %}
+
 ### 查看代码覆盖率报告
 
 执行上述命令后，代码覆盖率报告会保存在以下目录：
