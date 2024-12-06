@@ -98,6 +98,4 @@ GESP C++一级官方考试大纲中，除可通过编码掌握的Dev C++开发�
 
 ---
 
-所有代码已上传至Github：[***https://github.com/lihongzheshuai/yummy-code***](https://github.com/lihongzheshuai/yummy-code)
-
-“***luogu-***”系列题目已加入洛谷[***Java、C++初学团队***](https://www.luogu.com.cn/team/92228)，[***作业清单***](https://www.luogu.com.cn/team/92228#homework)，可在线评测，团队名额有限，欢迎加入。
+{% include custom/custom-post-content-footer.md %}
