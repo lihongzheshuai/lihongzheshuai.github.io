@@ -104,3 +104,7 @@ MinGW-w64的官网地址为：<https://www.mingw-w64.org/>，选择MinGW-W64-bui
 4. 如果一切正常，你应该能看到程序成功编译并运行，输出"Hello, World!"，并且在编译日志中看到g++ 13.2.0的编译信息。
 
 以上，就是我亲自配置Dev-C++和g++ 13.2.0编译环境的过程，从结果看很简单，但我在Dev-C++这个工具上确实折腾了很久，走了很多弯路，一眼难尽，不再赘述。
+
+---
+
+{% include custom/custom-post-content-footer.md %}
