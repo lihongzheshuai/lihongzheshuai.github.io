@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++二级考试大纲知识点梳理（4）, 流程图
+title: 【GESP】C++二级考试大纲知识点梳理, （4）流程图
 date: 2024-12-14 19:00 +0800
 author: OneCoder
 comments: true

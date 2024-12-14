@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++二级考试大纲知识点梳理（2）, 计算机存储的基本概念及分类
+title: 【GESP】C++二级考试大纲知识点梳理, （1）计算机存储的基本概念及分类
 date: 2024-12-08 22:00 +0800
 author: OneCoder
 comments: true

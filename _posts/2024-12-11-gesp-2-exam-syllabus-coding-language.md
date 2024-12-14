@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++二级考试大纲知识点梳理（3）, 计算机程序设计语言相关知识
+title: 【GESP】C++二级考试大纲知识点梳理, （3）计算机程序设计语言相关知识
 date: 2024-12-11 22:00 +0800
 author: OneCoder
 comments: true
