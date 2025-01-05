@@ -103,12 +103,12 @@ GESP C++三级官方考试大纲中，共有8条考点，本文针对C++（4）�
 
 ```mermaid
 graph TD;
-    A[初始化 max = arr[0]] --> B[遍历数组中每个元素];
-    B --> C{arr[i] > max};
-    C -- 是 --> D[更新 max = arr[i]];
-    C -- 否 --> B;
-    D --> B;
-    B --> E[返回 max];
+    A[初始化 max = arr[0]] --> B[遍历数组中每个元素]
+    B --> C{arr[i] > max}
+    C -- 是 --> D[更新 max = arr[i]]
+    C -- 否 --> B
+    D --> B
+    B --> E[返回 max]
 ```
 
 ### **（三）伪代码描述**
