@@ -53,31 +53,38 @@ struct Item {
     int value;
 };
 
-int knapsack(const std::vector<Item>& items, int capacity) {
+int knapsack(int W, const std::vector<Item>& items) {
     int n = items.size();
     int max_value = 0;
-    
-    // 枚举所有的选择方案
+
+    // 枚举所有可能的选择方案
     for (int i = 0; i < (1 << n); ++i) {
         int total_weight = 0, total_value = 0;
+        
+        // 枚举每一位，决定是否选择物品
         for (int j = 0; j < n; ++j) {
-            if (i & (1 << j)) {  // 如果选择第 j 个物品
+            if (i & (1 << j)) {  // 如果第j个物品被选择
                 total_weight += items[j].weight;
                 total_value += items[j].value;
             }
         }
-        if (total_weight <= capacity) {
-            max_value = std::max(max_value, total_value);  // 更新最大价值
+
+        // 如果选择的物品不超过背包容量，更新最大价值
+        if (total_weight <= W) {
+            max_value = std::max(max_value, total_value);
         }
     }
+
     return max_value;
 }
 
 int main() {
-    std::vector<Item> items = {{2, 3}, {3, 4}, {4, 5}, {5, 8}};  // 物品的重量和价值
-    int capacity = 5;  // 背包容量
-    int result = knapsack(items, capacity);
-    std::cout << "Max value: " << result << std::endl;  // 输出最大价值
+    int W = 50;  // 背包容量
+    std::vector<Item> items = {{10, 60}, {20, 100}, {30, 120}};  // 物品的重量和价值
+
+    int max_value = knapsack(W, items);
+    std::cout << "Max value: " << max_value << std::endl;  // 输出最大价值
+
     return 0;
 }
 ```
