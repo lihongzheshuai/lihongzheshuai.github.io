@@ -10,7 +10,7 @@ tags: [GESP, C++]
 categories: [GESP, 三级]
 ---
 GESP C++三级官方考试大纲中，共有8条考点，之前已对前4个考点进行了总结梳理，5，6号考点是关于C++语言一维数据和字符串应用的，属于基本语言语法和应用范围，网上的资料很多，不再赘述（后续考纲中关于语言语法本身的要求，都不再赘述）。本文针对C++ (7) (8)号知识点进行总结梳理。
-> (7) (8) 理解枚举算法、模拟算法的原理及特点，可以解决实际问题
+> (7) (8) 理解枚举算法、模拟算法的原理及特点，可以解决实际问题。
 
 <!--more-->
 
@@ -80,7 +80,9 @@ int knapsack(int W, const std::vector<Item>& items) {
 
 int main() {
     int W = 50;  // 背包容量
+    {% raw %}
     std::vector<Item> items = {{10, 60}, {20, 100}, {30, 120}};  // 物品的重量和价值
+    {% endraw %}
 
     int max_value = knapsack(W, items);
     std::cout << "Max value: " << max_value << std::endl;  // 输出最大价值
