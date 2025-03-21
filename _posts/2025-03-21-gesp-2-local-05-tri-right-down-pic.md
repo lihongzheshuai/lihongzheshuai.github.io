@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++二级练习 图形输出练习-三角形（右对齐-倒置）
+title: 【GESP】C++二级练习 图形输出练习05-三角形（右对齐-倒置）
 date: 2025-03-21 08:30 +0800
 author: OneCoder
 comments: true

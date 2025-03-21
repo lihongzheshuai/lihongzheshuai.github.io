@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++二级练习 图形输出练习-X图形
+title: 【GESP】C++二级练习 图形输出练习01-X图形
 date: 2025-03-19 08:00 +0800
 author: OneCoder
 comments: true
