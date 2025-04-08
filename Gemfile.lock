@@ -21,7 +21,7 @@ GEM
       console (~> 1.26)
       fiber-annotation
       io-event (~> 1.6, >= 1.6.5)
-    bigdecimal (3.1.8)
+    bigdecimal (3.1.9)
     colorator (1.1.0)
     concurrent-ruby (1.3.4)
     console (1.27.0)
@@ -35,12 +35,16 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     ffi (1.17.0-x64-mingw-ucrt)
+    ffi (1.17.0-x86_64-linux-gnu)
     fiber-annotation (0.2.0)
     fiber-local (1.1.0)
       fiber-storage
     fiber-storage (1.0.0)
     forwardable-extended (2.6.0)
-    google-protobuf (4.28.0-x64-mingw-ucrt)
+    google-protobuf (4.28.2-x64-mingw-ucrt)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
     hashery (2.1.2)
@@ -100,6 +104,8 @@ GEM
     mercenary (0.4.0)
     nokogiri (1.16.7-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-linux)
+      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     pdf-reader (2.12.0)
@@ -120,6 +126,9 @@ GEM
     rouge (4.3.0)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
+    sass-embedded (1.77.8)
+      google-protobuf (~> 4.26)
+      rake (>= 13)
     sass-embedded (1.77.8-x64-mingw-ucrt)
       google-protobuf (~> 4.26)
     strscan (3.1.0)
@@ -141,6 +150,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   html-proofer (~> 5.0)
