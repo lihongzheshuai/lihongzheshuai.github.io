@@ -5,7 +5,7 @@ push_post.py
 # Bundler cache
 .bundle
 vendor
-Gemfile.lock
+# Gemfile.lock
 .vercel/
 _site/
 
