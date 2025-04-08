@@ -1,0 +1,11 @@
+{
+    "buildCommand": "bundle config set path 'vendor/bundle' && bundle install && bundle exec jekyll build",
+    "outputDirectory": "_site",
+    "cache": ["vendor/bundle"],
+    "build": {
+      "env": {
+        "BUNDLE_PATH": "vendor/bundle"
+      }
+    }
+  }
+  
