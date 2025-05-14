@@ -123,7 +123,7 @@ flowchart TD
 **示例：**
 对于求数组最大值的伪代码描述：
 
-```pseudo
+```javascript
 function findMax(arr):
     max = arr[0]        // 初始化max为数组的第一个元素
     for each element x in arr:
