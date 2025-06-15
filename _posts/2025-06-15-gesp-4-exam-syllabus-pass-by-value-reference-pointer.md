@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++四级考试大纲知识点梳理, (4) 变量和作用域
+title: 【GESP】C++四级考试大纲知识点梳理, (5) 值传递
 date: 2025-06-15 18:00 +0800
 author: OneCoder
 comments: true
