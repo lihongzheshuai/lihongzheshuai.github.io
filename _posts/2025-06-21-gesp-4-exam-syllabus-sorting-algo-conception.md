@@ -3,6 +3,9 @@ layout: post
 title: 【GESP】C++四级考试大纲知识点梳理, (7) 排序算法基本概念
 date: 2025-06-21 08:00 +0800
 author: OneCoder
+redirect_from:
+  - /0gesp-4-exam-syllabus-sorting-algo-conception/
+  - /gesp-4-exam-syllabus-sorting-algo-conception/
 comments: true
 math: true
 mermaid: true
