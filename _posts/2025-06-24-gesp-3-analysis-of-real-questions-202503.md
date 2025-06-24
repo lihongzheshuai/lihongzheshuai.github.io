@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++ 2025年3月三级考试客观题真题解析 
+title: 【GESP】C++ 2025年3月三级考试-客观题真题解析 
 date: 2025-06-24 08:00 +0800
 author: OneCoder
 comments: true
