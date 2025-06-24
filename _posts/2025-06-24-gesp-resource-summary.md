@@ -98,17 +98,12 @@ categories: [GESP, 汇总]
 |bool型变量|[【GESP】C++一级知识点研究，布尔(bool)型变量](https://www.coderli.com/gesp-knowledge-bool/)|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|
 |cout/prinf|[【GESP】C++一级知识点研究，cout和printf性能差异分析](https://www.coderli.com/gesp-knowledge-cout-printf/)|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|
 
-## 练习清单
+## 练习清单（若打不开，请直接访问项目主页查看）
 
-- [GESP一级练习题清单](GESP1.md)
-- [GESP二级练习题清单](GESP2.md)
-- [GESP三级练习题清单](GESP3.md)
-- [GESP四级练习题清单](GESP4.md)
-
-## 联系我们
-
-- C++ GESP交流频道：[点击加入](https://pd.qq.com/s/1gsdm3gdn)
-- C++ GESP学习交流群：[点击加入](https://qm.qq.com/q/LwkBh6rMMS)
+- [GESP一级练习题清单](https://github.com/lihongzheshuai/yummy-code/blob/master/GESP1.md)
+- [GESP二级练习题清单](https://github.com/lihongzheshuai/yummy-code/blob/master/GESP2.md)
+- [GESP三级练习题清单](https://github.com/lihongzheshuai/yummy-code/blob/master/GESP3.md)
+- [GESP四级练习题清单](https://github.com/lihongzheshuai/yummy-code/blob/master/GESP4.md)
 
 ---
 {% include custom/custom-post-content-footer.md %}
