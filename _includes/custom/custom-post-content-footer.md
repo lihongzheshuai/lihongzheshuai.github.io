@@ -14,5 +14,5 @@
 {: .prompt-tip }
 
 <div style="text-align: center;">
-    <img src="/images/wechat_qrcode.jpg"" alt="GESP/CSP 认证学习微信公众号">
+    <img src="/images/wechat_qrcode.jpg" alt="GESP/CSP 认证学习微信公众号" title="GESP/CSP 认证学习微信公众号">
 </div>
