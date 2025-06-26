@@ -1,6 +1,6 @@
 >所有代码已上传至Github：[***https://github.com/lihongzheshuai/yummy-code***](https://github.com/lihongzheshuai/yummy-code)
 >
->GESP各级别考纲要点、知识拓展和练习题目清单详见[***C++学习项目主页***](https://github.com/lihongzheshuai/yummy-code)
+>GESP各级别考纲要点、知识拓展和练习题目清单置顶文章[***【置顶】【GESP】C++ 认证学习资源汇总***](https://www.coderli.com/gesp-resource-summary/)
 >
 >“***luogu-***”系列题目已加入洛谷[***Java、C++初学团队***](https://www.luogu.com.cn/team/92228)，[***作业清单***](https://www.luogu.com.cn/team/92228#homework)，可在线评测，团队名额有限，欢迎加入。
 >
@@ -14,5 +14,8 @@
 {: .prompt-tip }
 
 <div style="text-align: center;">
+    <div style="
+    font-weight: 600;
+    color: steelblue;">GESP/CSP 认证学习微信公众号</div>
     <img src="/images/wechat_qrcode.jpg" alt="GESP/CSP 认证学习微信公众号" title="GESP/CSP 认证学习微信公众号">
 </div>
