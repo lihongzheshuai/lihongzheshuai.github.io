@@ -12,3 +12,7 @@
 >
 >**欢迎加入**：[***C++ GESP/CSP学习交流QQ群(688906745)***](https://qm.qq.com/q/EllqGsKIoM)，考试认证学员交流，互帮互助
 {: .prompt-tip }
+
+<div style="text-align: center;">
+    <img src="/images/wechat_qrcode.jpg"" alt="GESP/CSP 认证学习微信公众号">
+</div>
