@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】【GESP】C++三级知识点研究，cout输出进制转换
+title: 【GESP】C++三级知识点研究，cout输出进制转换
 date: 2025-06-27 08:00 +0800
 author: OneCoder
 comments: true
