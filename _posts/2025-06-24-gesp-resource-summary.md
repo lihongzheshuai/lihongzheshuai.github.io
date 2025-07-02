@@ -149,6 +149,8 @@ categories: [GESP, 汇总]
 | 2024年12月| 打印数字|字符串|[luogu-B4067-打印数字](https://www.coderli.com/gesp-3-luogu-b4067/)|
 | 2025年3月| 2025|位运算|[luogu-B4261-等差矩阵](https://www.coderli.com/gesp-3-luogu-b4261/)|
 | 2025年3月| 词频统计|一维数组+字符串|[luogu-B4262-词频统计](https://www.coderli.com/gesp-3-luogu-b4262/)|
+| 2025年6月| 奇偶校验|进制转换|[luogu-B4359-分糖果](https://www.coderli.com/gesp-3-luogu-b4359/)|
+| 2025年6月| 分糖果|模拟算法|[luogu-B4360-数三角形](https://www.coderli.com/gesp-3-luogu-b4360/)|
 
 ## 知识拓展
 
