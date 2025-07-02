@@ -137,7 +137,7 @@ categories: [GESP, 汇总]
 | 2023年6月| 密码合规|[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3843-密码合规](https://www.coderli.com/gesp-3-luogu-b3843/)|
 | 2023年9月| 小杨的储蓄|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B3867-小杨的 X 字矩阵](https://www.coderli.com/gesp-3-luogu-b3867/)|
 | 2023年9月| 进制判断|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3868-进制判断](https://www.coderli.com/gesp-3-luogu-b3868/)|
-| 2023年12月| 小猫分鱼|多重循环,[模拟算法](https://www.coderli.com/tags/%E6%A8%A1%E6%8B%9F%E7%AE%97%E6%B3%95/)|[luogu-B3925-小猫分鱼](https://www.coderli.com/gesp-3-luogu-b3925/)|
+| 2023年12月| 小猫分鱼|[多重循环](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)、[模拟算法](https://www.coderli.com/tags/%E6%A8%A1%E6%8B%9F%E7%AE%97%E6%B3%95/)|[luogu-B3925-小猫分鱼](https://www.coderli.com/gesp-3-luogu-b3925/)|
 | 2023年12月| 单位转换|[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3926-单位转换](https://www.coderli.com/gesp-3-luogu-b3926/)|
 | 2024年3月| 乘字母求和|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3956-乘字母求和](https://www.coderli.com/gesp-3-luogu-b3956/)|
 | 2024年3月| 完全平方数|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3957-完全平方数](https://www.coderli.com/gesp-3-luogu-b3957/)|
