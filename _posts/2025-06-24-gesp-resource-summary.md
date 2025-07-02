@@ -160,7 +160,7 @@ categories: [GESP, 汇总]
 |scanf/printf关于浮点型输出知识拓展|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，scanf/printf浮点数格式化到底是%lf还是%f](https://www.coderli.com/gesp-knowledge-scanf-printf-floatnumber/)|
 |bool型变量|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，布尔(bool)型变量](https://www.coderli.com/gesp-knowledge-bool/)|
 |cout/prinf|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，cout和printf性能差异分析](https://www.coderli.com/gesp-knowledge-cout-printf/)|
-|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|
+|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|
 
 ## 练习清单（若打不开，请直接访问项目主页查看）
 
