@@ -43,7 +43,7 @@ categories: [GESP, 汇总]
 |（2）掌握数据的进制转换：二进制、八进制、十进制、十六进制。|[【GESP】C++三级考试大纲知识点梳理, （2）数据的进制转换](https://www.coderli.com/gesp-3-exam-syllabus-data-conversion/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |（3）掌握位运算：与(&)、或(\|)、非(~)、异或(^)、左移(«)、右移(»)的基本使用方法及原理。|[【GESP】C++三级考试大纲知识点梳理, （3）位运算](https://www.coderli.com/gesp-3-exam-syllabus-bit-operation/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |（4）了解算法的概念与描述，熟练运用自然语言、流程图、伪代码方式来描述算法。|[【GESP】C++三级考试大纲知识点梳理, （4）算法](https://www.coderli.com/gesp-3-exam-syllabus-algo/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
-|（6）掌握字符串及其函数的使用包括但不限于大小写转换、字符串搜索、分割、替换。|[【GESP】C++三级考试大纲知识点梳理, （6）字符串](https://www.coderli.com/gesp-3-exam-syllabus-string/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
+|（6）掌握字符串及其函数的使用包括但不限于大小写转换、字符串搜索、分割、替换。|[【GESP】C++三级考试大纲知识点梳理, （6）字符串(https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)](https://www.coderli.com/gesp-3-exam-syllabus-string/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |(7) (8) 理解枚举算法、模拟算法的原理及特点，可以解决实际问题。|[【GESP】C++三级考试大纲知识点梳理, (7) (8) 枚举算法、模拟算法](https://www.coderli.com/gesp-3-exam-syllabus-algo-enumeration-simulation/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 
 ### 四级（考纲）
@@ -133,24 +133,24 @@ categories: [GESP, 汇总]
 
 | 考试时间 | 题目名称 | 题目类型 | 题目讲解 |
 |------|----------|------|----------|
-| 2023年6月| 春游|一维数组|[luogu-B3842-春游](https://www.coderli.com/gesp-3-luogu-b3842/)|
-| 2023年6月| 密码合规|字符串|[luogu-B3843-密码合规](https://www.coderli.com/gesp-3-luogu-b3843/)|
-| 2023年9月| 小杨的储蓄|一维数组|[luogu-B3867-小杨的 X 字矩阵](https://www.coderli.com/gesp-3-luogu-b3867/)|
-| 2023年9月| 进制判断|一维数组+字符串|[luogu-B3868-进制判断](https://www.coderli.com/gesp-3-luogu-b3868/)|
-| 2023年12月| 小猫分鱼|多重循环|[luogu-B3925-小猫分鱼](https://www.coderli.com/gesp-3-luogu-b3925/)|
-| 2023年12月| 单位转换|字符串|[luogu-B3926-单位转换](https://www.coderli.com/gesp-3-luogu-b3926/)|
-| 2024年3月| 乘字母求和|一维数组+字符串|[luogu-B3956-乘字母求和](https://www.coderli.com/gesp-3-luogu-b3956/)|
-| 2024年3月| 完全平方数|一维数组+字符串|[luogu-B3957-完全平方数](https://www.coderli.com/gesp-3-luogu-b3957/)|
-| 2024年6月| 移位|一维数组+字符串|[luogu-B4003-移位](https://www.coderli.com/gesp-3-luogu-b4003/)|
-| 2024年6月| 寻找倍数|一维数组|[luogu-B4004-寻找倍数](https://www.coderli.com/gesp-3-luogu-b4004/)|
-| 2024年9月| 平衡序列|一维数组|[luogu-B4038-平衡序列](https://www.coderli.com/gesp-3-luogu-b4038/)|
-| 2024年9月| 回文拼接|字符串|[luogu-B4039-回文拼接](https://www.coderli.com/gesp-3-luogu-b4039/)|
-| 2024年12月| 数字替换|一维数组|[luogu-B4066-数字替换](https://www.coderli.com/gesp-3-luogu-b4066/)|
-| 2024年12月| 打印数字|字符串|[luogu-B4067-打印数字](https://www.coderli.com/gesp-3-luogu-b4067/)|
+| 2023年6月| 春游|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B3842-春游](https://www.coderli.com/gesp-3-luogu-b3842/)|
+| 2023年6月| 密码合规|[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3843-密码合规](https://www.coderli.com/gesp-3-luogu-b3843/)|
+| 2023年9月| 小杨的储蓄|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B3867-小杨的 X 字矩阵](https://www.coderli.com/gesp-3-luogu-b3867/)|
+| 2023年9月| 进制判断|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3868-进制判断](https://www.coderli.com/gesp-3-luogu-b3868/)|
+| 2023年12月| 小猫分鱼|多重循环,[模拟算法](https://www.coderli.com/tags/%E6%A8%A1%E6%8B%9F%E7%AE%97%E6%B3%95/)|[luogu-B3925-小猫分鱼](https://www.coderli.com/gesp-3-luogu-b3925/)|
+| 2023年12月| 单位转换|[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3926-单位转换](https://www.coderli.com/gesp-3-luogu-b3926/)|
+| 2024年3月| 乘字母求和|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3956-乘字母求和](https://www.coderli.com/gesp-3-luogu-b3956/)|
+| 2024年3月| 完全平方数|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3957-完全平方数](https://www.coderli.com/gesp-3-luogu-b3957/)|
+| 2024年6月| 移位|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B4003-移位](https://www.coderli.com/gesp-3-luogu-b4003/)|
+| 2024年6月| 寻找倍数|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4004-寻找倍数](https://www.coderli.com/gesp-3-luogu-b4004/)|
+| 2024年9月| 平衡序列|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4038-平衡序列](https://www.coderli.com/gesp-3-luogu-b4038/)|
+| 2024年9月| 回文拼接|[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B4039-回文拼接](https://www.coderli.com/gesp-3-luogu-b4039/)|
+| 2024年12月| 数字替换|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4066-数字替换](https://www.coderli.com/gesp-3-luogu-b4066/)|
+| 2024年12月| 打印数字|[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B4067-打印数字](https://www.coderli.com/gesp-3-luogu-b4067/)|
 | 2025年3月| 2025|位运算|[luogu-B4261-等差矩阵](https://www.coderli.com/gesp-3-luogu-b4261/)|
-| 2025年3月| 词频统计|一维数组+字符串|[luogu-B4262-词频统计](https://www.coderli.com/gesp-3-luogu-b4262/)|
-| 2025年6月| 奇偶校验|进制转换|[luogu-B4359-分糖果](https://www.coderli.com/gesp-3-luogu-b4359/)|
-| 2025年6月| 分糖果|模拟算法|[luogu-B4360-数三角形](https://www.coderli.com/gesp-3-luogu-b4360/)|
+| 2025年3月| 词频统计|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B4262-词频统计](https://www.coderli.com/gesp-3-luogu-b4262/)|
+| 2025年6月| 奇偶校验|[进制转换](https://www.coderli.com/tags/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/)|[luogu-B4359-分糖果](https://www.coderli.com/gesp-3-luogu-b4359/)|
+| 2025年6月| 分糖果|[模拟算法](https://www.coderli.com/tags/%E6%A8%A1%E6%8B%9F%E7%AE%97%E6%B3%95/)|[luogu-B4360-数三角形](https://www.coderli.com/gesp-3-luogu-b4360/)|
 
 ## 知识拓展
 
@@ -160,7 +160,7 @@ categories: [GESP, 汇总]
 |scanf/printf关于浮点型输出知识拓展|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，scanf/printf浮点数格式化到底是%lf还是%f](https://www.coderli.com/gesp-knowledge-scanf-printf-floatnumber/)|
 |bool型变量|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，布尔(bool)型变量](https://www.coderli.com/gesp-knowledge-bool/)|
 |cout/prinf|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，cout和printf性能差异分析](https://www.coderli.com/gesp-knowledge-cout-printf/)|
-|一维数组|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|
+|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|
 
 ## 练习清单（若打不开，请直接访问项目主页查看）
 
