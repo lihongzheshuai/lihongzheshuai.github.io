@@ -92,7 +92,9 @@ if (i < 9)
 
 ```cpp
 int first = 10;
+{% raw %}
 printf("{%d}\n", First);
+{% endraw %}
 ```
 
 * A. 执⾏后输出10
