@@ -79,7 +79,14 @@ categories: [GESP, 汇总]
 
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
+| 2024年3月 |[GESP第五次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/r0Qtz2s15MamBHKikYLm7Q) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年3月 | [【GESP】C++ 2025年3月三级考试-客观题真题解析](https://www.coderli.com/gesp-3-analysis-of-real-questions-202503/) |[本站](https://www.coderli.com/)|
+
+### 四级(客观题)
+
+| 考试时间 | 题目解析 |来源|
+|------|----------|---|
+| 2024年3月 |[GESP第五次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/3ZHHMJRXhTUoh51fc4KSFQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ## 真题解析-编程题
 
