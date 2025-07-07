@@ -60,6 +60,8 @@ categories: [GESP, 汇总]
 |（8）掌握排序算法中的冒泡排序、插入排序、选择排序的算法思想、排序步骤及代码实现。|[【GESP】C++四级考试大纲知识点梳理, (8) 冒泡、插入、选择排序](https://www.coderli.com/gesp-4-exam-syllabus-three-sorting-methods/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
 |（9）简单算法复杂度的估算，含多项式、指数复杂度。|[【GESP】C++四级考试大纲知识点梳理, (9) 简单算法复杂度的估算](https://www.coderli.com/gesp-4-exam-syllabus-estimation-of-algorithm-time-complexity/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
 
+---
+
 ## 真题解析-客观题
 
 ### 一级(客观题)
@@ -87,6 +89,32 @@ categories: [GESP, 汇总]
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
 | 2024年3月 |[GESP第五次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/3ZHHMJRXhTUoh51fc4KSFQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+
+### 五级(客观题)
+
+| 考试时间 | 题目解析 |来源|
+|------|----------|---|
+| 2024年3月 |[GESP第五次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/tJ0ivrTRe9k64DIR4HjhRg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+
+### 六级(客观题)
+
+| 考试时间 | 题目解析 |来源|
+|------|----------|---|
+| 2024年3月 |[GESP第五次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/uBowHCTPFuhwEhbudpiZlw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+
+### 七级(客观题)
+
+| 考试时间 | 题目解析 |来源|
+|------|----------|---|
+| 2024年3月 |[GESP第五次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/6XF2qXb5MNqfNc8i2i1xrA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+
+### 八级(客观题)
+
+| 考试时间 | 题目解析 |来源|
+|------|----------|---|
+| 2024年3月 |[GESP第五次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/Bu_CIs1bL54w3uc1yKSazw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+
+---
 
 ## 真题解析-编程题
 
@@ -163,6 +191,8 @@ categories: [GESP, 汇总]
 | 2025年6月| 奇偶校验|[进制转换](https://www.coderli.com/tags/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/)|[luogu-B4358-奇偶校验](https://www.coderli.com/gesp-3-luogu-b4358/)|
 | 2025年6月| 分糖果|[模拟算法](https://www.coderli.com/tags/%E6%A8%A1%E6%8B%9F%E7%AE%97%E6%B3%95/)|[luogu-B4359-分糖果](https://www.coderli.com/gesp-3-luogu-b4359/)|
 
+---
+
 ## 知识拓展
 
 | 知识点 |  考试级别 |知识讲解 |
@@ -172,6 +202,8 @@ categories: [GESP, 汇总]
 |bool型变量|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，布尔(bool)型变量](https://www.coderli.com/gesp-knowledge-bool/)|
 |cout/prinf|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，cout和printf性能差异分析](https://www.coderli.com/gesp-knowledge-cout-printf/)|
 |[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|
+
+---
 
 ## 练习清单（若打不开，请直接访问项目主页查看）
 
