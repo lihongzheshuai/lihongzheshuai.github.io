@@ -71,6 +71,7 @@ categories: [GESP, 汇总]
 | 2024年3月 | [GESP第五次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/c7uS6mLE436fkJMu1Cuehg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 | [GESP第六次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/AWazv8ttKrxYhWxxfGYzwQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/nQ8d5JcxFFUzh0-JXTj0Ug) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2024年12月 | [GESP第八次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/snIW9bO14f5burkJ74xBug) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年6月 | [【GESP】C++ 2025年6月一级考试-客观题真题解析](https://www.coderli.com/gesp-1-analysis-of-real-questions-202506/) | [本站](https://www.coderli.com/)|
 
 ### 二级(客观题)
@@ -80,6 +81,7 @@ categories: [GESP, 汇总]
 | 2024年3月 | [GESP第五次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/4iNXFfAlmDCeCfYbxMUqTA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 | [GESP第六次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/8Zta63WK6SE1km1sfkJvww) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/dG42rCy8EBoI6n4go1hIEQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2024年12月 | [GESP第八次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/92G6w7Mx8pbHtXDSj0qEyQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ### 三级(客观题)
 
@@ -88,6 +90,7 @@ categories: [GESP, 汇总]
 | 2024年3月 |[GESP第五次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/r0Qtz2s15MamBHKikYLm7Q) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/MB4GPzmuzkpF5JkyYi2ODA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/18EErHHPhD-w1QtcWmLOxg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2024年12月 | [GESP第八次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/lwPKdQgaQyOGYkyn0-sc_g) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年3月 | [【GESP】C++ 2025年3月三级考试-客观题真题解析](https://www.coderli.com/gesp-3-analysis-of-real-questions-202503/) |[本站](https://www.coderli.com/)|
 
 ### 四级(客观题)
@@ -97,6 +100,7 @@ categories: [GESP, 汇总]
 | 2024年3月 |[GESP第五次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/3ZHHMJRXhTUoh51fc4KSFQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/Tm-NkiNH3qji3sxJp-_saA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/6j_0v7V1O7YAqASTIvGr2Q) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2024年12月 | [GESP第八次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/SDu2IfFOSMIi4UhQhGIXfA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年3月 | [【GESP】C++ 2025年3月四级考试-客观题真题解析](https://www.coderli.com/gesp-4-analysis-of-real-questions-202503/) |[本站](https://www.coderli.com/)|
 
 ### 五级(客观题)
