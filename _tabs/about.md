@@ -21,3 +21,12 @@ order: 4
 
 > Email:wushikezuo#gmail.com
 {: .prompt-info }
+
+---
+
+## 友情链接
+
+* 站名：博友圈
+* 网址：[https://www.boyouquan.com/home](https://www.boyouquan.com/home)
+* 描述：博客人的朋友圈，博客收录与文章 RSS 聚合网站。
+* 星球穿梭页：[https://www.boyouquan.com/planet-shuttle](https://www.boyouquan.com/planet-shuttle)
