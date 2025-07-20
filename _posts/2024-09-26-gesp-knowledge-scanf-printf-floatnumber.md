@@ -5,7 +5,7 @@ date: 2024-09-26 22:00 +0800
 author: OneCoder
 image: /images/post/gesp/gesp-1.png
 comments: true
-tags: [GESP, C++]
+tags: [GESP, C++, GESP知识拓展]
 categories: [GESP, 一级]
 ---
 最近做基础练习时频繁使用到`scanf`和`printf`函数。在对`double`类型变量进行输入输出时发现，`scanf`标准为 ***%lf*** 而`printf`标准为 ***%f*** ，并且`printf`实际使用 ***%lf*** 和 ***%f*** ，效果似乎一样，遂想弄清一二。
