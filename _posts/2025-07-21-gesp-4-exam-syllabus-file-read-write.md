@@ -163,7 +163,7 @@ cout << x; // 输出到屏幕
 
 #### 附：重定在信奥竞赛中的应用，信奥做题文件输入输出说明（CSP开始做题的方法）
 
-{% include embed/{bilibili}.html id='{BV17a411M7Wh}' %}
+{% include embed/bilibili.html id='BV17a411M7Wh' %}
 
 ## 二、C/C++中重定向的方法
 
