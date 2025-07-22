@@ -70,6 +70,7 @@ categories: [GESP, 汇总]
 |------|----------|---|
 | 2023年3月 | [GESP第一次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/2SJtOkaPqnb8IZblSbnfrQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2023年6月 | [GESP第二次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/-sawtagzrCM27SWz85W0dw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2023年9月 | [GESP第三次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/i4zchYyW3mt5ZHoyQPMDFA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 | [GESP第五次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/c7uS6mLE436fkJMu1Cuehg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 | [GESP第六次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/AWazv8ttKrxYhWxxfGYzwQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/nQ8d5JcxFFUzh0-JXTj0Ug) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
@@ -82,6 +83,7 @@ categories: [GESP, 汇总]
 |------|----------|---|
 | 2023年3月 | [GESP第一次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/kErNGnm060WC8G3TxSiOrA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2023年6月 | [GESP第二次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/dFw_mXEr8u3cH1Nlzv6lIQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2023年9月 | [GESP第三次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/rgZwJyZhKdXMim5we0CG1A) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 | [GESP第五次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/4iNXFfAlmDCeCfYbxMUqTA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 | [GESP第六次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/8Zta63WK6SE1km1sfkJvww) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/dG42rCy8EBoI6n4go1hIEQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
@@ -92,6 +94,7 @@ categories: [GESP, 汇总]
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
 | 2023年6月 | [GESP第二次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/vN1cVcjP-xDj8ilbWsn0vg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2023年9月 | [GESP第三次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/olavezuO97ArYdgpDU1_Qw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 |[GESP第五次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/r0Qtz2s15MamBHKikYLm7Q) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/MB4GPzmuzkpF5JkyYi2ODA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/18EErHHPhD-w1QtcWmLOxg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
@@ -103,6 +106,7 @@ categories: [GESP, 汇总]
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
 | 2023年6月 | [GESP第二次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/moX2cZUBuT1Tw40GNs4qRA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2023年9月 | [GESP第三次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/K-MgXg4SENNco2BGL_jzMQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 |[GESP第五次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/3ZHHMJRXhTUoh51fc4KSFQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/Tm-NkiNH3qji3sxJp-_saA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++四级真题回顾](https://mp.weixin.qq.com/s/6j_0v7V1O7YAqASTIvGr2Q) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
@@ -113,6 +117,7 @@ categories: [GESP, 汇总]
 
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
+| 2023年9月 | [GESP第三次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/dr6iVGPEPBPuw96AhIRAmw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 |[GESP第五次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/tJ0ivrTRe9k64DIR4HjhRg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/b-nu42L2l37vFtvfzLxdMQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/uI6aHKEFR2dHpI4LBGigTQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
@@ -122,6 +127,7 @@ categories: [GESP, 汇总]
 
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
+| 2023年9月 | [GESP第三次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/knJTsEVwncEl1rUy7GmVEw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 |[GESP第五次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/uBowHCTPFuhwEhbudpiZlw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/YwtzWCZTRNWjVOSslYZeyw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/qN-KMwIrk7_qsteVqFOzvg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
