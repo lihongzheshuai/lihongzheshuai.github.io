@@ -60,6 +60,8 @@ categories: [GESP, 汇总]
 |（7）掌握排序算法的概念，了解内排序和外排序的概念及差别，理解排序算法的时间复杂度、空间复杂度、使用场景以及稳定性。|[【GESP】C++四级考试大纲知识点梳理, (7) 排序算法基本概念](https://www.coderli.com/gesp-4-exam-syllabus-sorting-algo-conception/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
 |（8）掌握排序算法中的冒泡排序、插入排序、选择排序的算法思想、排序步骤及代码实现。|[【GESP】C++四级考试大纲知识点梳理, (8) 冒泡、插入、选择排序](https://www.coderli.com/gesp-4-exam-syllabus-three-sorting-methods/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
 |（9）简单算法复杂度的估算，含多项式、指数复杂度。|[【GESP】C++四级考试大纲知识点梳理, (9) 简单算法复杂度的估算](https://www.coderli.com/gesp-4-exam-syllabus-estimation-of-algorithm-time-complexity/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
+|（10）掌握文件操作中的重定向，实现文件读写操作，了解文本文件的分类，掌握写操作、读操作、读写操作。|[【GESP】C++四级考试大纲知识点梳理, (10) 文件读写和重定向](https://www.coderli.com/gesp-4-exam-syllabus-file-read-write/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
+|（11）了解异常处理机制，掌握异常处理的常用方法。|[【GESP】C++四级考试大纲知识点梳理, (11) 异常处理机制](https://www.coderli.com/gesp-4-exam-syllabus-exception/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
 
 ---
 
