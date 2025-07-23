@@ -7,7 +7,7 @@ comments: true
 math: true
 mermaid: true
 tags: [GESP, C++, 真题解析]
-categories: [GESP, 三级] 
+categories: [GESP, 一级] 
 ---
 以下是个人关于2025年6月GESP C++ 一级考试选择和判断题的答案解析，仅供参考。
 
