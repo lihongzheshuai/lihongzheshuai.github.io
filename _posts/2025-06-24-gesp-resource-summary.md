@@ -43,6 +43,7 @@ categories: [GESP, 汇总]
 |（2）掌握数据的进制转换：二进制、八进制、十进制、十六进制。|[【GESP】C++三级考试大纲知识点梳理, （2）数据的进制转换](https://www.coderli.com/gesp-3-exam-syllabus-data-conversion/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |（3）掌握位运算：与(&)、或(\|)、非(~)、异或(^)、左移(«)、右移(»)的基本使用方法及原理。|[【GESP】C++三级考试大纲知识点梳理, （3）位运算](https://www.coderli.com/gesp-3-exam-syllabus-bit-operation/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |（4）了解算法的概念与描述，熟练运用自然语言、流程图、伪代码方式来描述算法。|[【GESP】C++三级考试大纲知识点梳理, （4）算法](https://www.coderli.com/gesp-3-exam-syllabus-algo/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
+|（5）C++一维数组基本应用；Python 列表、字典、元组、集合的基本应用、内置 函数以及列表解析的使用。|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |（6）掌握字符串及其函数的使用包括但不限于大小写转换、字符串搜索、分割、替换。|[【GESP】C++三级考试大纲知识点梳理, （6）字符串(https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)](https://www.coderli.com/gesp-3-exam-syllabus-string/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |(7) (8) 理解枚举算法、模拟算法的原理及特点，可以解决实际问题。|[【GESP】C++三级考试大纲知识点梳理, (7) (8) 枚举算法、模拟算法](https://www.coderli.com/gesp-3-exam-syllabus-algo-enumeration-simulation/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 
