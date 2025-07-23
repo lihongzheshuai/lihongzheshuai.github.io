@@ -118,6 +118,7 @@ categories: [GESP, 汇总]
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
 | 2023年9月 | [GESP第三次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/dr6iVGPEPBPuw96AhIRAmw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2023年12月 | [GESP第四次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/wckRa0aVqxZ6pUa7UQZtAQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 |[GESP第五次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/tJ0ivrTRe9k64DIR4HjhRg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/b-nu42L2l37vFtvfzLxdMQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/uI6aHKEFR2dHpI4LBGigTQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
@@ -128,6 +129,7 @@ categories: [GESP, 汇总]
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
 | 2023年9月 | [GESP第三次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/knJTsEVwncEl1rUy7GmVEw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2023年12月 | [GESP第四次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/RFbnE-waxTAxMRpNTukcrA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 |[GESP第五次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/uBowHCTPFuhwEhbudpiZlw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/YwtzWCZTRNWjVOSslYZeyw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/qN-KMwIrk7_qsteVqFOzvg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
@@ -137,6 +139,7 @@ categories: [GESP, 汇总]
 
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
+| 2023年12月 | [GESP第四次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/AsVWTmFECtHbJ0RGxhgelw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 |[GESP第五次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/6XF2qXb5MNqfNc8i2i1xrA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/nSlcpxCaj2KxVITABg9H-Q) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/E_vPIWkWJiXalDylZ4zYwQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
@@ -146,6 +149,7 @@ categories: [GESP, 汇总]
 
 | 考试时间 | 题目解析 |来源|
 |------|----------|---|
+| 2023年12月 | [GESP第四次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/HiCsMn_vzgIBAhRFUni62A) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年3月 |[GESP第五次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/Bu_CIs1bL54w3uc1yKSazw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年6月 |[GESP第六次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/pQIYo5SIc9vb42Z7zE9z3g) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/DSa1_RlZa3WBU4ziSgHM0A) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
