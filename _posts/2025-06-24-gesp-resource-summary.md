@@ -129,6 +129,7 @@ categories: [GESP, 汇总]
 | 2024年6月 |[GESP第六次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/b-nu42L2l37vFtvfzLxdMQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/uI6aHKEFR2dHpI4LBGigTQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年12月 | [GESP第八次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/UVymIpi0nIJ-suweyX3ouw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2025年3月 | [GESP第九次认证真题解析\|C++五级真题回顾](https://mp.weixin.qq.com/s/9PxSi7OhGhQGLtkyoqOslA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ### 六级(客观题)
 
@@ -140,6 +141,7 @@ categories: [GESP, 汇总]
 | 2024年6月 |[GESP第六次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/YwtzWCZTRNWjVOSslYZeyw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/qN-KMwIrk7_qsteVqFOzvg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年12月 | [GESP第八次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/2b2YJ1zepWSnAQgaDDVgrw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2025年3月 | [GESP第九次认证真题解析\|C++六级真题回顾](https://mp.weixin.qq.com/s/FERvusj2pDdyTkb_QfwwEA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ### 七级(客观题)
 
@@ -150,6 +152,7 @@ categories: [GESP, 汇总]
 | 2024年6月 |[GESP第六次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/nSlcpxCaj2KxVITABg9H-Q) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/E_vPIWkWJiXalDylZ4zYwQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年12月 | [GESP第八次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/3qgIQxjgzz42B8WebtUs_g) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2025年3月 | [GESP第九次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/3uP4FCE9xZPrK1DIGxaCiQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ### 八级(客观题)
 
@@ -160,6 +163,7 @@ categories: [GESP, 汇总]
 | 2024年6月 |[GESP第六次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/pQIYo5SIc9vb42Z7zE9z3g) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年9月 | [GESP第七次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/DSa1_RlZa3WBU4ziSgHM0A) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年12月 | [GESP第八次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/eQS4bqPm4tGKziFe0b2QMg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2025年3月 | [GESP第九次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/H8whNj3UCOELIqE_ul1cQQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ---
 
@@ -242,13 +246,13 @@ categories: [GESP, 汇总]
 
 ## 知识拓展
 
-| 知识点 |  考试级别 |知识讲解 |
-|------|----------|------|
-|GESP考试开发环境配置|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】Windows系统配置官方要求Dev-C++和g++13.2.0编译环境](https://www.coderli.com/gesp-config-g++/)|
-|scanf/printf关于浮点型输出知识拓展|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，scanf/printf浮点数格式化到底是%lf还是%f](https://www.coderli.com/gesp-knowledge-scanf-printf-floatnumber/)|
-|bool型变量|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，布尔(bool)型变量](https://www.coderli.com/gesp-knowledge-bool/)|
-|cout/prinf|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，cout和printf性能差异分析](https://www.coderli.com/gesp-knowledge-cout-printf/)|
-|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|
+| 知识点 |  考试级别 |知识讲解 |来源|
+|------|----------|------|-----|
+|GESP考试开发环境配置|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】Windows系统配置官方要求Dev-C++和g++13.2.0编译环境](https://www.coderli.com/gesp-config-g++/)|[本站](https://www.coderli.com/)|
+|scanf/printf关于浮点型输出知识拓展|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，scanf/printf浮点数格式化到底是%lf还是%f](https://www.coderli.com/gesp-knowledge-scanf-printf-floatnumber/)|[本站](https://www.coderli.com/)|
+|bool型变量|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，布尔(bool)型变量](https://www.coderli.com/gesp-knowledge-bool/)|[本站](https://www.coderli.com/)|
+|cout/prinf|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，cout和printf性能差异分析](https://www.coderli.com/gesp-knowledge-cout-printf/)|[本站](https://www.coderli.com/)|
+|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|[本站](https://www.coderli.com/)|
 
 ---
 
