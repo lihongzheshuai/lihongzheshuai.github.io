@@ -44,7 +44,7 @@ categories: [GESP, 汇总]
 |（3）掌握位运算：与(&)、或(\|)、非(~)、异或(^)、左移(«)、右移(»)的基本使用方法及原理。|[【GESP】C++三级考试大纲知识点梳理, （3）位运算](https://www.coderli.com/gesp-3-exam-syllabus-bit-operation/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |（4）了解算法的概念与描述，熟练运用自然语言、流程图、伪代码方式来描述算法。|[【GESP】C++三级考试大纲知识点梳理, （4）算法](https://www.coderli.com/gesp-3-exam-syllabus-algo/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |（5）C++一维数组基本应用；Python 列表、字典、元组、集合的基本应用、内置 函数以及列表解析的使用。|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
-|（6）掌握字符串及其函数的使用包括但不限于大小写转换、字符串搜索、分割、替换。|[【GESP】C++三级考试大纲知识点梳理, （6）字符串(https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)](https://www.coderli.com/gesp-3-exam-syllabus-string/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
+|（6）掌握字符串及其函数的使用包括但不限于大小写转换、字符串搜索、分割、替换。|[【GESP】C++三级考试大纲知识点梳理, （6）字符串](https://www.coderli.com/gesp-3-exam-syllabus-string/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 |(7) (8) 理解枚举算法、模拟算法的原理及特点，可以解决实际问题。|[【GESP】C++三级考试大纲知识点梳理, (7) (8) 枚举算法、模拟算法](https://www.coderli.com/gesp-3-exam-syllabus-algo-enumeration-simulation/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|
 
 ### 四级（考纲）
@@ -253,6 +253,7 @@ categories: [GESP, 汇总]
 |bool型变量|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，布尔(bool)型变量](https://www.coderli.com/gesp-knowledge-bool/)|[本站](https://www.coderli.com/)|
 |cout/prinf|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|[【GESP】C++一级知识点研究，cout和printf性能差异分析](https://www.coderli.com/gesp-knowledge-cout-printf/)|[本站](https://www.coderli.com/)|
 |[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|[本站](https://www.coderli.com/)|
+|算法复杂度|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|[算法的时间复杂度分析](https://mp.weixin.qq.com/s/v0CtoL8ri8ZTLb9VQIMWGQ)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ---
 
