@@ -4,7 +4,7 @@ title: 【GESP】C++一级知识点研究，布尔(bool)型变量
 date: 2024-10-13 10:00 +0800
 author: OneCoder
 comments: true
-tags: [GESP, C++]
+tags: [GESP, C++, GESP知识拓展]
 categories: [GESP, 一级]
 ---
 布尔型变量是GESP大纲中一级知识点要求，孩子之前对于这个类型的变量了解不多，因此整理了一些知识信息，供学习参考。
