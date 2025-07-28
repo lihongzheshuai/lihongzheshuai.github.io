@@ -242,6 +242,12 @@ categories: [GESP, 汇总]
 | 2025年6月| 奇偶校验|[进制转换](https://www.coderli.com/tags/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/)|[luogu-B4358-奇偶校验](https://www.coderli.com/gesp-3-luogu-b4358/)|
 | 2025年6月| 分糖果|[模拟算法](https://www.coderli.com/tags/%E6%A8%A1%E6%8B%9F%E7%AE%97%E6%B3%95/)|[luogu-B4359-分糖果](https://www.coderli.com/gesp-3-luogu-b4359/)|
 
+### 四级(编程题)
+
+| 考试时间 | 题目名称 | 题目类型 | 题目讲解 |
+|------|----------|------|----------|
+| 2023年6月| 幸运数|[函数](https://www.coderli.com/tags/%E5%87%BD%E6%95%B0/)|[luogu-B3850-幸运数](https://www.coderli.com/gesp-4-luogu-b3850/)|
+
 ---
 
 ## 知识拓展
