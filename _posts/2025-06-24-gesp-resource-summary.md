@@ -262,6 +262,7 @@ categories: [GESP, 汇总]
 |位运算|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[GESP知识充电站\|位运算的应用](https://mp.weixin.qq.com/s/S-rszHFlwGq5b9JJXHSHFg)|[CCF GESP官方](https://gesp.ccf.org.cn/)|
 |位运算|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[位运算规则与技巧](https://mp.weixin.qq.com/s/rEYtVhkKO2HCX4EdtWr5fQ)|[CCF GESP官方](https://gesp.ccf.org.cn/)|
 |算法复杂度|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|[算法的时间复杂度分析](https://mp.weixin.qq.com/s/v0CtoL8ri8ZTLb9VQIMWGQ)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
+|排序算法|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|[排序算法的稳定性及简单排序算法介绍\|GESP知识充电站](https://mp.weixin.qq.com/s/3KKPvfhzTBg0wac5X0AZiw)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ---
 
