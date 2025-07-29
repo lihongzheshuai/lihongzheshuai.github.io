@@ -63,6 +63,12 @@ categories: [GESP, 汇总]
 |（10）掌握文件操作中的重定向，实现文件读写操作，了解文本文件的分类，掌握写操作、读操作、读写操作。|[【GESP】C++四级考试大纲知识点梳理, (10) 文件读写和重定向](https://www.coderli.com/gesp-4-exam-syllabus-file-read-write/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
 |（11）了解异常处理机制，掌握异常处理的常用方法。|[【GESP】C++四级考试大纲知识点梳理, (11) 异常处理机制](https://www.coderli.com/gesp-4-exam-syllabus-exception/)|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|
 
+### 五级（考纲）
+
+| 考点 | 知识讲解 | 考试级别 |
+|------|----------|------|
+|（1）掌握初等数论相关知识的概念和应用，包括素数与合数、最大公约数与最小公倍数、同余与模运算、约数与倍数、质因数分解、奇偶性等。|[【GESP】C++五级考试大纲知识点梳理, (1) 初等数论](https://www.coderli.com/gesp-5-exam-syllabus-elementary-number-theory/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+
 ---
 
 ## 真题解析-客观题
