@@ -4,7 +4,7 @@ title: 【GESP】C++一级知识点研究，cout和printf性能差异分析
 date: 2024-10-19 17:00 +0800
 author: OneCoder
 comments: true
-tags: [GESP, C++]
+tags: [GESP, C++, GESP知识拓展]
 categories: [GESP, 一级]
 ---
 一道简单循环输出练习题([BCQM3148，循环输出](https://www.coderli.com/gesp-1-bcqm3148/))，由于cout的代码超时问题，让我注意到二者在使用上的差异，遂查阅研究如下。
