@@ -133,6 +133,8 @@ $$
 
 ---
 
+{% include custom/custom-post-content-inner.html %}
+
 ## 三、同余与模运算
 
 ### 3.1 定义
