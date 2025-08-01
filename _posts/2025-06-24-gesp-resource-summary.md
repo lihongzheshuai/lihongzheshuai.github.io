@@ -271,6 +271,7 @@ categories: [GESP, 汇总]
 |排序算法|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|[排序算法的稳定性及简单排序算法介绍\|GESP知识充电站](https://mp.weixin.qq.com/s/3KKPvfhzTBg0wac5X0AZiw)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
 |异常机制|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|[异常处理\|GESP知识充电站](https://mp.weixin.qq.com/s/d5Y6WCUmskOE3pIcxOVUHA)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
 |素数判断|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|[GESP知识充电站\| 数的素性判断：线性筛](https://mp.weixin.qq.com/s/EK0gkCDotk_HindvjMqeQA)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
+|素数判断|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|[GESP知识充电站\| 数的素性判断：埃式筛](https://mp.weixin.qq.com/s/7G0aSy2PoCe09Oh1YjSuJg)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ---
 
