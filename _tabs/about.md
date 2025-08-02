@@ -4,6 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+> 【efrlq.com】是未经授权的仿冒站，本站网址为：[https://www.coderli.com](https://www.coderli.com)
+{: .prompt-warning }
+
 > 曾经是个程序员，现在是程序爱好者。
 {: .prompt-tip }
 
@@ -15,7 +18,7 @@ order: 4
 
 ## GESP项目
 
-我与孩子一起学习的编程启蒙项目
+我与孩子一起学习的编程启蒙项目，目前专注GESP学习
 
 <https://github.com/lihongzheshuai/yummy-code>
 
