@@ -268,6 +268,7 @@ categories: [GESP, 汇总]
 |[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[【GESP】C++三级知识点研究，一维数组声明合法性](https://www.coderli.com/gesp-3-knowledge-one-dimensional-array-declaration/)|[本站](https://www.coderli.com/)|
 |位运算|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[GESP知识充电站\|位运算的应用](https://mp.weixin.qq.com/s/S-rszHFlwGq5b9JJXHSHFg)|[CCF GESP官方](https://gesp.ccf.org.cn/)|
 |位运算|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[位运算规则与技巧](https://mp.weixin.qq.com/s/rEYtVhkKO2HCX4EdtWr5fQ)|[CCF GESP官方](https://gesp.ccf.org.cn/)|
+|枚举法|[三级](https://www.coderli.com/categories/%E4%B8%89%E7%BA%A7/)|[枚举法\|GESP知识充电站](https://mp.weixin.qq.com/s/qrGI23y1m11lo_dkqAFs5Q)|[CCF GESP官方](https://gesp.ccf.org.cn/)|
 |算法复杂度|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|[算法的时间复杂度分析](https://mp.weixin.qq.com/s/v0CtoL8ri8ZTLb9VQIMWGQ)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
 |排序算法|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|[排序算法的稳定性及简单排序算法介绍\|GESP知识充电站](https://mp.weixin.qq.com/s/3KKPvfhzTBg0wac5X0AZiw)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
 |异常机制|[四级](https://www.coderli.com/categories/%E5%9B%9B%E7%BA%A7/)|[异常处理\|GESP知识充电站](https://mp.weixin.qq.com/s/d5Y6WCUmskOE3pIcxOVUHA)| [CCF GESP官方](https://gesp.ccf.org.cn/)|
