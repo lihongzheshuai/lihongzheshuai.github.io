@@ -255,7 +255,7 @@ categories: [GESP, 汇总]
 |------|----------|------|----------|
 | 2023年6月| 幸运数|[函数](https://www.coderli.com/tags/%E5%87%BD%E6%95%B0/)|[luogu-B3850-幸运数](https://www.coderli.com/gesp-4-luogu-b3850/)|
 | 2023年6月| 图像压缩|[函数](https://www.coderli.com/tags/%E5%87%BD%E6%95%B0/)、[结构体](https://www.coderli.com/tags/%E7%BB%93%E6%9E%84%E4%BD%93/)、[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)、[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B3851-图像压缩](https://www.coderli.com/gesp-4-luogu-b3851/)|
-| 2023年9月| 变长编码|[函数](https://www.coderli.com/tags/%E5%87%BD%E6%95%B0/)、[位运算](https://www.coderli.com/tags/%E7%BB%93%E6%9E%84%E4%BD%93/)|[luogu-B3870-变长编码](https://www.coderli.com/gesp-4-luogu-b3870/)|
+| 2023年9月| 变长编码|[函数](https://www.coderli.com/tags/%E5%87%BD%E6%95%B0/)、[位运算](https://www.coderli.com/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/)|[luogu-B3870-变长编码](https://www.coderli.com/gesp-4-luogu-b3870/)|
 
 ---
 
