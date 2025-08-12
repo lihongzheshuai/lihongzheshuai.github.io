@@ -69,6 +69,8 @@ categories: [GESP, 汇总]
 |------|----------|------|
 |（1）掌握初等数论相关知识的概念和应用，包括素数与合数、最大公约数与最小公倍数、同余与模运算、约数与倍数、质因数分解、奇偶性等。|[【GESP】C++五级考试大纲知识点梳理, (1) 初等数论](https://www.coderli.com/gesp-5-exam-syllabus-elementary-number-theory/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（2）掌握 C++数组模拟高精度加法、减法、乘法和除法的相关知识。|[【GESP】C++五级考试大纲知识点梳理, (2) 模拟高精度计算](https://www.coderli.com/gesp-5-exam-syllabus-simulate-high-precision-arithmetic/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（3-1）掌握链表的创建、插入、删除、遍历和反转操作，理解***单链表***、双链表、循环链表的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-1) 链表-单链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-1-singly/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（3-2）掌握链表的创建、插入、删除、遍历和反转操作，理解单链表、***双链表***、循环链表的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 
 ---
 
