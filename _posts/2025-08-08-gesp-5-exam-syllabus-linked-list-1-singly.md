@@ -355,6 +355,8 @@ Node* reverseList(Node* head) {
 > 注：这里特意采用了返回值的方式来返回新的头结点，代替了之前插入和删除函数里使用的指针引用的方式，在函数内部直接修改外部头指针的指向。个人认为，更易于理解和实现，供参考。
 {: .prompt-tip}
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 三、总结
