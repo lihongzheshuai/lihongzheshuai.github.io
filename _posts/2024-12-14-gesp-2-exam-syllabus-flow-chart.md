@@ -6,7 +6,7 @@ author: OneCoder
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++]
+tags: [GESP, C++, 考试大纲]
 categories: [GESP, 二级]
 ---
 GESP C++二级官方考试大纲中，共有9条考点，本文针对C++（4）号知识点进行总结梳理。
