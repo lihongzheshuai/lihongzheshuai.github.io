@@ -6,7 +6,7 @@ author: OneCoder
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++]
+tags: [GESP, C++,考试大纲]
 categories: [GESP, 三级]
 ---
 GESP C++三级官方考试大纲中，共有8条考点，本文针对C++（1）号知识点进行总结梳理。
