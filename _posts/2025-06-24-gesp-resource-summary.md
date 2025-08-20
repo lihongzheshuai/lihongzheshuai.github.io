@@ -72,6 +72,7 @@ categories: [GESP, 汇总]
 |（3-1）掌握链表的创建、插入、删除、遍历和反转操作，理解***单链表***、双链表、循环链表的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-1) 链表-单链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-1-singly/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（3-2）掌握链表的创建、插入、删除、遍历和反转操作，理解单链表、***双链表***、循环链表的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（3-3）掌握链表的创建、插入、删除、遍历和反转操作，理解单链表、双链表、***循环链表***的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-3) 链表-单向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-3-singly-circle/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（3-4）掌握链表的创建、插入、删除、遍历和反转操作，理解单链表、双链表、***循环链表***的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 
 ---
 
