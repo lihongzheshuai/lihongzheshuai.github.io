@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法等数论知识
+title: 【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理
 date: 2025-08-26 08:00 +0800
 author: OneCoder
 comments: true
