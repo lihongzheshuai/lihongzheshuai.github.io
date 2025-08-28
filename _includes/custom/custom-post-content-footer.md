@@ -2,7 +2,7 @@
 >
 >GESP各级别考纲、真题讲解、知识拓展和练习清单等详见[***【置顶】【GESP】C++ 认证学习资源汇总***](https://www.coderli.com/gesp-resource-summary/)
 >
->“***luogu-***”系列题目可在[***洛谷***](https://www.luogu.com.cn/problem/list)进行在线评测。
+>“***luogu-***”系列题目可在[***洛谷题库***](https://www.luogu.com.cn/problem/list)进行在线评测。
 >
 >“***bcqm-***”系列题目可在[***编程启蒙题库***](https://bas.ssoier.cn/index.php)进行在线评测。
 {: .prompt-info }
