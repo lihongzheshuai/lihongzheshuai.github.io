@@ -1,6 +1,6 @@
 >所有代码已上传至Github：[***https://github.com/lihongzheshuai/yummy-code***](https://github.com/lihongzheshuai/yummy-code)
 >
->GESP各级别考纲、真题讲解、知识拓展和练习清单等详见[***【置顶】【GESP】C++ 认证学习资源汇总***](https://www.coderli.com/gesp-resource-summary/)
+>GESP 学习专题站：[***GESP WIKI***](https://wiki.coderli.com/gesp/)
 >
 >“***luogu-***”系列题目可在[***洛谷题库***](https://www.luogu.com.cn/problem/list)进行在线评测。
 >
