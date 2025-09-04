@@ -5,7 +5,7 @@ date: 2025-03-21 08:30 +0800
 author: OneCoder
 comments: true
 math: true
-tags: [GESP, C++]
+tags: [GESP, C++, 多重循环, 输出图形]
 categories: [GESP, 二级]
 ---
 GESP二级练习，一套图形输出，多层循环分支练习，考试常见，难度★✮☆☆☆。

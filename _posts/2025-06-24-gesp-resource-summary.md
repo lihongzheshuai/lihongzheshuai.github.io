@@ -91,6 +91,7 @@ categories: [GESP, 汇总]
 | 2024年12月 | [GESP第八次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/snIW9bO14f5burkJ74xBug) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年3月 | [GESP第九次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/oi1_CfNbTthz81b1bPWgVg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年6月 | [【GESP】C++ 2025年6月一级考试-客观题真题解析](https://www.coderli.com/gesp-1-analysis-of-real-questions-202506/) | [本站](https://www.coderli.com/)|
+| 2025年6月 | [GESP第十次认证真题解析\|C++一级真题回顾](https://mp.weixin.qq.com/s/xmpAXna29W1Q9tUuGr2rkQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ### 二级(客观题)
 
