@@ -105,6 +105,7 @@ categories: [GESP, 汇总]
 | 2024年9月 | [GESP第七次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/dG42rCy8EBoI6n4go1hIEQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年12月 | [GESP第八次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/92G6w7Mx8pbHtXDSj0qEyQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年3月 | [GESP第九次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/2Kg19RFhcUn6WWilIn4RQw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2025年6月 | [GESP第十次认证真题解析\|C++二级真题回顾](https://mp.weixin.qq.com/s/4NYyP6ZJ0wbRuF5_0yuclw) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ### 三级(客观题)
 
@@ -266,6 +267,7 @@ categories: [GESP, 汇总]
 | 2023年12月| 田忌赛马|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)、[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B3928-田忌赛马](https://www.coderli.com/gesp-4-luogu-b3928/)|
 | 2024年3月| 相似字符串|[函数](https://www.coderli.com/tags/%E5%87%BD%E6%95%B0/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3958-相似字符串](https://www.coderli.com/gesp-4-luogu-b3958/)|
 | 2024年3月| 做题|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B3959-做题](https://www.coderli.com/gesp-4-luogu-b3959/)|
+| 2024年6月| 黑白方块|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)、[前缀和](https://www.coderli.com/tags/%E5%89%8D%E7%BC%80%E5%92%8C/)|[luogu-B4005-黑白方块](https://www.coderli.com/gesp-4-luogu-b4005/)|
 
 ---
 
