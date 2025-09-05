@@ -13,7 +13,8 @@ categories: [GESP, 汇总]
 
 本置顶将汇总本站发布的GESP认证考试相关资源，并进行了分类整理，不定期更新。
 
->实时更新和源代码详见C++ 学习项目:[***yummy-code(https://github.com/lihongzheshuai/yummy-code)***](https://github.com/lihongzheshuai/yummy-code)
+>所有源代码详见C++ 学习项目:[***yummy-code(https://github.com/lihongzheshuai/yummy-code)***](https://github.com/lihongzheshuai/yummy-code)
+>GESP资源专项站，Wiki式阅读，专项学习更友好: [***GESP资源专项站***](https://wiki.coderli.com/)
 {: .prompt-info}
 
 ---
