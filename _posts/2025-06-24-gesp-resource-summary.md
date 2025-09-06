@@ -120,6 +120,7 @@ categories: [GESP, 汇总]
 | 2024年12月 | [GESP第八次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/lwPKdQgaQyOGYkyn0-sc_g) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年3月 | [【GESP】C++ 2025年3月三级考试-客观题真题解析](https://www.coderli.com/gesp-3-analysis-of-real-questions-202503/) |[本站](https://www.coderli.com/)|
 | 2025年3月 | [GESP第九次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/_bYX9BSu9yT9YzMAshozaA) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2025年6月 | [GESP第十次认证真题解析\|C++三级真题回顾](https://mp.weixin.qq.com/s/0L5i5qwycl45v__D0dIcew) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ### 四级(客观题)
 
