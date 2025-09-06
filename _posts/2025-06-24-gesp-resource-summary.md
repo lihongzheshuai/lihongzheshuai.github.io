@@ -270,6 +270,7 @@ categories: [GESP, 汇总]
 | 2024年3月| 相似字符串|[函数](https://www.coderli.com/tags/%E5%87%BD%E6%95%B0/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B3958-相似字符串](https://www.coderli.com/gesp-4-luogu-b3958/)|
 | 2024年3月| 做题|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B3959-做题](https://www.coderli.com/gesp-4-luogu-b3959/)|
 | 2024年6月| 黑白方块|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)、[前缀和](https://www.coderli.com/tags/%E5%89%8D%E7%BC%80%E5%92%8C/)|[luogu-B4005-黑白方块](https://www.coderli.com/gesp-4-luogu-b4005/)|
+| 2024年6月| 宝箱|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)、[前缀和](https://www.coderli.com/tags/%E5%89%8D%E7%BC%80%E5%92%8C/)、[滑动窗口](https://www.coderli.com/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/)|[luogu-B4006-宝箱](https://www.coderli.com/gesp-4-luogu-b4006/)|
 
 ---
 
