@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++五级考试大纲知识点梳理, (5) 掌握算法复杂度估算方法（含多项式、对数）
+title: 【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）
 date: 2025-09-07 08:00 +0800
 author: OneCoder
 comments: true
