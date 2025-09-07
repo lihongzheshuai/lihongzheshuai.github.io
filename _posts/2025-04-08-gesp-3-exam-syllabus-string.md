@@ -6,7 +6,7 @@ author: OneCoder
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++]
+tags: [GESP, C++, 考试大纲]
 categories: [GESP, 三级]
 ---
 GESP C++三级官方考试大纲中，共有8条考点，之前已对前4个考点进行了总结梳理，6号考点是关于C++语言字符串应用的，属于基本语言语法和应用范围，网上的资料很多，本不想再赘述。但在孩子做题的过程中发现，对字符串应掌握哪些常用函数以及如何应用还不是很熟悉，因此将这部分内容单独整理出来，供孩子参考。
