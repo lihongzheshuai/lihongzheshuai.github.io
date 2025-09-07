@@ -74,6 +74,8 @@ categories: [GESP, 汇总]
 |（3-2）掌握链表的创建、插入、删除、遍历和反转操作，理解单链表、***双链表***、循环链表的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（3-3）掌握链表的创建、插入、删除、遍历和反转操作，理解单链表、双链表、***循环链表***的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-3) 链表-单向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-3-singly-circle/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（3-4）掌握链表的创建、插入、删除、遍历和反转操作，理解单链表、双链表、***循环链表***的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（4）掌握辗转相除法（也称欧几里得算法）、素数表的埃氏筛法和线性筛法、唯一分解定理的原理和应用。|[【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（5）掌握算法复杂度估算方法（含多项式、对数）。|[【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 
 ---
 
