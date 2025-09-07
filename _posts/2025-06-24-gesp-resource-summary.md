@@ -13,8 +13,10 @@ categories: [GESP, 汇总]
 
 本置顶将汇总本站发布的GESP认证考试相关资源，并进行了分类整理，不定期更新。
 
->所有源代码详见C++ 学习项目:[***yummy-code(https://github.com/lihongzheshuai/yummy-code)***](https://github.com/lihongzheshuai/yummy-code)
 >GESP资源专项站，Wiki式阅读，专项学习更友好: [***GESP资源专项站***](https://wiki.coderli.com/)
+{: .prompt-info}
+
+>所有源代码详见C++ 学习项目:[***yummy-code(https://github.com/lihongzheshuai/yummy-code)***](https://github.com/lihongzheshuai/yummy-code)
 {: .prompt-info}
 
 ---
@@ -299,10 +301,10 @@ categories: [GESP, 汇总]
 
 ## 练习清单（若打不开，请直接访问项目主页查看）
 
-- [GESP一级练习题清单](https://github.com/lihongzheshuai/yummy-code/blob/master/GESP1.md)
-- [GESP二级练习题清单](https://github.com/lihongzheshuai/yummy-code/blob/master/GESP2.md)
-- [GESP三级练习题清单](https://github.com/lihongzheshuai/yummy-code/blob/master/GESP3.md)
-- [GESP四级练习题清单](https://github.com/lihongzheshuai/yummy-code/blob/master/GESP4.md)
+- [GESP一级练习题清单](https://wiki.coderli.com/gesp/1/practice/)
+- [GESP二级练习题清单](https://wiki.coderli.com/gesp/2/practice/)
+- [GESP三级练习题清单](https://wiki.coderli.com/gesp/3/practice/)
+- [GESP四级练习题清单](https://wiki.coderli.com/gesp/4/practice/)
 
 ---
 {% include custom/custom-post-content-footer.md %}
