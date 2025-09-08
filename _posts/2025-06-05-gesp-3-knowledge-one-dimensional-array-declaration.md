@@ -6,7 +6,7 @@ author: OneCoder
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++]
+tags: [GESP, C++, 考试大纲]
 categories: [GESP, 三级, 考点]
 ---
 一维数组是GESP C++三级考试大纲中的要求，
