@@ -9,7 +9,7 @@ redirect_from:
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++]
+tags: [GESP, C++, 考试大纲]
 categories: [GESP, 四级]
 ---
 GESP C++四级官方考试大纲中，共有11条考点，本文针对第7条考点进行分析介绍。
