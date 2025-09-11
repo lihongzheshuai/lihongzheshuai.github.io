@@ -6,7 +6,7 @@ author: OneCoder
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++]
+tags: [GESP, C++, 真题解析]
 categories: [GESP, 三级] 
 ---
 不知道为什么，官方只提供了2023年考试客观题的真题解析，从2024年开始，客观题只有答案没有解析。因为孩子正在准备三级考试，因此我将从25年3月的三级题目开始，逐步整理客观题的解析。

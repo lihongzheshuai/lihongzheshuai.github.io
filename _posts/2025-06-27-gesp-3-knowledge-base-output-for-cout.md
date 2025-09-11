@@ -6,7 +6,7 @@ author: OneCoder
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++]
+tags: [GESP, C++, 考试大纲]
 categories: [GESP, 三级] 
 ---
 GESP C++三级考试大纲中，涉及进制转换的内容，之前在考纲介绍中重点针对进制转换的数学方法进行了介绍，在进行真题练习的过程中，发现其中涉及不少`cout`函数进制输出的题目，因此本文对此进行总结分享。
