@@ -175,6 +175,7 @@ categories: [GESP, 汇总]
 | 2024年9月 | [GESP第七次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/E_vPIWkWJiXalDylZ4zYwQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年12月 | [GESP第八次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/3qgIQxjgzz42B8WebtUs_g) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年3月 | [GESP第九次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/3uP4FCE9xZPrK1DIGxaCiQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2025年6月 | [GESP第十次认证真题解析\|C++七级真题回顾](https://mp.weixin.qq.com/s/dBcVmzM7k2oXIleG-iVNQQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ### 八级(客观题)
 
@@ -186,6 +187,7 @@ categories: [GESP, 汇总]
 | 2024年9月 | [GESP第七次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/DSa1_RlZa3WBU4ziSgHM0A) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2024年12月 | [GESP第八次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/eQS4bqPm4tGKziFe0b2QMg) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 | 2025年3月 | [GESP第九次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/H8whNj3UCOELIqE_ul1cQQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
+| 2025年6月 | [GESP第十次认证真题解析\|C++八级真题回顾](https://mp.weixin.qq.com/s/U3S2No1Y75daK00_opoanQ) | [CCF GESP官方](https://gesp.ccf.org.cn/)|
 
 ---
 
@@ -282,6 +284,7 @@ categories: [GESP, 汇总]
 | 2024年9月| 区间排序|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)、[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4041-区间排序](https://www.coderli.com/gesp-4-luogu-b4041/)|
 | 2024年12月| Recamán|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4068-Recamán](https://www.coderli.com/gesp-4-luogu-b4068/)|
 | 2024年12月| 字符排序|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B4069-字符排序](https://www.coderli.com/gesp-4-luogu-b4069/)|
+| 2025年3月| 荒地开垦|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4263-荒地开垦](https://www.coderli.com/gesp-4-luogu-b4263/)|
 
 ---
 
