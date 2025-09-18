@@ -288,6 +288,7 @@ categories: [GESP, 汇总]
 | 2025年3月| 荒地开垦|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4263-荒地开垦](https://www.coderli.com/gesp-4-luogu-b4263/)|
 | 2025年3月| 二阶矩阵|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4264-二阶矩阵](https://www.coderli.com/gesp-4-luogu-b4264/)|
 | 2025年6月| 画布裁剪|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4360-画布裁剪](https://www.coderli.com/gesp-4-luogu-b4360/)|
+| 2025年6月| 排序|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4361-排序](https://www.coderli.com/gesp-4-luogu-b4361/)|
 
 ---
 
