@@ -1,6 +1,6 @@
 >所有代码已上传至Github：[***https://github.com/lihongzheshuai/yummy-code***](https://github.com/lihongzheshuai/yummy-code)
 >
->GESP 学习专题站：[***GESP WIKI***](https://wiki.coderli.com/gesp/)
+>GESP 学习专题站：[***GESP WIKI***](https://wiki.coderli.com/)
 >
 >“***luogu-***”系列题目可在[***洛谷题库***](https://www.luogu.com.cn/problem/list)进行在线评测。
 >
