@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP/CSP】编程武器库-2, 十进制和十六进制转换
+title: 【GESP/CSP】编程武器库-2, 十进制转换十六进制
 date: 2025-09-24 08:00 +0800
 author: OneCoder
 comments: true
