@@ -198,26 +198,28 @@ categories: [GESP, 汇总]
 
 | 考试时间 | 题目名称 | 题目类型 | 题目讲解 |
 |------|----------|------|----------|
-| 2023年3月| 长方形面积|循环语句|[luogu-B3834-长方形面积](https://www.coderli.com/gesp-1-luogu-b3834/)|
-| 2023年3月| 每月天数|分支语句|[luogu-B3835-每月天数](https://www.coderli.com/gesp-1-luogu-b3835/)|
-| 2023年6月| 时间规划|基础运算|[luogu-B3838-时间规划](https://www.coderli.com/gesp-1-luogu-b3838/)|
-| 2023年6月| 累计相加|循环语句|[luogu-B3839-累计相加](https://www.coderli.com/gesp-1-luogu-b3839/)|
-| 2023年9月| 买文具|分支语句|[luogu-B3863-买文具](https://www.coderli.com/gesp-1-luogu-b3863/)|
-| 2023年9月| 小明的幸运数|循环语句|[luogu-B3864-小明的幸运数](https://www.coderli.com/gesp-1-luogu-b3864/)|
-| 2023年12月| 小杨报数|循环语句|[luogu-B3922-小杨报数](https://www.coderli.com/gesp-1-luogu-b3922/)|
-| 2023年12月| 小杨的考试|基础运算|[luogu-B3921-小杨的考试](https://www.coderli.com/gesp-1-luogu-b3921/)|
-| 2024年3月| 小杨买书|基础运算|[luogu-B3952-小杨买书](https://www.coderli.com/gesp-1-luogu-b3952/)|
-| 2024年3月| 找因数|循环语句|[luogu-B3953-找因数](https://www.coderli.com/gesp-1-luogu-b3953/)|
-| 2024年6月| 休息时间|基础运算|[luogu-B4000-休息时间](https://www.coderli.com/gesp-1-luogu-b4000/)|
-| 2024年6月| 立方数|循环语句|[luogu-B4001-立方数](https://www.coderli.com/gesp-1-luogu-b4001/)|
-| 2024年9月| 小杨购物|基础运算|[luogu-B4034-小杨购物](https://www.coderli.com/gesp-1-luogu-b4034/)|
-| 2024年9月| 美丽数字|循环语句|[luogu-B4035-美丽数字](https://www.coderli.com/gesp-1-luogu-b4035/)|
-| 2024年12月| 温度转换|基础运算|[luogu-B4062-温度转换](https://www.coderli.com/gesp-1-luogu-b4062/)|
-| 2024年12月| 奇数和偶数|循环语句|[luogu-B4063-奇数和偶数](https://www.coderli.com/gesp-1-luogu-b4063/)|
-| 2025年3月| 图书馆里的老鼠|基础运算|[luogu-B4257-图书馆里的老鼠](https://www.coderli.com/gesp-1-luogu-b4257/)|
-| 2025年3月| 四舍五入|循环语句|[luogu-B4258-四舍五入](https://www.coderli.com/gesp-1-luogu-b4258/)|
-| 2025年6月| 假期阅读|基础运算+分支语句|[luogu-B4354-假期阅读](https://www.coderli.com/gesp-1-luogu-b4354/)|
-| 2025年6月| 值日|基础运算+循环语句|[luogu-B4355-值日](https://www.coderli.com/gesp-1-luogu-b4355/)|
+| 2023年3月| 长方形面积|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3834-长方形面积](https://www.coderli.com/gesp-1-luogu-b3834/)|
+| 2023年3月| 每月天数|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3835-每月天数](https://www.coderli.com/gesp-1-luogu-b3835/)|
+| 2023年6月| 时间规划|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3838-时间规划](https://www.coderli.com/gesp-1-luogu-b3838/)|
+| 2023年6月| 累计相加|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3839-累计相加](https://www.coderli.com/gesp-1-luogu-b3839/)|
+| 2023年9月| 买文具|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3863-买文具](https://www.coderli.com/gesp-1-luogu-b3863/)|
+| 2023年9月| 小明的幸运数|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3864-小明的幸运数](https://www.coderli.com/gesp-1-luogu-b3864/)|
+| 2023年12月| 小杨报数|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3922-小杨报数](https://www.coderli.com/gesp-1-luogu-b3922/)|
+| 2023年12月| 小杨的考试|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3921-小杨的考试](https://www.coderli.com/gesp-1-luogu-b3921/)|
+| 2024年3月| 小杨买书|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3952-小杨买书](https://www.coderli.com/gesp-1-luogu-b3952/)|
+| 2024年3月| 找因数|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B3953-找因数](https://www.coderli.com/gesp-1-luogu-b3953/)|
+| 2024年6月| 休息时间|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4000-休息时间](https://www.coderli.com/gesp-1-luogu-b4000/)|
+| 2024年6月| 立方数|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4001-立方数](https://www.coderli.com/gesp-1-luogu-b4001/)|
+| 2024年9月| 小杨购物|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4034-小杨购物](https://www.coderli.com/gesp-1-luogu-b4034/)|
+| 2024年9月| 美丽数字|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4035-美丽数字](https://www.coderli.com/gesp-1-luogu-b4035/)|
+| 2024年12月| 温度转换|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4062-温度转换](https://www.coderli.com/gesp-1-luogu-b4062/)|
+| 2024年12月| 奇数和偶数|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4063-奇数和偶数](https://www.coderli.com/gesp-1-luogu-b4063/)|
+| 2025年3月| 图书馆里的老鼠|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4257-图书馆里的老鼠](https://www.coderli.com/gesp-1-luogu-b4257/)|
+| 2025年3月| 四舍五入|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4258-四舍五入](https://www.coderli.com/gesp-1-luogu-b4258/)|
+| 2025年6月| 假期阅读|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4354-假期阅读](https://www.coderli.com/gesp-1-luogu-b4354/)|
+| 2025年6月| 值日|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4355-值日](https://www.coderli.com/gesp-1-luogu-b4355/)|
+| 2025年9月| 商店折扣|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4409-商店折扣](https://www.coderli.com/gesp-1-luogu-b4409/)|
+| 2025年9月| 金字塔|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4410-金字塔](https://www.coderli.com/gesp-1-luogu-b4410/)|
 
 ### 二级(编程题)
 
