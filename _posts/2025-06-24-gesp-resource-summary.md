@@ -243,6 +243,8 @@ categories: [GESP, 汇总]
 | 2025年3月| 时间跨越|[多重循环/分支](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)|[luogu-B4260-时间跨越](https://www.coderli.com/gesp-2-luogu-b4260/)|
 | 2025年6月| 数三角形|[多重循环/分支](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)|[luogu-B4356-数三角形](https://www.coderli.com/gesp-2-luogu-b4356/)|
 | 2025年6月| 幂和数|[多重循环/分支](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)、[数学函数](https://www.coderli.com/tags/%E6%95%B0%E5%AD%A6%E5%87%BD%E6%95%B0/)|[luogu-B4357-幂和数](https://www.coderli.com/gesp-2-luogu-b4357/)|
+| 2025年9月| 优美的数字|[多重循环/分支](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)|[luogu-B4411-优美的数字](https://www.coderli.com/gesp-2-luogu-b4411/)|
+| 2025年9月| 菱形|[多重循环/分支](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)|[luogu-B4412-菱形](https://www.coderli.com/gesp-2-luogu-b4412/)|
 
 ### 三级(编程题)
 
