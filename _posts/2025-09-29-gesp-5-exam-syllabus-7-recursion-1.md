@@ -201,9 +201,9 @@ int binarySearch(vector<int>& arr, int left, int right, int target) {
 
 ---
 
-### 2.4 回溯（Backtracking / DFS）
+### 2.4 回溯（Backtracking）
 
-**回溯（Backtracking / DFS）**：在解空间树上做深度优先搜索并回退（如：全排列、子集、N 皇后）。
+**回溯（Backtracking）**：在解空间树上做深度优先搜索并回退（如：全排列、子集、N 皇后）。
 
 **例题：全排列** 给定数组，输出所有排列。
 
@@ -248,7 +248,7 @@ void backtrack(vector<int>& nums, int start, vector<vector<int>>& result) {
 ...
 ```
 
-* 特点：典型“试探—回溯”过程，像深度优先搜索。
+特点：典型“试探—回溯”过程，像深度优先搜索。
 
 ---
 
