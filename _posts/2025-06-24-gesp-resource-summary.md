@@ -78,7 +78,9 @@ categories: [GESP, 汇总]
 |（3-4）掌握链表的创建、插入、删除、遍历和反转操作，理解单链表、双链表、***循环链表***的区别。|[【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（4）掌握辗转相除法（也称欧几里得算法）、素数表的埃氏筛法和线性筛法、唯一分解定理的原理和应用。|[【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（5）掌握算法复杂度估算方法（含多项式、对数）。|[【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
-|（6）掌握二分查找和二分答案算法（也称二分枚举法）的基本原理，能够在有序数组中快速定位目标值。|[【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案z）](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（6）掌握二分查找和二分答案算法（也称二分枚举法）的基本原理，能够在有序数组中快速定位目标值。|[【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案）](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 1 基本原理）](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-1/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 -2 复杂度分析）](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-2/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 
 ---
 
@@ -270,6 +272,8 @@ categories: [GESP, 汇总]
 | 2025年3月| 词频统计|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)、[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[luogu-B4262-词频统计](https://www.coderli.com/gesp-3-luogu-b4262/)|
 | 2025年6月| 奇偶校验|[进制转换](https://www.coderli.com/tags/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/)|[luogu-B4358-奇偶校验](https://www.coderli.com/gesp-3-luogu-b4358/)|
 | 2025年6月| 分糖果|[模拟算法](https://www.coderli.com/tags/%E6%A8%A1%E6%8B%9F%E7%AE%97%E6%B3%95/)|[luogu-B4359-分糖果](https://www.coderli.com/gesp-3-luogu-b4359/)|
+| 2025年9月|  数组清零|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4413-数组清零](https://www.coderli.com/gesp-3-luogu-b4413/)|
+| 2025年9月| 日历制作|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4414-日历制作](https://www.coderli.com/gesp-3-luogu-b4414/)|
 
 ### 四级(编程题)
 
@@ -293,6 +297,8 @@ categories: [GESP, 汇总]
 | 2025年3月| 二阶矩阵|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4264-二阶矩阵](https://www.coderli.com/gesp-4-luogu-b4264/)|
 | 2025年6月| 画布裁剪|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4360-画布裁剪](https://www.coderli.com/gesp-4-luogu-b4360/)|
 | 2025年6月| 排序|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4361-排序](https://www.coderli.com/gesp-4-luogu-b4361/)|
+| 2025年9月| 排兵布阵|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4415-排兵布阵](https://www.coderli.com/gesp-4-luogu-b4415/)|
+| 2025年9月| 最长连续段|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4416-最长连续段](https://www.coderli.com/gesp-4-luogu-b4416/)|
 
 ---
 
