@@ -79,8 +79,9 @@ categories: [GESP, 汇总]
 |（4）掌握辗转相除法（也称欧几里得算法）、素数表的埃氏筛法和线性筛法、唯一分解定理的原理和应用。|[【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（5）掌握算法复杂度估算方法（含多项式、对数）。|[【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（6）掌握二分查找和二分答案算法（也称二分枚举法）的基本原理，能够在有序数组中快速定位目标值。|[【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案）](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
-|（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 1 基本原理）](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-1/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
-|（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 -2 复杂度分析）](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-2/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 1 基本原理](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-1/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 -2 复杂度分析](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-2/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 -3 优化策略](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-3/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 
 ---
 

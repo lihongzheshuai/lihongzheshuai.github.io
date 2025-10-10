@@ -113,7 +113,7 @@ int factorialTail(int n, int result = 1) {
 
 ---
 
-### （2）记忆化搜索（Memoization）
+### （2）记忆化递归（Memoization）
 
 >**原理：**
 >如果递归中存在 **重复子问题**，就把中间结果缓存下来。下次遇到相同的输入，直接取结果，而不是重新计算。
