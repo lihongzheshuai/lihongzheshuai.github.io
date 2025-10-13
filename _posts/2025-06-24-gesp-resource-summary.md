@@ -82,6 +82,8 @@ categories: [GESP, 汇总]
 |（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 1 基本原理](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-1/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 -2 复杂度分析](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-2/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。|[【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 -3 优化策略](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-3/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（8）掌握贪心算法的基本原理，理解最优子结构，能够使用贪心算法解决相关问题。|[【GESP】C++五级考试大纲知识点梳理, (8) 贪心算法](https://www.coderli.com/gesp-5-exam-syllabus-8-greedy-algorithm/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
+|（9）掌握贪心算法的基本原理，理解最优子结构，能够使用贪心算法解决相关问题。|[【GESP】C++五级考试大纲知识点梳理, (8) 贪心算法](https://www.coderli.com/gesp-5-exam-syllabus-8-greedy-algorithm/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 
 ---
 
