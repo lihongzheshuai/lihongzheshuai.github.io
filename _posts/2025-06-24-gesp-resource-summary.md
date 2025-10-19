@@ -303,6 +303,12 @@ categories: [GESP, 汇总]
 | 2025年9月| 排兵布阵|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4415-排兵布阵](https://www.coderli.com/gesp-4-luogu-b4415/)|
 | 2025年9月| 最长连续段|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4416-最长连续段](https://www.coderli.com/gesp-4-luogu-b4416/)|
 
+### 五级(编程题)
+
+| 考试时间 | 题目名称 | 题目类型 | 题目讲解 |
+|------|----------|------|----------|
+| 2023年9月| 因数分解 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-B3871-因数分解](https://www.coderli.com/gesp-5-luogu-b3871/)|
+
 ---
 
 ## 知识拓展
