@@ -308,6 +308,8 @@ categories: [GESP, 汇总]
 | 考试时间 | 题目名称 | 题目类型 | 题目讲解 |
 |------|----------|------|----------|
 | 2023年9月| 因数分解 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-B3871-因数分解](https://www.coderli.com/gesp-5-luogu-b3871/)|
+| 2023年9月| 巧夺大奖 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B3872-巧夺大奖](https://www.coderli.com/gesp-5-luogu-b3872/)|
+| 2023年12月| 小杨的幸运数 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-B3929-小杨的幸运数](https://www.coderli.com/gesp-5-luogu-b3929/)|
 
 ---
 
