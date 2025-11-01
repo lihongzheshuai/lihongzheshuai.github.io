@@ -310,6 +310,10 @@ categories: [GESP, 汇总]
 | 2023年9月| 因数分解 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-B3871-因数分解](https://www.coderli.com/gesp-5-luogu-b3871/)|
 | 2023年9月| 巧夺大奖 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B3872-巧夺大奖](https://www.coderli.com/gesp-5-luogu-b3872/)|
 | 2023年12月| 小杨的幸运数 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-B3929-小杨的幸运数](https://www.coderli.com/gesp-5-luogu-b3929/)|
+| 2023年12月| 烹饪问题 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B3930-烹饪问题](https://www.coderli.com/gesp-5-luogu-b3930/)|
+| 2024年3月| 成绩排序 |[结构体](https://www.coderli.com/tags/%E7%BB%93%E6%9E%84%E4%BD%93/)、[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B3968-成绩排序](https://www.coderli.com/gesp-5-luogu-b3968/)|
+| 2024年3月| B-smooth 数 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-B3969-B-smooth 数](https://www.coderli.com/gesp-5-luogu-b3969/)|
+| 2024年6月| 黑白格 |[前缀和](https://www.coderli.com/tags/%E5%89%8D%E7%BC%80%E5%92%8C/)|[luogu-P10719-黑白格](https://www.coderli.com/gesp-5-luogu-p10719/)|
 
 ---
 
