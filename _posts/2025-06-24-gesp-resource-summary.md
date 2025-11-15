@@ -314,6 +314,10 @@ categories: [GESP, 汇总]
 | 2024年3月| 成绩排序 |[结构体](https://www.coderli.com/tags/%E7%BB%93%E6%9E%84%E4%BD%93/)、[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B3968-成绩排序](https://www.coderli.com/gesp-5-luogu-b3968/)|
 | 2024年3月| B-smooth 数 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-B3969-B-smooth 数](https://www.coderli.com/gesp-5-luogu-b3969/)|
 | 2024年6月| 黑白格 |[前缀和](https://www.coderli.com/tags/%E5%89%8D%E7%BC%80%E5%92%8C/)|[luogu-P10719-黑白格](https://www.coderli.com/gesp-5-luogu-p10719/)|
+| 2024年6月| 小杨的幸运数字 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-P10720-小杨的幸运数字](https://www.coderli.com/gesp-5-luogu-p10720/)|
+| 2024年9月| 挑战怪物 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)、[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4050-挑战怪物](https://www.coderli.com/gesp-5-luogu-b4050/)|
+| 2024年9月| 小杨的武器 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4051-小杨的武器](https://www.coderli.com/gesp-5-luogu-b4051/)|
+| 2024年12月| 奇妙数字 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)、[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4070-奇妙数字](https://www.coderli.com/gesp-5-luogu-b4070/)|
 
 ---
 
