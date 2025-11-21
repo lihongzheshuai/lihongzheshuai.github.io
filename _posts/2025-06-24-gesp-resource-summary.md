@@ -318,6 +318,8 @@ categories: [GESP, 汇总]
 | 2024年9月| 挑战怪物 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)、[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4050-挑战怪物](https://www.coderli.com/gesp-5-luogu-b4050/)|
 | 2024年9月| 小杨的武器 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4051-小杨的武器](https://www.coderli.com/gesp-5-luogu-b4051/)|
 | 2024年12月| 奇妙数字 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)、[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4070-奇妙数字](https://www.coderli.com/gesp-5-luogu-b4070/)|
+| 2024年12月| 武器强化 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4071-武器强化](https://www.coderli.com/gesp-5-luogu-b4071/)|
+| 2025年3月| 平均分配 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-P11960-平均分配](https://www.coderli.com/gesp-5-luogu-p11960/)|
 
 ---
 
