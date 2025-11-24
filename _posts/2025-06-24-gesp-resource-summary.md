@@ -320,6 +320,8 @@ categories: [GESP, 汇总]
 | 2024年12月| 奇妙数字 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)、[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4070-奇妙数字](https://www.coderli.com/gesp-5-luogu-b4070/)|
 | 2024年12月| 武器强化 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-B4071-武器强化](https://www.coderli.com/gesp-5-luogu-b4071/)|
 | 2025年3月| 平均分配 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-P11960-平均分配](https://www.coderli.com/gesp-5-luogu-p11960/)|
+| 2025年3月| 原根判断 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-P11961-原根判断](https://www.coderli.com/gesp-5-luogu-p11961/)|
+| 2025年6月| 奖品兑换 |[二分答案](https://www.coderli.com/tags/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88/)|[luogu-P13013-奖品兑换](https://www.coderli.com/gesp-5-luogu-p13013/)|
 
 ---
 
