@@ -322,6 +322,9 @@ categories: [GESP, 汇总]
 | 2025年3月| 平均分配 |[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-P11960-平均分配](https://www.coderli.com/gesp-5-luogu-p11960/)|
 | 2025年3月| 原根判断 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-P11961-原根判断](https://www.coderli.com/gesp-5-luogu-p11961/)|
 | 2025年6月| 奖品兑换 |[二分答案](https://www.coderli.com/tags/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88/)|[luogu-P13013-奖品兑换](https://www.coderli.com/gesp-5-luogu-p13013/)|
+| 2025年6月| 最大公因数 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-P13014-最大公因数](https://www.coderli.com/gesp-5-luogu-p13014/)|
+| 2025年9月| 数字选取 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)、[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-P14073-数字选取](https://www.coderli.com/gesp-5-luogu-p14073/)|
+| 2025年9月| 有趣的数字和 |[前缀和](https://www.coderli.com/tags/%E5%89%8D%E7%BC%80%E5%92%8C/)|[luogu-P14074-有趣的数字和](https://www.coderli.com/gesp-5-luogu-p14074/)|
 
 ---
 
