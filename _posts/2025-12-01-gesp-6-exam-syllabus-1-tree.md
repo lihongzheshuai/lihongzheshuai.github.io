@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "【GESP】C++六级考试大纲知识点梳理, (1) 树的概念与遍历"
+title: 【GESP】C++六级考试大纲知识点梳理, (1) 树的概念与遍历
 date: 2025-12-01 22:00 +0800
 author: OneCoder
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++, 考试大纲, 数据结构, 树]
+tags: [GESP, C++, 考试大纲, 树]
 categories: [GESP, 六级]
 ---
 GESP C++六级官方考试大纲中，包含了对更高级数据结构（如树）和基础算法的深入要求。本文针对第`1`条考点进行分析介绍。
