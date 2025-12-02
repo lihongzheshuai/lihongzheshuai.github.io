@@ -32,3 +32,6 @@ package.json
 _javascript/
 .vercel
 .github/workflows/pages-deploy.yml
+
+# Output
+nanobanana-output/
