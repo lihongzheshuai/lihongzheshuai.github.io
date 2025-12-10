@@ -85,6 +85,18 @@ categories: [GESP, 汇总]
 |（8）掌握贪心算法的基本原理，理解最优子结构，能够使用贪心算法解决相关问题。|[【GESP】C++五级考试大纲知识点梳理, (8) 贪心算法](https://www.coderli.com/gesp-5-exam-syllabus-8-greedy-algorithm/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 |（9）掌握分治算法的基本原理，能够使用归并排序和快速排序对数组进行排序。|[【GESP】C++五级考试大纲知识点梳理, (9) 分治算法](https://www.coderli.com/gesp-5-exam-syllabus-9-divide-and-conquer/)|[五级](https://www.coderli.com/categories/%E4%BA%94%E7%BA%A7/)|
 
+### 六级（考纲）
+
+| 考点 | 知识讲解 | 考试级别 |
+|------|----------|------|
+|（1）掌握树的基本概念，掌握其构造与遍历的相关算法。|[【GESP】C++六级考试大纲知识点梳理, (1) 树的概念与遍历](https://www.coderli.com/gesp-6-exam-syllabus-1-tree/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
+|（2）掌握哈夫曼树、完全二叉树、二叉排序树的相关概念和应用。|[【GESP】C++六级考试大纲知识点梳理, (2) 哈夫曼树、完全二叉树与二叉排序树](https://www.coderli.com/gesp-6-exam-syllabus-2-huffman-bst/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
+|（3）理解哈夫曼编码、格雷编码相关原理并能进行简单应用。|[【GESP】C++六级考试大纲知识点梳理, (3) 哈夫曼编码与格雷码](https://www.coderli.com/gesp-6-exam-syllabus-3-huffman-gray/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
+|（4）掌握深度优先搜索算法（DFS）、宽度优先搜索算法（也称广度优先搜索算法，BFS）、二叉树的搜索算法的概念及应用，能够根据现实问题，选择合适的搜索算法。|[【GESP】C++六级考试大纲知识点梳理, (4) 搜索算法](https://www.coderli.com/gesp-6-exam-syllabus-4-search/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
+|（5）掌握简单动态规划的算法思想，能够使用代码解决相应的一维动态规划问题和简单背包问题。|[【GESP】C++六级考试大纲知识点梳理, (5) 动态规划与背包问题](https://www.coderli.com/gesp-6-exam-syllabus-5-dp-knapsack/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
+|（6）掌握面向对象的思想，了解封装、继承、多态的基本概念，并掌握类的创建和基本的使用方法。|[【GESP】C++六级考试大纲知识点梳理, (6) 面向对象编程(OOP)基础](https://www.coderli.com/gesp-6-exam-syllabus-6-oop/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
+|（7）掌握栈、队列、循环队列的基本定义，应用场景和常见操作。|[【GESP】C++六级考试大纲知识点梳理, (7) 栈与队列](https://www.coderli.com/gesp-6-exam-syllabus-7-stack-queue/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
+
 ---
 
 ## 真题解析-客观题
