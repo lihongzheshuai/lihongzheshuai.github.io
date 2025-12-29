@@ -76,6 +76,8 @@ b = a++; // b得到10(旧值)，然后a变成11
 cout << a << " " << b << endl; // 输出: 11 10
 ```
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 三、输入与输出 (I/O)
