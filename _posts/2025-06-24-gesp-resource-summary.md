@@ -28,6 +28,10 @@ categories: [GESP, 汇总]
 | 考点 | 知识讲解 | 考试级别 |
 |------|----------|------|
 |（1）了解计算机的基本构成（CPU，内存，I/O 设备等） ，了解 Windows、Linux等操作系统基本概念和常见操作，了解计算机的历史及在现代社会中的常见应用。|[【GESP】C++一级考试大纲知识点梳理, 计算机基础和操作系统](https://www.coderli.com/gesp-1-exam-syllabus-computer-basics/)|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|
+|（2）熟悉集成开发环境使用（例如 Dev C++）：创建文件、编辑文件、保存文件、编译、解释、调试；（4）掌握标识符、关键字、常量、变量、表达式的概念；（10）掌握顺序结构程序的编写；（13）理解程序的注释和调试的概念。|[【GESP】C++一级考试大纲知识点梳理(考点2,4,10,13), (2) 开发环境与程序基础](https://www.coderli.com/gesp-1-exam-syllabus-2-env-basics/)|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|
+|（3）掌握基本数据类型：整型、实数型、字符型、布尔型；（5）掌握常量与变量的命名、定义、作用、初始化与赋值以及变量的自加与自减运算；（6）掌握基础输入输出功能；（9）基本算术运算。|[【GESP】C++一级考试大纲知识点梳理(考点3,5,6,9), (3) 变量、数据类型与输入输出](https://www.coderli.com/gesp-1-exam-syllabus-3-data-io/)|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|
+|（7）掌握逻辑运算与（&&）、或（||）、非（！）；（8）掌握关系运算；（11）掌握分支结构程序的编写。|[【GESP】C++一级考试大纲知识点梳理(考点7,8,11), (4) 逻辑运算与分支结构](https://www.coderli.com/gesp-1-exam-syllabus-4-branching/)|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|
+|（12）掌握循环结构程序的编写，掌握 for、while、do-while 循环语句的使用以及 continue 语句和 break 语句在循环中的应用。|[【GESP】C++一级考试大纲知识点梳理(考点12), (5) 循环结构](https://www.coderli.com/gesp-1-exam-syllabus-5-loops/)|[一级](https://www.coderli.com/categories/%E4%B8%80%E7%BA%A7/)|
 
 ### 二级（考纲）
 
@@ -96,6 +100,12 @@ categories: [GESP, 汇总]
 |（5）掌握简单动态规划的算法思想，能够使用代码解决相应的一维动态规划问题和简单背包问题。|[【GESP】C++六级考试大纲知识点梳理, (5) 动态规划与背包问题](https://www.coderli.com/gesp-6-exam-syllabus-5-dp-knapsack/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
 |（6）掌握面向对象的思想，了解封装、继承、多态的基本概念，并掌握类的创建和基本的使用方法。|[【GESP】C++六级考试大纲知识点梳理, (6) 面向对象编程(OOP)基础](https://www.coderli.com/gesp-6-exam-syllabus-6-oop/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
 |（7）掌握栈、队列、循环队列的基本定义，应用场景和常见操作。|[【GESP】C++六级考试大纲知识点梳理, (7) 栈与队列](https://www.coderli.com/gesp-6-exam-syllabus-7-stack-queue/)|[六级](https://www.coderli.com/categories/%E5%85%AD%E7%BA%A7/)|
+
+### 七级（考纲）
+
+| 考点 | 知识讲解 | 考试级别 |
+|------|----------|------|
+|（1）掌握数学库常用函数（三角、对数、指数），三角函数包括 sin(x)，cos(x)等；对数函数包括 log10(x)：返回 x 以 10 为底的对数，log2(x)：返回 x 以 2 为底的对数；指数函数包括 exp(x)：计算指数函数，返回 x 的以 e 为底的指数函数。|[【GESP】C++七级考试大纲知识点梳理, (1) 数学库常用函数](https://www.coderli.com/gesp-7-exam-syllabus-math-library/)|[七级](https://www.coderli.com/categories/%E4%B8%83%E7%BA%A7/)|
 
 ---
 
@@ -237,6 +247,8 @@ categories: [GESP, 汇总]
 | 2025年6月| 值日|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4355-值日](https://www.coderli.com/gesp-1-luogu-b4355/)|
 | 2025年9月| 商店折扣|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4409-商店折扣](https://www.coderli.com/gesp-1-luogu-b4409/)|
 | 2025年9月| 金字塔|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4410-金字塔](https://www.coderli.com/gesp-1-luogu-b4410/)|
+| 2025年12月| 小杨的爱心快递|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[小杨的爱心快递](https://www.coderli.com/gesp-1-202512-1/)|
+| 2025年12月| 手机电量显示|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[手机电量显示](https://www.coderli.com/gesp-1-202512-2/)|
 
 ### 二级(编程题)
 
@@ -264,6 +276,8 @@ categories: [GESP, 汇总]
 | 2025年6月| 幂和数|[多重循环/分支](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)、[数学函数](https://www.coderli.com/tags/%E6%95%B0%E5%AD%A6%E5%87%BD%E6%95%B0/)|[luogu-B4357-幂和数](https://www.coderli.com/gesp-2-luogu-b4357/)|
 | 2025年9月| 优美的数字|[多重循环/分支](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)|[luogu-B4411-优美的数字](https://www.coderli.com/gesp-2-luogu-b4411/)|
 | 2025年9月| 菱形|[多重循环/分支](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)|[luogu-B4412-菱形](https://www.coderli.com/gesp-2-luogu-b4412/)|
+| 2025年12月| 环保能量球|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[环保能量球](https://www.coderli.com/gesp-2-202512-1/)|
+| 2025年12月| 黄金格|[多重循环](https://www.coderli.com/tags/%E5%A4%9A%E9%87%8D%E5%BE%AA%E7%8E%AF/)|[黄金格](https://www.coderli.com/gesp-2-202512-2/)|
 
 ### 三级(编程题)
 
@@ -289,6 +303,8 @@ categories: [GESP, 汇总]
 | 2025年6月| 分糖果|[模拟算法](https://www.coderli.com/tags/%E6%A8%A1%E6%8B%9F%E7%AE%97%E6%B3%95/)|[luogu-B4359-分糖果](https://www.coderli.com/gesp-3-luogu-b4359/)|
 | 2025年9月|  数组清零|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4413-数组清零](https://www.coderli.com/gesp-3-luogu-b4413/)|
 | 2025年9月| 日历制作|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4414-日历制作](https://www.coderli.com/gesp-3-luogu-b4414/)|
+| 2025年12月| 密码强度|[字符串](https://www.coderli.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/)|[密码强度](https://www.coderli.com/gesp-3-202512-1/)|
+| 2025年12月| 小杨的智慧购物|[一维数组](https://www.coderli.com/tags/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/)|[小杨的智慧购物](https://www.coderli.com/gesp-3-202512-2/)|
 
 ### 四级(编程题)
 
@@ -314,6 +330,7 @@ categories: [GESP, 汇总]
 | 2025年6月| 排序|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4361-排序](https://www.coderli.com/gesp-4-luogu-b4361/)|
 | 2025年9月| 排兵布阵|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4415-排兵布阵](https://www.coderli.com/gesp-4-luogu-b4415/)|
 | 2025年9月| 最长连续段|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4416-最长连续段](https://www.coderli.com/gesp-4-luogu-b4416/)|
+| 2025年12月| 优先购买|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[优先购买](https://www.coderli.com/gesp-4-202512-2/)|
 
 ### 五级(编程题)
 
