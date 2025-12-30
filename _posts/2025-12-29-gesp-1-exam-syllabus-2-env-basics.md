@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++一级考试大纲知识点梳理, (2) 开发环境与程序基础
+title: 【GESP】C++一级考试大纲知识点梳理(考点2,4,10,13), (2) 开发环境与程序基础
 date: 2025-12-28 20:00 +0800
 author: OneCoder
 comments: true

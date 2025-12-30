@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【GESP】C++一级考试大纲知识点梳理, (3) 变量、数据类型与输入输出
+title: 【GESP】C++一级考试大纲知识点梳理(考点3,5,6,9), (3) 变量、数据类型与输入输出
 date: 2025-12-29 08:30 +0800
 author: OneCoder
 comments: true
