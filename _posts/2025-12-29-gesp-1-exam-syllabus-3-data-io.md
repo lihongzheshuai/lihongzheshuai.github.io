@@ -17,6 +17,17 @@ categories: [GESP, 一级]
 > （9）掌握基础的数据类型的定义和使用（整型、实数型、字符型、布尔型）。
 {: .prompt-info}
 
+***一级考点系列：***
+
+> * [【GESP】C++一级考试大纲知识点梳理（1）计算机基础和操作系统](https://www.coderli.com/gesp-1-exam-syllabus-computer-basics/)
+> * [【GESP】C++一级考试大纲知识点梳理(考点2,4,10,13), (2) 开发环境与程序基础](https://www.coderli.com/gesp-1-exam-syllabus-2-env-basics/)
+> * [【GESP】C++一级考试大纲知识点梳理(考点3,5,6,9), (3) 变量、数据类型与输入输出](https://www.coderli.com/gesp-1-exam-syllabus-3-data-io/)
+> * [【GESP】C++一级考试大纲知识点梳理(考点7,8,11), (4) 逻辑运算与分支结构](https://www.coderli.com/gesp-1-exam-syllabus-4-branching/)
+> * [【GESP】C++一级考试大纲知识点梳理(考点12), (5) 循环结构](https://www.coderli.com/gesp-1-exam-syllabus-5-loops/)
+{: .prompt-tip}
+
+<!--more-->
+
 ---
 
 ## 一、基础数据类型
