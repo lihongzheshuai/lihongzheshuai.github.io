@@ -66,6 +66,8 @@ categories: [GESP, 一级]
 * `x >= 10 && x <= 20` (正确)
 * ⚠️ **高频扣分点**：`10 <= x <= 20` (错误！这是数学写法，C++ 会先算 `10<=x` 得到 0 或 1，再用 0 或 1 去比较 `<=20`，结果永远是真)
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 三、分支结构 (Control Flow)

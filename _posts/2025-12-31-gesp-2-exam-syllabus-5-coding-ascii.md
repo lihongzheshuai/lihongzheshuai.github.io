@@ -56,6 +56,8 @@ GESP 二级考试中，关于编码和字符处理是必考内容。这也是程
 > 虽然现在的计算机使用更复杂的 Unicode (如 UTF-8) 来支持中文等多种语言，但 ASCII 码仍然是所有编码系统的**基石**。英文字符和数字在 UTF-8 中的编码与 ASCII 码完全一致。
 {: .prompt-tip}
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 三、常用 ASCII 码（重点背诵）

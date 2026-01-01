@@ -121,6 +121,8 @@ for (int i = 1; i <= 5; i++) {
 // 输出：1 2 4 5
 ```
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 三、经典算法案例：累加求和
