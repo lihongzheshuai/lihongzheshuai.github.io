@@ -157,6 +157,8 @@ cout << cnt;
 
 提示：看到循环题，第一反应就是用手指或笔在纸上模拟i的每一步变化，特别是break和continue出现时，要明确标出哪一步被跳过或终止。‘人肉调试’是识破循环陷阱的法宝。
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 掌握了运算和循环的细节后，GESP会进一步考察你是否能将这些砖瓦组合起来，理解代码的‘意图’。
