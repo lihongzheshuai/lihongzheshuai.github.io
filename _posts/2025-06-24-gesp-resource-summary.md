@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【置顶】【GESP】C++ 认证学习资源汇总(25年12月30日更新) 
+title: 【置顶】【GESP】C++ 认证学习资源汇总(26年1月8日更新) 
 date: 2025-06-24 22:00 +0800
 author: OneCoder
 comments: true
