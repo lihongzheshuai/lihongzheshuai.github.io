@@ -6,7 +6,7 @@ author: OneCoder
 comments: true
 math: true
 tags: [GESP, C++, 武器库]
-categories: [GESP, 必备技能]
+categories: [GESP, 考纲解密]
 ---
 
 备战GESP（CCF编程能力等级认证）考试时，许多同学和家长常常感到焦虑：知识点繁多，不知从何下手；刷了很多题，却总感觉抓不住重点。这篇文章的目的，就是为了打消这种疑虑。

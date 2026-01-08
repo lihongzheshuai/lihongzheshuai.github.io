@@ -41,6 +41,11 @@ categories: [GESP, 汇总]
 |（2）了解计算机网络的概念，了解计算机网络的分类（广域网（WAN）、城域网（MAN）、局域网（LAN）），了解计算机网络的层级结构及作用（TCP/IP 四层模型与 OSI七层模型），了解不同层级的重要协议，了解 IP 地址及子网划分。|[【GESP】C++二级考试大纲知识点梳理, （2）计算机网络的基本概念及分类](https://www.coderli.com/gesp-2-exam-syllabus-network/)|[二级](https://www.coderli.com/categories/%E4%BA%8C%E7%BA%A7/)|
 |（3）了解程序设计语言的几大分类及特点（机器语言、汇编语言、高级语言），了解常见的高级语言（C++、Python 等）。|[【GESP】C++二级考试大纲知识点梳理, （3）计算机程序设计语言相关知识](https://www.coderli.com/gesp-2-exam-syllabus-coding-language/)|[二级](https://www.coderli.com/categories/%E4%BA%8C%E7%BA%A7/)|
 |（4）了解流程图的概念及基本表示符号，掌握绘制流程图的方法，能正确使用流程图描述程序设计的三种基本结构。|[【GESP】C++二级考试大纲知识点梳理, （4）流程图](https://www.coderli.com/gesp-2-exam-syllabus-flow-chart/)|[二级](https://www.coderli.com/categories/%E4%BA%8C%E7%BA%A7/)|
+|（5）了解ASCII字符编码，包括数字字符、大小写英文字母字符的编码规律，以及字符与整型的关系及相互转换。|[【GESP】C++二级考试大纲知识点梳理, (5) 字符编码](https://www.coderli.com/gesp-2-exam-syllabus-5-coding-ascii/)|[二级](https://www.coderli.com/categories/%E4%BA%8C%E7%BA%A7/)|
+|（6）掌握不同数据类型的转换。|[【GESP】C++二级考试大纲知识点梳理, (6) 数据类型转换](https://www.coderli.com/gesp-2-exam-syllabus-6-type-conversion/)|[二级](https://www.coderli.com/categories/%E4%BA%8C%E7%BA%A7/)|
+|（7）掌握分支结构的嵌套使用。|[【GESP】C++二级考试大纲知识点梳理, (7) 多层分支结构](https://www.coderli.com/gesp-2-exam-syllabus-7-multibranch/)|[二级](https://www.coderli.com/categories/%E4%BA%8C%E7%BA%A7/)|
+|（8）掌握循环结构的嵌套使用。|[【GESP】C++二级考试大纲知识点梳理, (8) 多层循环结构](https://www.coderli.com/gesp-2-exam-syllabus-8-multiloop/)|[二级](https://www.coderli.com/categories/%E4%BA%8C%E7%BA%A7/)|
+|（9）掌握<cmath>或<math.h> 库中常用数学函数的使用（fabs、pow、sqrt、ceil、floor）。|[【GESP】C++二级考试大纲知识点梳理, (9) 常用数学函数](https://www.coderli.com/gesp-2-exam-syllabus-9-math-functions/)|[二级](https://www.coderli.com/categories/%E4%BA%8C%E7%BA%A7/)|
 
 ### 三级（考纲）
 
@@ -106,6 +111,14 @@ categories: [GESP, 汇总]
 | 考点 | 知识讲解 | 考试级别 |
 |------|----------|------|
 |（1）掌握数学库常用函数（三角、对数、指数），三角函数包括 sin(x)，cos(x)等；对数函数包括 log10(x)：返回 x 以 10 为底的对数，log2(x)：返回 x 以 2 为底的对数；指数函数包括 exp(x)：计算指数函数，返回 x 的以 e 为底的指数函数。|[【GESP】C++七级考试大纲知识点梳理, (1) 数学库常用函数](https://www.coderli.com/gesp-7-exam-syllabus-math-library/)|[七级](https://www.coderli.com/categories/%E4%B8%83%E7%BA%A7/)|
+
+---
+
+## 考纲解密
+
+| 标题 | 考试级别 |
+|------|------|
+|[GESP一级C++考纲考点揭秘：深度分析12套真题，揭秘4大核心考点与通关秘籍](https://www.coderli.com/gesp-secrets-1-level-1/)|一级|
 
 ---
 
@@ -330,6 +343,7 @@ categories: [GESP, 汇总]
 | 2025年6月| 排序|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4361-排序](https://www.coderli.com/gesp-4-luogu-b4361/)|
 | 2025年9月| 排兵布阵|[多维数组](https://www.coderli.com/tags/%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84/)|[luogu-B4415-排兵布阵](https://www.coderli.com/gesp-4-luogu-b4415/)|
 | 2025年9月| 最长连续段|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[luogu-B4416-最长连续段](https://www.coderli.com/gesp-4-luogu-b4416/)|
+| 2025年12月| 建造|[基础语句](https://www.coderli.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E5%8F%A5/)|[luogu-B4451-建造](https://www.coderli.com/gesp-4-202512-1-luogu-b4451/)|
 | 2025年12月| 优先购买|[排序](https://www.coderli.com/tags/%E6%8E%92%E5%BA%8F/)|[优先购买](https://www.coderli.com/gesp-4-202512-2/)|
 
 ### 五级(编程题)
@@ -354,6 +368,8 @@ categories: [GESP, 汇总]
 | 2025年6月| 最大公因数 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-P13014-最大公因数](https://www.coderli.com/gesp-5-luogu-p13014/)|
 | 2025年9月| 数字选取 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)、[贪心](https://www.coderli.com/tags/%E8%B4%AA%E5%BF%83/)|[luogu-P14073-数字选取](https://www.coderli.com/gesp-5-luogu-p14073/)|
 | 2025年9月| 有趣的数字和 |[前缀和](https://www.coderli.com/tags/%E5%89%8D%E7%BC%80%E5%92%8C/)|[luogu-P14074-有趣的数字和](https://www.coderli.com/gesp-5-luogu-p14074/)|
+| 2025年12月| 数字移动 |[二分答案](https://www.coderli.com/tags/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88/)|[luogu-P14917-数字移动](https://www.coderli.com/gesp-5-202512-1-luogu-p14917/)|
+| 2025年12月| 相等序列 |[数论](https://www.coderli.com/tags/%E6%95%B0%E8%AE%BA/)|[luogu-P14918-相等序列](https://www.coderli.com/gesp-5-202512-2-luogu-p14918/)|
 
 ---
 
