@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GESP二级C++考纲考点揭秘：揭秘揭秘高频考点与通关逻辑 | 适合所有初学者阅读
+title: GESP二级C++考纲考点揭秘：揭秘高频考点与通关逻辑 | 适合所有初学者阅读
 date: 2026-01-09 08:00 +0800
 author: OneCoder
 comments: true
