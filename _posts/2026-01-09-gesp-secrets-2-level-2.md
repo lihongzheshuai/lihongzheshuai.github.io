@@ -216,6 +216,8 @@ categories: [GESP, 考纲解密]
 
 **备考建议：** 重点练习**日历类问题**（闰年、大小月判断）和**字符画坐标判断**，这两类题目最能体现多层分支结构的考查要求。
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 二、考纲题目分布的检测方式总结
