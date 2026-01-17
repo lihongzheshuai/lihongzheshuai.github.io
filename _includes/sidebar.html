@@ -1,11 +1,6 @@
 <!-- The Side Bar -->
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-  <div id="sidebar-ad" class="w-100 text-center pt-2 pb-2" style="position: sticky; top: 0; z-index: 20; background: var(--sidebar-bg);">
-    <a href="https://invest.coderli.com" target="_blank" rel="noopener noreferrer">
-      <img src="{{ '/images/ads/invest-ads.png' | relative_url }}" alt="Invest CoderLi" style="max-width: 90%; height: auto;">
-    </a>
-  </div>
   <header class="profile-wrapper">
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
       {%- if site.avatar != empty and site.avatar -%}
