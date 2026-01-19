@@ -82,6 +82,8 @@ int main() {
 }
 ```
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 二、对数函数 (Logarithmic Functions)
