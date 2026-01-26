@@ -90,6 +90,8 @@ $$ N = m_1 \times m_2 \times \dots \times m_n $$
 | **计算法则** | 求和 ($+$) | 求积 ($\times$) |
 | **例子** | 只有 1 张票，去动物园**或**游乐园 | 去动物园，**先**看猴子，**再**看大象 |
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 三、经典应用举例
