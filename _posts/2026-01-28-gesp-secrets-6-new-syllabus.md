@@ -148,6 +148,8 @@ sort(a, a+n, cmp);
 
 ```
 
+{% include custom/custom-post-content-inner.html %}
+
 ---
 
 ## 第三部分：新大纲的逻辑与备考建议
