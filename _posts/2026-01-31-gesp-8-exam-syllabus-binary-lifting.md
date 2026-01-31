@@ -6,7 +6,7 @@ author: OneCoder
 comments: true
 math: true
 mermaid: true
-tags: [GESP, C++, 考试大纲]
+tags: [GESP, C++, 考试大纲, 倍增法]
 categories: [GESP, 八级]
 ---
 
