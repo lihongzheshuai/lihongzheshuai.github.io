@@ -174,4 +174,6 @@ $a \times 13 = a \times (8+4+1) = (a \times 8) + (a \times 4) + (a \times 1)$。
 
 掌握了倍增，你不仅能解决 8 级的考点，更是在向高级算法思维迈进了一大步。
 
+---
+
 {% include custom/custom-post-content-footer.md %}
