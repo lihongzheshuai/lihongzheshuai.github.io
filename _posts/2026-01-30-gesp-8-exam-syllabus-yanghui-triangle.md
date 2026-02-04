@@ -10,6 +10,15 @@ tags: [GESP, C++, 考试大纲, 算法数学]
 categories: [GESP, 八级]
 ---
 
+
+> **GESP C++ 八级考试大纲知识点梳理系列文章：**
+> 1. [计数原理：加法与乘法](https://www.coderli.com/gesp-8-exam-syllabus-counting-principles/)
+> 2. [排列与组合](https://www.coderli.com/gesp-8-exam-syllabus-permutations-combinations/)
+> 3. [杨辉三角与组合数](https://www.coderli.com/gesp-8-exam-syllabus-yanghui-triangle/)
+> 4. [倍增法](https://www.coderli.com/gesp-8-exam-syllabus-binary-lifting/)
+> 5. [代数与平面几何](https://www.coderli.com/gesp-8-exam-syllabus-algebra-geometry/)
+{: .prompt-tip}
+
 继上一篇我们探讨了[排列和组合](https://www.coderli.com/gesp-8-exam-syllabus-permutations-combinations/)之后，GESP C++八级大纲的第三条考点非常经典，它是计算机算法（尤其是动态规划）的重要入门案例。
 
 > （3）掌握杨辉三角形（又称帕斯卡三角形）的概念。

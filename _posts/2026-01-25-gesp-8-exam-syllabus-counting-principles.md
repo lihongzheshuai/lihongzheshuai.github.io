@@ -10,6 +10,15 @@ tags: [GESP, C++, 考试大纲, 算法数学]
 categories: [GESP, 八级]
 ---
 
+
+> **GESP C++ 八级考试大纲知识点梳理系列文章：**
+> 1. [计数原理：加法与乘法](https://www.coderli.com/gesp-8-exam-syllabus-counting-principles/)
+> 2. [排列与组合](https://www.coderli.com/gesp-8-exam-syllabus-permutations-combinations/)
+> 3. [杨辉三角与组合数](https://www.coderli.com/gesp-8-exam-syllabus-yanghui-triangle/)
+> 4. [倍增法](https://www.coderli.com/gesp-8-exam-syllabus-binary-lifting/)
+> 5. [代数与平面几何](https://www.coderli.com/gesp-8-exam-syllabus-algebra-geometry/)
+{: .prompt-tip}
+
 GESP C++八级考试大纲正式进入了**组合数学**的领域。作为八级的第一条考点，**计数原理**是整个排列组合、概率论乃至后续很多算法（如动态规划）的基石。
 
 > （1）掌握计数原理。包括加法原理和乘法原理。

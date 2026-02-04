@@ -10,6 +10,15 @@ tags: [GESP, C++, 考试大纲, 算法数学]
 categories: [GESP, 八级]
 ---
 
+
+> **GESP C++ 八级考试大纲知识点梳理系列文章：**
+> 1. [计数原理：加法与乘法](https://www.coderli.com/gesp-8-exam-syllabus-counting-principles/)
+> 2. [排列与组合](https://www.coderli.com/gesp-8-exam-syllabus-permutations-combinations/)
+> 3. [杨辉三角与组合数](https://www.coderli.com/gesp-8-exam-syllabus-yanghui-triangle/)
+> 4. [倍增法](https://www.coderli.com/gesp-8-exam-syllabus-binary-lifting/)
+> 5. [代数与平面几何](https://www.coderli.com/gesp-8-exam-syllabus-algebra-geometry/)
+{: .prompt-tip}
+
 继上一篇我们探讨了[倍增法](https://www.coderli.com/gesp-8-exam-syllabus-binary-lifting/)之后，我们继续深入 GESP C++ 八级大纲。今天我们来聊聊编程中必不可少的数学基础——**代数与平面几何**。
 
 > (5)掌握代数与平面几何基础知识（初中数学部分）。包括方程的概念及一元一次方程、二元一次方程的基本求解技巧，求基础平面几何概念、求基本图形（如长方形、三角形、圆形等）的面积等
@@ -97,26 +106,6 @@ int main() {
 }
 ```
 **输出**：`x = 1, y = 2`
-
-### 1.4 一元二次方程 (Quadratic Equation)
-
-这是初中数学的重难点，标准形式为 $ax^2 + bx + c = 0$ ($a \neq 0$)。
-
-**求根公式**：
-首先计算判别式 $\Delta = b^2 - 4ac$。
-1.  **$\Delta > 0$**：有两个不相等的实数根 $x_{1,2} = \frac{-b \pm \sqrt{\Delta}}{2a}$。
-2.  **$\Delta = 0$**：有两个相等的实数根 $x_1 = x_2 = -\frac{b}{2a}$。
-3.  **$\Delta < 0$**：无实数根。
-
-**编程应用**：
-经常用于解决抛物线相关问题或物理运动轨迹计算。
-
-### 1.5 绝对值与不等式
-
-*   **绝对值**：$|x|$ 表示数轴上 $x$ 到原点的距离。
-    *   几何意义：$|a - b|$ 表示数轴上 $a, b$ 两点间的距离。
-    *   C++ 函数：`abs(int)` (在 `<cstdlib>` 或 `<cmath>`)，`fabs(double)` / `std::abs(double)` (在 `<cmath>`，推荐统一用 `std::abs`)。
-*   **不等式**：编程中通常转化为 `if` 判断条件。例如 $ax > b$ (若 $a>0$) 转化为 `if (a * x > b)`。注意浮点数比较不要直接用 `==`。
 
 ---
 
