@@ -17,6 +17,7 @@ categories: [GESP, 八级]
 > 4. [倍增法](https://www.coderli.com/gesp-8-exam-syllabus-binary-lifting/)
 > 5. [代数与平面几何](https://www.coderli.com/gesp-8-exam-syllabus-algebra-geometry/)
 > 6. [图论算法：最小生成树与最短路](https://www.coderli.com/gesp-8-exam-syllabus-graph-theory/)
+> 7. [算法的时间和空间效率分析](https://www.coderli.com/gesp-8-exam-syllabus-complexity-analysis/)
 {: .prompt-tip}
 
 本篇我们来攻克 GESP 八级考纲中分量极重的一块内容——**图论算法**。图论是算法竞赛中的核心版块，八级主要通过最经典的**最小生成树**和**最短路径**问题来考察大家对图结构的理解和算法实现能力。
