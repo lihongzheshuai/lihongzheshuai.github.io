@@ -158,6 +158,10 @@ Vector找到的值: 30
 Vector下标: 2
 ```
 
+{% include custom/custom-post-content-inner.html %}
+
+---
+
 ## 三、完整应用举例（重点）
 
 为了彻底搞懂，我们看一个具体的例子。假设有一个有序数组 `a`：
