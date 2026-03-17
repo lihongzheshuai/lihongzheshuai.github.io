@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【信奥业余科普】04：承载“0和1”的物理躯壳——从30吨的庞然大物到指甲盖大小的微缩奇迹
-date: 2026-03-14 10:00 +0800
+date: 2026-03-17 10:00 +0800
 author: OneCoder
 comments: true
 tags: [科普, 计算机科学基础, GESP, CSP, 计算机历史]
