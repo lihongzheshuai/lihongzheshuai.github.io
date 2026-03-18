@@ -9,7 +9,9 @@ mermaid: true
 tags: [GESP, C++, 考试大纲]
 categories: [GESP, 三级]
 ---
+
 GESP C++三级官方考试大纲中，共有8条考点，本文针对C++（3）号知识点进行总结梳理。
+
 > （3）掌握位运算：与(&)、或(\|)、非(~)、异或(^)、左移(<<)、右移(>>)的基本使用方法及原理。
 
 <!--more-->
@@ -259,15 +261,15 @@ using namespace std;
 int main() {
     int key = 0x5A;  // 加密密钥
     int data = 123;  // 明文数据
-    
+
     // 加密：数据与密钥异或
     int encrypted = data ^ key;
     cout << "加密结果: " << encrypted << endl;
-    
+
     // 解密：加密结果与密钥异或
     int decrypted = encrypted ^ key;
     cout << "解密结果: " << decrypted << endl;
-    
+
     return 0;
 }
 ```
@@ -313,12 +315,12 @@ int main() {
   1010  (结果：10)
 ```
 
-- 左移 1 位，相当于 5 * 2 = 10。
+- 左移 1 位，相当于 5 \* 2 = 10。
 
 **扩展**：
 
-- 左移 2 位，相当于 5 * 4 = 20（即乘以 2 的平方）。
-- 左移 3 位，相当于 5 * 8 = 40（即乘以 2 的立方）。
+- 左移 2 位，相当于 5 \* 4 = 20（即乘以 2 的平方）。
+- 左移 3 位，相当于 5 \* 8 = 40（即乘以 2 的立方）。
 
 ### **2.（<<）应用场景**
 
@@ -377,7 +379,7 @@ int c = -5;  // -5 的二进制是 1111111111111011
 int result4 = c >> 1;  // 右移 1 位
 cout << bitset<16>(c) << endl;
 cout << bitset<16>(result4) << endl;
-cout << result4 << endl;   
+cout << result4 << endl;
 ```
 
 输出
@@ -437,4 +439,3 @@ int result = num >> 2;  // 右移 2 位
 这些操作都基于二进制运算，因此理解它们的原理对编程中高效处理数据非常有帮助。
 
 ---
-{% include custom/custom-post-content-footer.md %}

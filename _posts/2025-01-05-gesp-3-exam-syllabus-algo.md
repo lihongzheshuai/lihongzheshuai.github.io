@@ -9,7 +9,9 @@ mermaid: true
 tags: [GESP, C++, 考试大纲]
 categories: [GESP, 三级]
 ---
+
 GESP C++三级官方考试大纲中，共有8条考点，本文针对C++（4）号知识点进行总结梳理。
+
 > （4）了解算法的概念与描述，熟练运用自然语言、流程图、伪代码方式来描述算法。
 
 <!--more-->
@@ -141,4 +143,3 @@ function findMax(arr):
 每种方式都有其独特的优点，实际应用中常常需要根据受众和算法复杂度选择合适的描述方式。
 
 ---
-{% include custom/custom-post-content-footer.md %}

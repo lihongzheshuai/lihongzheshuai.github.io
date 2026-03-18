@@ -10,24 +10,24 @@ tags: [GESP, C++, 考试大纲, 算法数学]
 categories: [GESP, 八级]
 ---
 
-
 > **GESP C++ 八级考试大纲知识点梳理系列文章：**
+>
 > 1. [计数原理：加法与乘法](https://www.coderli.com/gesp-8-exam-syllabus-counting-principles/)
 > 2. [排列与组合](https://www.coderli.com/gesp-8-exam-syllabus-permutations-combinations/)
 > 3. [杨辉三角与组合数](https://www.coderli.com/gesp-8-exam-syllabus-yanghui-triangle/)
 > 4. [倍增法](https://www.coderli.com/gesp-8-exam-syllabus-binary-lifting/)
 > 5. [代数与平面几何](https://www.coderli.com/gesp-8-exam-syllabus-algebra-geometry/)
-{: .prompt-tip}
+>    {: .prompt-tip}
 
 继上一篇我们探讨了[倍增法](https://www.coderli.com/gesp-8-exam-syllabus-binary-lifting/)之后，我们继续深入 GESP C++ 八级大纲。今天我们来聊聊编程中必不可少的数学基础——**代数与平面几何**。
 
 > (5)掌握代数与平面几何基础知识（初中数学部分）。包括方程的概念及一元一次方程、二元一次方程的基本求解技巧，求基础平面几何概念、求基本图形（如长方形、三角形、圆形等）的面积等
-{: .prompt-info}
+> {: .prompt-info}
 
 虽然 GESP 是编程考试，但数学是算法的基石。在八级考试中，代数和几何通常不会像数学卷子那样考证明题，而是考查**利用计算机计算公式的能力**以及**将几何/代数问题转化为代码逻辑的能力**。
 
 > 本人也是边学、边实验、边总结，且对考纲深度和广度的把握属于个人理解。因此本文更多的不是一个教程，而是个人知识梳理，如有遗漏、疏忽，欢迎指正、交流。
-{: .prompt-warning}
+> {: .prompt-warning}
 
 ## 一、代数基础：方程与求解
 
@@ -47,14 +47,17 @@ categories: [GESP, 八级]
 
 **编程实现思路**：
 如果题目给出 $a$ 和 $b$，我们只需要一行代码：
+
 ```cpp
 double x = -b / a;
 ```
-*注意：在编程中要特别注意 $a=0$ 的情况（除数为 0 异常）。如果 $a=0$ 且 $b=0$，有无数解；如果 $a=0$ 且 $b \neq 0$，无解。*
+
+_注意：在编程中要特别注意 $a=0$ 的情况（除数为 0 异常）。如果 $a=0$ 且 $b=0$，有无数解；如果 $a=0$ 且 $b \neq 0$，无解。_
 
 ### 1.3 二元一次方程组 (Linear Equations in Two Variables)
 
 **标准形式**：
+
 $$
 \begin{cases}
 a_1x + b_1y = c_1 \\
@@ -105,6 +108,7 @@ int main() {
     return 0;
 }
 ```
+
 **输出**：`x = 1, y = 2`
 
 ---
@@ -115,12 +119,12 @@ int main() {
 
 ### 2.1 常见面积公式
 
-| 图形 | 面积公式 ($S$) | 周长公式 ($C$) | 备注 |
-| :--- | :--- | :--- | :--- |
-| **长方形** | $a \times b$ | $2(a + b)$ | $a, b$ 为长和宽 |
-| **正方形** | $a^2$ | $4a$ | $a$ 为边长 |
-| **圆形** | $\pi r^2$ | $2 \pi r$ | $r$ 为半径，$\pi$ 常用 `acos(-1.0)` |
-| **三角形** | $\frac{1}{2} \times \text{底} \times \text{高}$ | $a+b+c$ | 基础公式 |
+| 图形       | 面积公式 ($S$)                                  | 周长公式 ($C$) | 备注                                |
+| :--------- | :---------------------------------------------- | :------------- | :---------------------------------- |
+| **长方形** | $a \times b$                                    | $2(a + b)$     | $a, b$ 为长和宽                     |
+| **正方形** | $a^2$                                           | $4a$           | $a$ 为边长                          |
+| **圆形**   | $\pi r^2$                                       | $2 \pi r$      | $r$ 为半径，$\pi$ 常用 `acos(-1.0)` |
+| **三角形** | $\frac{1}{2} \times \text{底} \times \text{高}$ | $a+b+c$        | 基础公式                            |
 
 ### 2.2 勾股定理与距离公式 (Pythagorean Theorem)
 
@@ -135,8 +139,9 @@ $$ d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} $$
 ### 2.3 三角形的存在性原理
 
 判断三条线段 $a, b, c$ 能否组成三角形：
-*   **任意两边之和大于第三边**：$a+b>c$ 且 $a+c>b$ 且 $b+c>a$。
-*   **任意两边之差小于第三边**：$|a-b|<c$。
+
+- **任意两边之和大于第三边**：$a+b>c$ 且 $a+c>b$ 且 $b+c>a$。
+- **任意两边之差小于第三边**：$|a-b|<c$。
 
 编程判断时，通常写全三个条件。
 
@@ -146,6 +151,7 @@ $$ d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} $$
 此时，求“高”比较麻烦，**海伦公式**是解决此类问题的首选。
 
 **步骤**：
+
 1. 先计算半周长 $p$：
    $$ p = \frac{a + b + c}{2} $$
 2. 再计算面积 $S$：
@@ -161,8 +167,8 @@ using namespace std;
 // 给出三边长求面积
 double triangle_area(double a, double b, double c) {
     // 简单的三角形合法性判断 (两边之和大于第三边)
-    if (a + b <= c || a + c <= b || b + c <= a) return 0.0; 
-    
+    if (a + b <= c || a + c <= b || b + c <= a) return 0.0;
+
     double p = (a + b + c) / 2.0;
     return sqrt(p * (p - a) * (p - b) * (p - c));
 }
@@ -170,8 +176,8 @@ double triangle_area(double a, double b, double c) {
 
 ### 2.5 坐标几何基础
 
-*   **中点公式**：点 $A(x_1, y_1)$ 和 $B(x_2, y_2)$ 的中点坐标为 $(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2})$。
-*   **曼哈顿距离**：$d = |x_1 - x_2| + |y_1 - y_2|$。常用于网格行走问题（只能走上下左右）。
+- **中点公式**：点 $A(x_1, y_1)$ 和 $B(x_2, y_2)$ 的中点坐标为 $(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2})$。
+- **曼哈顿距离**：$d = |x_1 - x_2| + |y_1 - y_2|$。常用于网格行走问题（只能走上下左右）。
 
 ### 2.6 几何中的 $\pi$
 
@@ -193,5 +199,3 @@ const double PI = acos(-1.0); // cos(PI) = -1, 所以 acos(-1) = PI
 掌握这些基础数学工具，能让你在解决物理模拟、计算几何等类型的编程题目时游刃有余。
 
 ---
-
-{% include custom/custom-post-content-footer.md %}

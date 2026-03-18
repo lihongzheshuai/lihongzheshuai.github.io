@@ -9,21 +9,21 @@ tags: [GESP, C++, 武器库-进制转换]
 categories: [GESP, 必备技能]
 ---
 
->在之前做过的[***【GESP】C++四级真题 luogu-B3851 [GESP202306 四级] 图像压缩***](https://www.coderli.com/gesp-4-luogu-b3851/)题目中，需要将一个数字转换为十六进制表示并输出出来，如果你的"武器库"缺少这部分技能，你可能会一下不知所措，今天就专门总结下这个知识点，希望下次遇到可以"信手拈来"。
-{: .prompt-info}
+> 在之前做过的[**_【GESP】C++四级真题 luogu-B3851 [GESP202306 四级] 图像压缩_**](https://www.coderli.com/gesp-4-luogu-b3851/)题目中，需要将一个数字转换为十六进制表示并输出出来，如果你的"武器库"缺少这部分技能，你可能会一下不知所措，今天就专门总结下这个知识点，希望下次遇到可以"信手拈来"。
+> {: .prompt-info}
 
 当前武器库清单
 
-| 分类 | 功能 | 教程 |
-|------|------|----------|
-| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为数字(0-9) | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha) |
-| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为字母(a-z/A-Z) |  [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha) |
-| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为大写字母(A-Z) |  [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha) |
-| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为小写字母(a-z) |  [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha) |
-| 进制转换 | 十进制和十六进制转换 |  [【GESP/CSP】编程武器库-2, 十进制和十六进制转换](https://www.coderli.com/gesp-arsenal-2-dec-hex-conversion) |
+| 分类                                                                                     | 功能                    | 教程                                                                                                        |
+| ---------------------------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为数字(0-9)     | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha)    |
+| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为字母(a-z/A-Z) | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha)    |
+| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为大写字母(A-Z) | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha)    |
+| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为小写字母(a-z) | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha)    |
+| 进制转换                                                                                 | 十进制和十六进制转换    | [【GESP/CSP】编程武器库-2, 十进制和十六进制转换](https://www.coderli.com/gesp-arsenal-2-dec-hex-conversion) |
 
 > 本人也是边学、边实验、边总结。因此本文更多的不是一个教程，而是个人知识梳理，如有遗漏、疏忽，欢迎指正、交流。
-{: .prompt-warning}
+> {: .prompt-warning}
 
 <!--more-->
 
@@ -55,10 +55,10 @@ int main() {
 }
 ```
 
-* `hex`：切换到十六进制输出
-* `uppercase`：字母部分大写
-* `setw(4)`：宽度至少 4
-* `setfill('0')`：不足部分用 0 补齐
+- `hex`：切换到十六进制输出
+- `uppercase`：字母部分大写
+- `setw(4)`：宽度至少 4
+- `setfill('0')`：不足部分用 0 补齐
 
 输出：
 
@@ -80,9 +80,9 @@ cout << showbase << hex << n << endl; // 0xff
 0xff
 ```
 
->需要注意的是：
-在 `iostream` 里，`setw()` 的宽度是对 **整个输出字段** 起作用，而不是只对数值部分。
-{: .prompt-warning}
+> 需要注意的是：
+> 在 `iostream` 里，`setw()` 的宽度是对 **整个输出字段** 起作用，而不是只对数值部分。
+> {: .prompt-warning}
 
 所以如果直接写：
 
@@ -102,7 +102,7 @@ using namespace std;
 int main() {
     // 定义一个十进制数 255 用于演示
     int n = 255;
-    
+
     cout << "0x"  // 输出十六进制前缀
          << uppercase  // 设置大写字母输出模式
          << hex       // 设置十六进制输出模式
@@ -144,11 +144,11 @@ int main() {
 
 说明：
 
-* `%x`：小写十六进制
-* `%X`：大写十六进制
-* `%04x`：宽度 4，前面补 0
-* `%#x` / `%#X`：带前缀 `0x` / `0X`
-* `%#06x`：带前缀并补位，宽度 6
+- `%x`：小写十六进制
+- `%X`：大写十六进制
+- `%04x`：宽度 4，前面补 0
+- `%#x` / `%#X`：带前缀 `0x` / `0X`
+- `%#06x`：带前缀并补位，宽度 6
 
 输出：
 
@@ -231,7 +231,7 @@ string decimalToHex(int num) {
     if (num == 0) {
         return "0";
     }
-    
+
     string res;
     // 不断除以16取余，从低位到高位构建十六进制字符串
     while (num > 0) {
@@ -276,7 +276,7 @@ string decimalToHex(int num) {
     if (num == 0) {
         return "0x0000";
     }
-    
+
     string res;
     // 不断除以16取余，从低位到高位构建十六进制字符串
     while (num > 0) {
@@ -285,12 +285,12 @@ string decimalToHex(int num) {
         // 除以16，处理下一位
         num /= 16;
     }
-    
+
     // 补齐4位
     while (res.length() < 4) {
         res = "0" + res;
     }
-    
+
     // 添加0x前缀
     return "0x" + res;
 }
@@ -323,7 +323,7 @@ string decimalToHex(int num) {
     static const char hex_digits[] = "0123456789ABCDEF";
     // 初始化结果字符串，长度为4，用'0'填充
     std::string res(4, '0');
-    
+
     // 从右向左，每次处理一个十六进制位
     for (int i = 3; i >= 0; --i) {
         // 通过num % 16获取当前位的值(0-15)
@@ -333,7 +333,7 @@ string decimalToHex(int num) {
         // num除以16，准备处理下一位
         num /= 16;
     }
-    
+
     // 添加"0X"前缀并返回结果
     res = "0X" + res;
     return res;
@@ -358,11 +358,9 @@ int main() {
 
 ## 三、总结与对比
 
-| 场景          | 推荐做法                            | 示例               |
-| ----------- | ------------------------------- | ---------------- |
-| **只需控制台输出** | `cout` + `hex` / `printf("%x")` | `ff / FF / 0xff` |
-| **需要存储结果**  | `ostringstream` 或手写函数           | `"FF"`（字符串形式）    |
+| 场景               | 推荐做法                        | 示例                 |
+| ------------------ | ------------------------------- | -------------------- |
+| **只需控制台输出** | `cout` + `hex` / `printf("%x")` | `ff / FF / 0xff`     |
+| **需要存储结果**   | `ostringstream` 或手写函数      | `"FF"`（字符串形式） |
 
 ---
-
-{% include custom/custom-post-content-footer.md %}

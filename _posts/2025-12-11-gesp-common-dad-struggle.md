@@ -73,9 +73,8 @@ categories: [GESP, 经验交流]
 
 其他想法，暂时没有，目标感不强，动力确实会减弱。最后，作为家长，不知道大家当初为何给孩子选择GESP这条路？外面的世界是如何学习的？
 
-最最后，如有需要，可自取学习资源： **[【GESP】C++ 认证学习资源汇总]([/posts/gesp-resource-summary/](https://www.coderli.com/gesp-resource-summary/))**
+最最后，如有需要，可自取学习资源： **[【GESP】C++ 认证学习资源汇总](<[/posts/gesp-resource-summary/](https://www.coderli.com/gesp-resource-summary/)>)**
 
 这是一份知识分享，也是我们共同成长的记录。
 
 ---
-{% include custom/custom-post-content-footer.md %}

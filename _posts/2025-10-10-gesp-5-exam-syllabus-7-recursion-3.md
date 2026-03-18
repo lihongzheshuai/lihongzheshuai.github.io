@@ -9,33 +9,35 @@ mermaid: true
 tags: [GESP, C++, 考试大纲]
 categories: [GESP, 五级]
 ---
+
 GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`7`条考点进行分析介绍。
+
 > （7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。
-{: .prompt-info}
+> {: .prompt-info}
 
 > 本人也是边学、边实验、边总结，且对考纲深度和广度的把握属于个人理解。因此本文更多的不是一个教程，而是个人知识梳理，如有遗漏、疏忽，欢迎指正、交流。
-{: .prompt-warning}
+> {: .prompt-warning}
 
-***五级其他考点回顾：***
+**_五级其他考点回顾：_**
 
-> * [【GESP】C++五级考试大纲知识点梳理, (1) 初等数论](https://www.coderli.com/gesp-5-exam-syllabus-elementary-number-theory/)
-> * [【GESP】C++五级考试大纲知识点梳理, (2) 模拟高精度计算](https://www.coderli.com/gesp-5-exam-syllabus-simulate-high-precision-arithmetic/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-1) 链表-单链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-1-singly/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-3) 链表-单向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-3-singly-circle/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)
-> * [【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)
-> * [【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)
-> * [【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)
-> * [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 1 基本原理](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-1/)
-> * [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 2 复杂度分析](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-2/)
-{: .prompt-tip}
+> - [【GESP】C++五级考试大纲知识点梳理, (1) 初等数论](https://www.coderli.com/gesp-5-exam-syllabus-elementary-number-theory/)
+> - [【GESP】C++五级考试大纲知识点梳理, (2) 模拟高精度计算](https://www.coderli.com/gesp-5-exam-syllabus-simulate-high-precision-arithmetic/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-1) 链表-单链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-1-singly/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-3) 链表-单向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-3-singly-circle/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)
+> - [【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)
+> - [【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)
+> - [【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)
+> - [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 1 基本原理](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-1/)
+> - [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 2 复杂度分析](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-2/)
+>   {: .prompt-tip}
 
 <!--more-->
 
 ---
 
->在梳理的过程中，我发现想尽可能说清楚考纲要求的内容，越总结篇幅越长，为了避免总结遗漏和阅读匹配，我计算分三次介绍本部分内容，即：
+> 在梳理的过程中，我发现想尽可能说清楚考纲要求的内容，越总结篇幅越长，为了避免总结遗漏和阅读匹配，我计算分三次介绍本部分内容，即：
 >
 > 1. 递归算法基本原理和常见形式
 > 2. 递归算法时间、空间复杂度分析
@@ -50,7 +52,7 @@ GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`7`条
 递归是编程中非常优雅的一种思想：
 
 > “让函数自己解决自己的一部分问题。”
-{: .prompt-info}
+> {: .prompt-info}
 
 但它也有两个明显的缺点：
 
@@ -74,13 +76,13 @@ GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`7`条
 
 ### （1）尾递归优化（Tail Recursion Optimization）
 
->**原理：**
->当一个递归函数在“最后一步”调用自身，并且不再需要返回上一层结果时，编译器可以将它优化成“循环”，从而避免新建函数栈帧。
-{: .prompt-info}
+> **原理：**
+> 当一个递归函数在“最后一步”调用自身，并且不再需要返回上一层结果时，编译器可以将它优化成“循环”，从而避免新建函数栈帧。
+> {: .prompt-info}
 
-***典型例子：计算阶乘***
+**_典型例子：计算阶乘_**
 
-***普通递归：***
+**_普通递归：_**
 
 ```cpp
 int factorial(int n) {
@@ -92,7 +94,7 @@ int factorial(int n) {
 }
 ```
 
-***尾递归形式：***
+**_尾递归形式：_**
 
 ```cpp
 int factorialTail(int n, int result = 1) {
@@ -108,20 +110,20 @@ int factorialTail(int n, int result = 1) {
 
 👉 效果：
 
-* 时间复杂度不变（仍是 $O(n)$）；
-* 空间复杂度从 $O(n)$ → $O(1)$。
+- 时间复杂度不变（仍是 $O(n)$）；
+- 空间复杂度从 $O(n)$ → $O(1)$。
 
 ---
 
 ### （2）记忆化递归（Memoization）
 
->**原理：**
->如果递归中存在 **重复子问题**，就把中间结果缓存下来。下次遇到相同的输入，直接取结果，而不是重新计算。
-{: .prompt-info}
+> **原理：**
+> 如果递归中存在 **重复子问题**，就把中间结果缓存下来。下次遇到相同的输入，直接取结果，而不是重新计算。
+> {: .prompt-info}
 
-***典型例子：斐波那契数列***
+**_典型例子：斐波那契数列_**
 
-***普通递归（效率极低）***
+**_普通递归（效率极低）_**
 
 ```cpp
 int fib(int n) {
@@ -135,7 +137,7 @@ int fib(int n) {
 }
 ```
 
-***记忆化递归（效率高很多）***
+**_记忆化递归（效率高很多）_**
 
 ```cpp
 int fibMemo(int n, vector<int>& memo) {
@@ -163,42 +165,42 @@ int fib(int n) {
 
 👉 **效果：**
 
-* 时间复杂度从 $O(2^n)$ → $O(n)$
-因为递归树从：
+- 时间复杂度从 $O(2^n)$ → $O(n)$
+  因为递归树从：
 
-    ```plaintext
-    fib(n)
-    ├── fib(n-1)
-    │   ├── fib(n-2)
-    │   └── fib(n-3)
-    └── fib(n-2)
-        ├── fib(n-3)
-        └── fib(n-4)
-    ...
-    ```
+      ```plaintext
+      fib(n)
+      ├── fib(n-1)
+      │   ├── fib(n-2)
+      │   └── fib(n-3)
+      └── fib(n-2)
+          ├── fib(n-3)
+          └── fib(n-4)
+      ...
+      ```
 
-    变成：
+      变成：
 
-    ```plaintext
-    fib(n)
-    └── fib(n-1)
-        └── fib(n-2)
-            └── fib(n-3)
-            ...
-    ```
+      ```plaintext
+      fib(n)
+      └── fib(n-1)
+          └── fib(n-2)
+              └── fib(n-3)
+              ...
+      ```
 
-* 空间复杂度略升（需要存储表），但换来极大提速（*经典的空间换时间思维*）。
+- 空间复杂度略升（需要存储表），但换来极大提速（_经典的空间换时间思维_）。
 
 ---
 
 ### （3）递归改写为迭代
 
->**原理：**
->递归其实是“系统帮你管理栈”的过程。
->如果自己维护一个**显式栈**或使用循环，也能实现同样的逻辑。
-{: .prompt-info}
+> **原理：**
+> 递归其实是“系统帮你管理栈”的过程。
+> 如果自己维护一个**显式栈**或使用循环，也能实现同样的逻辑。
+> {: .prompt-info}
 
-***典型例子：二叉树的前序遍历***（可先了解有该思想，由于考纲尚未学到树，对于具体问题和代码尽量理解，掌握多少均可）
+**_典型例子：二叉树的前序遍历_**（可先了解有该思想，由于考纲尚未学到树，对于具体问题和代码尽量理解，掌握多少均可）
 
 递归版：
 
@@ -237,21 +239,21 @@ void preorderIter(TreeNode* root) {
 
 👉 **效果：**
 
-* 避免函数调用栈溢出；
-* 控制更灵活；
-* 性能稳定。
+- 避免函数调用栈溢出；
+- 控制更灵活；
+- 性能稳定。
 
 ---
 
 ### （4）分治 + 剪枝优化（Pruning）
 
->**原理：**
->在递归搜索中，提前排除“不可能的情况”，减少不必要的递归分支。
-{: .prompt-info}
+> **原理：**
+> 在递归搜索中，提前排除“不可能的情况”，减少不必要的递归分支。
+> {: .prompt-info}
 
-***典型例子：八皇后问题***（可先了解有该思想，对于具体问题和代码尽量理解，掌握多少均可）
+**_典型例子：八皇后问题_**（可先了解有该思想，对于具体问题和代码尽量理解，掌握多少均可）
 
-***八皇后问题描述：***  
+**_八皇后问题描述：_**  
 在 N×N 的棋盘上放置 N 个皇后，使得任意两个皇后都不能互相攻击。  
 攻击规则：同一行、同一列或同一对角线上只能有一个皇后。  
 目标：求出所有满足条件的放置方案总数。
@@ -311,10 +313,10 @@ void dfs(int row) {
 
 👉 **效果：**
 
-* 优化前：分支因子在前几层接近 N，总体节点数近 N! （暴力或大量排列），且常有很多重复或无效分支。
-时间复杂度近似阶乘级 $O(N!)$。
-* 优化后：分支因子大大减少，总体节点数远小于 N!，且没有无效分支。
-时间复杂度虽仍近指数级，但相比阶乘级有明显提升。
+- 优化前：分支因子在前几层接近 N，总体节点数近 N! （暴力或大量排列），且常有很多重复或无效分支。
+  时间复杂度近似阶乘级 $O(N!)$。
+- 优化后：分支因子大大减少，总体节点数远小于 N!，且没有无效分支。
+  时间复杂度虽仍近指数级，但相比阶乘级有明显提升。
 
 ---
 
@@ -323,12 +325,12 @@ void dfs(int row) {
 有时递归深度太大（如上万层）会导致**栈溢出**。
 常见优化做法：
 
-* 限制最大深度，超出时转为迭代；
-* 或者采用“分块递归 + 局部循环”混合方式。
+- 限制最大深度，超出时转为迭代；
+- 或者采用“分块递归 + 局部循环”混合方式。
 
-***例如：快速排序的混合优化策略***
+**_例如：快速排序的混合优化策略_**
 
-***经典递归版：***
+**_经典递归版：_**
 
 ```cpp
 void quicksort(vector<int>& a, int l, int r) {
@@ -353,7 +355,7 @@ void quicksort(vector<int>& a, int l, int r) {
 }
 ```
 
-***优化版：混合递归 + 循环 + 深度控制***
+**_优化版：混合递归 + 循环 + 深度控制_**
 
 ```cpp
 const int MAX_DEPTH = 1000;
@@ -399,13 +401,13 @@ void quicksort_optimized(vector<int>& a, int l, int r, int depth = 0) {
 
 ## 四、优化策略对比总结
 
-| 优化策略  | 主要思想     | 优点      | 适用场景        |
-| ----- | -------- | ------- | ----------- |
-| 尾递归优化 | 减少调用栈层数  | 节省空间    | 线性递归（阶乘、求和） |
-| 记忆化搜索 | 缓存中间结果   | 提升速度    | 动态规划类问题     |
-| 递归转迭代 | 自建栈代替系统栈 | 防止爆栈    | 深度搜索、树遍历    |
-| 剪枝优化  | 提前过滤无效分支 | 大幅减少搜索量 | DFS、回溯类问题   |
-| 深度限制  | 控制递归层数   | 保证稳定性   | 超大规模数据递归    |
+| 优化策略   | 主要思想         | 优点           | 适用场景               |
+| ---------- | ---------------- | -------------- | ---------------------- |
+| 尾递归优化 | 减少调用栈层数   | 节省空间       | 线性递归（阶乘、求和） |
+| 记忆化搜索 | 缓存中间结果     | 提升速度       | 动态规划类问题         |
+| 递归转迭代 | 自建栈代替系统栈 | 防止爆栈       | 深度搜索、树遍历       |
+| 剪枝优化   | 提前过滤无效分支 | 大幅减少搜索量 | DFS、回溯类问题        |
+| 深度限制   | 控制递归层数     | 保证稳定性     | 超大规模数据递归       |
 
 ---
 
@@ -413,8 +415,7 @@ void quicksort_optimized(vector<int>& a, int l, int r, int depth = 0) {
 
 递归优化并不是让递归“看起来更酷”，其核心目的是为了让它：
 
-* **不重复做事（效率高）**
-* **不占太多空间（更稳）**
+- **不重复做事（效率高）**
+- **不占太多空间（更稳）**
 
 ---
-{% include custom/custom-post-content-footer.md %}

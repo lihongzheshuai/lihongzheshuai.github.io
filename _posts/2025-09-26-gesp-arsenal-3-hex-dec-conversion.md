@@ -9,21 +9,21 @@ tags: [GESP, C++, 武器库-进制转换]
 categories: [GESP, 必备技能]
 ---
 
->前文（[***【GESP/CSP】编程武器库-2, 十进制转换十六进制***](https://www.coderli.com/gesp-arsenal-2-dec-hex-conversion/)），我们介绍了从十进制到十六进制的处理手段，很显然这只做到了一半。在之前做过的[***【GESP】C++四级真题 luogu-B3869 [GESP202309 四级] 进制转换***](https://www.coderli.com/gesp-4-luogu-b3869/)题目中，需要将不同进制的数字转换成十进制表示出来，其中十六进制由于涉及字母，相对特殊，其他进制类比即可，今天就专门总结下这个知识点，希望下次遇到可以"信手拈来"。
-{: .prompt-info}
+> 前文（[**_【GESP/CSP】编程武器库-2, 十进制转换十六进制_**](https://www.coderli.com/gesp-arsenal-2-dec-hex-conversion/)），我们介绍了从十进制到十六进制的处理手段，很显然这只做到了一半。在之前做过的[**_【GESP】C++四级真题 luogu-B3869 [GESP202309 四级] 进制转换_**](https://www.coderli.com/gesp-4-luogu-b3869/)题目中，需要将不同进制的数字转换成十进制表示出来，其中十六进制由于涉及字母，相对特殊，其他进制类比即可，今天就专门总结下这个知识点，希望下次遇到可以"信手拈来"。
+> {: .prompt-info}
 
 当前武器库清单
 
-| 分类 | 功能 | 教程 |
-|------|------|----------|
-| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为数字(0-9) | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha) |
-| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为字母(a-z/A-Z) |  [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha) |
-| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为大写字母(A-Z) |  [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha) |
-| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/) | 判断是否为小写字母(a-z) |  [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha) |
-| [进制转换](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/) | 十进制和十六进制转换 |  [【GESP/CSP】编程武器库-2, 十进制转换十六进制](https://www.coderli.com/gesp-arsenal-2-dec-hex-conversion) |
+| 分类                                                                                                       | 功能                    | 教程                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------- | ----------------------- | --------------------------------------------------------------------------------------------------------- |
+| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/)                   | 判断是否为数字(0-9)     | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha)  |
+| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/)                   | 判断是否为字母(a-z/A-Z) | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha)  |
+| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/)                   | 判断是否为大写字母(A-Z) | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha)  |
+| [字符判断](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E5%AD%97%E7%AC%A6/)                   | 判断是否为小写字母(a-z) | [【GESP/CSP】编程武器库-1, 字符类型判断](https://www.coderli.com/gesp-arsenal-1-char-check-number-alpha)  |
+| [进制转换](https://www.coderli.com/tags/%E6%AD%A6%E5%99%A8%E5%BA%93-%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/) | 十进制和十六进制转换    | [【GESP/CSP】编程武器库-2, 十进制转换十六进制](https://www.coderli.com/gesp-arsenal-2-dec-hex-conversion) |
 
 > 本人也是边学、边实验、边总结。因此本文更多的不是一个教程，而是个人知识梳理，如有遗漏、疏忽，欢迎指正、交流。
-{: .prompt-warning}
+> {: .prompt-warning}
 
 <!--more-->
 
@@ -58,8 +58,8 @@ a + b = 281
 
 说明：
 
-* 虽然书写时用了十六进制，但变量内部保存的就是对应的十进制数。
-* 之后就能像普通整数一样进行运算。
+- 虽然书写时用了十六进制，但变量内部保存的就是对应的十进制数。
+- 之后就能像普通整数一样进行运算。
 
 这种情况下其实是不涉及什么转换操作的。因此，如果题目是可以用整型进行存储计算的，那么当从控制台读取输入的时候，也直接将十六进制输入格式，读取成整数就好了。
 
@@ -130,9 +130,9 @@ num2 = 26
 int stoi(const string& str, size_t* pos = 0, int base = 10);
 ```
 
-* **第一个参数 `str`**：要转换的字符串。
-* **第二个参数 `pos`**：指向 `size_t` 类型的指针，用来存储“第一个未被转换字符”的下标位置。
-* **第三个参数 `base`**：进制，常用 `10`（十进制）、`16`（十六进制）等。
+- **第一个参数 `str`**：要转换的字符串。
+- **第二个参数 `pos`**：指向 `size_t` 类型的指针，用来存储“第一个未被转换字符”的下标位置。
+- **第三个参数 `base`**：进制，常用 `10`（十进制）、`16`（十六进制）等。
 
 第一、第三个参数都好理解，举例介绍下第二个参数的作用，感兴趣的了解即可，实际使用中，基本可以无脑传`nullptr`。
 
@@ -217,5 +217,3 @@ int main() {
 上述代码为十六进制字符串转换成十进制整数核心逻辑。不支持有进制前缀`0x`的情况，如果有前缀，你只需要先截取掉，在按上述代码处理即可。这里就不再赘述，留作读者自己实现。
 
 ---
-
-{% include custom/custom-post-content-footer.md %}

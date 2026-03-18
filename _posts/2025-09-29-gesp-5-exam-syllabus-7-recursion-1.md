@@ -9,38 +9,40 @@ mermaid: true
 tags: [GESP, C++, 考试大纲]
 categories: [GESP, 五级]
 ---
+
 GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`7`条考点进行分析介绍。
+
 > （7）掌握递归算法的基本原理，能够应用递归解决问题，能够分析递归算法的时间复杂度和空间复杂度，了解递归的优化策略。
-{: .prompt-info}
+> {: .prompt-info}
 
 > 本人也是边学、边实验、边总结，且对考纲深度和广度的把握属于个人理解。因此本文更多的不是一个教程，而是个人知识梳理，如有遗漏、疏忽，欢迎指正、交流。
-{: .prompt-warning}
+> {: .prompt-warning}
 
-***五级其他考点回顾：***
+**_五级其他考点回顾：_**
 
-> * [【GESP】C++五级考试大纲知识点梳理, (1) 初等数论](https://www.coderli.com/gesp-5-exam-syllabus-elementary-number-theory/)
-> * [【GESP】C++五级考试大纲知识点梳理, (2) 模拟高精度计算](https://www.coderli.com/gesp-5-exam-syllabus-simulate-high-precision-arithmetic/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-1) 链表-单链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-1-singly/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-3) 链表-单向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-3-singly-circle/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)
-> * [【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)
-> * [【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)
-> * [【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)
-{: .prompt-tip}
+> - [【GESP】C++五级考试大纲知识点梳理, (1) 初等数论](https://www.coderli.com/gesp-5-exam-syllabus-elementary-number-theory/)
+> - [【GESP】C++五级考试大纲知识点梳理, (2) 模拟高精度计算](https://www.coderli.com/gesp-5-exam-syllabus-simulate-high-precision-arithmetic/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-1) 链表-单链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-1-singly/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-3) 链表-单向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-3-singly-circle/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)
+> - [【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)
+> - [【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)
+> - [【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)
+>   {: .prompt-tip}
 
 <!--more-->
 
 ---
 
->在梳理的过程中，我发现想尽可能说清楚考纲要求的内容，越总结篇幅越长，为了避免总结遗漏和阅读匹配，我计算分三次介绍本部分内容，即：
+> 在梳理的过程中，我发现想尽可能说清楚考纲要求的内容，越总结篇幅越长，为了避免总结遗漏和阅读匹配，我计算分三次介绍本部分内容，即：
 >
 > 1. 递归算法基本原理和常见形式
 > 2. 递归算法时间、空间复杂度分析
 > 3. 递归算法优化策略
 >
 > 本次为第一部分介绍。
-{: .prompt-info}
+> {: .prompt-info}
 
 在计算机科学中，递归算法常被称作“解决问题的艺术”。它的核心思想是：**用同类问题的更小规模去解释和解决原问题**。换句话说，递归就是“自己调用自己”，直到问题被分解到足够简单为止。
 
@@ -50,8 +52,8 @@ GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`7`条
 
 递归解法由两部分组成：
 
-* **基准情形（base case）**：能直接返回结果、不再递归的情形（必须有）。
-* **递归情形（recursive case）**：将原问题分解为规模更小的子问题并递归求解，然后把子问题结果组合成原问题的结果。
+- **基准情形（base case）**：能直接返回结果、不再递归的情形（必须有）。
+- **递归情形（recursive case）**：将原问题分解为规模更小的子问题并递归求解，然后把子问题结果组合成原问题的结果。
 
 **工作机制（调用栈）**：每次调用都会在栈上分配一帧（局部变量、返回地址等）。直观理解：递归等同于重复压栈、展开计算、再逐层返回并合并结果。
 
@@ -68,20 +70,20 @@ long long fact(int n) {
 
 **调用 `fact(4)` 的执行顺序**：
 
-* `fact(4)` 调用 `fact(3)`。
-* `fact(3)` 调用 `fact(2)`。
-* `fact(2)` 调用 `fact(1)`。
-* `fact(1)` 直接返回 `1`。
-* `fact(2)` 返回 `2 * 1 = 2`。
-* `fact(3)` 返回 `3 * 2 = 6`。
-* `fact(4)` 返回 `4 * 6 = 24`。
+- `fact(4)` 调用 `fact(3)`。
+- `fact(3)` 调用 `fact(2)`。
+- `fact(2)` 调用 `fact(1)`。
+- `fact(1)` 直接返回 `1`。
+- `fact(2)` 返回 `2 * 1 = 2`。
+- `fact(3)` 返回 `3 * 2 = 6`。
+- `fact(4)` 返回 `4 * 6 = 24`。
 
 ---
 
 ## 二、常见递归模式
 
->本部分涉及5种常见递归模式，前3种相对比较容易理解，后2种相对比较复杂。暂不理解执行过程我认为也不必太过纠结，可通过后续的编程练习我们一起逐步理解、加深。
-{: .prompt-tip}
+> 本部分涉及5种常见递归模式，前3种相对比较容易理解，后2种相对比较复杂。暂不理解执行过程我认为也不必太过纠结，可通过后续的编程练习我们一起逐步理解、加深。
+> {: .prompt-tip}
 
 ### 2.1 线性递归（Linear Recursion）
 
@@ -90,6 +92,7 @@ long long fact(int n) {
 **例题：** 求 n 的阶乘
 
 数学定义：
+
 $$
 n! = \begin{cases}
 1, & n=0 \text{ 或 } n=1\\
@@ -129,6 +132,7 @@ factorial(4)
 **例题：** 斐波那契数列
 
 数学定义：
+
 $$
 F(n) = \begin{cases}
 0, & n=0 \\
@@ -207,11 +211,11 @@ int binarySearch(vector<int>& arr, int left, int right, int target) {
 
 **例题：全排列** 给定数组，输出所有排列。
 
-**基本算法逻辑**  
+**基本算法逻辑**
 
-1. 固定第 1 位，依次与后面每个元素交换，得到新首元素；  
-2. 对剩余部分递归执行“固定+交换”，直到只剩 1 个元素，即得到一个完整排列；  
-3. 回溯：撤销刚才的交换，恢复数组原状，继续尝试下一个候选。  
+1. 固定第 1 位，依次与后面每个元素交换，得到新首元素；
+2. 对剩余部分递归执行“固定+交换”，直到只剩 1 个元素，即得到一个完整排列；
+3. 回溯：撤销刚才的交换，恢复数组原状，继续尝试下一个候选。
 
 如此深度优先地“选-递归-回退”，即可不重不漏地生成全部 n! 种排列。
 
@@ -221,7 +225,7 @@ int binarySearch(vector<int>& arr, int left, int right, int target) {
 // 回溯法生成全排列
 void backtrack(vector<int>& nums, int start, vector<vector<int>>& result) {
     // 如果已经到达数组末尾，说明生成了一个完整排列
-    if (start == nums.size()) {         
+    if (start == nums.size()) {
         result.push_back(nums); // 保存当前排列
         return;
     }
@@ -272,8 +276,8 @@ long long factorialTail(int n, long long acc = 1) {
 }
 ```
 
->注：C++ 标准并不保证尾递归优化（TCO），但尾递归写法可轻松转化为迭代。
-{: .prompt-tip}
+> 注：C++ 标准并不保证尾递归优化（TCO），但尾递归写法可轻松转化为迭代。
+> {: .prompt-tip}
 
 **调用过程：**
 
@@ -291,11 +295,10 @@ factorialTail(4, 1)
 
 ### 2.6 小结
 
-* 线性递归 → 一条直链，逐层返回。
-* 树形递归 → 每层分支，形成递归树。
-* 分治 → 每次只走一个分支，问题规模缩小。
-* 回溯 → 深度探索，遇到尽头再回退。
-* 尾递归 → 类似循环，参数不断更新。
+- 线性递归 → 一条直链，逐层返回。
+- 树形递归 → 每层分支，形成递归树。
+- 分治 → 每次只走一个分支，问题规模缩小。
+- 回溯 → 深度探索，遇到尽头再回退。
+- 尾递归 → 类似循环，参数不断更新。
 
 ---
-{% include custom/custom-post-content-footer.md %}

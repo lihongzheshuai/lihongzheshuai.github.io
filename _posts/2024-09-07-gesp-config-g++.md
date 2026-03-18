@@ -8,6 +8,7 @@ comments: true
 tags: [GESP, C++]
 categories: [GESP, 一级]
 ---
+
 本系列用于记录与孩子共同成长学习GESP的过程和练习，希望能有所积累给我和孩子形成一份资产沉淀。
 
 <!--more-->
@@ -106,5 +107,3 @@ MinGW-w64的官网地址为：<https://www.mingw-w64.org/>，选择MinGW-W64-bui
 以上，就是我亲自配置Dev-C++和g++ 13.2.0编译环境的过程，从结果看很简单，但我在Dev-C++这个工具上确实折腾了很久，走了很多弯路，一眼难尽，不再赘述。
 
 ---
-
-{% include custom/custom-post-content-footer.md %}

@@ -9,29 +9,31 @@ mermaid: true
 tags: [GESP, C++, 考试大纲]
 categories: [GESP, 五级]
 ---
+
 GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`9`条考点进行分析介绍。
+
 > （9）掌握分治算法的基本原理，能够使用归并排序和快速排序对数组进行排序。
-{: .prompt-info}
+> {: .prompt-info}
 
 > 本人也是边学、边实验、边总结，且对考纲深度和广度的把握属于个人理解。因此本文更多的不是一个教程，而是个人知识梳理，如有遗漏、疏忽，欢迎指正、交流。
-{: .prompt-warning}
+> {: .prompt-warning}
 
-***五级其他考点回顾：***
+**_五级其他考点回顾：_**
 
-> * [【GESP】C++五级考试大纲知识点梳理, (1) 初等数论](https://www.coderli.com/gesp-5-exam-syllabus-elementary-number-theory/)
-> * [【GESP】C++五级考试大纲知识点梳理, (2) 模拟高精度计算](https://www.coderli.com/gesp-5-exam-syllabus-simulate-high-precision-arithmetic/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-1) 链表-单链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-1-singly/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-3) 链表-单向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-3-singly-circle/)
-> * [【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)
-> * [【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)
-> * [【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)
-> * [【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)
-> * [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 1 基本原理](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-1/)
-> * [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 2 复杂度分析](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-2/)
-> * [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 3 优化策略](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-3/)
-> * [【GESP】C++五级考试大纲知识点梳理, (8) 贪心算法](https://www.coderli.com/gesp-5-exam-syllabus-8-greedy-algorithm/)
-{: .prompt-tip}
+> - [【GESP】C++五级考试大纲知识点梳理, (1) 初等数论](https://www.coderli.com/gesp-5-exam-syllabus-elementary-number-theory/)
+> - [【GESP】C++五级考试大纲知识点梳理, (2) 模拟高精度计算](https://www.coderli.com/gesp-5-exam-syllabus-simulate-high-precision-arithmetic/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-1) 链表-单链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-1-singly/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-2) 链表-双向链表](https://www.coderli.com/gesp-5-exam-syllabus-linked-list-2-double/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-3) 链表-单向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-3-singly-circle/)
+> - [【GESP】C++五级考试大纲知识点梳理, (3-4) 链表-双向循环链表](https://www.coderli.com/gesp-5-exam-syllabus-3-linked-list-4-double-circle/)
+> - [【GESP】C++五级考试大纲知识点梳理, (4) 辗转相除法、素数表和唯一性定理](https://www.coderli.com/gesp-5-exam-syllabus-4-three-theorem-and-algorithm/)
+> - [【GESP】C++五级考试大纲知识点梳理, (5) 算法复杂度估算（多项式、对数）](https://www.coderli.com/gesp-5-exam-syllabus-5-estimation-of-algorithm-polynomial-logarithmic/)
+> - [【GESP】C++五级考试大纲知识点梳理, (6) 二分查找和二分答案](https://www.coderli.com/gesp-5-exam-syllabus-6-binary-search/)
+> - [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 1 基本原理](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-1/)
+> - [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 2 复杂度分析](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-2/)
+> - [【GESP】C++五级考试大纲知识点梳理, (7) 递归算法 - 3 优化策略](https://www.coderli.com/gesp-5-exam-syllabus-7-recursion-3/)
+> - [【GESP】C++五级考试大纲知识点梳理, (8) 贪心算法](https://www.coderli.com/gesp-5-exam-syllabus-8-greedy-algorithm/)
+>   {: .prompt-tip}
 
 <!--more-->
 
@@ -45,12 +47,12 @@ GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`9`条
 > 把一个复杂问题拆成几个规模更小的子问题，
 > 分别求解后，再把子问题的结果组合起来，
 > 从而得到整个问题的解。
-{: .prompt-info}
+> {: .prompt-info}
 
 一句话理解：
 
 > **不会一次解决？那就分成几部分，一个个解决，再拼回去！**
-{: .prompt-info}
+> {: .prompt-info}
 
 ---
 
@@ -58,16 +60,16 @@ GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`9`条
 
 分治算法一般分为三个步骤：
 
-| 步骤             | 含义               | 举例说明                 |
-| -------------- | ---------------- | -------------------- |
-| 1. 分解（Divide）  | 把原问题拆成若干规模更小的子问题 | 把一个数组拆成两半            |
-| 2. 求解（Conquer） | 递归地解决这些子问题       | 对左右两半分别排序            |
-| 3. 合并（Combine） | 把子问题的结果合并成原问题的解  | 把两半的有序数组合并成一个完整的有序数组 |
+| 步骤               | 含义                             | 举例说明                                 |
+| ------------------ | -------------------------------- | ---------------------------------------- |
+| 1. 分解（Divide）  | 把原问题拆成若干规模更小的子问题 | 把一个数组拆成两半                       |
+| 2. 求解（Conquer） | 递归地解决这些子问题             | 对左右两半分别排序                       |
+| 3. 合并（Combine） | 把子问题的结果合并成原问题的解   | 把两半的有序数组合并成一个完整的有序数组 |
 
 这个过程就像：
 
 > “把一堆乱书分成两堆，分别整理，然后再合并成一排整齐的书。”
-{: .prompt-info}
+> {: .prompt-info}
 
 ---
 
@@ -79,9 +81,9 @@ GESP C++五级官方考试大纲中，共有`9`条考点，本文针对第`9`条
 
 归并排序是分治思想的经典代表。它的基本思想是：
 
-* **分解：** 把数组分成左右两部分；
-* **递归：** 分别对左右两部分进行排序；
-* **合并：** 把两个有序数组合并成一个更大的有序数组。
+- **分解：** 把数组分成左右两部分；
+- **递归：** 分别对左右两部分进行排序；
+- **合并：** 把两个有序数组合并成一个更大的有序数组。
 
 #### 2. 执行过程举例
 
@@ -158,11 +160,11 @@ int main() {
 
 #### 4. 复杂度分析
 
-| 项目    | 分析结果           |
-| ----- | -------------- |
-| 时间复杂度 | $O(n \log n)$ |
-| 空间复杂度 | $O(n)$        |
-| 稳定性   | 稳定排序（相同元素顺序不变） |
+| 项目       | 分析结果                     |
+| ---------- | ---------------------------- |
+| 时间复杂度 | $O(n \log n)$                |
+| 空间复杂度 | $O(n)$                       |
+| 稳定性     | 稳定排序（相同元素顺序不变） |
 
 ---
 
@@ -172,11 +174,11 @@ int main() {
 
 快速排序同样是分治思想的代表，但它的“合并”步骤更巧妙。
 
-* **分解：** 选择一个“基准元素”（pivot）。
+- **分解：** 选择一个“基准元素”（pivot）。
   将数组分成两部分：
   左边 ≤ pivot，右边 ≥ pivot。
-* **递归：** 分别对两边继续排序。
-* **合并：** 两边排好后自然有序，无需额外操作。
+- **递归：** 分别对两边继续排序。
+- **合并：** 两边排好后自然有序，无需额外操作。
 
 #### 2. 执行过程举例
 
@@ -251,41 +253,40 @@ int main() {
 
 #### 4. 复杂度分析
 
-| 项目      | 分析结果           |
-| ------- | -------------- |
-| 平均时间复杂度 | $O(n \log n)$     |
+| 项目           | 分析结果                   |
+| -------------- | -------------------------- |
+| 平均时间复杂度 | $O(n \log n)$              |
 | 最坏时间复杂度 | $O(n^2)$（如数组本身有序） |
-| 空间复杂度   | $O(\log n)$（递归栈）  |
-| 稳定性     | 不稳定            |
+| 空间复杂度     | $O(\log n)$（递归栈）      |
+| 稳定性         | 不稳定                     |
 
 ---
 
 ### 3.3 归并排序与快速排序对比
 
-| 比较项     | 归并排序       | 快速排序                         |
-| ------- | ---------- | ---------------------------- |
-| 算法思想    | 分治 + 合并    | 分治 + 分区                      |
-| 是否原地排序  | 否，需要辅助数组   | 是，几乎不占额外空间                   |
-| 稳定性     | 稳定         | 不稳定                          |
-| 平均时间复杂度 | $O(n \log n)$ | $O(n \log n)$                   |
-| 最坏情况    | $O(n \log n)$ | $O(n^2)$                        |
-| 实际运行效率  | 稳定但略慢      | 通常更快（C++ `std::sort` 基于快排改进） |
+| 比较项         | 归并排序         | 快速排序                                 |
+| -------------- | ---------------- | ---------------------------------------- |
+| 算法思想       | 分治 + 合并      | 分治 + 分区                              |
+| 是否原地排序   | 否，需要辅助数组 | 是，几乎不占额外空间                     |
+| 稳定性         | 稳定             | 不稳定                                   |
+| 平均时间复杂度 | $O(n \log n)$    | $O(n \log n)$                            |
+| 最坏情况       | $O(n \log n)$    | $O(n^2)$                                 |
+| 实际运行效率   | 稳定但略慢       | 通常更快（C++ `std::sort` 基于快排改进） |
 
 ---
 
 ## 四、总结
 
-* **分治思想的精髓：**
+- **分治思想的精髓：**
   把大问题拆成小问题，通过递归逐步解决。
-* **归并排序：**
+- **归并排序：**
   分开 → 排序 → 合并（稳定但空间大）。
-* **快速排序：**
+- **快速排序：**
   分区 → 递归（更快，但不稳定）。
 
 > 📘 小提示：
 > 在算法学习中，分治思想不仅用于排序，还常用于二分查找、矩阵乘法等问题。
 > 它是一种“将复杂问题分解为结构相似小问题”的通用方法论。
-{: .prompt-tip}
+> {: .prompt-tip}
 
 ---
-{% include custom/custom-post-content-footer.md %}

@@ -10,24 +10,24 @@ tags: [GESP, C++, 考试大纲, 算法数学]
 categories: [GESP, 八级]
 ---
 
-
 > **GESP C++ 八级考试大纲知识点梳理系列文章：**
+>
 > 1. [计数原理：加法与乘法](https://www.coderli.com/gesp-8-exam-syllabus-counting-principles/)
 > 2. [排列与组合](https://www.coderli.com/gesp-8-exam-syllabus-permutations-combinations/)
 > 3. [杨辉三角与组合数](https://www.coderli.com/gesp-8-exam-syllabus-yanghui-triangle/)
 > 4. [倍增法](https://www.coderli.com/gesp-8-exam-syllabus-binary-lifting/)
 > 5. [代数与平面几何](https://www.coderli.com/gesp-8-exam-syllabus-algebra-geometry/)
-{: .prompt-tip}
+>    {: .prompt-tip}
 
 继上一篇我们探讨了[排列和组合](https://www.coderli.com/gesp-8-exam-syllabus-permutations-combinations/)之后，GESP C++八级大纲的第三条考点非常经典，它是计算机算法（尤其是动态规划）的重要入门案例。
 
 > （3）掌握杨辉三角形（又称帕斯卡三角形）的概念。
-{: .prompt-info}
+> {: .prompt-info}
 
 杨辉三角形（Yang Hui's Triangle），在西方称为帕斯卡三角形（Pascal's Triangle），是一个无限对称的数字三角形。它不仅在形式上优美，更蕴含了深厚的组合数学原理。
 
 > 本人也是边学、边实验、边总结，且对考纲深度和广度的把握属于个人理解。因此本文更多的不是一个教程，而是个人知识梳理，如有遗漏、疏忽，欢迎指正、交流。
-{: .prompt-warning}
+> {: .prompt-warning}
 
 ## 一、杨辉三角的概念与构造
 
@@ -77,17 +77,17 @@ Row 4:  1 4 6 4 1
 
 ### 2.1 验证
 
-* **第 2 行**：1, 2, 1
-  * $C_2^0 = 1$
-  * $C_2^1 = 2$
-  * $C_2^2 = 1$
-* **第 3 行**：1, 3, 3, 1
-  * $C_3^0 = 1$
-  * $C_3^1 = 3$
-  * $C_3^2 = 3$
-  * $C_3^3 = 1$
-* **第 4 行**：1, 4, 6, 4, 1
-  * $C_4^2 = \frac{4 \times 3}{2 \times 1} = 6$，确实对应第 4 行第 2 列的 6。
+- **第 2 行**：1, 2, 1
+  - $C_2^0 = 1$
+  - $C_2^1 = 2$
+  - $C_2^2 = 1$
+- **第 3 行**：1, 3, 3, 1
+  - $C_3^0 = 1$
+  - $C_3^1 = 3$
+  - $C_3^2 = 3$
+  - $C_3^3 = 1$
+- **第 4 行**：1, 4, 6, 4, 1
+  - $C_4^2 = \frac{4 \times 3}{2 \times 1} = 6$，确实对应第 4 行第 2 列的 6。
 
 ### 2.2 为什么会有这个关系？
 
@@ -95,6 +95,7 @@ Row 4:  1 4 6 4 1
 假设我们要在 $n$ 个物品中选 $m$ 个（$C_n^m$）：
 我们可以把这 $n$ 个物品中的某一个特定物品（比如“特殊的红球”）单独拿出来看。
 选出的 $m$ 个物品中，只有两种情况：
+
 1. **包含**这个红球：那么还需要从剩下的 $n-1$ 个中选 $m-1$ 个。即 $C_{n-1}^{m-1}$。
 2. **不包含**这个红球：那么需要从剩下的 $n-1$ 个中选完整 $m$ 个。即 $C_{n-1}^m$。
 
@@ -110,9 +111,9 @@ Row 4:  1 4 6 4 1
 
 杨辉三角的第 $n$ 行，正是二项式 $(a+b)^n$ 展开后的各项系数。
 
-* $(a+b)^1 = 1a + 1b$  $\rightarrow$  1, 1
-* $(a+b)^2 = 1a^2 + 2ab + 1b^2$  $\rightarrow$  1, 2, 1
-* $(a+b)^3 = 1a^3 + 3a^2b + 3ab^2 + 1b^3$  $\rightarrow$  1, 3, 3, 1
+- $(a+b)^1 = 1a + 1b$ $\rightarrow$ 1, 1
+- $(a+b)^2 = 1a^2 + 2ab + 1b^2$ $\rightarrow$ 1, 2, 1
+- $(a+b)^3 = 1a^3 + 3a^2b + 3ab^2 + 1b^3$ $\rightarrow$ 1, 3, 3, 1
 
 在解题时，如果让你求 $(x+1)^n$ 的展开式系数，可以直接打印杨辉三角。
 
@@ -121,11 +122,11 @@ Row 4:  1 4 6 4 1
 这一条的原理主要有两种解释方式：代数推导和组合意义。
 
 (1) 代数推导（利用二项式定理）
-我们在文章前面提到过，杨辉三角的第 $n$ 行实际上就是 $(a+b)^n$ 展开后的系数。 
+我们在文章前面提到过，杨辉三角的第 $n$ 行实际上就是 $(a+b)^n$ 展开后的系数。
 
 $$ (a+b)^n = C_n^0 a^n b^0 + C_n^1 a^{n-1} b^1 + \dots + C_n^n a^0 b^n $$
 
-如果我们令 $a=1$ 且 $b=1$，代入上面的公式，就会神奇地发现： 
+如果我们令 $a=1$ 且 $b=1$，代入上面的公式，就会神奇地发现：
 
 $$ (1+1)^n = C_n^0 \cdot 1^n \cdot 1^0 + C_n^1 \cdot 1^{n-1} \cdot 1^1 + \dots $$
 
@@ -149,6 +150,7 @@ $C_n^n$ 表示选 $n$ 个元素的方案数（全集）。
 
 这是编程中最实用的功能。
 直接利用阶乘公式 $C_n^m = \frac{n!}{m!(n-m)!}$ 计算组合数有两个大问题：
+
 1. **溢出风险**：$20!$ 就已经超过 `long long` 范围了，但 $C_{20}^{10}$ 其实并不大。
 2. **计算量**：频繁计算阶乘效率低，且涉及除法（取模时需要逆元）。
 
@@ -189,7 +191,7 @@ void printTriangle() {
     for (int i = 0; i <= 10; i++) { // 打印前10行看看
         // 打印一些空格做格式化（仅仅为了美观，非必须）
         for(int k=0; k<10-i; k++) cout << "  ";
-        
+
         for (int j = 0; j <= i; j++) {
             printf("%4lld", triangle[i][j]);
         }
@@ -199,21 +201,21 @@ void printTriangle() {
 
 int main() {
     buildPascalTriangle();
-    
+
     // 1. 打印图形
     cout << "=== 杨辉三角前10行 ===" << endl;
     printTriangle();
-    
+
     // 2. 利用杨辉三角查询组合数
     // C(5, 2)
     int n = 5, m = 2;
     cout << "\n=== 组合数查询 ===" << endl;
     cout << "C(" << n << ", " << m << ") = " << triangle[n][m] << endl;
-    
+
     // C(10, 4)
     n = 10; m = 4;
     cout << "C(" << n << ", " << m << ") = " << triangle[n][m] << endl;
-    
+
     return 0;
 }
 ```
@@ -232,14 +234,13 @@ int main() {
         1   7  21  35  35  21   7   1
       1   8  28  56  70  56  28   8   1
     1   9  36  84 126 126  84  36   9   1
-    
+
 === 组合数查询 ===
 C(5, 2) = 10
 C(9, 4) = 126
 ```
 
 ---
-
 
 ## 五、实战演练：计算系数（洛谷 P1313）
 
@@ -252,7 +253,7 @@ C(9, 4) = 126
 **解题思路**：
 根据二项式定理，$(ax+by)^k$ 的通项公式为：
 
-$$ T_{r+1} = C_k^r (ax)^{k-r} (by)^r = C_k^r a^{k-r} b^r x^{k-r} y^r $$
+$$ T\_{r+1} = C_k^r (ax)^{k-r} (by)^r = C_k^r a^{k-r} b^r x^{k-r} y^r $$
 
 题目要求 $x^n y^m$ 项的系数，意味着对应的是 $x^n y^m$ 这一项。
 即 $k-r = n$ 且 $r = m$（题目保证 $n+m=k$）。
@@ -276,7 +277,7 @@ for (int i = 0; i <= k; i++) {
 
 // 2. 计算答案
 // ans = C(k, m) * a^n * b^m % 10007
-long long ans = c[k][m]; 
+long long ans = c[k][m];
 ans = (ans * quick_pow(a, n)) % 10007; // 配合快速幂计算 a^n
 ans = (ans * quick_pow(b, m)) % 10007; // 配合快速幂计算 b^m
 
@@ -298,10 +299,11 @@ $$ (A \times B \times C) \pmod P = [((A \times B) \pmod P) \times C] \pmod P $$
 $$ \text{ans} = (C_k^m \times a^n \times b^m) \pmod{10007} $$
 
 我们可以将其视为三个数 $A, B, C$ 的连乘：
-*   $A = C_k^m$ (即 `c[k][m]`)
-*   $B = a^n$ (即 `quick_pow(a, n)`)
-*   $C = b^m$ (即 `quick_pow(b, m)`)
-*   $P = 10007$
+
+- $A = C_k^m$ (即 `c[k][m]`)
+- $B = a^n$ (即 `quick_pow(a, n)`)
+- $C = b^m$ (即 `quick_pow(b, m)`)
+- $P = 10007$
 
 ### 2. 数学推导与代码执行对照
 
@@ -312,28 +314,32 @@ $$ \text{ans} = (C_k^m \times a^n \times b^m) \pmod{10007} $$
 **代码的分步执行过程（步步取模）：**
 
 1.  **初始状态**：
+
     ```cpp
     long long ans = c[k][m]; // 对应 A
     ```
+
     假设 $A=2$，则 `ans = 2`。
 
 2.  **第一步乘法**：
+
     ```cpp
     ans = (ans * quick_pow(a, n)) % 10007; // 对应 (A * B) % P
     ```
+
     假设 $B=3, P=5$。
-    *   计算乘积：$ans \times B = 2 \times 3 = 6$
-    *   取模：$6 \pmod 5 = 1$
-    *   此时 `ans = 1`。
+    - 计算乘积：$ans \times B = 2 \times 3 = 6$
+    - 取模：$6 \pmod 5 = 1$
+    - 此时 `ans = 1`。
 
 3.  **第二步乘法**：
     ```cpp
     ans = (ans * quick_pow(b, m)) % 10007; // 对应 (ans * C) % P
     ```
     这里用的是上一步计算出的 `ans`（即 1）。假设 $C=4$。
-    *   计算乘积：$ans \times C = 1 \times 4 = 4$
-    *   取模：$4 \pmod 5 = 4$
-    *   此时 `ans = 4`。
+    - 计算乘积：$ans \times C = 1 \times 4 = 4$
+    - 取模：$4 \pmod 5 = 4$
+    - 此时 `ans = 4`。
 
 **结论**：最终结果 4 与直接计算的结果一致。
 
@@ -354,6 +360,7 @@ $$ \text{ans} = (C_k^m \times a^n \times b^m) \pmod{10007} $$
 4. **组合数计算**：利用杨辉三角解决不需要取模或模数不是质数的组合数计算问题。
 
 ### 注：关于“不需要取模或模数不是质数时的组合数计算”
+
 这一条是针对编程竞赛（算法竞赛）中常见的坑点。
 
 为什么要用杨辉三角（递推法）？
@@ -380,5 +387,3 @@ $$ \text{ans} = (C_k^m \times a^n \times b^m) \pmod{10007} $$
 掌握了杨辉三角，我们就有了处理简单组合计数问题的有力武器。
 
 ---
-
-{% include custom/custom-post-content-footer.md %}
