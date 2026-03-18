@@ -147,5 +147,3 @@ categories: [信奥业余科普, 计算机历史]
 下一期，我们将探讨填平这道鸿沟的魔法：**高级语言和操作系统**。
 
 ---
-
-{% include custom/custom-post-content-footer.md %}

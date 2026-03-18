@@ -1,18 +1,32 @@
->所有代码已上传至Github：[***https://github.com/lihongzheshuai/yummy-code***](https://github.com/lihongzheshuai/yummy-code)
->
->GESP 学习专题站：[***GESP WIKI***](https://wiki.coderli.com/)
->
->“***luogu-***”系列题目可在[***洛谷题库***](https://www.luogu.com.cn/problem/list)进行在线评测。
->
->“***bcqm-***”系列题目可在[***编程启蒙题库***](https://bas.ssoier.cn/index.php)进行在线评测。
-{: .prompt-info }
+<p>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7615326632728696"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7615326632728696"
+     data-ad-slot="2477304429"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</p>
 
->**欢迎加入**：[***Java、C++、Python技术交流QQ群(982860385)***](https://qm.qq.com/q/exuata7kFW)，大佬免费带队，有问必答
+> 所有代码已上传至Github：[**_https://github.com/lihongzheshuai/yummy-code_**](https://github.com/lihongzheshuai/yummy-code)
 >
->**欢迎加入**：[***C++ GESP/CSP认证学习QQ频道***](https://pd.qq.com/s/1gsdm3gdn)，考试资源总结汇总
+> GESP 学习专题站：[**_GESP WIKI_**](https://wiki.coderli.com/)
 >
->**欢迎加入**：[***C++ GESP/CSP学习交流QQ群(688906745)***](https://qm.qq.com/q/EllqGsKIoM)，考试认证学员交流，互帮互助
-{: .prompt-tip }
+> “**_luogu-_**”系列题目可在[**_洛谷题库_**](https://www.luogu.com.cn/problem/list)进行在线评测。
+>
+> “**_bcqm-_**”系列题目可在[**_编程启蒙题库_**](https://bas.ssoier.cn/index.php)进行在线评测。
+> {: .prompt-info }
+
+> **欢迎加入**：[**_Java、C++、Python技术交流QQ群(982860385)_**](https://qm.qq.com/q/exuata7kFW)，大佬免费带队，有问必答
+>
+> **欢迎加入**：[**_C++ GESP/CSP认证学习QQ频道_**](https://pd.qq.com/s/1gsdm3gdn)，考试资源总结汇总
+>
+> **欢迎加入**：[**_C++ GESP/CSP学习交流QQ群(688906745)_**](https://qm.qq.com/q/EllqGsKIoM)，考试认证学员交流，互帮互助
+> {: .prompt-tip }
 
 <div style="text-align: center;">
     <div style="
