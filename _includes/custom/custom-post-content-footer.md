@@ -1,17 +1,3 @@
-<p>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7615326632728696"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-7615326632728696"
-     data-ad-slot="2477304429"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</p>
-
 > 所有代码已上传至Github：[**_https://github.com/lihongzheshuai/yummy-code_**](https://github.com/lihongzheshuai/yummy-code)
 >
 > GESP 学习专题站：[**_GESP WIKI_**](https://wiki.coderli.com/)
