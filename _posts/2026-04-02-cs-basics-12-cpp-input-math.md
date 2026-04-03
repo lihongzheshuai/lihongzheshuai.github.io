@@ -23,9 +23,9 @@ categories: [信奥业余科普, C++的奇妙之旅]
 
 **第二部分 【C++的奇妙之旅】**
 
-- [【信奥业余科普】C++ 的奇妙之旅 | 09：信奥赛场的核心语言——C++ 的前世今生](https://www.coderli.com/cs-basics-09-cpp-intro)
-- [【信奥业余科普】C++ 的奇妙之旅 | 10：代码是如何运行的？——编译过程与“Hello, World”](https://www.coderli.com/cs-basics-10-cpp-helloworld)
-- [【信奥业余科普】C++ 的奇妙之旅 | 11：程序的处理核心——变量与常用数据类型](https://www.coderli.com/cs-basics-11-cpp-variables)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 09：信奥赛场的核心语言——C++ 的前世今生](https://www.coderli.com/cs-basics-09-cpp-intro)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 10：代码是如何运行的？——编译过程与“Hello, World”](https://www.coderli.com/cs-basics-10-cpp-helloworld)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 11：程序的处理核心——变量与常用数据类型](https://www.coderli.com/cs-basics-11-cpp-variables)
 
 ---
 
