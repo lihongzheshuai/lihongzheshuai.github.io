@@ -23,10 +23,10 @@ categories: [信奥业余科普, C++的奇妙之旅]
 
 **第二部分 【C++的奇妙之旅】**
 
-- [【信奥业余科普】C++ 的奇妙之旅 | 10：代码是如何运行的？——编译过程与“Hello, World”](https://www.coderli.com/cs-basics-10-cpp-helloworld)
-- [【信奥业余科普】C++ 的奇妙之旅 | 11：程序的处理核心——变量与常用数据类型](https://www.coderli.com/cs-basics-11-cpp-variables)
-- [【信奥业余科普】C++ 的奇妙之旅 | 12：程序的交互与加工——数据的输入与算术运算](https://www.coderli.com/cs-basics-12-cpp-input-math)
-- [【信奥业余科普】C++ 的奇妙之旅 | 13：为什么 0.1+0.2≠0.3？——解密“爆int”溢出与浮点数精度的底层原理](https://www.coderli.com/cs-basics-13-data-precision)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 10：代码是如何运行的？——编译过程与“Hello, World”](https://www.coderli.com/cs-basics-10-cpp-helloworld)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 11：程序的处理核心——变量与常用数据类型](https://www.coderli.com/cs-basics-11-cpp-variables)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 12：程序的交互与加工——数据的输入与算术运算](https://www.coderli.com/cs-basics-12-cpp-input-math)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 13：为什么 0.1+0.2≠0.3？——解密“爆int”溢出与浮点数精度的底层原理](https://www.coderli.com/cs-basics-13-data-precision)
 
 ---
 
