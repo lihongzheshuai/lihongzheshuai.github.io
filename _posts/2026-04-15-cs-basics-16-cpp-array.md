@@ -21,11 +21,11 @@ categories: [信奥业余科普, C++的奇妙之旅]
 
 **第二部分 【C++的奇妙之旅】**
 
-- [【信奥业余科普】C++ 的奇妙之旅 | 11：程序的处理核心——变量与常用数据类型](https://www.coderli.com/cs-basics-11-cpp-variables)
-- [【信奥业余科普】C++ 的奇妙之旅 | 12：程序的交互与加工——数据的输入与算术运算](https://www.coderli.com/cs-basics-12-cpp-input-math)
-- [【信奥业余科普】C++ 的奇妙之旅 | 13：为什么 0.1+0.2≠0.3？——解密“爆int”与浮点数问题](https://www.coderli.com/cs-basics-13-data-precision)
-- [【信奥业余科普】C++ 的奇妙之旅 | 14：程序的分叉路口——逻辑判断与 if-else 语句](https://www.coderli.com/cs-basics-14-cpp-ifelse)
-- [【信奥业余科普】C++ 的奇妙之旅 | 15：让机器不知疲倦的秘密——条件循环结构](https://www.coderli.com/cs-basics-15-cpp-loops)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 11：程序的处理核心——变量与常用数据类型](https://www.coderli.com/cs-basics-11-cpp-variables)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 12：程序的交互与加工——数据的输入与算术运算](https://www.coderli.com/cs-basics-12-cpp-input-math)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 13：为什么 0.1+0.2≠0.3？——解密“爆int”与浮点数问题](https://www.coderli.com/cs-basics-13-data-precision)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 14：程序的分叉路口——逻辑判断与 if-else 语句](https://www.coderli.com/cs-basics-14-cpp-ifelse)
+- [【信奥业余科普】C++ 的奇妙之旅 \| 15：让机器不知疲倦的秘密——条件循环结构](https://www.coderli.com/cs-basics-15-cpp-loops)
 
 ---
 
