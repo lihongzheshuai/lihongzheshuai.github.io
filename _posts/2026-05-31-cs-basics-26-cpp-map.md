@@ -30,7 +30,7 @@ categories: [信奥业余科普, C++的奇妙之旅]
 
 ---
 
-## 一、 什么是 `pair` 与映射（map）？
+## 一、 什么是 pair与映射（map）？
 
 在深入 `map` 之前，我们需要先认识它的基本构建基石—— **`std::pair`**。
 
@@ -57,7 +57,7 @@ int main() {
 }
 ```
 
-### 1.2 `map` 的本质
+### 1.2 map的本质
 
 C++ STL 中的 `map` 本质上就是**由众多键值对（`pair`）组成的集合**。
 
@@ -76,7 +76,7 @@ C++ STL 中的 `map` 本质上就是**由众多键值对（`pair`）组成的集
 
 ---
 
-## 二、 `map` 的常用操作
+## 二、 map的常用操作
 
 使用 `map` 需要引入头文件 `<map>`。
 
@@ -138,6 +138,7 @@ if (scores["Charlie"] == 100) {
 
 // 此时检查 map 的大小：
 std::cout << "Scores 大小: " << scores.size() << std::endl; // 输出为 2
+```
 
 **原因分析**：在执行 `scores["Charlie"]` 时，如果键 `"Charlie"` 不存在，`map` 会自动向容器中插入 `{"Charlie", 0}` 并返回其引用。如果原本只是为了查询或判断，这种写法会无意中改变容器的大小和内容。
 
@@ -173,6 +174,7 @@ if (scores.count("Charlie")) {
 删除元素可以通过键直接删除，也可以传入迭代器：
 
 {% raw %}
+
 ```cpp
 std::map<std::string, int> m = {{"Alice", 95}, {"Bob", 88}};
 
@@ -183,15 +185,17 @@ if (it != m.end()) {
     m.erase(it); // 传入迭代器进行精确删除
 }
 ```
+
 {% endraw %}
 
-### 2.5 遍历 `map`
+### 2.5 遍历 map
 
 因为 `map` 里的元素都是 `std::pair`，所以在遍历时，我们需要通过访问 `first` 和 `second` 来获取键和值。
 
 **C++11 经典写法**：
 
 {% raw %}
+
 ```cpp
 std::map<std::string, int> scores = {{"Alice", 95}, {"Bob", 88}};
 
@@ -200,6 +204,7 @@ for (const auto& kv : scores) {
     std::cout << kv.first << " 的成绩是: " << kv.second << std::endl;
 }
 ```
+
 {% endraw %}
 
 **C++17 结构化绑定写法**：
@@ -258,7 +263,7 @@ int main() {
 
 ---
 
-## 四  对比：`std::map` vs `std::unordered_map`
+## 四 对比：`std::map` vs `std::unordered_map`
 
 除了有序的 `std::map`，在竞赛和开发中也经常使用另一个相似的映射容器：**`std::unordered_map`（无序映射）**。
 
