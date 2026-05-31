@@ -172,6 +172,7 @@ if (scores.count("Charlie")) {
 
 删除元素可以通过键直接删除，也可以传入迭代器：
 
+{% raw %}
 ```cpp
 std::map<std::string, int> m = {{"Alice", 95}, {"Bob", 88}};
 
@@ -182,6 +183,7 @@ if (it != m.end()) {
     m.erase(it); // 传入迭代器进行精确删除
 }
 ```
+{% endraw %}
 
 ### 2.5 遍历 `map`
 
@@ -189,6 +191,7 @@ if (it != m.end()) {
 
 **C++11 经典写法**：
 
+{% raw %}
 ```cpp
 std::map<std::string, int> scores = {{"Alice", 95}, {"Bob", 88}};
 
@@ -197,6 +200,7 @@ for (const auto& kv : scores) {
     std::cout << kv.first << " 的成绩是: " << kv.second << std::endl;
 }
 ```
+{% endraw %}
 
 **C++17 结构化绑定写法**：
 C++17 引入了结构化绑定（Structured Binding），可以直接把 `pair` 的成员解构出来，使代码更加简洁：
