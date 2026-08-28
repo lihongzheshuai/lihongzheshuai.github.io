@@ -1,0 +1,393 @@
+---
+layout: post
+title: 【CSP】CSP-J 2022 第一轮真题解析（三）：完善程序题
+date: 2026-08-28 18:00 +0800
+author: OneCoder
+comments: true
+math: true
+tags: [CSP, C++, 第一轮, 初赛, 完善程序]
+categories: [CSP, J]
+---
+
+2022 年 CCF 非专业级软件能力认证（CSP-J/S 2022）第一轮认证于 2022 年 9 月 18 日举行。继前两篇单项选择题与阅读程序题解析后，本文为您带来 **第三部分：完善程序题（共 2 大题，10 小题，每小题 3 分，共计 30 分）** 的全题型深度解析。
+
+本次完善程序题聚焦于两大高频核心考点：
+1. **数论基础与因数枚举**：利用因数的成对对称性实现 $\mathcal{O}(\sqrt{n})$ 复杂度从小到大输出所有因数，重点考查循环边界、完全平方数特判与利用 `vector` 逆序输出配对因数。
+2. **广度优先搜索（BFS）与洪水填充（Flood Fill）**：基于队列 `std::queue` 的经典二维网格区域填充算法，考查四方向移动、合法性边界判定与原地状态标记。
+
+<!--more-->
+
+---
+
+## 📌 三、完善程序（单选题，每小题 3 分，共计 30 分）
+
+---
+
+### 📍 第一题：（枚举因数）从小到大打印正整数 $n$ 的所有正因数
+
+#### 📖 题目描述
+
+从小到大打印正整数 $n$ 的所有正因数。
+试补全枚举程序。
+
+#### 💻 源码展示
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    vector<int> fac;
+    fac.reserve((int)ceil(sqrt(n)));
+
+    int i;
+    for (i = 1; i * i < n; ++i) {
+        if (①) {
+            fac.push_back(i);
+        }
+    }
+
+    for (int k = 0; k < fac.size(); ++k) {
+        cout << ② << " ";
+    }
+    if (③) {
+        cout << ④ << " ";
+    }
+    for (int k = fac.size() - 1; k >= 0; --k) {
+        cout << ⑤ << " ";
+    }
+    return 0;
+}
+```
+
+---
+
+#### 💡 算法核心原理解析
+
+##### 1. 因数的成对性（Pairing Property）
+
+对于任意正整数 $n$，其正因数必然是**成对存在**的：
+- 若正整数 $i$ 能整除 $n$（即 $n \bmod i = 0$），则其对应的商 $\dfrac{n}{i}$ 也必然是 $n$ 的正因数，且 $i \times \dfrac{n}{i} = n$。
+- 在因数对 $\left(i, \dfrac{n}{i}\right)$ 中：
+  - 若 $i < \sqrt{n}$，则必有 $\dfrac{n}{i} > \sqrt{n}$；
+  - 若 $i = \sqrt{n}$（当且仅当 $n$ 为完全平方数时），则 $i = \dfrac{n}{i}$，此时因数 $\sqrt{n}$ 单独存在，不与其它不同的数配对。
+
+##### 2. 算法分段执行流程
+
+如果暴力从 $1$ 循环枚举到 $n$，时间复杂度为 $\mathcal{O}(n)$。通过利用因数的成对性，我们只需枚举到 $\sqrt{n}$，时间复杂度即可大幅降至 $\mathcal{O}(\sqrt{n})$。
+
+程序分为三个阶段完成从小到大升序输出：
+
+```mermaid
+graph LR
+    A["① 循环枚举 i (1 <= i < sqrt(n))<br/>收集所有小于 sqrt(n) 的因数入 vector fac"] --> B["② 正序遍历 fac<br/>打印前半部分较小因数"]
+    B --> C["③ 特判 n 是否为完全平方数<br/>若 i*i == n，单独打印 sqrt(n)"]
+    C --> D["④ 倒序遍历 fac<br/>打印配对因数 n / fac[k] (大于 sqrt(n))"]
+```
+
+1. **收集阶段（$1 \le i < \sqrt{n}$）**：
+   - 循环条件为 `i * i < n`，若 `n % i == 0`，将较小的因数 $i$ 存入 `fac`。
+   - 存入 `fac` 的因数天然呈从小到大的严格升序排列。
+2. **输出前半部分与完全平方数特判**：
+   - 先正序遍历 `fac`（`for (int k = 0; k < fac.size(); ++k)`），输出所有小于 $\sqrt{n}$ 的因数（`fac[k]`）。
+   - 循环 `for (i = 1; i * i < n; ++i)` 结束后，变量 $i$ 停留在满足 $i^2 \ge n$ 的第一个整数。若 $i^2 = n$，说明 $n$ 是完全平方数，$i$ 本身就是因数且位于正中央，执行 `cout << i << " ";` 输出。
+3. **输出后半部分（大于 $\sqrt{n}$ 的因数）**：
+   - 对应的较大因数即为 $\dfrac{n}{\text{fac}[k]}$。
+   - 由于 `fac` 中保存的因数是从小到大的，那么 $\dfrac{n}{\text{fac}[k]}$ 就是从大到小的。
+   - 为了保证最终整体升序输出，需要**倒序遍历** `fac`（从 `fac.size() - 1` 递减到 `0`），这样 $\text{fac}[k]$ 越来越小，计算得到的 $\dfrac{n}{\text{fac}[k]}$ 就会从小到大依次输出。
+
+---
+
+#### ❓ 逐题精解
+
+##### 1. ① 处应填（ ）
+
+> A. `n % i == 0`  
+> B. `n % i == 1`  
+> C. `n % (i-1) == 0`  
+> D. `n % (i-1) == 1`  
+> **正确答案：** A
+
+**深度解析：**  
+此处用于判断当前的循环变量 $i$ 是否能够整除 $n$（即 $i$ 是否为 $n$ 的正因数）。在 C++ 中整除判断的表达式为 $n$ 对 $i$ 取模结果为 0，即 **`n % i == 0`**。故选 A。
+
+---
+
+##### 2. ② 处应填（ ）
+
+> A. `n / fac[k]`  
+> B. `fac[k]`  
+> C. `fac[k]-1`  
+> D. `n / (fac[k]-1)`  
+> **正确答案：** B
+
+**深度解析：**  
+该循环 `for (int k = 0; k < fac.size(); ++k)` 从下标 0 开始正序遍历 `fac` 容器，用于从小到大输出第一阶段收集的所有小于 $\sqrt{n}$ 的因数。这些较小因数直接保存在 `fac[k]` 中，因此输出 **`fac[k]`**。故选 B。
+
+---
+
+##### 3. ③ 处应填（ ）
+
+> A. `(i-1)*(i-1)== n`  
+> B. `(i-1)*i == n`  
+> C. `i*i == n`  
+> D. `i*(i-1) == n`  
+> **正确答案：** C
+
+**深度解析：**  
+由于前面 `for` 循环的终止条件是 `i * i < n`，当循环结束时，经过最后一次 `++i` 步进，此时 $i$ 恰好为满足 $i^2 \ge n$ 的最小整数：
+- 若 $n$ 是完全平方数（例如 $n = 36$），前一循环结束于 $i = 6$（因为 $5 \times 5 < 36$ 满足，自增后 $i = 6$ 使得 $6 \times 6 < 36$ 不成立跳出循环），此时 $i \times i = 36 = n$ 成立。
+- 若 $n$ 不是完全平方数（例如 $n = 35$），前一循环结束时同样 $i = 6$，此时 $i \times i = 36 \ne 35$ 不成立。
+
+因此判断 $n$ 是否为完全平方数只需判断 **`i * i == n`**。故选 C。
+
+---
+
+##### 4. ④ 处应填（ ）
+
+> A. `n-i`  
+> B. `n-i+1`  
+> C. `i-1`  
+> D. `i`  
+> **正确答案：** D
+
+**深度解析：**  
+当第 21 行 `if (i * i == n)` 条件成立时，说明 $n$ 是完全平方数，$i$ 即为 $\sqrt{n}$。这个唯一的中间因数应当被打印出来，因此直接输出 **`i`**（`cout << i << " ";`）。故选 D。
+
+---
+
+##### 5. ⑤ 处应填（ ）
+
+> A. `n / fac[k]`  
+> B. `fac[k]`  
+> C. `fac[k]-1`  
+> D. `n / (fac[k]-1)`  
+> **正确答案：** A
+
+**深度解析：**  
+后半部分因数与 `fac` 中的前半部分因数一一成对，其值为 $n / \text{fac}[k]$。
+因为循环是从 `k = fac.size() - 1` 倒序递减到 `0`，`fac[k]` 依次减小，所以 $n / \text{fac}[k]$ 依次增大，正好实现所有大于 $\sqrt{n}$ 的因数按升序输出。因此 ⑤ 处应填 **`n / fac[k]`**。故选 A。
+
+---
+
+### 📍 第二题：（洪水填充 Flood Fill）图像颜色填充算法
+
+#### 📖 题目描述
+
+现有用字符标记像素颜色的 $8 \times 8$ 图像。颜色填充的操作描述如下：给定起始像素的位置待填充的颜色，将起始像素和所有可达的像素（可达的定义：经过一次或多次的向上、下、左、右四个方向移动所能到达且终点和路径上所有像素的颜色都与起始像素颜色相同），替换为给定的颜色。
+试补全程序。
+
+#### 💻 源码展示
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+const int ROWS = 8;
+const int COLS = 8;
+
+struct Point {
+    int r, c;
+    Point(int r, int c): r(r), c(c) {}
+};
+
+bool is_valid(char image[ROWS][COLS], Point pt,
+              int prev_color, int new_color) {
+    int r = pt.r;
+    int c = pt.c;
+    return (0 <= r && r < ROWS && 0 <= c && c < COLS &&
+            ① && image[r][c] != new_color);
+}
+
+void flood_fill(char image[ROWS][COLS], Point cur, int new_color) {
+    queue<Point> queue;
+    queue.push(cur);
+
+    int prev_color = image[cur.r][cur.c];
+    ②;
+
+    while (!queue.empty()) {
+        Point pt = queue.front();
+        queue.pop();
+
+        Point points[4] = {③, Point(pt.r - 1, pt.c),
+                           Point(pt.r, pt.c + 1), Point(pt.r, pt.c - 1)};
+        for (auto p : points) {
+            if (is_valid(image, p, prev_color, new_color)) {
+                ④;
+                ⑤;
+            }
+        }
+    }
+}
+
+int main() {
+    char image[ROWS][COLS] = {{'g', 'g', 'g', 'g', 'g', 'g', 'g', 'g'},
+                              {'g', 'g', 'g', 'g', 'g', 'g', 'r', 'r'},
+                              {'g', 'r', 'r', 'g', 'g', 'r', 'g', 'g'},
+                              {'g', 'b', 'b', 'b', 'b', 'r', 'g', 'r'},
+                              {'g', 'g', 'g', 'b', 'b', 'r', 'g', 'r'},
+                              {'g', 'g', 'g', 'b', 'b', 'b', 'b', 'r'},
+                              {'g', 'g', 'g', 'g', 'g', 'b', 'g', 'g'},
+                              {'g', 'g', 'g', 'g', 'g', 'b', 'b', 'g'}};
+    Point cur(4, 4);
+    char new_color = 'y';
+
+    flood_fill(image, cur, new_color);
+
+    for (int r = 0; r < ROWS; r++) {
+        for (int c = 0; c < COLS; c++) {
+            cout << image[r][c] << ' ';
+        }
+        cout << endl;
+    }
+    return 0;
+}
+```
+
+---
+
+#### 💡 算法核心原理解析
+
+##### 1. 洪水填充算法（Flood Fill）原理
+
+**洪水填充（Flood Fill）** 是计算机图形学中最基础的算法之一（如画图软件中的“油漆桶”上色工具）。
+- 给定起始点 $(r, c)$ 和目标新颜色 `new_color`；
+- 获取起始点的原始颜色 `prev_color = image[r][c]`；
+- 将所有与起始点相连且颜色为 `prev_color` 的连通区域像素全部替换为 `new_color`。
+
+##### 2. 基于广度优先搜索（BFS）的实现
+
+本题采用标准的 **BFS 队列遍历** 模型：
+
+```mermaid
+graph TD
+    Start["起点 cur (4, 4) 入队<br/>记录 prev_color 并染色 image[cur]=new_color"] --> Loop{"队列是否为空？"}
+    Loop -- 否 --> Pop["取出队头像素 pt = queue.front()<br/>生成上下左右 4 个相邻点"]
+    Pop --> Check{"遍历邻居 p：<br/>is_valid(p) 是否有效？"}
+    Check -- 是 --> Action["染色：image[p.r][p.c] = new_color<br/>入队：queue.push(p)"]
+    Action --> Check
+    Check -- 否 --> Loop
+    Loop -- 是 --> End["填充完毕，打印结果矩阵"]
+```
+
+##### 3. 核心机制剖析
+
+1. **合法性检查函数 `is_valid`**：
+   - 必须在网格范围内：$0 \le r < \text{ROWS} \land 0 \le c < \text{COLS}$；
+   - 必须是待替换的连通区域：颜色等于原颜色 `image[r][c] == prev_color`；
+   - 必须未被替换过：`image[r][c] != new_color`。
+2. **四方向邻域扩展**：
+   - 像素点 `pt` 的四个相邻点分别为：
+     - 上：`Point(pt.r - 1, pt.c)`
+     - 下：`Point(pt.r + 1, pt.c)`
+     - 左：`Point(pt.r, pt.c - 1)`
+     - 右：`Point(pt.r, pt.c + 1)`
+3. **原地状态标记（Visited）**：
+   - 每次将一个合法的点推入队列前，**立即将其原地修改为 `new_color`**；
+   - 这样该点在后续检查时就不满足 `image[r][c] == prev_color`（且 `image[r][c] == new_color`），天然起到了 `visited` 数组防重入的作用，防止死循环和重复搜索。
+
+---
+
+#### ❓ 逐题精解
+
+##### 1. ① 处应填（ ）
+
+> A. `image[r][c] == prev_color`  
+> B. `image[r][c] != prev_color`  
+> C. `image[r][c] == new_color`  
+> D. `image[r][c] != new_color`  
+> **正确答案：** A
+
+**深度解析：**  
+`is_valid` 函数用于判断坐标 `pt` 是否属于待填充的连通块。根据题意，可达像素要求“终点和路径上所有像素的颜色都与起始像素颜色相同”。因此该位置当前的颜色必须等于起始像素的原颜色 `prev_color`，即 **`image[r][c] == prev_color`**。故选 A。
+
+---
+
+##### 2. ② 处应填（ ）
+
+> A. `image[cur.r+1][cur.c] = new_color`  
+> B. `image[cur.r][cur.c] = new_color`  
+> C. `image[cur.r][cur.c+1] = new_color`  
+> D. `image[cur.r][cur.c] = prev_color`  
+> **正确答案：** B
+
+**深度解析：**  
+在 `flood_fill` 开始时，起始点 `cur` 已经通过 `queue.push(cur)` 加入队列，同时记录了原颜色 `prev_color`。
+为了防止起始点在后续邻居向回搜索时被重复访问入队，必须在入队时立即将起始像素的颜色修改为新颜色，即 **`image[cur.r][cur.c] = new_color`**。故选 B。
+
+---
+
+##### 3. ③ 处应填（ ）
+
+> A. `Point(pt.r, pt.c)`  
+> B. `Point(pt.r, pt.c+1)`  
+> C. `Point(pt.r+1, pt.c)`  
+> D. `Point(pt.r+1, pt.c+1)`  
+> **正确答案：** C
+
+**深度解析：**  
+代码中定义了包含 4 个相邻方向的数组 `points[4]`，已经明确列出了：
+- 向上：`Point(pt.r - 1, pt.c)`
+- 向右：`Point(pt.r, pt.c + 1)`
+- 向左：`Point(pt.r, pt.c - 1)`
+
+四连通移动中唯一缺少的是**向下移动**的坐标，即行号加 1（`pt.r + 1`），列号不变（`pt.c`），因此 ③ 处应填 **`Point(pt.r + 1, pt.c)`**。故选 C。
+
+---
+
+##### 4. ④ 处应填（ ）
+
+> A. `prev_color = image[p.r][p.c]`  
+> B. `new_color = image[p.r][p.c]`  
+> C. `image[p.r][p.c] = prev_color`  
+> D. `image[p.r][p.c] = new_color`  
+> **正确答案：** D
+
+**深度解析：**  
+当相邻像素点 $p$ 经 `is_valid` 校验合法后，需要将该像素染成目标颜色 `new_color`，因此执行赋值语句 **`image[p.r][p.c] = new_color`**。故选 D。
+
+---
+
+##### 5. ⑤ 处应填（ ）
+
+> A. `queue.push(p)`  
+> B. `queue.push(pt)`  
+> C. `queue.push(cur)`  
+> D. `queue.push(Point(ROWS, COLS))`  
+> **正确答案：** A
+
+**深度解析：**  
+在 BFS 搜索过程中，对合法的相邻节点 $p$ 完成染色后，必须将该相邻节点 $p$ 压入队列中，以便后续以此点为基准继续向四周扩展搜索。因此 ⑤ 处执行 **`queue.push(p)`**。故选 A。
+
+---
+
+## 📊 全卷答案速查表
+
+| 大题 | 小题 | 题型 / 考点 | 正确答案 |
+| :--- | :--- | :--- | :---: |
+| **三、（1）枚举因数** | 1 | 条件判断（整除判断） | **A** |
+| | 2 | 数组访问（升序输出前半部分因数） | **B** |
+| | 3 | 条件判断（完全平方数特判） | **C** |
+| | 4 | 变量输出（输出中间平方根因数） | **D** |
+| | 5 | 配对因数计算（倒序输出后半部分因数） | **A** |
+| **三、（2）洪水填充** | 1 | 合法性判断（颜色匹配） | **A** |
+| | 2 | 起点染色初始化 | **B** |
+| | 3 | 方向构造（向下移动） | **C** |
+| | 4 | 邻居节点染色 | **D** |
+| | 5 | 邻居节点入队 | **A** |
+
+---
+
+## 💡 备考总结与答题策略
+
+1. **枚举与数论优化**：
+   - 因数与约数问题在初赛中极为常见。要牢记因数的“对称性”，枚举界限通常到 $\sqrt{n}$ 即可，遇到完全平方数需注意去重或单独处理。
+   - 利用容器（如 `vector`）正序存储前半部分，倒序遍历计算配对项，是无需额外排序即可实现 $\mathcal{O}(\sqrt{n})$ 升序输出的标准模板。
+2. **BFS 搜索与网格图连通块**：
+   - 洪水填充（Flood Fill）是搜索算法的入门经典。
+   - 在网格 BFS 中，注意“入队即染色 / 入队即标记”是避免重复入队和死循环的关键技巧。
+   - 关注方向数组的构建（上下左右四方向通常为 `{-1, 0}, {1, 0}, {0, -1}, {0, 1}`）以及边界合法性判断的完整性。
